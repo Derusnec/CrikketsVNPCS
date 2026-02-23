@@ -1,0 +1,6 @@
+{
+	"title": "V-NPCs",
+	"type": "NPC",
+	"tags": [vore, cool, drgbase],
+	"ignore": ["*.psd", "*.svn", "*.vcproj"]
+}
