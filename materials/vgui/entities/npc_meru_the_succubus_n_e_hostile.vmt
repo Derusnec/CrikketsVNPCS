@@ -1,7 +1,0 @@
-"UnlitGeneric" 
-{ 
-	"$basetexture"		"vgui/entities/npc_meru_the_succubus_hostile"
-	"$nolod" 1
-	"$vertexalpha" 1
-	"$vertexcolor" 1
-} 
