@@ -1,0 +1,28 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models\alvaroports\mal0danilkaz\Mal0 - Extras"
+	"$bumpmap" "models\alvaroports\mal0danilkaz\Mal0 - Extras_Normal"
+	"$phongexponenttexture"	 "models/alvaroports/shared/exponent" //(o que importa é o canal vermelho)
+
+	"$phong" 			   	  "1"
+	"$phongexponent" 	   	  "10"
+	"$phongboost" 		      ".5"
+//	"$phongalbedoboost"	   	  "1"
+	"$phongfresnelranges"     "[.1 .5 1]"
+//	"$phongalbedotint" 	   	  "1"
+
+//  "$color2" "[0 0 0]"
+//	"$blendtintbybasealpha" "1"
+
+    "$detail" "models\alvaroports\shared\clothes_detail"
+	"$detailscale" 32
+    "$detailblendfactor" 2
+    "$detailblendmode" 0
+
+//	"$color2" "[.8 .8 .8]"
+	"$nodecal" "1"
+	"$nocull" "1"
+	"$nocompress" "1"
+//	"$alphatest" "1"
+//	"$allowAlphaToCoverage" 1
+}

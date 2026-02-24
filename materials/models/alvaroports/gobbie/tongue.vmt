@@ -1,0 +1,9 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models\alvaroports\Gobbie\Tongue"
+	"$bumpmap" "models\alvaroports\Gobbie\Tongue_normal"
+	$nodecal							"1"
+//	$alphatest							"1"
+//	$allowAlphaToCoverage				"1"
+	$nocull								"1"
+}

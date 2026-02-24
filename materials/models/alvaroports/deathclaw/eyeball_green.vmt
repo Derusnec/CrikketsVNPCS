@@ -1,0 +1,13 @@
+"VertexLitGeneric"
+{
+	"$basetexture"					"models\alvaroports\Deathclaw\eyeball_green"
+
+	"$NoDecal" "1"
+	"$emissiveBlendEnabled"			"1"
+	"$emissiveBlendFlowTexture"		"vgui/white"
+	"$emissiveBlendTexture"			"vgui/white"
+	"$emissiveBlendBaseTexture"		"models\alvaroports\Deathclaw\eyeball_green"
+	"$emissiveBlendTint" 			"[1 1 1]"
+	"$emissiveBlendStrength" 		"1"
+	"$emissiveBlendScrollVector"	"[0.0 0.0]" 
+}

@@ -1,0 +1,11 @@
+Vertexlitgeneric
+{
+	$basetexture "models\WormOnlooker\belly\belly_white"
+	$bumpmap "dev/flat_normal"
+	$lightwarptexture "models\alvaroports\shared\lightwarp\skinwarp2"
+	$halflambert 1
+	$phong 1
+	$nocull 1
+	$nodecal 1
+	//$alphatest 1
+}

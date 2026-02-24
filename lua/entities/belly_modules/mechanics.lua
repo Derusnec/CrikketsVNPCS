@@ -96,6 +96,7 @@ function ENT:AddPrey(prey)
     end
 
     prey.Vored = true 
+	prey.VoreBelly = self
     local is_player, is_npc, is_nextbot = prey:IsPlayer(), prey:IsNPC(), prey:IsNextBot()
 
     if is_player then
@@ -217,6 +218,7 @@ function ENT:AbsorbSpecificPrey(index)
     if IsValid(prey) then
         --prey:SetParent(nil)
         prey.Vored = false
+		prey.VoreBelly = nil
         prey:Remove()
     end
     self.Prey[index].Entity = nil
@@ -312,7 +314,7 @@ function ENT:Regurgitate(index)
     table.remove(self.Prey, index)
 
     prey.Vored = false
-
+	prey.VoreBelly = nil
     
 
     self:OnRegurgitate(prey)
@@ -371,7 +373,8 @@ function ENT:WipeAllPrey()
             if IsValid(preyEnt) then
                 preyEnt:SetParent(nil)
                 preyEnt.Vored = false 
-
+				prey.VoreBelly = nil
+				
                 local dmg_i = DamageInfo()
                 dmg_i:SetDamageType(DMG_REMOVENORAGDOLL)
                 dmg_i:SetDamage(9999999)

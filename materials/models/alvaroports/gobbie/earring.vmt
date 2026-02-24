@@ -1,0 +1,8 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models\alvaroports\Gobbie\Earring"
+	$nodecal							"1"
+//	$alphatest							"1"
+//	$allowAlphaToCoverage				"1"
+	$nocull								"1"
+}

@@ -4,11 +4,42 @@ if SERVER then
     util.AddNetworkString("VoreNoModNotif")
     util.AddNetworkString("refresh_cpanel_makenpc")
 	
+	local pvsAxisVectors = {
+		Vector(1, 0, 0),
+		Vector(-1, 0, 0),
+		Vector(0, 1, 0),
+		Vector(0, -1, 0),
+		Vector(0, 0, 1),
+		Vector(0, 0, -1)
+	}
+
+	local function addEntityToPVS(ent)
+		if not IsValid(ent) then return end
+
+		local center = ent:WorldSpaceCenter()
+		AddOriginToPVS(center)
+
+		local mins, maxs = ent:OBBMins(), ent:OBBMaxs()
+		for _, dir in ipairs(pvsAxisVectors) do
+			local localPoint = Vector(
+				dir.x > 0 and maxs.x or (dir.x < 0 and mins.x or 0),
+				dir.y > 0 and maxs.y or (dir.y < 0 and mins.y or 0),
+				dir.z > 0 and maxs.z or (dir.z < 0 and mins.z or 0)
+			)
+			AddOriginToPVS(ent:LocalToWorld(localPoint))
+		end
+	end
+	
 	hook.Add("SetupPlayerVisibility", "Vore_PostDeath_PVS", function(ply)
-        if IsValid(ply.VoreBelly) then
-            AddOriginToPVS(ply.VoreBelly:GetPos())
-        end
-    end)
+		if not ply.Vored then return end
+
+		local belly = ply.VoreBelly
+		if not IsValid(belly) then return end
+
+		addEntityToPVS(belly)
+		addEntityToPVS(belly:GetNWEntity("NPCParent"))
+		addEntityToPVS(ply)
+	end)
 
     hook.Add("PlayerSpawn", "vore_player_spawned", function(ply, trans)
         ply:SetParent(nil)

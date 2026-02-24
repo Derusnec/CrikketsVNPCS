@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture" "vgui/entities/hostile_glados_humanoid_rw22.vmt"
+	"$vertexalpha" 1
+	"$vertexcolor" 1
+}

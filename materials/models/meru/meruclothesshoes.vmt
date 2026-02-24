@@ -1,0 +1,17 @@
+"VertexLitGeneric"
+{
+	$basetexture			"models\Meru\MeruClothesShoes"
+	$emissiveblendbasetexture		"models\Meru\MeruClothesShoes"
+	$emissiveblendtexture		"models\Meru\Emissive"
+	$emissiveblendflowtexture		"models\Meru\Emissive"
+	$lightwarptexture			"models\Meru\LightWarpCartoon"
+
+	$emissiveblendenabled		1
+	$emissiveblendtint			"[1 1 1]"
+	$emissiveblendstrength		1
+	$emissiveblendscrollvector		"[1 1]"
+
+	$color2				"[0.8 0.8 0.8]"
+	$halflambert			1
+	$nocull				1
+}

@@ -1,0 +1,16 @@
+VertexLitGeneric
+{
+	"$basetexture" 				"vgui/black"
+	"$bumpmap"	   				"dev/dev_normal"
+	"$phongexponenttexture" 	"models\alvaroports\shared\exponent"
+
+	"$phong" "1"
+	"$phongexponentfactor" "30"
+	"$phongexponent" "16"
+	"$phongboost" "1" 
+	"$phongfresnelranges" "[1 1 1]"
+//	"$phongalbedotint" "1"
+
+	"$nodecal"					"1"
+	"$nocull"					"1"
+}

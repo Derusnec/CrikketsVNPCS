@@ -1,0 +1,20 @@
+"EyeRefract"
+{
+	"$Iris"               "models\ludex\characters\Bom39\Sadako/Sadako_Eye_D"	  // Iris color in RGB with cornea noise in A
+	"$AmbientOcclTexture" "Engine/eye-extra"				  // Ambient occlusion in RGB, A unused
+	"$Envmap"             "Engine/eye-reflection-cubemap-"    // Reflection environment map
+	"$CorneaTexture"      "dev/dev_normal"                 // Special texture that has 2D cornea normal in RG and other data in BA
+
+	"$EyeballRadius" "3.25"				// Default 0.5
+	"$AmbientOcclColor" "[0.3 0.3 0.3]"	// Default 0.33, 0.33, 0.33
+	"$Dilation" ".75"					// Default 0.5
+	"$ParallaxStrength" ".4"			// Default 0.25
+	"$CorneaBumpStrength" "0.0"		// Default 1.0
+
+	"nocull" "1"
+	"$halflambert" "1"
+	"$nodecal" "1"
+
+	"$RaytraceSphere" "0"				// Default 1 - Enables raytracing in the pixel shader to make the eyeball look round
+	"$SphereTexkillCombo" "0"			// Default 1 - Enables killing pixels that don't ray-intersect the sphere
+}

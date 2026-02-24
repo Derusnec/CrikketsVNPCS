@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+	"$basetexture"				"models/alvaroports/shared/eyeshadow"
+	"$nodecal"					"1"
+	"$translucent"				"1"
+}

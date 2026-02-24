@@ -1,0 +1,20 @@
+"VertexlitGeneric"
+{
+	"$nodecal" "1"
+	"$basetexture" "AlphaWolf77/HL2/Characters/Vortigaunt/Pussy01"
+	"$bumpmap" "AlphaWolf77/HL2/Characters/Vortigaunt/Pussy01_N"
+
+	"$phong" "1"
+	"$phongboost" "5"
+	"$phongexponent" "98"
+	"$phongalbedotint" "1"
+	"$phongfresnelranges" "[.18 .4 1]"
+	"$halflambert" "1"
+	"$nodecal" "1"
+
+	// Rim lighting parameters
+	"$rimlight" "1"												// To enable rim lighting (requires phong)
+	"$rimlightexponent" "10"										// Exponent for phong component of rim lighting	
+	"$rimlightboost" "3"										// Boost for ambient cube component of rim lighting
+
+}

@@ -1,0 +1,22 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/ltusamodels_inc/anubis_bom39/TD_Face"
+	$bumpmap "models/ltusamodels_inc/anubis_bom39/TD_Face_Normal"
+	$phong 1
+$phongexponenttexture "models/ltusamodels_inc/anubis_bom39/TD_Face_Normal"
+$phongfresnelranges "[0.06 0.41 3]"
+$phongboost 6
+
+$phongexponentfactor 30
+$rimlight 1
+$rimlightboost 1
+$rimlightexponent 1
+$nodecal 1
+$alphatest 1
+$allowAlphaToCoverage 1
+
+$phongexponent 9
+$phongalbedotint 1
+	$diffuseexp 6
+	$halflambert 0
+}

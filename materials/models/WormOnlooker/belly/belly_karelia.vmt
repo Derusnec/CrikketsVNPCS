@@ -1,0 +1,17 @@
+Vertexlitgeneric
+{
+	$basetexture "models\WormOnlooker\belly\belly_white.vtf"
+	$bumpmap "models/ltusamodels_inc/karelia_cryptia/KarNormal"
+
+	"$ambientocclusion" "1"
+	$ambientoccltexture "models/ltusamodels_inc/karelia_cryptia/Kar Specular"
+
+	$lightwarptexture "models/ltusamodels_inc/karelia_cryptia/karelia_shader"
+
+	"$emissiveblendenabled" "1"	
+    "$emissiveblendstrength" "50"
+    "$emissiveblendtexture" "models/ltusamodels_inc/karelia_cryptia/null"
+    "$emissiveblendbasetexture" "models/ltusamodels_inc/karelia_cryptia/Kar Emission"
+    "$emissiveblendflowtexture" "models/ltusamodels_inc/karelia_cryptia/null"
+    "$emissiveblendtint" " [ 4 4 4 ] "
+}

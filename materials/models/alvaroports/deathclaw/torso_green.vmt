@@ -1,0 +1,18 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models\alvaroports\Deathclaw\Torso_Green"
+	"$bumpmap" "models\alvaroports\Deathclaw\Torso_normal"
+	"$phongexponenttexture" "models\alvaroports\shared\exponent2"
+
+	"$phong" 			   	  "1"
+//	"$phongexponent" 	   	  "10"
+	"$phongboost" 		      "1"
+	"$phongalbedoboost"	   	  "10"
+	"$phongfresnelranges"     "[0.08 0.10 0.15]"
+	"$phongalbedotint" 	   	  "0"
+	"$phongdisablehalflambert" "1"
+
+	"$nodecal"					"1"
+	"$nocull"					"1"
+	"$color2"					"[1.1 1.1 1.1]"
+}

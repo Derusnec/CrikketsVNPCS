@@ -1,0 +1,10 @@
+"VertexLitGeneric"
+{
+	$basetexture			"models\Meru\MeruHorns"
+	$bumpmap			"models\Meru\normal"
+	$lightwarptexture			"models\Meru\LightWarpCartoon"
+
+	$color2				"[0.5 0.5 0.5]"
+	$halflambert			1
+	$nocull				1
+}

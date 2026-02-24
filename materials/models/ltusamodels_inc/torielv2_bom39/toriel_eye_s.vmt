@@ -1,0 +1,7 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/ltusamodels_inc/torielv2_bom39/toriel_eye_s"
+	$alphatest "1"
+    $allowAlphaToCoverage "1"
+    $nocull "1" 
+}

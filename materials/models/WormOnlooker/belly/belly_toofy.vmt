@@ -1,0 +1,19 @@
+Vertexlitgeneric
+{
+	$basetexture "models\WormOnlooker\belly\belly_white.vtf"
+	"$bumpmap"				 "dev/flat_normal"
+	"$phong" 			   	  "1"
+	"$phongexponent" 	   	  "4"
+	"$phongboost" 		      "0.2"
+	"$phongalbedoboost"	   	  "1"
+	"$phongfresnelranges"     "[.1 .5 1]"
+	"$phongalbedotint" 	   	  "1"
+	"$phongdisablehalflambert" "1"
+
+//	"$color2" "[.8 .8 .8]"
+	"$nodecal" "1"
+	"$nocull" "1"
+	"$nocompress" "1"
+//	"$alphatest" "1"
+//	"$allowAlphaToCoverage" 1
+}

@@ -1,0 +1,14 @@
+"VertexLitGeneric"
+{
+	"$basetexture" 			 "models\alvaroports\Seraphim\Eyes"
+	"$bumpmap" 				 "dev/flat_normal"
+
+	"$nodecal" "1"
+	"$emissiveBlendEnabled"			"1"
+	"$emissiveBlendFlowTexture"		"vgui/white"
+	"$emissiveBlendTexture"			"vgui/white"
+	"$emissiveBlendBaseTexture"		"models\alvaroports\Seraphim\Eyes_Emissive"
+	"$emissiveBlendTint" 			"[1 1 1]"
+	"$emissiveBlendStrength" 		"1"
+	"$emissiveBlendScrollVector"	"[0.0 0.0]" 
+}

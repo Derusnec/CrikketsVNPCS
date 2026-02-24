@@ -1,0 +1,21 @@
+"VertexLitGeneric"
+{
+	"$basetexture"			 "models/alvaroports/MarinKitagawa/hair"
+	"$bumpmap"				 "models/alvaroports/MarinKitagawa/hair_normal"
+	"$phongexponenttexture"	 "models/alvaroports/MarinKitagawa/hair_roughness"
+
+	"$phong" "1"
+//	"$phongexponent" "10"
+	"$phongboost" "1"
+	"$phongfresnelranges" "[.05 .1 0]"
+
+	"$rimlight" "1"
+	"$rimlightexponent" "100"
+	"$rimmask" "1"
+	"$rimlightboost" "0.25"
+
+	"$nodecal" "1"
+	"$alphatest" "1"
+	"$allowAlphaToCoverage" "1"
+	"$nocull" "1"
+}

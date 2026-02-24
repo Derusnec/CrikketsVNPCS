@@ -1,0 +1,7 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/ltusamodels_inc/queen_bom39/Chry_EyeS"
+	$alphatest "1"
+    $allowAlphaToCoverage "1"
+    $nocull "1"
+}

@@ -1,0 +1,18 @@
+"VertexLitGeneric"
+{
+	"$nodecal" "1"
+	"$surfaceprop" "default"
+	"$basetexture" "AlphaWolf77/HL2/Characters/Vortigaunt/vortigaunt_base_female"
+	"$bumpmap" "AlphaWolf77/HL2/Characters/Vortigaunt/vortigaunt_female_normal"
+	"$phong" "1"
+	"$phongboost" "10"
+	"$phongexponenttexture" "AlphaWolf77/HL2/Characters/Vortigaunt/vortigaunt_female_exponent"
+	"$phongalbedotint" "1"
+	"$phongfresnelranges" "[.18 .4 1]"
+	"$halflambert" "1"
+
+	// Rim lighting parameters
+	"$rimlight" "1"												// To enable rim lighting (requires phong)
+	"$rimlightexponent" "10"										// Exponent for phong component of rim lighting	
+	"$rimlightboost" "3"										// Boost for ambient cube component of rim lighting
+}

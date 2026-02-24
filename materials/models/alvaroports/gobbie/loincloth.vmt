@@ -1,0 +1,9 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models\alvaroports\Gobbie\LoinCloth"
+	"$bumpmap" "models\alvaroports\Gobbie\LoinCloth_normal"
+	$nodecal							"1"
+//	$alphatest							"1"
+//	$allowAlphaToCoverage				"1"
+	$nocull								"1"
+}

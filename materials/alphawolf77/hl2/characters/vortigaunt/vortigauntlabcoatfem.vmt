@@ -1,0 +1,10 @@
+"VertexlitGeneric"
+{
+	"$nodecal" "1"
+	"$basetexture" "models/kleiner/kleiner_sheet"
+	"$bumpmap" "AlphaWolf77/HL2/Characters/Vortigaunt/kleiner_sheet_n"
+	"$nocull" 1
+	"$surfaceprop" "default"
+
+	"$phong" "1"
+}

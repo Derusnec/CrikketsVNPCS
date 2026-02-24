@@ -1,0 +1,11 @@
+"VertexlitGeneric"
+{
+	"$nodecal" "1"
+	"$basetexture" "models/Vortigaunt/shackles"
+	"$bumpmap" "AlphaWolf77/HL2/Characters/Vortigaunt/Vorti_Slave_n"
+	"$nocull" 1
+	"$surfaceprop"	"default"
+	"$envmap"	"env_cubemap"
+	"$envmaptint"	"[.25 .25 .25]"
+	"$phong" "1"
+}

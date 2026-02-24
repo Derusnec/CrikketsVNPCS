@@ -1,0 +1,7 @@
+VertexLitGeneric
+{
+	$basetexture "models\WormOnlooker\belly\belly_white.vtf"
+	$bumpmap "models\WormOnlooker\belly\normal" 
+	$color2				"[1.25 1.25 1.25]"
+	$lightwarptexture "models\wormonlooker\lightwarps\painting_lightwarp"
+}

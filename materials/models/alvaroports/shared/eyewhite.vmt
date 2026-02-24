@@ -1,0 +1,10 @@
+"VertexLitGeneric"
+{
+	"$basetexture"				"vgui/white"
+	"$bumpmap" 					"dev/flat_normal"
+	"$lightwarptexture" 		"models/alvaroports/shared/lightwarp/skinwarp"
+
+	"$halflambert"				"1"
+	"$nocull"					"1"
+	"$nodecal"					"1"
+}

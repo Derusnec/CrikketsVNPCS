@@ -1,0 +1,22 @@
+Vertexlitgeneric
+{
+	$basetexture "models\WormOnlooker\belly\belly_white"
+	$bumpmap "models\WormOnlooker\belly\anubis\anubis_normal" 
+	$phongexponenttexture "models\WormOnlooker\belly\anubis\anubis_phong"
+$phong 1
+$phongfresnelranges "[0.06 0.41 3]"
+$phongboost 3
+
+$phongexponentfactor 30
+$rimlight 1
+$rimlightboost 0.5
+$rimlightexponent 12
+$nodecal 1
+$alphatest 1
+$allowAlphaToCoverage 1
+
+"$phongexponent" "15"
+"$phongalbedotint" "1"
+	$diffuseexp 6
+	$halflambert 0
+}

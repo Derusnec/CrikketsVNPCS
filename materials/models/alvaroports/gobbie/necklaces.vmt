@@ -1,0 +1,10 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models\alvaroports\Gobbie\Necklaces"
+	"$bumpmap" "models\alvaroports\Gobbie\Necklaces_normal"
+	"$phongexponenttexture" "models\alvaroports\Gobbie\Necklaces_roughness"
+	$nodecal							"1"
+//	$alphatest							"1"
+//	$allowAlphaToCoverage				"1"
+	$nocull								"1"
+}

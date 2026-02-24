@@ -1,0 +1,21 @@
+"VertexLitGeneric"
+{
+	"$basetexture"			 "models/alvaroports/MarinKitagawa/hands"
+	"$bumpmap"				 "models/alvaroports/MarinKitagawa/hands_normal"
+	"$phongexponenttexture"	 "models/alvaroports/MarinKitagawa/hands_roughness"
+
+	"$phong" "1"
+//	"$phongexponent" "10"
+	"$phongboost" "1"
+	"$phongalbedotint" "1"
+	"$phongalbedoboost" "5"
+	"$phongfresnelranges" "[1 1 1]"
+
+	"$rimlight" "1"
+	"$rimlightexponent" "100"
+	"$rimmask" "1"
+	"$rimlightboost" "0.25"
+
+	"$nodecal" "1"
+	"$nocull" "1"
+}

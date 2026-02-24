@@ -1,0 +1,19 @@
+Vertexlitgeneric
+{
+	$basetexture "models\WormOnlooker\belly\xenomorph\xenomorph_belly.vtf"
+	"$bumpmap"				 "models\WormOnlooker\belly\xenomorph\xenomorph_normal"
+	"$phong" "1"
+	"$phongexponentfactor" "30"
+	"$color2" "[1.8 1.8 1.8]"
+	"$phongexponent" "30" 					 // (controla o espalhamento, maior=menos espalhamento, metal polido ou algo assim)
+	"$phongboost" "0.2" 					 // controle de reflexo/quanto mais alto = mais molhado/reflexo
+	"$phongfresnelranges" "[1 1 1]" 	 // força do phong, maior os numeros = phong mais branco e intenso
+//	"$phongfresnelranges" "[0.1 0.5 1]" 	 // força do phong, maior os numeros = phong mais branco e intenso
+	"$phongalbedotint" "1" 					 // aplicar phong a textura base, desativar se quiser o phong mais branco
+
+
+	"$nodecal"					"1"
+//	"$alphatest"				"1"
+	"$allowAlphaToCoverage"		"1"
+	"$nocull"					"1"
+}

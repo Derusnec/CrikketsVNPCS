@@ -1,0 +1,24 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/ltusamodels_inc/lovander_bom39/lov_cloth"
+	$bumpmap "models/ltusamodels_inc/lovander_bom39/lov_cloth_Normal"
+	$detail "models/ltusamodels_inc/lovander_bom39/lov_cloth_Roughness"
+	$detailscale 1
+	$lightwarptexture "models/ltusamodels_inc/lovander_bom39/hair_lightwarp"
+	
+	$phong 1
+$phongexponenttexture "models/LTUSAMODELS_inc/lovander_bom39/lov_cloth_Normal"
+$phongfresnelranges "[0.06 0.41 3]"
+$phongboost 2
+
+$phongexponentfactor 30
+$rimlight 1
+$rimlightboost 2
+$rimlightexponent 1
+$nodecal 1
+$alphatest 0
+
+	$translucent 1
+    $allowAlphaToCoverage "1"
+    $nocull "1"
+}

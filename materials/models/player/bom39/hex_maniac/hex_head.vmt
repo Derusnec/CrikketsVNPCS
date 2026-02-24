@@ -1,0 +1,18 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/player/bom39/hex_maniac/hex_head_color"
+	"$bumpmap" "dev/bump_normal"
+
+	"$alphatest" 1
+
+	"$phong" "1"
+	"$phongboost"	"1"
+	"$phongalbedotint" "1"
+	"$phongexponenttexture" "models/player/bom39/hex_maniac/hex_head_phong"
+	"$phongfresnelranges"	"[0 0.5 1]"
+	"$halflambert" "1"
+
+	"$rimlight"               "1"
+	"$rimlightexponent"       "2"
+	"$rimlightboost"          "1"
+}

@@ -1,0 +1,17 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models\alvaroports\Kroxigor\jeans"
+	"$bumpmap" "models\alvaroports\Kroxigor\jeans_normal"
+
+	"$phong" "1"
+
+	"$rimlight" "1"
+	"$rimlightexponent" "1"     // não sei, não funciona
+	"$rimlightboost" "1"        // igual o phongexponent, controla o espalhamento
+	"$rimmask" "1"				// Usa o alpha channel do phongexponenttexture como specular (inutil se usar dxt1 sem alpha)
+
+	"$nodecal"					"1"
+	"$alphatest"				"1"
+	"$allowAlphaToCoverage"		"1"
+	"$nocull"					"1"
+}

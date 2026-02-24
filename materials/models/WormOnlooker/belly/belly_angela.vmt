@@ -1,0 +1,11 @@
+Vertexlitgeneric
+{
+	$basetexture "models\WormOnlooker\belly\belly_white"
+	$bumpmap "models\WormOnlooker\belly\normal" 
+	$phong "1"
+	$phongboost "3"
+	$phongfresnelranges	"[0.1 0.5 1]"
+	$phongexponent "4"
+	
+	$halflambert "1"
+}

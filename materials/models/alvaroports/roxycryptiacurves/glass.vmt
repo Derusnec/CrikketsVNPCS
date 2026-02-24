@@ -1,0 +1,9 @@
+VertexLitGeneric
+{
+	$basetexture "models/alvaroports/roxycryptiacurves/Roxy_Summer"
+	$bumpmap "dev/flat_normal"
+	$lightwarptexture "models\alvaroports\shared\lightwarp\skinwarp2"
+	$halflambert 1
+	$nodecal 1
+	$translucent 1
+}

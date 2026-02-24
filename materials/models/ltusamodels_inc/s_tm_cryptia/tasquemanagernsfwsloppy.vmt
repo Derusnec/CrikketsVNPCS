@@ -1,0 +1,22 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/ltusamodels_inc/s_tm_cryptia/TasqueManagerNSFWSloppy"
+	"$translucent" 1
+	
+	$bumpmap "models/ltusamodels_inc/s_tm_cryptia/n"
+	
+	$phong 1
+$phongexponenttexture "models/LTUSAMODELS_inc/s_tm_cryptia/n"
+$phongfresnelranges "[0.06 0.41 3]"
+$phongboost 700
+
+$phongexponentfactor 30
+$rimlight 0
+$rimlightboost 0
+$rimlightexponent 0
+
+$phongexponent 300
+$phongalbedotint 1
+	$diffuseexp 6
+	$halflambert 0
+}

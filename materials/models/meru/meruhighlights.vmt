@@ -1,0 +1,28 @@
+"VertexLitGeneric"
+{
+	$basetexture			"models\Meru\White"
+	$emissiveblendbasetexture		"models\Meru\White"
+	$emissiveblendtexture		"models\Meru\Emissive"
+	$emissiveblendflowtexture		"models\Meru\Emissive"
+	$lightwarptexture			"models\Meru\LightWarpCartoon"
+
+	$phong				1
+	$phongexponent			10
+	$phongboost			.25
+	$phongfresnelranges		"[.125 .125 25]"
+	$phongalbedotint			1
+	$phongtint			"[0.5 .5 .5]"
+
+	$emissiveblendenabled		1
+	$emissiveblendtint			"[1 1 1]"
+	$emissiveblendstrength		1
+	$emissiveblendscrollvector		"[1 1]"
+
+	$normalmapalphaenvmapmask	1
+	$envmaptint			"[0.005 0.005 0.005]"
+	$envmapfresnel			1
+
+	$color2				"[0.8 0.8 0.8]"
+	$halflambert			1
+	$nocull				1
+}

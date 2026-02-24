@@ -1,0 +1,30 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/ltusamodels_inc/torielv2_bom39/toriel_head"
+	$bumpmap "models/ltusamodels_inc/torielv2_bom39/toriel_head_Normal"
+		
+	$alphatest "1"
+    $allowAlphaToCoverage "1"
+    $nocull "1" 
+	
+	$detail "models/ltusamodels_inc/torielv2_bom39/toriel_head_Roughness"
+	$detailscale 1
+	
+	$phong 1
+$phongexponenttexture "models/LTUSAMODELS_inc/torielv2_bom39/toriel_body_Normal"
+$phongfresnelranges "[0.06 0.41 3]"
+$phongboost 8
+
+$phongexponentfactor 30
+$rimlight 1
+$rimlightboost 2
+$rimlightexponent 1
+$nodecal 1
+$alphatest 1
+$allowAlphaToCoverage 1
+
+$phongexponent 8
+$phongalbedotint 1
+	$diffuseexp 6
+	$halflambert 0
+}

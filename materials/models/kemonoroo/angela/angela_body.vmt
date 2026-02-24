@@ -1,0 +1,11 @@
+VertexLitGeneric
+{
+	$basetexture "models/kemonoroo/angela/body"
+	$bumpmap "models\WormOnlooker\belly\normal" 
+	$phong "1"
+	$phongboost "2"
+	$phongfresnelranges	"[0.1 0.5 1]"
+	$phongexponent "4"
+	
+	$halflambert "1"
+}
