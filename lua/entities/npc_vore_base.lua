@@ -16,6 +16,12 @@ include("npc_modules/drgbase.lua")
 local global_burps = CreateConVar("vnpcs_burps", "1", {FCVAR_ARCHIVE, FCVAR_NOTIFY, FCVAR_REPLICATED})
 local force_burps = CreateConVar("vnpcs_global_burps", "0", {FCVAR_ARCHIVE, FCVAR_REPLICATED})
 local patrolling = CreateConVar("vnpcs_patrol_full", "0", {FCVAR_ARCHIVE, FCVAR_REPLICATED})
+local cvar_AnimatedBones = GetConVar("drg_animate") or CreateConVar(
+	"drg_animate",
+	"1",
+	{FCVAR_ARCHIVE, FCVAR_NOTIFY, FCVAR_REPLICATED},
+	"Enable AnimatedBoneOffsets for DRGBase/Vore entities"
+)
 
 ENT.Models = {"models/player/Group01/female_01.mdl"} --all entries are model paths
 ENT.SpawnHealth = 100
@@ -425,20 +431,176 @@ if SERVER then --setup functions
 			self.Belly:NPCThink()
 		end
 		self:UpdateFacialExpressions()
+		if GetConVar("drg_animate"):GetBool() then
+			self:UpdateAnimatedBoneOffsets()
+		end
 		self:CheckOpenDoors()
 
 		self:PostThink() --hook
 	end
 
-	--[[
-	downloading a model from the workshop without restarting the game will make precaching the model fuck it up and never load until you reset your game. so i just disabled it
-	]]
+function ENT:UpdateAnimatedBoneOffsets()
+		if self._VoreLastBoneAnimFrame == FrameNumber() then return end
+		self._VoreLastBoneAnimFrame = FrameNumber()
+
+		local hasNew = isfunction(self._VoreAnimateBonesThink)
+		local hasLegacy = isfunction(self.AnimatedBoneOffsets)
+		if not hasNew and not hasLegacy then return end
+
+		if hasNew then
+			self:_VoreAnimateBonesThink()
+		end
+
+		if hasLegacy then
+			if hasNew then
+				local manipulateBonePosition = self.ManipulateBonePosition
+				local manipulateBoneAngles = self.ManipulateBoneAngles
+
+				self.ManipulateBonePosition = function(ent, boneID, pos, ...)
+					local current = ent:GetManipulateBonePosition(boneID) or vector_origin
+					return manipulateBonePosition(ent, boneID, current + pos, ...)
+				end
+
+				self.ManipulateBoneAngles = function(ent, boneID, ang, ...)
+					local current = ent:GetManipulateBoneAngles(boneID) or angle_zero
+					return manipulateBoneAngles(ent, boneID, Angle(
+						current.p + ang.p,
+						current.y + ang.y,
+						current.r + ang.r
+					), ...)
+				end
+
+				self:AnimatedBoneOffsets()
+
+				self.ManipulateBonePosition = manipulateBonePosition
+				self.ManipulateBoneAngles = manipulateBoneAngles
+			else
+				self:AnimatedBoneOffsets()
+			end
+		end
+	end
 	if ConVarExists("drgbase_precache_models") then
 		local var = GetConVar("drgbase_precache_models")
 		var:SetBool(false)
 	end	
 else
 	include("npc_modules/client.lua")
+end
+
+-- ============================================================
+-- Debug helpers (shared): bone & flex dump
+-- ============================================================
+
+local function _VoreDumpEntityBones(ply, ent)
+	if not IsValid(ent) then
+		print("No valid entity targeted!")
+		return
+	end
+
+	local boneCount = ent:GetBoneCount()
+	if boneCount <= 0 then
+		print("Entity has no bones!")
+		return
+	end
+
+	print("{") -- start table
+	for i = 0, boneCount - 1 do
+		local name = ent:GetBoneName(i)
+		if not name then continue end
+
+		-- Skip ValveBiped head bone
+		if name == "ValveBiped.Bip01_Head1" then continue end
+
+		local pos = ent:GetManipulateBonePosition(i)
+		local ang = ent:GetManipulateBoneAngles(i)
+
+		-- Only dump if position or angle is non-zero
+		if pos ~= vector_origin or ang ~= angle_zero then
+			-- Round to whole numbers
+			pos.x = math.floor(pos.x + 0.5)
+			pos.y = math.floor(pos.y + 0.5)
+			pos.z = math.floor(pos.z + 0.5)
+			ang.p = math.floor(ang.p + 0.5)
+			ang.y = math.floor(ang.y + 0.5)
+			ang.r = math.floor(ang.r + 0.5)
+
+			print(string.format('\t["%s"] = {', name))
+			print(string.format('\t\tpos = Vector(%d, %d, %d),', pos.x, pos.y, pos.z))
+			print(string.format('\t\tang = Angle(%d, %d, %d)', ang.p, ang.y, ang.r))
+			print('\t},')
+		end
+	end
+	print("}") -- end table
+	print("Done dumping bones.")
+end
+
+-- Global console command (shared): looks at the entity the caller is aiming at
+do
+	local existing = concommand.GetTable and concommand.GetTable()["dump_bot_bones"]
+	if not existing then
+		concommand.Add("dump_bot_bones", function(ply)
+			-- Dedicated server console has no player context
+			if SERVER and not IsValid(ply) then
+				print("This command must be run by a player.")
+				return
+			end
+
+			-- Client concommands should use LocalPlayer() if ply isn't valid
+			if CLIENT and (not IsValid(ply) or not ply:IsPlayer()) then
+				ply = LocalPlayer()
+			end
+
+			if not IsValid(ply) then
+				print("No valid player context!")
+				return
+			end
+
+			local ent = ply:GetEyeTrace().Entity
+			_VoreDumpEntityBones(ply, ent)
+		end)
+	end
+	if not concommand.GetTable()["dump_bot_flexes"] then
+  concommand.Add("dump_bot_flexes", function(ply)
+    -- client: ply is LocalPlayer()
+    -- server: ply is the player who ran the command (server console has no ply)
+    if not IsValid(ply) then
+      print("No valid player (run this as a player, not server console).")
+      return
+    end
+
+    local ent = ply:GetEyeTrace().Entity
+    if not IsValid(ent) then
+      print("No valid entity targeted!")
+      return
+    end
+
+    if not ent.DumpFlexData then
+      print("Entity has no DumpFlexData() method!")
+      return
+    end
+
+    ent:DumpFlexData()
+    print("Done dumping flexes.")
+  end)
+end
+end
+
+-- Entity method (shared): dump flex data for the entity
+function ENT:DumpFlexData()
+	if self:GetFlexNum() <= 0 then
+		print("[DrGBase] No flexes found.")
+		return
+	end
+
+	print("local FaceData = {")
+	for i = 0, self:GetFlexNum() - 1 do
+		local name = self:GetFlexName(i)
+		local weight = self:GetFlexWeight(i)
+		if weight > 0 then
+			print(string.format('    ["%s"] = %.3f,', name, weight))
+		end
+	end
+	print("}")
 end
 
 -- DO NOT TOUCH --

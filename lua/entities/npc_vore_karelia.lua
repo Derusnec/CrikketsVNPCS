@@ -99,7 +99,7 @@ ENT.ClientIdleSounds = false
 ENT.OnDeathSounds = {
     "ambient/voices/squeal1.wav"
 }
-
+ENT.VoreSoundPitch = 0.8
 --AI VORE MECHANICS
 ENT.VoreSettings = {}
 ENT.VoreSettings.OnlyEatsEnemies = false
@@ -108,11 +108,11 @@ ENT.VoreSettings.BurpsEnabled = true --we burping?
 ENT.VoreSettings.HasWeightGain = true --is weight gain enabled? HELL YEAH!
 
 --VORE BELLY VISUALS
-ENT.BellyColor = Color(38, 37, 38) --gut color, debug starts white.
+ENT.BellyColor = Color(37, 37, 37) --gut color, debug starts white.
 ENT.Belly_Offset = Vector(0, 0, 0) --gut offset from pelvis, change this!
-ENT.BellyMaterial = "models/wormonlooker/belly/belly_celshaded2" --Use this to set custom belly materials. Check out the materials folder!
+ENT.BellyMaterial = "models/wormonlooker/belly/belly_karelia" --Use this to set custom belly materials. Check out the materials folder!
 ENT.VoreSettings.MaxBaseSize = 0 --any leftover chub? 1 = full belly 0 = flat belly
-ENT.VoreSettings.BellyFloorModifier = 0.5 --how low/high belly will be angled to avoid floor clipping. The higher the value, the more elevated.
+ENT.VoreSettings.BellyFloorModifier = 0.3 --how low/high belly will be angled to avoid floor clipping. The higher the value, the more elevated.
 ENT.VoreSettings.FatFoldsMaxSize = 0.3 --you can set this to zero to not have fat folds, or 1 for an obese mf.
 
 --DIGESTION SETTINGS
@@ -833,6 +833,21 @@ local AnimatedBoneList = {
 }
 
 
+ENT.VoreSettings.BoneOffsets = {
+	["ValveBiped.Bip01_R_Clavicle"] = {
+		Max = 24, --< Max Angle
+		Multi = 10, --< The slope of the angle changing
+		Start = 0, --< Inital Angle
+		["Angle"] = Angle(0,1,0),
+	},
+	["ValveBiped.Bip01_L_Clavicle"] = {
+		Max = 24,
+		Multi = 10,
+		Start = 6,
+		["Angle"] = Angle(0,1,0),
+	} 
+}
+
 --ACTUAL CODE, LOOK AWAY LEST YOUR EYES START TO BLEED!
 function ENT:CustomOnInitialize()
 	self.BoneBlendState = {}
@@ -957,8 +972,6 @@ function ENT:DumpFlexData()
 
     print("}")
 end
-
-local cvar_AnimatedBones = GetConVar("drg_animate") or CreateConVar(...)
 
 -- DO NOT TOUCH --
 AddCSLuaFile()

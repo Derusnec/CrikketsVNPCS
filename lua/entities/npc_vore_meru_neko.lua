@@ -101,7 +101,7 @@ function ENT:EmitFootstep()
     if not self.Footsteps or not self.Footsteps["Default"] then return end
     self:EmitSound(table.Random(self.Footsteps["Default"]), 75, 100)
 end
-
+ENT.VoreSoundPitch = 1.3
 --AI VORE MECHANICS
 ENT.VoreSettings = {}
 ENT.VoreSettings.OnlyEatsEnemies = false
@@ -110,11 +110,11 @@ ENT.VoreSettings.BurpsEnabled = true --we burping?
 ENT.VoreSettings.HasWeightGain = true --is weight gain enabled? HELL YEAH!
 
 --VORE BELLY VISUALS
-ENT.BellyColor = Color(213, 204, 203) --gut color
+ENT.BellyColor = Color(184, 56, 56) --gut color
 ENT.Belly_Offset = Vector(-3, 4, 0) --gut offset from pelvis
 ENT.BellyMaterial = "models/wormonlooker/belly/belly_meru" --this is belly materials, special use case
 ENT.VoreSettings.MaxBaseSize = 0 --any leftover chub? 1 = full belly 0 = flat belly
-ENT.VoreSettings.BellyFloorModifier = 0.5 --how low/high belly will be angled to avoid floor clipping. The higher the value, the more elevated.
+ENT.VoreSettings.BellyFloorModifier = 0.3 --how low/high belly will be angled to avoid floor clipping. The higher the value, the more elevated.
 ENT.VoreSettings.FatFoldsMaxSize = 0.1 --you can set this to zero to not have fat folds, or 1 for an obese mf.
 
 --DIGESTION SETTINGS
@@ -1346,6 +1346,21 @@ local AnimatedBoneList = {
 }
 
 
+ENT.VoreSettings.BoneOffsets = {
+	["ValveBiped.Bip01_R_Clavicle"] = {
+		Max = 24, --< Max Angle
+		Multi = 10, --< The slope of the angle changing
+		Start = 6, --< Inital Angle
+		["Angle"] = Angle(0,1,0),
+	},
+	["ValveBiped.Bip01_L_Clavicle"] = {
+		Max = 24,
+		Multi = 10,
+		Start = 6,
+		["Angle"] = Angle(0,1,0),
+	} 
+}
+
 --ACTUAL CODE, LOOK AWAY LEST YOUR EYES START TO BLEED!
 function ENT:CustomOnInitialize()
 	self.BoneBlendState = {}
@@ -1405,43 +1420,39 @@ function ENT:AnimatedBoneOffsets()
 	end
 
 	local boneCount = self:GetBoneCount()
-	local speed = 3 --<<<<<<<<<<<<<<<<<<<<<<<<<<<<SETS SPEED OF BONE-LERP, HIGHER = FASTER MOVEMENTS
+	local speed = 2 --<<<<<<<<<<<<<<<<<<<<<<<<<<<<SETS SPEED OF BONE-LERP, HIGHER = FASTER MOVEMENTS
 
 	for i = 0, boneCount - 1 do
 		local boneName = self:GetBoneName(i)
 		if not boneName then continue end
 
-		local tgtPos, tgtAng, tgtScale = vector_origin, angle_zero, Vector(1,1,1)
+		local tgtPos, tgtAng = vector_origin, angle_zero
 
 		if data.keyframes and data.length then
 			local elapsed = CurTime() - self.FacialPhaseStartTime
 			local tNorm = elapsed / data.length
 			tNorm = math.abs((tNorm % 2) - 1)
 			tgtPos, tgtAng = InterpolateKeyframes(data.keyframes, tNorm, boneName)
-			tgtScale = tgtScale or Vector(1,1,1)
 
 		elseif data.pose or data[boneName] then
 			local tgt = (data.pose and data.pose[boneName]) or data[boneName]
 			if tgt then
 				tgtPos = tgt.pos or vector_origin
 				tgtAng = tgt.ang or angle_zero
-				tgtScale = tgt.scale or Vector(1,1,1)
 			end
 		end
 
 		local cur = self.BoneBlendState[boneName]
 		if not cur then
-			cur = {pos = vector_origin, ang = angle_zero, scale = Vector(1,1,1)}
+			cur = {pos = vector_origin, ang = angle_zero}
 			self.BoneBlendState[boneName] = cur
 		end
 
 		cur.pos = LerpVector(FrameTime() * speed, cur.pos, tgtPos)
 		cur.ang = LerpAngle(FrameTime() * speed, cur.ang, tgtAng)
-		cur.scale = LerpVector(FrameTime() * speed, cur.scale, tgtScale)
 
 		self:ManipulateBonePosition(i, cur.pos)
 		self:ManipulateBoneAngles(i, cur.ang)
-		self:ManipulateBoneScale(i, cur.scale)
 	end
 end
 
@@ -1474,8 +1485,6 @@ function ENT:DumpFlexData()
 
     print("}")
 end
-
-local cvar_AnimatedBones = GetConVar("drg_animate") or CreateConVar(...)
 
 -- DO NOT TOUCH --
 AddCSLuaFile()

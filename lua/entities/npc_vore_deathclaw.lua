@@ -91,7 +91,7 @@ function ENT:EmitFootstep()
     if not self.Footsteps or not self.Footsteps["Default"] then return end
     self:EmitSound(table.Random(self.Footsteps["Default"]), 75, 100)
 end
-
+ENT.VoreSoundPitch = 0.7
 --AI VORE MECHANICS
 ENT.VoreSettings = {}
 ENT.VoreSettings.OnlyEatsEnemies = false
@@ -100,11 +100,11 @@ ENT.VoreSettings.BurpsEnabled = true --we burping?
 ENT.VoreSettings.HasWeightGain = true --is weight gain enabled? HELL YEAH!
 
 --VORE BELLY VISUALS
-ENT.BellyColor = Color(173, 145, 134) --gut color, debug starts white.
+ENT.BellyColor = Color(168, 143, 131) --gut color, debug starts white.
 ENT.Belly_Offset = Vector(6, 6.5, -2.5) --gut offset from pelvis, change this!
---ENT.BellyMaterial = "models/wormonlooker/belly/belly_celshaded" --Use this to set custom belly materials. Check out the materials folder!
+ENT.BellyMaterial = "models/wormonlooker/belly/belly_deathclaw" --Use this to set custom belly materials. Check out the materials folder!
 ENT.VoreSettings.MaxBaseSize = 0 --any leftover chub? 1 = full belly 0 = flat belly
-ENT.VoreSettings.BellyFloorModifier = 0.4 --how low/high belly will be angled to avoid floor clipping. The higher the value, the more elevated.
+ENT.VoreSettings.BellyFloorModifier = 0.2 --how low/high belly will be angled to avoid floor clipping. The higher the value, the more elevated.
 ENT.VoreSettings.FatFoldsMaxSize = 0.4 --you can set this to zero to not have fat folds, or 1 for an obese mf.
 
 --DIGESTION SETTINGS
@@ -907,6 +907,21 @@ local AnimatedBoneList = {
 }
 
 
+ENT.VoreSettings.BoneOffsets = {
+	["ValveBiped.Bip01_R_Clavicle"] = {
+		Max = 24, --< Max Angle
+		Multi = 10, --< The slope of the angle changing
+		Start = 6, --< Inital Angle
+		["Angle"] = Angle(0,1,0),
+	},
+	["ValveBiped.Bip01_L_Clavicle"] = {
+		Max = 24,
+		Multi = 10,
+		Start = 6,
+		["Angle"] = Angle(0,1,0),
+	} 
+}
+
 --ACTUAL CODE, LOOK AWAY LEST YOUR EYES START TO BLEED!
 function ENT:CustomOnInitialize()
 	self.BoneBlendState = {}
@@ -966,7 +981,7 @@ function ENT:AnimatedBoneOffsets()
 	end
 
 	local boneCount = self:GetBoneCount()
-	local speed = 3 --<<<<<<<<<<<<<<<<<<<<<<<<<<<<SETS SPEED OF BONE-LERP, HIGHER = FASTER MOVEMENTS
+	local speed = 2 --<<<<<<<<<<<<<<<<<<<<<<<<<<<<SETS SPEED OF BONE-LERP, HIGHER = FASTER MOVEMENTS
 
 	for i = 0, boneCount - 1 do
 		local boneName = self:GetBoneName(i)
@@ -1031,8 +1046,6 @@ function ENT:DumpFlexData()
 
     print("}")
 end
-
-local cvar_AnimatedBones = GetConVar("drg_animate") or CreateConVar(...)
 
 -- DO NOT TOUCH --
 AddCSLuaFile()
