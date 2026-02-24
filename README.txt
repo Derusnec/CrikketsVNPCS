@@ -1,20 +1,11 @@
-v0.4
-"v-npcs" made by wormonlooker
-a vore mod for garry's mod
+Crikket's V-NPCs v0.41
 
---HOW TO INSTALL--
+This will be a more in-depth documentation in the future, for now, this solely exists for file sharing reasons and as a guide.
 
-1. find your garrys mod folder, in steam right click on "garry's mod" and go down to manage and click on "browse local files"
-2. goto "\garrysmod\addons"
-3. extract "vnpcs.zip"
-4. put the folder in "\garrysmod\addons"
-5. start the game
-6. download drgbase from the workshop (https://steamcommunity.com/sharedfiles/filedetails/?id=1560118657)
+Until I create an official release on github, here's the download guide:
 
---TO BE DONE SOON--
--Struggling/Regurgitation
--Personalities
--More Personalized
--Better Sounds
--Better Killfeed
--Better Documentation
+1. Click code and download ZIP
+2. Extract zip file to Steam\steamapps\common\GarrysMod\garrysmod\addons in it's own folder.
+3. Rename extracted zip file as whatever you'd like the addon folder to be.
+4. Should be something like GarrysMod\garrysmod\addons\VNPCS\[file_contents_here]
+5. You're all set!
