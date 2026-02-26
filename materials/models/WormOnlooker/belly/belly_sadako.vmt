@@ -1,6 +1,6 @@
 Vertexlitgeneric
 {
-	$basetexture "models\WormOnlooker\belly\sadako\sadako.vtf"
+	$basetexture "models\WormOnlooker\belly\white"
 	"$bumpmap" 		"models\WormOnlooker\belly\sadako\sadako_normal.vtf"
 	"$phongexponenttexture" 	"models\ludex\characters\sadako\sadako_normal.vtf"
 	$ambientocclusion "1"

@@ -1,6 +1,6 @@
 Vertexlitgeneric
 {
-	$basetexture "models\WormOnlooker\belly\belly_white"
+	$basetexture "models\WormOnlooker\belly\white"
 	"$bumpmap" "models\WormOnlooker\belly\normal"
 	"$phongexponenttexture"	 "models/alvaroports/shared/exponent" //(o que importa é o canal vermelho)
 

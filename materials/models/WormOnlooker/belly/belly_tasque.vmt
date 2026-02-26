@@ -1,6 +1,6 @@
 Vertexlitgeneric
 {
-	$basetexture "models\WormOnlooker\belly\belly_white"
+	$basetexture "models\WormOnlooker\belly\white"
 	$bumpmap "models/ltusamodels_inc/s_tm_cryptia/n"
 	$lightwarptexture "models/ltusamodels_inc/s_tm_cryptia/TM_shader"
 	

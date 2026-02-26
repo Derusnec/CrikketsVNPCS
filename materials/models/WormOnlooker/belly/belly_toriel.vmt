@@ -1,6 +1,6 @@
 Vertexlitgeneric
 {
-	$basetexture "models\WormOnlooker\belly\belly_white"
+	$basetexture "models\WormOnlooker\belly\white"
 	"$bumpmap"				 "models\WormOnlooker\belly\toriel\toriel_normal"
 	$alphatest "1"
     $allowAlphaToCoverage "1"

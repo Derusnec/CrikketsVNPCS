@@ -1,6 +1,6 @@
 Vertexlitgeneric
 {
-	$basetexture "models\WormOnlooker\belly\belly_white.vtf"
+	$basetexture "models\WormOnlooker\belly\white"
 	$bumpmap "models/ltusamodels_inc/karelia_cryptia/KarNormal"
 
 	"$ambientocclusion" "1"

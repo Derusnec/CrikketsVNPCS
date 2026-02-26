@@ -1,6 +1,6 @@
 Vertexlitgeneric
 {
-	$basetexture "models\WormOnlooker\belly\belly_white.vtf"
+	$basetexture "models\WormOnlooker\belly\white"
 	"$bumpmap" "models\WormOnlooker\belly\mec\mec_normal"
 	"$phongexponenttexture" "models\WormOnlooker\belly\mec\mec_phong"
 

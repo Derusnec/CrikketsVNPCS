@@ -1,6 +1,6 @@
 Vertexlitgeneric
 {
-	$basetexture "models\WormOnlooker\belly\belly_white"
+	$basetexture "models\WormOnlooker\belly\white"
 	$bumpmap "dev/flat_normal"
 	$lightwarptexture "models\alvaroports\shared\lightwarp\skinwarp2"
 	$halflambert 1
