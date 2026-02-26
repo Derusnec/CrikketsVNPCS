@@ -13,11 +13,11 @@ Until I create an official release on github, here's the download guide:
 
 Roadmap
   V-NPCs being added (Next update)
-    https://steamcommunity.com/sharedfiles/ ... 3359505040 GlaDOS
-    https://steamcommunity.com/sharedfiles/ ... 3664052606 Stylized Valkyr
-    https://steamcommunity.com/sharedfiles/ ... 3357924582 Hex Maniac
-    https://steamcommunity.com/sharedfiles/ ... 3553599769 PurrSlime
-    https://steamcommunity.com/sharedfiles/ ... 3648402613 Lovander
+    https://steamcommunity.com/sharedfiles/filedetails/?id=3359505040 GlaDOS
+    https://steamcommunity.com/sharedfiles/filedetails/?id=3664052606 Stylized Valkyr
+    https://steamcommunity.com/sharedfiles/filedetails/?id=3357924582 Hex Maniac
+    https://steamcommunity.com/sharedfiles/filedetails/?id=3553599769 PurrSlime
+    https://steamcommunity.com/sharedfiles/filedetails/?id=3648402613 Lovander
   Weight gain definers for all NPCs (Next update)
   Advanced NPC Daemon profile (Next update)
   V-NPC ducking behavior (After upcoming)
