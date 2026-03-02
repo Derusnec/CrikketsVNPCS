@@ -39,8 +39,8 @@ https://steamcommunity.com/sharedfiles/filedetails/?id=632126535 <-- FOR INCLUDE
   -SOFT RECOMMENDATIONS
 https://steamcommunity.com/sharedfiles/filedetails/?id=3529402381 <-- Will unintentionally muffle bellies
 https://steamcommunity.com/sharedfiles/filedetails/?id=3439688457 <-- V-NPCs will break through HL2 doors, don't forget to download requirement
-https://steamcommunity.com/sharedfiles/filedetails/?id=933160196 <-- Replace any HL2 weapon pickup with SWEPS of your choice (Daemon)
-https://steamcommunity.com/sharedfiles/filedetails/?id=2890177857 <-- Cleans up map (Daemon)
+https://steamcommunity.com/sharedfiles/filedetails/?id=933160196 <-- Replace any HL2 weapon pickup with SWEPS
+https://steamcommunity.com/sharedfiles/filedetails/?id=2890177857 <-- Cleans up ragdolls/weapon drops/etc
 ------------------------------------------------------------------------------
 NPC DAEMON EXPLANATION
 ------------------------------------------------------------------------------
