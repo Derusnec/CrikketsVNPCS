@@ -11,7 +11,7 @@ ENT.Base = "npc_vore_base" -- The base template for all bots, keep the same!
 
 ENT.PrintName = "Meru (Neko)" -- This will be the printed name of your bot.
 ENT.Category = "Crikket's V-NPC" -- This is the category your bot is in, Vore is the generic one.
-ENT.ModNeeded = "https://steamcommunity.com/sharedfiles/filedetails/?id=3531424261" -- This is where you'll put the steam workshop ID for your V-NPC model.
+ENT.ModNeeded = "NO" -- This is where you'll put the steam workshop ID for your V-NPC model.
 
 --BASIC MODEL INFO
 ENT.Models = {"models/b211/meru/meru.mdl"} -- Insert the V-NPC model's path here. You can copy it in Gmod.

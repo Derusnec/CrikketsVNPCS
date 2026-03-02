@@ -11,7 +11,7 @@ ENT.Base = "npc_vore_base" -- The base template for all bots, keep the same!
 
 ENT.PrintName = "Hex Maniac" -- This will be the printed name of your bot.
 ENT.Category = "Crikket's V-NPC" -- This is the category your bot is in, Vore is the generic one.
-ENT.ModNeeded = "NO" -- This is where you'll put the steam workshop ID for your V-NPC model.
+ENT.ModNeeded = "https://steamcommunity.com/sharedfiles/filedetails/?id=3357924582" -- This is where you'll put the steam workshop ID for your V-NPC model.
 
 --BASIC MODEL INFO
 ENT.Models = {"models/player/bom39/hex_maniac/hex_maniac_dress_sfw.mdl"} -- Insert the V-NPC model's path here. You can copy it in Gmod.
