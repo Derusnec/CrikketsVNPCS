@@ -61,3 +61,11 @@ INSTALLATION GUIDE -> PAY ATTENTION!
 4. Extract the folders inside of CrikketVNPC into your Garrysmod/garrysmod/addons, your addons folder should be filled with files like VNPC_Anubis and so on
 
 5. In the end, in your addons folder there should be a folder for base VNPCs 0.4, CrikketsVNPCS, and then a bunch of VNPC_[insert_name] folders (or just the required ones)
+------------------------------------------------------------------------------
+CHANGELOG
+------------------------------------------------------------------------------
+TO BE WRITTEN
+------------------------------------------------------------------------------
+ROADMAP
+------------------------------------------------------------------------------
+TO BE WRITTEN
