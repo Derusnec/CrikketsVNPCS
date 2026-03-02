@@ -130,20 +130,20 @@ ENT.VoreSettings.HasWeightGain = true --is weight gain enabled? HELL YEAH!
 --BELLY VISUALS/SETUP
 ENT.Belly_Offset = Vector(0, 0, 0) --gut offset from pelvis, change this!
 --ENT.Belly_Angles = Angle(0, 90, 90) --The rotation of the gut!
---ENT.BellyMaterial = "models/wormonlooker/belly/belly_celshaded" --Use this to set custom belly materials. Check out the materials folder!
 ENT.VoreSettings.BellyFloorModifier = 0.3 --how low/high belly will be angled to avoid floor clipping. The higher the value, the more elevated.
 --ENT.SpineBone = "" --Replace and uncomment with a bone name if the NPC couldn't find a proper anchor for the belly.
+ENT.VoreSettings.StruggleMultiplier = 1 --Sets struggle deformation strength on belly: 1.5 = weak, 1 = normal, 0.5 = big pred/chubby pred
 
 --BELLY PROPERTIES
 ENT.BellyProperties = {
 	BellyColor = Color(255,255,255), --< Replaces color of belly, uses RGB 
-	DigestionStrength = 2, --< Digestion damage
-	AbsorptionPower = 1.5, --< Absorption damage/strength
+	DigestionStrength = 2, --Digestion: 2 = weak, 4 = normal, 6 = athletic, 8 = predator, 10 = apex, 12 = instant
+	AbsorptionPower = 1.5, --Absorption: 1 = weak, 1.5 = normal, 2 = athletic, 2.5 = predator, 3 = apex, 4 = instant
 	MaxBaseSize = 0.5, --< Max size for Belly fat
 	BaseSize = 0, --< Inital belly size when spawned in
 	FatFoldsMaxSize = 1, --< Fat folds max size (Fat folds are at the origin of the belly model)
 	StopClipFix = false, --< Stops the clipping prevention.
-	--BellyMaterial = "models/wormonlooker/belly/belly_celshaded", --< Put specific Material path
+	--BellyMaterial = "models/wormonlooker/belly/belly_celshaded", --Use this to set custom belly materials. Check out the materials folder!
 }
 
 --ENT.BellyObject = "ent_vore_belly" --If you are using a custom belly, it goes here.
@@ -200,11 +200,39 @@ ENT.VoreSettings.WeightGainSettings = {
 
 --This is temporary and will be changed in the future, defines max expansion and x,y,z growth rate for associated bones.
 ENT.VoreSettings.WeightGainDefiners = {
-	["breast"] = function(value, max)
+	["Boob"] = function(value, max)
 		return Vector(
-			math.min(value, max * 1.5),
-			math.min(value, max * 1.5),
-			math.min(value, max * 1.5)
+			math.min(value, max * 1),
+			math.min(value, max * 1),
+			math.min(value, max * 1)
+		)
+	end,
+	["Thigh"] = function(value, max)
+		return Vector(
+			math.min(value, max * 1),
+			math.min(value, max * 1),
+			math.min(value, max * 1)
+		)
+	end,
+	["Calf"] = function(value, max)
+		return Vector(
+			math.min(value, max * 1),
+			math.min(value, max * 1),
+			math.min(value, max * 1)
+		)
+	end,
+	["Waist"] = function(value, max)
+		return Vector(
+			math.min(value, max * 1),
+			math.min(value, max * 1),
+			math.min(value, max * 1)
+		)
+	end,
+	["Spine"] = function(value, max)
+		return Vector(
+			math.min(value, max * 1),
+			math.min(value, max * 1),
+			math.min(value, max * 1)
 		)
 	end,
 }

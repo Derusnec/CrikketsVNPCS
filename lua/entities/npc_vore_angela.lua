@@ -190,10 +190,38 @@ ENT.VoreSettings.WeightGainSettings = {
 
 --Defines generic breast bones for weight gain.
 ENT.VoreSettings.WeightGainDefiners = {
-	["breast"] = function(value, max)
+	["Boob"] = function(value, max)
+		return Vector(
+			math.min(value, max * 1),
+			math.min(value, max * 1),
+			math.min(value, max * 1)
+		)
+	end,
+	["Thigh"] = function(value, max)
+		return Vector(
+			math.min(value, max * 0.75),
+			math.min(value, max * 1),
+			math.min(value, max * 1.15)
+		)
+	end,
+	["Calf"] = function(value, max)
+		return Vector(
+			math.min(value, max * 0.75),
+			math.min(value, max * 1.25),
+			math.min(value, max * 1.25)
+		)
+	end,
+	["Waist"] = function(value, max)
 		return Vector(
 			math.min(value, max * 1.5),
+			math.min(value, max * 0.5),
+			math.min(value, max * 1)
+		)
+	end,
+	["Spine"] = function(value, max)
+		return Vector(
 			math.min(value, max * 1.5),
+			math.min(value, max * 2),
 			math.min(value, max * 1.5)
 		)
 	end,

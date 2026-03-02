@@ -2,28 +2,32 @@ local gain_global = CreateConVar("vnpcs_gain", "1", {FCVAR_ARCHIVE, FCVAR_REPLIC
 local gain_force = CreateConVar("vnpcs_global_gain", "0", {FCVAR_ARCHIVE, FCVAR_REPLICATED})
 local gain_multi = CreateConVar("vnpcs_gain_multi", "1", {FCVAR_ARCHIVE, FCVAR_REPLICATED})
 
-local function whatIsBone(boneName, definers) 
-	boneName = string.lower(boneName)
+local function whatIsBone(boneName, definers)
+	boneName = (boneName or ""):lower()  -- <<< REQUIRED
+
+	local function has(s)
+		return boneName:find(s:lower(), 1, true) ~= nil
+	end
 
 	if definers then
 		for ident, _ in pairs(definers) do
-			if boneName:find(string.lower(ident)) then
+			if has(ident) then
 				return ident
 			end
 		end
 	end
 
-	if boneName:find("breast") or boneName:find("boob") then
+	if has("breast") or has ("tit") or has("boob") or has("bust") then
 		return "Boob"
-	elseif boneName:find("thigh") or boneName:find("leg_bone1") then
+	elseif has("thigh") or has("leg_bone1") then
 		return "Thigh"
-	elseif boneName:find("calf") or boneName:find("leg_bone3") then
+	elseif has("calf") or has("leg_bone3") then
 		return "Calf"
-	elseif boneName:find("arm") then
+	elseif has("arm") then
 		return "Arm"
-	elseif boneName:find("pelvis") or boneName:find("hips") or boneName:find("butt") then
+	elseif has("pelvis") or has("hips") or has("butt") or has ("siri") or has ("ass") then
 		return "Waist"
-	elseif boneName:find("spine") then
+	elseif has("spine") then
 		return "Spine"
 	end
 

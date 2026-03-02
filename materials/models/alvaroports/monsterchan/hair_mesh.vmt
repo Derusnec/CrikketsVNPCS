@@ -1,6 +1,0 @@
-"VertexLitGeneric"
-{
-	"$basetexture" "models\alvaroports\MonsterChan\Hair"
-	"$bumpmap" "models\alvaroports\MonsterChan\Hair_normal"
-	"$phongexponenttexture" "models\alvaroports\MonsterChan\Hair_roughness"
-}

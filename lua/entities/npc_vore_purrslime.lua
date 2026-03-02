@@ -9,21 +9,17 @@
 if not DrGBase then return end -- Make sure you have DrGBase installed or nothing will work!
 ENT.Base = "npc_vore_base" -- The base template for all bots, keep the same!
 
-ENT.PrintName = "Purr Slime" -- This will be the printed name of your bot.
+ENT.PrintName = "Makima" -- This will be the printed name of your bot.
 ENT.Category = "Crikket's V-NPC" -- This is the category your bot is in, Vore is the generic one.
 ENT.ModNeeded = "NO" -- This is where you'll put the steam workshop ID for your V-NPC model.
 
 --BASIC MODEL INFO
-ENT.Models = {"INSERT_MODEL_HERE"} -- Insert the V-NPC model's path here. You can copy it in Gmod.
+ENT.Models = {"models/chainsaw man/makima/makima nsfw.mdl"} -- Insert the V-NPC model's path here. You can copy it in Gmod.
 ENT.SpawnHealth = 128 --Spawn health (128=light, 256=normal, 384=beefy, 512=strong, 768=danger, 1024=boss, 2048=apex)
 ENT.HealthRegen = 2 --two is basic, just enough for survivability. Bots regen pretty quick, be careful with this!
 ENT.BloodColor = BLOOD_COLOR_RED --blood color, can be BLOOD_COLOR_YELLOW, _ANTLION, _MECH, or even DONT_BLEED
 ENT.ModelScale = 1 --scale of initial model, be careful with this!
 ENT.Skins = {0} --The bot's skin. This cannot be randomized without extra coding.
-ENT.BodyGroups = {
-	["BODYGROUP_START"] = 1,
-	["BODYGROUP_END"] = 1 --Make sure the last entry is without a closing comma.
-}
 
 --AI BEHAVIOR
 ENT.Omniscient = false --do we see all, everywhere, always?
@@ -39,9 +35,9 @@ ENT.HearingCoefficient = 2 --The higher this is, the more sensitive their hearin
 ENT.SpotDuration = 45 --How long do we pursue prey we see?
 
 --AI MOVEMENT BEHAVIOR
-ENT.WalkSpeed = 112 --The bot's walking speed, or idle speed.
-ENT.RunSpeed = 196 --The bot's speed when in pursuit.
-ENT.Acceleration = 256 --The bot's acceleration per second.
+ENT.WalkSpeed = 72 --The bot's walking speed, or idle speed.
+ENT.RunSpeed = 64 --The bot's speed when in pursuit.
+ENT.Acceleration = 128 --The bot's acceleration per second.
 ENT.JumpHeight = 128 --Jump height! Recommended to leave as is.
 ENT.DeathDropHeight = 1024 --if we fall this far, we die.
 ENT.ClimbLedges = true --we mantling?
@@ -58,17 +54,17 @@ ENT.ClimbSpeed = 64 --The ladder climb rate.
 ENT.ClimbUpAnimation = ACT_ZOMBIE_CLIMB_UP --Most NPCs have this activity.
 ENT.ClimbDownAnimation = ACT_ZOMBIE_CLIMB_DOWN --Most NPCs have this activity.
 ENT.ClimbOffset = Vector(0, 0, 0) --Climb offsets for better visuals when climbing. I don't bother.
-ENT.MaxYawRate = 256 --The bot's turning speed, 128 = tank, 256 = normal, 384 = snap, 512 = guided missile
+ENT.MaxYawRate = 512 --The bot's turning speed, 128 = tank, 256 = normal, 384 = snap, 512 = guided missile
 ENT.StepHeight = 20 --How high can your bot step up ledges without climbing? 20 = normal, 40 = big gal, 60 = giant
 ENT.ClimbLedgesMinHeight = 21 --Recommended to set right above step height.
 
 --ANIMATION BEHAVIOR
 ENT.IdleAnimation = ACT_HL2MP_IDLE --Check out https://wiki.facepunch.com/gmod/Enums/ACT for HL2MP activities (the rest generally dont work but experiment with your specific models.)
 ENT.WalkAnimation = ACT_HL2MP_WALK --Check out https://wiki.facepunch.com/gmod/Enums/ACT for HL2MP activities (the rest generally dont work but experiment with your specific models.)
-ENT.RunAnimation = ACT_HL2MP_RUN --Check out https://wiki.facepunch.com/gmod/Enums/ACT for HL2MP activities (the rest generally dont work but experiment with your specific models.)
-ENT.AttackAnimation = "gesture_becon_original" --attack animation, beckon is pretty solid for a faux-swallow motion.
-ENT.MeleeAttackRange = 72 -- +16 enemy range. So 64, 72, 80, 88, 108 respectively
-ENT.ReachEnemyRange = 56 --attack range: 48 = small, 56 = normal, 64 = efficient, 72 = tall, 96 = giant.
+ENT.RunAnimation = ACT_HL2MP_WALK --Check out https://wiki.facepunch.com/gmod/Enums/ACT for HL2MP activities (the rest generally dont work but experiment with your specific models.)
+ENT.AttackAnimation = "idle_magic" --attack animation, beckon is pretty solid for a faux-swallow motion.
+ENT.MeleeAttackRange = 108 -- +16 enemy range. So 64, 72, 80, 88, 108 respectively
+ENT.ReachEnemyRange = 96 --attack range: 48 = small, 56 = normal, 64 = efficient, 72 = tall, 96 = giant.
 
 --AI SOUNDS, IDLE SOUNDS ARE PRETTY MUCH ALL THAT'S WORTH IT RIGHT NOW
 --ENT.OnSpawnSounds = {
@@ -105,14 +101,17 @@ ENT.ClientIdleSounds = false
 --	}
 --}
 
-ENT.VoreSoundPitch = 1 --The pitch of the vore sounds above, also default sounds.
+ENT.VoreSoundPitch = 1.2 --The pitch of the vore sounds above, also default sounds.
 
 ENT.Footsteps = { --Footstep sounds! Defaults to barefoot steps I added.
     ["Default"] = {
-        "belly/barestep1.wav",
-        "belly/barestep2.wav",
-        "belly/barestep3.wav",
-        "belly/barestep4.wav"
+        "npc/footsteps/hardboot_generic1.wav",
+        "npc/footsteps/hardboot_generic2.wav",
+        "npc/footsteps/hardboot_generic3.wav",
+        "npc/footsteps/hardboot_generic4.wav",
+        "npc/footsteps/hardboot_generic5.wav",
+        "npc/footsteps/hardboot_generic6.wav",
+        "npc/footsteps/hardboot_generic8.wav"
     },
 }
 function ENT:EmitFootstep()
@@ -128,22 +127,22 @@ ENT.VoreSettings.BurpsEnabled = true --we burping?
 ENT.VoreSettings.HasWeightGain = true --is weight gain enabled? HELL YEAH!
 
 --BELLY VISUALS/SETUP
-ENT.Belly_Offset = Vector(0, 0, 0) --gut offset from pelvis, change this!
---ENT.Belly_Angles = Angle(0, 90, 90) --The rotation of the gut!
+ENT.Belly_Offset = Vector(3, 4.5, 0) --gut offset from pelvis, change this!
+ENT.Belly_Angles = Angle(0, 90, 90) --The rotation of the gut!
 ENT.VoreSettings.BellyFloorModifier = 0.3 --how low/high belly will be angled to avoid floor clipping. The higher the value, the more elevated.
 --ENT.SpineBone = "" --Replace and uncomment with a bone name if the NPC couldn't find a proper anchor for the belly.
-ENT.VoreSettings.StruggleMultiplier = 1 --Sets struggle deformation strength on belly: 1.5 = weak, 1 = normal, 0.5 = big pred/chubby pred
+ENT.VoreSettings.StruggleMultiplier = 1.5 --Sets struggle deformation strength on belly: 1.5 = weak, 1 = normal, 0.5 = big pred/chubby pred
 
 --BELLY PROPERTIES
 ENT.BellyProperties = {
-	BellyColor = Color(255,255,255), --< Replaces color of belly, uses RGB 
-	DigestionStrength = 2, --Digestion: 2 = weak, 4 = normal, 6 = athletic, 8 = predator, 10 = apex, 12 = instant
-	AbsorptionPower = 1.5, --Absorption: 1 = weak, 1.5 = normal, 2 = athletic, 2.5 = predator, 3 = apex, 4 = instant
-	MaxBaseSize = 0.5, --< Max size for Belly fat
+	BellyColor = Color(248, 221, 211), --< Replaces color of belly, uses RGB 
+	DigestionStrength = 4, --Digestion: 2 = weak, 4 = normal, 6 = athletic, 8 = predator, 10 = apex, 12 = instant
+	AbsorptionPower = 4, --Absorption: 1 = weak, 1.5 = normal, 2 = athletic, 2.5 = predator, 3 = apex, 4 = instant
+	MaxBaseSize = 0, --< Max size for Belly fat
 	BaseSize = 0, --< Inital belly size when spawned in
-	FatFoldsMaxSize = 1, --< Fat folds max size (Fat folds are at the origin of the belly model)
+	FatFoldsMaxSize = 0, --< Fat folds max size (Fat folds are at the origin of the belly model)
 	StopClipFix = false, --< Stops the clipping prevention.
-	--BellyMaterial = "models/wormonlooker/belly/belly_celshaded", --Use this to set custom belly materials. Check out the materials folder!
+	BellyMaterial = "models/wormonlooker/belly/belly_makima", --Use this to set custom belly materials. Check out the materials folder!
 }
 
 --ENT.BellyObject = "ent_vore_belly" --If you are using a custom belly, it goes here.
@@ -161,34 +160,20 @@ ENT.VoreSettings.WeightGainBones = {
     "ValveBiped.Bip01_Spine",
     "ValveBiped.Bip01_Spine1",
 
-        "Upper_Boob_Root",
-        "BreastTop.L",
-        "Boob_Root_L",
-        "Breast_1.L",
-		"Breast_2.L",
-		"BreastBottom.L",
-        "BreastTop.R",
-        "Boob_Root_R",
-        "Breast_1.R",
-		"Breast_2.R",
-		"BreastBottom.R",
-		
-		"AssRootL",
-		"AssRootR",
-		"Twist_Butt.1_L",
-		"Ass_Wiggle.1_L",
-		"Twist_Butt.1_R",
-		"Ass_Wiggle.1_R", --No need to remove end commas on this table.
+        "Siri_L",
+		"Siri_R",
+		"Bust01_L",
+		"Bust01_R",
 }
 
 --WEIGHT GAIN MULTIPLIERS
 ENT.VoreSettings.WeightGainSettings = {
 --This is our weight gain maximum.
-	MaxBreast = 1.7;
-	MaxThigh = 1.2;
-	MaxCalf = 1.1;
-    MaxWaist = 1.3;
-    MaxSpine = 0.7;
+	MaxBreast = 1.2;
+	MaxThigh = 1.3;
+	MaxCalf = 1.2;
+    MaxWaist = 1.4;
+    MaxSpine = 1.2;
 
 --How strong do we gain weight in these areas? Keep low!
 	BoobMultiplier = 0.6;
@@ -200,7 +185,35 @@ ENT.VoreSettings.WeightGainSettings = {
 
 --This is temporary and will be changed in the future, defines max expansion and x,y,z growth rate for associated bones.
 ENT.VoreSettings.WeightGainDefiners = {
-	["breast"] = function(value, max)
+	["Boob"] = function(value, max)
+		return Vector(
+			math.min(value, max * 1.25),
+			math.min(value, max * 1),
+			math.min(value, max * 1)
+		)
+	end,
+	["Thigh"] = function(value, max)
+		return Vector(
+			math.min(value, max * 0.5),
+			math.min(value, max * 1.25),
+			math.min(value, max * 1.25)
+		)
+	end,
+	["Calf"] = function(value, max)
+		return Vector(
+			math.min(value, max * 1),
+			math.min(value, max * 1.5),
+			math.min(value, max * 1.5)
+		)
+	end,
+	["Waist"] = function(value, max)
+		return Vector(
+			math.min(value, max * 1.25),
+			math.min(value, max * 0.5),
+			math.min(value, max * 1)
+		)
+	end,
+	["Spine"] = function(value, max)
 		return Vector(
 			math.min(value, max * 1.5),
 			math.min(value, max * 1.5),
@@ -212,21 +225,54 @@ ENT.VoreSettings.WeightGainDefiners = {
 --FACIAL ANIMATION SETTINGS
 ENT.VoreSettings.FlexFaces = {
 	[0] = { --IDLE, use dump_bot_flexes!
+        ["_bg_Top"] = 0,
+		["_bg_Tie"] = 0,
+		["Eyes impatient"] = 0.400,
+		["Eyebrows bored"] = 0.350,
+		["Mouth smile sharp"] = 1.000,
 
 	},
 	[1] = { --SWALLOWING INITIALLY
+        ["_bg_Top"] = 3,
+		["_bg_Tie"] = 1,
+		["Eyebrows serious"] = 0.400,
+		["Eyes distress"] = 0.700,
+		["Mouth open"] = 1.000,
+		["Mouth i big"] = 1.000
 
 	},
 	[2] = { --HAS PREY IN BELLY
+        ["_bg_Top"] = 3,
+		["_bg_Tie"] = 1,
+		["Blink"] = 0.100,
+		["Eyebrows displeased"] = 0.200,
+		["Eyebrows shocked"] = 0.200,
+		["Mouth happy broad closed"] = 1.000
 
 	},
 	[3] = { --BELCHING
+        ["_bg_Top"] = 3,
+		["_bg_Tie"] = 1,
+		["Eyebrows doubt left"] = 0.250,
+		["Eyebrows doubt right"] = 0.250,
+		["Eyebrows displeased"] = 0.220,
+		["Eyes squeeze right"] = 1.000,
+		["Mouth doki moderate"] = 0.180,
+		["Mouth tongue out"] = 0.250,
+		["Mouth i big"] = 1.000
 
 	},
 	[4] = { --FINAL SWALLOW/TO FULL STATE
-
+        ["_bg_Top"] = 3,
+		["_bg_Tie"] = 1,
+		["Blink"] = 1.000,
+		["Eyebrows down"] = 1.000,
+		["Eyebrows bored"] = 1.000,
+		["Mouth displeased"] = 0.500,
+		["Mouth cartoon mouth closed"] = 1.000
 	},
 }
+
 
 --THIS IS FOR MODELS WITH DRESSES/SKIRTS THAT CLIP AS WEIGHT GAIN OCCURS!
 --To be fair, I don't get how this works yet. Eventually, I will.
@@ -265,7 +311,26 @@ end
 --ANIMATION/BONE-LERP SETTINGS, USE DUMP_BOT_BONES FOR POSE EXPORTS
 local AnimatedBoneList = {
 	[0] = { --IDLE POSE
-
+	["ValveBiped.Bip01_Spine2"] = {
+		pos = Vector(0, 0, 0),
+		ang = Angle(0, -5, 0)
+	},
+	["ValveBiped.Bip01_Spine4"] = {
+		pos = Vector(0, 0, 0),
+		ang = Angle(0, -5, 0)
+	},
+	["ValveBiped.Bip01_Neck1"] = {
+		pos = Vector(0, 0, 0),
+		ang = Angle(0, 5, 0)
+	},
+	["ValveBiped.Bip01_L_UpperArm"] = {
+		pos = Vector(0, 0, 0),
+		ang = Angle(8, 5, -30)
+	},
+	["ValveBiped.Bip01_R_UpperArm"] = {
+		pos = Vector(0, 0, 0),
+		ang = Angle(-4, 5, 30)
+	},
 },
 
 	[1] = { --SWALLOW POSE INITIAL
@@ -273,7 +338,26 @@ local AnimatedBoneList = {
 },
 
 	[2] = { --PREY IN BELLY POSE
-
+	["ValveBiped.Bip01_Spine2"] = {
+		pos = Vector(0, 0, 0),
+		ang = Angle(0, -5, 0)
+	},
+	["ValveBiped.Bip01_Spine4"] = {
+		pos = Vector(0, 0, 0),
+		ang = Angle(0, -5, 0)
+	},
+	["ValveBiped.Bip01_Neck1"] = {
+		pos = Vector(0, 0, 0),
+		ang = Angle(0, 5, 0)
+	},
+	["ValveBiped.Bip01_L_UpperArm"] = {
+		pos = Vector(0, 0, 0),
+		ang = Angle(8, 5, -30)
+	},
+	["ValveBiped.Bip01_R_UpperArm"] = {
+		pos = Vector(0, 0, 0),
+		ang = Angle(-4, 5, 30)
+	},
 },
 
 	[3] = { --BELCHING POSE

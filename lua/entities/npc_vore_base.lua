@@ -210,7 +210,6 @@ ENT.RunSpeed = 390
 ENT.Speeds = {
 	WalkSpeed = ENT.WalkSpeed,
 	RunSpeed = ENT.RunSpeed,
-	LungeSpeed = 600,
 }
 
 ENT.RunAnimRate = 1.5

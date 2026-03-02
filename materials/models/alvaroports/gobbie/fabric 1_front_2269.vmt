@@ -1,8 +1,0 @@
-"VertexLitGeneric"
-{
-	"$basetexture" "models\alvaroports\Gobbie\FABRIC 1_FRONT_2269"
-	$nodecal							"1"
-//	$alphatest							"1"
-//	$allowAlphaToCoverage				"1"
-	$nocull								"1"
-}

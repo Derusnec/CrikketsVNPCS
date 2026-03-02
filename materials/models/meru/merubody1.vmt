@@ -1,7 +1,0 @@
-"VertexLitGeneric"
-{
-	$basetexture			"models\Meru\MeruBody1"
-	$bumpmap "models\WormOnlooker\belly\normal" 
-	$color2				"[1.5 1.5 1.5]"
-	$lightwarptexture "models\wormonlooker\lightwarps\painting_lightwarp"
-}

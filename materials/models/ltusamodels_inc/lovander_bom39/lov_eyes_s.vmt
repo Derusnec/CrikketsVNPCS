@@ -1,7 +1,0 @@
-"VertexLitGeneric"
-{
-	"$basetexture" "models/ltusamodels_inc/lovander_bom39/lov_eyes_s"
-	$alphatest "1"
-    $allowAlphaToCoverage "1"
-    $nocull "1"
-}

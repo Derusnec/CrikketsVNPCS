@@ -1,6 +1,0 @@
-VertexLitGeneric
-{
-	"$basetexture" "vgui/black"
-	"$nodecal" "1"
-	"$nocull" "1"
-}
