@@ -192,8 +192,6 @@ function ENT:OnMeleeAttack(enemy)
 	self:PlaySequenceAndMove(self.AttackAnimation, {rate = 1.5, collisions = false}, function(_, cycle)
 		if cycle > 0.25 and cycle < 0.4 then
 			--print(self.Speeds.LungeSpeed)
-			self.WalkSpeed = self.Speeds.LungeSpeed
-			self.RunSpeed = self.Speeds.LungeSpeed
 			--self.loco:SetVelocity(self:GetForward() * 1000) --buffed
 			self:MoveTowards(self:GetPos() + self:GetForward())
 		end
