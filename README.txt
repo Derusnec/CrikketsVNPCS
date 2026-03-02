@@ -6,6 +6,8 @@ Welcome to my MOD PACK! First off, the most important:
 This mod-pack requires Wormonlooker's V-NPC V0.4 downloaded to function! Please check him out, support him, download his stuff, he's the reason this shit even exists. (If you're here you know this, why am I writing this?)
 
 https://mega.nz/file/d3UlXA6Q#82dot96zbay5eNBwMO7FZQ8lE7yW8SrulhsRJOcbZrM <-- Stock V-NPC V0.4
+
+
 ------------------------------------------------------------------------------
 FEATURES
 ------------------------------------------------------------------------------
@@ -22,6 +24,8 @@ FEATURES
   -drg_animate (0/1): Will pause/disable bonelerp animations and allow posing with Overhauled Bone Tool
   -dump_bot_bones: Will print out all bones in console after posing with OBT for easy copy/paste
   -dump_bot_flexes: Will print out all flexes in console for easy copy/paste
+
+
 ------------------------------------------------------------------------------
 REQUIREMENTS + RECOMMENDATIONS
 ------------------------------------------------------------------------------
@@ -41,12 +45,16 @@ https://steamcommunity.com/sharedfiles/filedetails/?id=3529402381 <-- Will muffl
 https://steamcommunity.com/sharedfiles/filedetails/?id=3439688457 <-- V-NPCs will break through HL2 doors
 https://steamcommunity.com/sharedfiles/filedetails/?id=933160196 <-- Replace any HL2 weapon pickup with SWEPS
 https://steamcommunity.com/sharedfiles/filedetails/?id=2890177857 <-- Cleans up ragdolls/weapon drops/etc
+
+
 ------------------------------------------------------------------------------
 NPC DAEMON EXPLANATION
 ------------------------------------------------------------------------------
 NPC Daemon is a daemon in of itself and requires an intense level of autism and source knowledge to figure out. But it's very powerful and can turn sandbox maps into an "ecosystem". It's not really a gamemode or has any goal in particular, but it puts the V-NPCs in a dynamic environment where you "encounter" them rather than spawning them. The basic profile I provide will spawn HL2 NPCs, random extras for spice and use predators as the great equalizer in small numbers, think insta-kill bosses you run from or fight amongst the normal NPCs you can scavenge weapons from. If you're willing to teach yourself/read up on the official addon page you can add more V-NPCs to the mix, change whatever you want.
 
 https://imgur.com/a/crikkets-v-npc-daemon-guide-also-bot-pics-E5O6crv <-- Here's an in-game picture guide on enabling it once downloaded, it's included in the github.
+
+
 ------------------------------------------------------------------------------
 INSTALLATION GUIDE -> PAY ATTENTION!
 ------------------------------------------------------------------------------
@@ -61,10 +69,20 @@ INSTALLATION GUIDE -> PAY ATTENTION!
 4. Extract the folders inside of CrikketVNPC into your Garrysmod/garrysmod/addons, your addons folder should be filled with files like VNPC_Anubis and so on
 
 5. In the end, in your addons folder there should be a folder for base VNPCs 0.4, CrikketsVNPCS, and then a bunch of VNPC_[insert_name] folders (or just the required ones)
+
+
+------------------------------------------------------------------------------
+KNOWN BUGS/ISSUES
+------------------------------------------------------------------------------
+-NPC clavicles are a little wonky on old models, need to go back and change vectors/poses for better appearance
+
+
 ------------------------------------------------------------------------------
 CHANGELOG
 ------------------------------------------------------------------------------
-TO BE WRITTEN
+3/2/25: Initial update, I'm going to consider this to be the official first real update of the mod. The changelog is pretty much this entire readme plus the downloads, so I won't go into detail, in the future I will explain update additions/what asset files are added/etc.
+
+
 ------------------------------------------------------------------------------
 ROADMAP
 ------------------------------------------------------------------------------
