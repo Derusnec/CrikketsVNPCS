@@ -3,7 +3,7 @@ Crikket's V-NPCs for V0.4!
 ------------------------------------------------------------------------------
 Welcome to my MOD PACK! First off, the most important:
 
-This mod-pack requires Wormonlooker's V-NPC V0.4 downloaded to function! Please check him out, support him, download his stuff, he's the reason this shit even exists.
+This mod-pack requires Wormonlooker's V-NPC V0.4 downloaded to function! Please check him out, support him, download his stuff, he's the reason this shit even exists. (If you're here you know this, why am I writing this?)
 
 https://mega.nz/file/d3UlXA6Q#82dot96zbay5eNBwMO7FZQ8lE7yW8SrulhsRJOcbZrM <-- Stock V-NPC V0.4
 ------------------------------------------------------------------------------
