@@ -37,8 +37,8 @@ https://steamcommunity.com/sharedfiles/filedetails/?id=3215765831 <-- FOR INCLUD
 https://steamcommunity.com/sharedfiles/filedetails/?id=632126535 <-- FOR INCLUDED NPC DAEMON PROFILE
 
   -SOFT RECOMMENDATIONS
-https://steamcommunity.com/sharedfiles/filedetails/?id=3529402381 <-- Will unintentionally muffle bellies
-https://steamcommunity.com/sharedfiles/filedetails/?id=3439688457 <-- V-NPCs will break through HL2 doors, don't forget to download requirement
+https://steamcommunity.com/sharedfiles/filedetails/?id=3529402381 <-- Will muffle sounds when eaten
+https://steamcommunity.com/sharedfiles/filedetails/?id=3439688457 <-- V-NPCs will break through HL2 doors
 https://steamcommunity.com/sharedfiles/filedetails/?id=933160196 <-- Replace any HL2 weapon pickup with SWEPS
 https://steamcommunity.com/sharedfiles/filedetails/?id=2890177857 <-- Cleans up ragdolls/weapon drops/etc
 ------------------------------------------------------------------------------
