@@ -68,4 +68,20 @@ TO BE WRITTEN
 ------------------------------------------------------------------------------
 ROADMAP
 ------------------------------------------------------------------------------
-TO BE WRITTEN
+-Weight gain definers for old V-NPCs (In progress)
+-Autoduck support for large V-NPCs (In development hell)
+
+V-NPCs in the works:
+  -GLaDOS
+  -Purrslime
+V-NPCs in list:
+  -https://steamcommunity.com/sharedfiles/filedetails/?id=3217986388 [Kemono] Akky
+  -https://steamcommunity.com/sharedfiles/filedetails/?id=3628868280 Toy Chica by BlackHat/Clawnie
+  -https://steamcommunity.com/sharedfiles/filedetails/?id=3337580323 [Kemono] Lady Moon
+  -https://steamcommunity.com/sharedfiles/filedetails/?id=3638168031 PUR-03
+  -https://steamcommunity.com/sharedfiles/filedetails/?id=2873749273 Humanoid Turret Girl V2
+  -https://steamcommunity.com/sharedfiles/filedetails/?id=3663233017 Ghostly Wendrith
+  -https://steamcommunity.com/sharedfiles/filedetails/?id=3644692257 Phalia
+
+SEND ME REQUESTS ON THE VORE FORUMS!
+Must be a playermodel or NPC, more likely to do it if it has facial flexes or even bone facial flexes!
