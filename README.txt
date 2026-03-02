@@ -55,7 +55,8 @@ INSTALLATION GUIDE -> PAY ATTENTION!
 2. Install my github .lua files by clicking Code -> Download .zip, extract this folder into your addons folder the same exact way as step one
 
 3. Install the assets for the mod. You can either download the entire folder for initial install or pick and choose which to install. Workshop support is still present if you don't want to do this! I just can't promise they will keep working
-  3b. IMPORTANT: Folders labeled VNPC_REQUIRED_[insert_name_here] are REQUIRED and DO NOT SUPPORT WORKSHOP LINKS. Make sure you at least download these
+
+3b. IMPORTANT: Folders labeled VNPC_REQUIRED_[insert_name_here] are REQUIRED and DO NOT SUPPORT WORKSHOP LINKS. Make sure you at least download these
 
 4. Extract the folders inside of CrikketVNPC into your Garrysmod/garrysmod/addons, your addons folder should be filled with files like VNPC_Anubis and so on
 
