@@ -1,0 +1,5773 @@
+{
+	"nextbot": {
+		"D.VA": {
+			"VERSION": 53,
+			"classname": {
+				"type": "DrGBaseNextbots",
+				"name": "npc_vore_dva"
+			},
+			"entity_type": "nextbot",
+			"spawneffect": [],
+			"description": "D.VA with zero of the barely legal vibes and redesigned as the most ridiculously over-proportioned woman imaginable. She's on duty out of her mech, fast but a glass cannon for sure. Not the scariest by far."
+		},
+		"Marin": {
+			"VERSION": 53,
+			"classname": {
+				"type": "DrGBaseNextbots",
+				"name": "npc_vore_marin"
+			},
+			"entity_type": "nextbot",
+			"spawneffect": [],
+			"description": "Marin from Dress Up Darling because I can. She's rather basic as there are no face flexes, but she's more of a fill-in low tier predator, perhaps the easiest predator to kill and juke aside from Salamander."
+		},
+		"Meruneko": {
+			"VERSION": 53,
+			"classname": {
+				"type": "DrGBaseNextbots",
+				"name": "npc_vore_meru_neko"
+			},
+			"entity_type": "nextbot",
+			"spawneffect": [],
+			"description": "Meru's cat girl form is totally different, on foot and much less mobile in exchange for a bit more health and predator prowess. "
+		},
+		"Toriel": {
+			"VERSION": 53,
+			"classname": {
+				"type": "DrGBaseNextbots",
+				"name": "npc_vore_toriel"
+			},
+			"entity_type": "nextbot",
+			"spawneffect": [],
+			"description": "Toriel Mama is here to eat all of her darling children. Another fat slow walker, but this time she's naturally cradling her giant tits so it's kinda cool. Also she gets embarrassed when she burps. Prepare to hear undertale talking sounds, lmao."
+		},
+		"Deathclaw": {
+			"VERSION": 53,
+			"classname": {
+				"type": "DrGBaseNextbots",
+				"name": "npc_vore_deathclaw"
+			},
+			"entity_type": "nextbot",
+			"spawneffect": [],
+			"description": "This is not a Fallout 4 Deathclaw. Better run... Agile, extremely powerful and can wipe out entire throngs of people easily. You'll hear her footsteps before seeing her if you're lucky."
+		},
+		"Anubis": {
+			"VERSION": 53,
+			"classname": {
+				"type": "DrGBaseNextbots",
+				"name": "npc_vore_anubis"
+			},
+			"entity_type": "nextbot",
+			"spawneffect": [],
+			"description": "AAAAAHHHHH! SHE'S GOT A COCK! She's a walker type that's really quiet, not too strong."
+		},
+		"Mal0": {
+			"VERSION": 53,
+			"classname": {
+				"type": "DrGBaseNextbots",
+				"name": "npc_vore_mal0"
+			},
+			"entity_type": "nextbot",
+			"spawneffect": [],
+			"description": "My second addition to the pack, Mal0 is practically the same as Kroxi aside from her size and massively increased health pool. Her audio cues are also rather quiet, easily lost in gunfire. She's surprised me many a time despite being a giant, also beware her range!"
+		},
+		"Goblin Girl": {
+			"VERSION": 53,
+			"classname": {
+				"type": "DrGBaseNextbots",
+				"name": "npc_vore_goblin"
+			},
+			"entity_type": "nextbot",
+			"spawneffect": [],
+			"description": "Generic LVL. 1 goblin girl, aside from her stock goblin sound effects she's extremely weak. But she can easily catch unaware opponents around corners with her tiny frame and quick movements."
+		},
+		"Casual D.VA": {
+			"VERSION": 53,
+			"classname": {
+				"type": "DrGBaseNextbots",
+				"name": "npc_vore_dvacasual"
+			},
+			"entity_type": "nextbot",
+			"spawneffect": [],
+			"description": "D.VA off duty! She's perpetually running and while she's not the best at raw speed she's utterly relentless. She's a little less beefy in just her running fit though."
+		},
+		"Karelia": {
+			"VERSION": 53,
+			"classname": {
+				"type": "DrGBaseNextbots",
+				"name": "npc_vore_karelia"
+			},
+			"entity_type": "nextbot",
+			"spawneffect": [],
+			"description": "Karelia is unique in that she doesn't actually need to be in melee range. Through backrooms magic (I set the attack range really high) she will be able to eat people at a surprising distance! Even from upper story windows if you're peeking out! Keep your distance. Luckily, her fat ass keeps her from being too mobile."
+		},
+		"Kroxi": {
+			"VERSION": 53,
+			"classname": {
+				"type": "DrGBaseNextbots",
+				"name": "npc_vore_kroxi"
+			},
+			"entity_type": "nextbot",
+			"spawneffect": [],
+			"description": "Basic walking predator, standard size with a slightly enhanced melee range. She was my first addition to the pack, making her uniquely \"default\" amongst the rest."
+		},
+		"Toofy": {
+			"VERSION": 53,
+			"classname": {
+				"type": "DrGBaseNextbots",
+				"name": "npc_vore_toofy"
+			},
+			"entity_type": "nextbot",
+			"spawneffect": [],
+			"description": "AAAAAHHHHH! SHE'S GOT A COCK! Another low-tier predator with decent stats across the board. She's a real jack-of-all-trades type. Listen for little squeaks."
+		},
+		"Xenomorph": {
+			"VERSION": 53,
+			"classname": {
+				"type": "DrGBaseNextbots",
+				"name": "npc_vore_xenomorph"
+			},
+			"entity_type": "nextbot",
+			"spawneffect": [],
+			"description": "The Xenomorph Queen is the natural counterpart to the Albino Deathclaw, being an Apex predator. She's a bit weaker, but still can wipe out entire masses of people in just a few gulps."
+		},
+		"Ankha": {
+			"VERSION": 53,
+			"classname": {
+				"type": "DrGBaseNextbots",
+				"name": "npc_vore_ankha"
+			},
+			"entity_type": "nextbot",
+			"spawneffect": [],
+			"description": "Lord bitch Ankha graces you with her presence, her slow, lazy movement speed just tells you you aren't even worth eating. Get caught in a corner however and you're cat food."
+		},
+		"Albino Deathclaw": {
+			"VERSION": 53,
+			"classname": {
+				"type": "DrGBaseNextbots",
+				"name": "npc_vore_deathclaw_r"
+			},
+			"entity_type": "nextbot",
+			"spawneffect": [],
+			"description": "The apex predator. Incredible health, incredible speed, great tracking. Don't let her see you, or praise the lord and pass the ammunition because you'll need a LOT of bullets to take her down."
+		},
+		"Seraphim": {
+			"VERSION": 53,
+			"classname": {
+				"type": "DrGBaseNextbots",
+				"name": "npc_vore_seraphim"
+			},
+			"entity_type": "nextbot",
+			"spawneffect": [],
+			"description": "Seraphim is one of the two robots in the pack, with slow base movement speed but able to sprint extremely fast. However, her acceleration is very weak and her clanker footsteps and beeping give her away. Bitch sounds like a fax machine."
+		},
+		"Monster Energy Chan": {
+			"VERSION": 53,
+			"classname": {
+				"type": "DrGBaseNextbots",
+				"name": "npc_vore_monsterenergy"
+			},
+			"entity_type": "nextbot",
+			"spawneffect": [],
+			"description": "Do not fuck with her, really. In testing this is probably the NPC that got me the most, I've nerfed her true capabilities, but she's utterly relentless and does NOT STOP RUNNING. If you're using a stamina mod, you better have a plan for when that bar runs out or you're utterly boned. She's also pretty damn resistant to bullets too, just stay away if you are able."
+		},
+		"Sadako": {
+			"VERSION": 53,
+			"classname": {
+				"type": "DrGBaseNextbots",
+				"name": "npc_vore_sadako"
+			},
+			"entity_type": "nextbot",
+			"spawneffect": [],
+			"description": "Sadako is a unique case. Limited vision, range but excellent hearing. She creeps around very slowly, but will burst into the fastest movement speed in this pack when spotting a target! She's the closest thing to a jumpscare predator in this pack (though they all have that potential in tight maps tbh)"
+		},
+		"Meru": {
+			"VERSION": 53,
+			"classname": {
+				"type": "DrGBaseNextbots",
+				"name": "npc_vore_meru"
+			},
+			"entity_type": "nextbot",
+			"spawneffect": [],
+			"description": "Meru's small size should not be underestimated. She's extremely mobile, \"flying\" to her opponents soundlessly making her an insanely effective ambush predator. Even trying to run might be in vain, good thing she's weak to bullets."
+		},
+		"Angela": {
+			"VERSION": 53,
+			"classname": {
+				"type": "DrGBaseNextbots",
+				"name": "npc_vore_angela"
+			},
+			"entity_type": "nextbot",
+			"spawneffect": [],
+			"description": "Angela from Atlyss, I have NO idea who this character is. So she's a weak, shy predator dressed in a nun outfit for some reason. She's more receptive to running away than active pursuit and is an easy dub."
+		},
+		"Tasque Manager": {
+			"VERSION": 53,
+			"classname": {
+				"type": "DrGBaseNextbots",
+				"name": "npc_vore_tasque"
+			},
+			"entity_type": "nextbot",
+			"spawneffect": [],
+			"description": "Tasque Manager! Aside from playing the one deltarune sound associated with her, she's another walker with a giant stature and beefy health pool. She's also got great hearing on account of them ears."
+		},
+		"Salamander": {
+			"VERSION": 53,
+			"classname": {
+				"type": "DrGBaseNextbots",
+				"name": "npc_vore_salamander"
+			},
+			"entity_type": "nextbot",
+			"spawneffect": [],
+			"description": "Salamander is a tiny bit stronger than Marin, but not by much. She's a slow jogger, languid walker and her digestive system is slow-going. Other than taking you by surprise she's a very easy kill."
+		},
+		"Roxy": {
+			"VERSION": 53,
+			"classname": {
+				"type": "DrGBaseNextbots",
+				"name": "npc_vore_roxy"
+			},
+			"entity_type": "nextbot",
+			"spawneffect": [],
+			"description": "Roxy is much akin to M.E.C, but she's the weaker variant. A runner that's a bit slower and a bit weaker. She's doesn't have Okane Owari from Danganronpa screaming and hollering for idle sounds so she's naturally more sneaky."
+		},
+		"Queen Chrysalis": {
+			"VERSION": 53,
+			"classname": {
+				"type": "DrGBaseNextbots",
+				"name": "npc_vore_chrysalis"
+			},
+			"entity_type": "nextbot",
+			"spawneffect": [],
+			"description": "Queen Chryssy is here to pollute the already obnoxious gunfire with her obnoxious villain laughs. Another walker type, but she's the strongest of all the walkers and has very impressive range."
+		}
+	},
+	"entity": {
+		"10mm Rounds": {
+			"entity_type": "entity",
+			"VERSION": 53,
+			"classname": {
+				"type": "SpawnableEntities",
+				"name": "item_ammo_smg1"
+			}
+		},
+		"Overwatch Pulse Rifle": {
+			"entity_type": "entity",
+			"VERSION": 53,
+			"classname": {
+				"type": "Weapon",
+				"name": "weapon_ar2"
+			}
+		},
+		"Supply Crate": {
+			"entity_type": "entity",
+			"VERSION": 53,
+			"classname": "hl2ep_supply_crate"
+		},
+		"Box of Buckshot": {
+			"VERSION": 53,
+			"entity_type": "entity",
+			"classname": {
+				"type": "SpawnableEntities",
+				"name": "item_box_buckshot"
+			}
+		},
+		"357 Rounds": {
+			"entity_type": "entity",
+			"VERSION": 53,
+			"classname": {
+				"type": "SpawnableEntities",
+				"name": "item_ammo_357"
+			}
+		},
+		"USP Match": {
+			"entity_type": "entity",
+			"VERSION": 53,
+			"classname": {
+				"type": "Weapon",
+				"name": "weapon_pistol"
+			}
+		},
+		"Crowbar": {
+			"entity_type": "entity",
+			"VERSION": 53,
+			"classname": {
+				"type": "Weapon",
+				"name": "weapon_crowbar"
+			}
+		},
+		"Stunstick": {
+			"entity_type": "entity",
+			"VERSION": 53,
+			"classname": {
+				"type": "Weapon",
+				"name": "weapon_stunstick"
+			}
+		},
+		"SPAS-12": {
+			"entity_type": "entity",
+			"VERSION": 53,
+			"classname": {
+				"type": "Weapon",
+				"name": "weapon_shotgun"
+			}
+		},
+		"MP7": {
+			"entity_type": "entity",
+			"VERSION": 53,
+			"classname": {
+				"type": "Weapon",
+				"name": "weapon_smg1"
+			}
+		},
+		"Medicine Vial": {
+			"VERSION": 53,
+			"entity_type": "entity",
+			"classname": {
+				"type": "SpawnableEntities",
+				"name": "item_healthvial"
+			}
+		},
+		"AR2 Cell": {
+			"VERSION": 53,
+			"entity_type": "entity",
+			"classname": {
+				"type": "SpawnableEntities",
+				"name": "item_ammo_ar2"
+			}
+		},
+		"Frag Grenade": {
+			"entity_type": "entity",
+			"VERSION": 53,
+			"classname": {
+				"type": "Weapon",
+				"name": "weapon_frag"
+			}
+		},
+		"9mm Rounds": {
+			"VERSION": 53,
+			"entity_type": "entity",
+			"classname": {
+				"type": "SpawnableEntities",
+				"name": "item_ammo_pistol"
+			}
+		},
+		"Rifle Grenade": {
+			"entity_type": "entity",
+			"VERSION": 53,
+			"classname": {
+				"type": "SpawnableEntities",
+				"name": "item_ammo_smg1_grenade"
+			}
+		},
+		"Resistance RPG": {
+			"entity_type": "entity",
+			"VERSION": 53,
+			"classname": {
+				"type": "Weapon",
+				"name": "weapon_rpg"
+			}
+		},
+		"First Aid Kit": {
+			"entity_type": "entity",
+			"VERSION": 53,
+			"classname": {
+				"type": "SpawnableEntities",
+				"name": "item_healthkit"
+			}
+		},
+		"Colt Python": {
+			"entity_type": "entity",
+			"VERSION": 53,
+			"classname": {
+				"type": "Weapon",
+				"name": "weapon_357"
+			}
+		},
+		"Resistance Crossbow": {
+			"entity_type": "entity",
+			"VERSION": 53,
+			"classname": {
+				"type": "Weapon",
+				"name": "weapon_crossbow"
+			}
+		},
+		"Battery": {
+			"VERSION": 53,
+			"entity_type": "entity",
+			"classname": {
+				"type": "SpawnableEntities",
+				"name": "eqp_armorplate_pickup"
+			}
+		},
+		"Resistance Bolts": {
+			"entity_type": "entity",
+			"VERSION": 53,
+			"classname": {
+				"type": "SpawnableEntities",
+				"name": "item_ammo_crossbow"
+			}
+		},
+		"Rocket": {
+			"VERSION": 53,
+			"entity_type": "entity",
+			"classname": {
+				"type": "SpawnableEntities",
+				"name": "item_rpg_round"
+			}
+		}
+	},
+	"player": [],
+	"drop_set": {
+		"Metrocop": {
+			"drops": [
+				{
+					"preset_values": {
+						"preset": {
+							"type": "entity",
+							"name": "Medicine Vial"
+						}
+					},
+					"spawnforce": {
+						"forward": [
+							"__RAND",
+							8,
+							32
+						],
+						"up": -8
+					},
+					"type": "preset",
+					"destroydelay": 30,
+					"chance": {
+						"d": 2,
+						"f": 0.5,
+						"n": 1
+					},
+					"max": 1
+				},
+				{
+					"preset_values": {
+						"preset": {
+							"type": "entity",
+							"name": "9mm Rounds"
+						}
+					},
+					"spawnforce": {
+						"forward": [
+							"__RAND",
+							8,
+							32
+						],
+						"up": -8
+					},
+					"type": "preset",
+					"destroydelay": 30,
+					"max": 1,
+					"chance": {
+						"d": 4,
+						"f": 0.25,
+						"n": 1
+					}
+				},
+				{
+					"preset_values": {
+						"preset": {
+							"type": "entity",
+							"name": "USP Match"
+						}
+					},
+					"spawnforce": {
+						"forward": [
+							"__RAND",
+							8,
+							32
+						],
+						"up": -8
+					},
+					"type": "preset",
+					"destroydelay": 30,
+					"chance": {
+						"d": 8,
+						"f": 0.125,
+						"n": 1
+					},
+					"max": 1
+				},
+				{
+					"preset_values": {
+						"preset": {
+							"type": "entity",
+							"name": "Battery"
+						}
+					},
+					"spawnforce": {
+						"forward": [
+							"__RAND",
+							8,
+							32
+						],
+						"up": -8
+					},
+					"type": "preset",
+					"destroydelay": 45,
+					"max": 1,
+					"chance": {
+						"d": 8,
+						"f": 0.125,
+						"n": 1
+					}
+				}
+			],
+			"maxdrops": 1,
+			"VERSION": 53
+		},
+		"Citizen": {
+			"drops": [
+				{
+					"preset_values": {
+						"preset": {
+							"type": "entity",
+							"name": "Medicine Vial"
+						}
+					},
+					"spawnforce": {
+						"forward": [
+							"__RAND",
+							8,
+							32
+						],
+						"up": -8
+					},
+					"type": "preset",
+					"destroydelay": 30,
+					"max": 1,
+					"chance": {
+						"d": 4,
+						"f": 0.25,
+						"n": 1
+					}
+				},
+				{
+					"preset_values": {
+						"preset": {
+							"type": "entity",
+							"name": "Crowbar"
+						}
+					},
+					"spawnforce": {
+						"forward": [
+							"__RAND",
+							8,
+							32
+						],
+						"up": -8
+					},
+					"type": "preset",
+					"destroydelay": 30,
+					"chance": {
+						"d": 8,
+						"f": 0.125,
+						"n": 1
+					},
+					"max": 1
+				},
+				{
+					"preset_values": {
+						"preset": {
+							"type": "entity",
+							"name": "USP Match"
+						}
+					},
+					"spawnforce": {
+						"forward": [
+							"__RAND",
+							8,
+							32
+						],
+						"up": -8
+					},
+					"type": "preset",
+					"destroydelay": 30,
+					"max": 1,
+					"chance": {
+						"d": 16,
+						"f": 0.0625,
+						"n": 1
+					}
+				}
+			],
+			"VERSION": 53,
+			"maxdrops": 1
+		},
+		"Metrocop Grunt": {
+			"VERSION": 53,
+			"drops": [
+				{
+					"preset_values": {
+						"preset": {
+							"type": "entity",
+							"name": "First Aid Kit"
+						}
+					},
+					"spawnforce": {
+						"forward": [
+							"__RAND",
+							8,
+							32
+						],
+						"up": -8
+					},
+					"type": "preset",
+					"destroydelay": 30,
+					"max": 1,
+					"chance": {
+						"d": 2,
+						"f": 0.5,
+						"n": 1
+					}
+				},
+				{
+					"preset_values": {
+						"preset": {
+							"type": "entity",
+							"name": "Stunstick"
+						}
+					},
+					"spawnforce": {
+						"forward": [
+							"__RAND",
+							8,
+							32
+						],
+						"up": -8
+					},
+					"type": "preset",
+					"destroydelay": 30,
+					"chance": {
+						"d": 4,
+						"f": 0.25,
+						"n": 1
+					},
+					"max": 1
+				}
+			],
+			"maxdrops": 2
+		},
+		"Refugee": {
+			"maxdrops": 1,
+			"VERSION": 53,
+			"drops": [
+				{
+					"preset_values": {
+						"preset": {
+							"type": "entity",
+							"name": "Medicine Vial"
+						}
+					},
+					"spawnforce": {
+						"forward": [
+							"__RAND",
+							8,
+							32
+						],
+						"up": -8
+					},
+					"type": "preset",
+					"destroydelay": 30,
+					"chance": {
+						"d": 4,
+						"f": 0.25,
+						"n": 1
+					},
+					"max": 1
+				},
+				{
+					"preset_values": {
+						"preset": {
+							"type": "entity",
+							"name": "USP Match"
+						}
+					},
+					"spawnforce": {
+						"forward": [
+							"__RAND",
+							8,
+							32
+						],
+						"up": -8
+					},
+					"type": "preset",
+					"destroydelay": 30,
+					"max": 1,
+					"chance": {
+						"d": 8,
+						"f": 0.125,
+						"n": 1
+					}
+				},
+				{
+					"preset_values": {
+						"preset": {
+							"type": "entity",
+							"name": "MP7"
+						}
+					},
+					"spawnforce": {
+						"forward": [
+							"__RAND",
+							8,
+							32
+						],
+						"up": -8
+					},
+					"type": "preset",
+					"destroydelay": 30,
+					"chance": {
+						"d": 16,
+						"f": 0.0625,
+						"n": 1
+					},
+					"max": 1
+				},
+				{
+					"preset_values": {
+						"preset": {
+							"type": "entity",
+							"name": "9mm Rounds"
+						}
+					},
+					"spawnforce": {
+						"forward": [
+							"__RAND",
+							8,
+							32
+						],
+						"up": -8
+					},
+					"type": "preset",
+					"destroydelay": 30,
+					"max": 1,
+					"chance": {
+						"d": 4,
+						"f": 0.25,
+						"n": 1
+					}
+				},
+				{
+					"preset_values": {
+						"preset": {
+							"type": "entity",
+							"name": "10mm Rounds"
+						}
+					},
+					"spawnforce": {
+						"forward": [
+							"__RAND",
+							8,
+							32
+						],
+						"up": -8
+					},
+					"type": "preset",
+					"destroydelay": 30,
+					"chance": {
+						"d": 5,
+						"f": 0.2,
+						"n": 1
+					},
+					"max": 1
+				}
+			]
+		},
+		"Combine Special Generic": {
+			"rolls": 2,
+			"VERSION": 53,
+			"maxdrops": 3,
+			"drops": [
+				{
+					"preset_values": {
+						"preset": {
+							"type": "entity",
+							"name": "Battery"
+						}
+					},
+					"spawnforce": {
+						"forward": [
+							"__RAND",
+							8,
+							32
+						],
+						"up": -8
+					},
+					"type": "preset",
+					"destroydelay": 30,
+					"chance": {
+						"d": 2,
+						"f": 0.5,
+						"n": 1
+					},
+					"max": 2
+				},
+				{
+					"preset_values": {
+						"preset": {
+							"type": "entity",
+							"name": "AR2 Cell"
+						}
+					},
+					"spawnforce": {
+						"forward": [
+							"__RAND",
+							8,
+							32
+						],
+						"up": -8
+					},
+					"type": "preset",
+					"destroydelay": 30,
+					"max": 1,
+					"chance": {
+						"d": 4,
+						"f": 0.25,
+						"n": 1
+					}
+				},
+				{
+					"preset_values": {
+						"preset": {
+							"type": "entity",
+							"name": "Medicine Vial"
+						}
+					},
+					"spawnforce": {
+						"forward": [
+							"__RAND",
+							8,
+							32
+						],
+						"up": -8
+					},
+					"type": "preset",
+					"destroydelay": 30,
+					"chance": {
+						"d": 8,
+						"f": 0.125,
+						"n": 1
+					},
+					"max": 1
+				},
+				{
+					"preset_values": {
+						"preset": {
+							"type": "entity",
+							"name": "Frag Grenade"
+						}
+					},
+					"spawnforce": {
+						"forward": [
+							"__RAND",
+							8,
+							32
+						],
+						"up": -8
+					},
+					"type": "preset",
+					"destroydelay": 30,
+					"max": 1,
+					"chance": {
+						"d": 8,
+						"f": 0.125,
+						"n": 1
+					}
+				}
+			]
+		},
+		"Rebel": {
+			"maxdrops": 2,
+			"VERSION": 53,
+			"drops": [
+				{
+					"preset_values": {
+						"preset": {
+							"type": "entity",
+							"name": "Medicine Vial"
+						}
+					},
+					"spawnforce": {
+						"forward": [
+							"__RAND",
+							8,
+							32
+						],
+						"up": -8
+					},
+					"type": "preset",
+					"destroydelay": 30,
+					"chance": {
+						"d": 5,
+						"f": 0.4,
+						"n": 2
+					},
+					"max": 1
+				},
+				{
+					"preset_values": {
+						"preset": {
+							"type": "entity",
+							"name": "10mm Rounds"
+						}
+					},
+					"spawnforce": {
+						"forward": [
+							"__RAND",
+							8,
+							32
+						],
+						"up": -8
+					},
+					"type": "preset",
+					"destroydelay": 30,
+					"max": 1,
+					"chance": {
+						"d": 2,
+						"f": 0.5,
+						"n": 1
+					}
+				},
+				{
+					"preset_values": {
+						"preset": {
+							"type": "entity",
+							"name": "Box of Buckshot"
+						}
+					},
+					"spawnforce": {
+						"forward": [
+							"__RAND",
+							8,
+							32
+						],
+						"up": -8
+					},
+					"type": "preset",
+					"destroydelay": 30,
+					"chance": {
+						"d": 4,
+						"f": 0.25,
+						"n": 1
+					},
+					"max": 1
+				},
+				{
+					"preset_values": {
+						"preset": {
+							"type": "entity",
+							"name": "MP7"
+						}
+					},
+					"spawnforce": {
+						"forward": [
+							"__RAND",
+							8,
+							32
+						],
+						"up": -8
+					},
+					"type": "preset",
+					"destroydelay": 30,
+					"max": 1,
+					"chance": {
+						"d": 8,
+						"f": 0.125,
+						"n": 1
+					}
+				},
+				{
+					"preset_values": {
+						"preset": {
+							"type": "entity",
+							"name": "SPAS-12"
+						}
+					},
+					"spawnforce": {
+						"forward": [
+							"__RAND",
+							8,
+							32
+						],
+						"up": -8
+					},
+					"type": "preset",
+					"destroydelay": 30,
+					"chance": {
+						"d": 16,
+						"f": 0.0625,
+						"n": 1
+					},
+					"max": 1
+				}
+			]
+		},
+		"Combine Soldier": {
+			"VERSION": 53,
+			"drops": [
+				{
+					"preset_values": {
+						"preset": {
+							"type": "entity",
+							"name": "Battery"
+						}
+					},
+					"spawnforce": {
+						"forward": [
+							"__RAND",
+							8,
+							32
+						],
+						"up": -8
+					},
+					"type": "preset",
+					"destroydelay": 30,
+					"chance": {
+						"d": 2,
+						"f": 0.5,
+						"n": 1
+					},
+					"max": 1
+				},
+				{
+					"preset_values": {
+						"preset": {
+							"type": "entity",
+							"name": "AR2 Cell"
+						}
+					},
+					"spawnforce": {
+						"forward": [
+							"__RAND",
+							8,
+							32
+						],
+						"up": -8
+					},
+					"type": "preset",
+					"destroydelay": 30,
+					"max": 1,
+					"chance": {
+						"d": 4,
+						"f": 0.25,
+						"n": 1
+					}
+				},
+				{
+					"preset_values": {
+						"preset": {
+							"type": "entity",
+							"name": "Overwatch Pulse Rifle"
+						}
+					},
+					"spawnforce": {
+						"forward": [
+							"__RAND",
+							8,
+							32
+						],
+						"up": -8
+					},
+					"type": "preset",
+					"destroydelay": 30,
+					"chance": {
+						"d": 8,
+						"f": 0.125,
+						"n": 1
+					},
+					"max": 1
+				},
+				{
+					"preset_values": {
+						"preset": {
+							"type": "entity",
+							"name": "Frag Grenade"
+						}
+					},
+					"spawnforce": {
+						"forward": [
+							"__RAND",
+							8,
+							32
+						],
+						"up": -8
+					},
+					"type": "preset",
+					"destroydelay": 45,
+					"max": 1,
+					"chance": {
+						"d": 8,
+						"f": 0.125,
+						"n": 1
+					}
+				}
+			],
+			"maxdrops": 2
+		},
+		"Combine Skirmisher": {
+			"drops": [
+				{
+					"preset_values": {
+						"preset": {
+							"type": "entity",
+							"name": "Battery"
+						}
+					},
+					"spawnforce": {
+						"forward": [
+							"__RAND",
+							8,
+							32
+						],
+						"up": -8
+					},
+					"type": "preset",
+					"destroydelay": 30,
+					"max": 1,
+					"chance": {
+						"d": 2,
+						"f": 0.5,
+						"n": 1
+					}
+				},
+				{
+					"preset_values": {
+						"preset": {
+							"type": "entity",
+							"name": "10mm Rounds"
+						}
+					},
+					"spawnforce": {
+						"forward": [
+							"__RAND",
+							8,
+							32
+						],
+						"up": -8
+					},
+					"type": "preset",
+					"destroydelay": 30,
+					"chance": {
+						"d": 4,
+						"f": 0.25,
+						"n": 1
+					},
+					"max": 1
+				},
+				{
+					"preset_values": {
+						"preset": {
+							"type": "entity",
+							"name": "MP7"
+						}
+					},
+					"spawnforce": {
+						"forward": [
+							"__RAND",
+							8,
+							32
+						],
+						"up": -8
+					},
+					"type": "preset",
+					"destroydelay": 30,
+					"max": 1,
+					"chance": {
+						"d": 8,
+						"f": 0.125,
+						"n": 1
+					}
+				},
+				{
+					"preset_values": {
+						"preset": {
+							"type": "entity",
+							"name": "Rifle Grenade"
+						}
+					},
+					"spawnforce": {
+						"forward": [
+							"__RAND",
+							8,
+							32
+						],
+						"up": -8
+					},
+					"type": "preset",
+					"destroydelay": 45,
+					"chance": {
+						"d": 16,
+						"f": 0.0625,
+						"n": 1
+					},
+					"max": 1
+				}
+			],
+			"maxdrops": 2,
+			"VERSION": 53
+		},
+		"Combine Elite": {
+			"rolls": 2,
+			"VERSION": 53,
+			"maxdrops": 3,
+			"drops": [
+				{
+					"preset_values": {
+						"preset": {
+							"type": "entity",
+							"name": "Battery"
+						}
+					},
+					"max": 3,
+					"spawnforce": {
+						"forward": [
+							"__RAND",
+							8,
+							32
+						],
+						"up": -8
+					},
+					"type": "preset",
+					"destroydelay": 45,
+					"min": 1,
+					"chance": {
+						"d": 2,
+						"f": 0.5,
+						"n": 1
+					}
+				},
+				{
+					"preset_values": {
+						"preset": {
+							"type": "entity",
+							"name": "AR2 Cell"
+						}
+					},
+					"spawnforce": {
+						"forward": [
+							"__RAND",
+							8,
+							32
+						],
+						"up": -8
+					},
+					"type": "preset",
+					"destroydelay": 45,
+					"max": 1,
+					"chance": {
+						"d": 2,
+						"f": 0.5,
+						"n": 1
+					}
+				},
+				{
+					"preset_values": {
+						"preset": {
+							"type": "entity",
+							"name": "Overwatch Pulse Rifle"
+						}
+					},
+					"spawnforce": {
+						"forward": [
+							"__RAND",
+							8,
+							32
+						],
+						"up": -8
+					},
+					"type": "preset",
+					"destroydelay": 30,
+					"max": 1,
+					"chance": {
+						"d": 4,
+						"f": 0.25,
+						"n": 1
+					}
+				}
+			]
+		},
+		"Metrocop Raider": {
+			"maxdrops": 1,
+			"VERSION": 53,
+			"drops": [
+				{
+					"preset_values": {
+						"preset": {
+							"type": "entity",
+							"name": "Medicine Vial"
+						}
+					},
+					"spawnforce": {
+						"forward": [
+							"__RAND",
+							8,
+							32
+						],
+						"up": -8
+					},
+					"type": "preset",
+					"destroydelay": 30,
+					"max": 1,
+					"chance": {
+						"d": 2,
+						"f": 0.5,
+						"n": 1
+					}
+				},
+				{
+					"preset_values": {
+						"preset": {
+							"type": "entity",
+							"name": "10mm Rounds"
+						}
+					},
+					"spawnforce": {
+						"forward": [
+							"__RAND",
+							8,
+							32
+						],
+						"up": -8
+					},
+					"type": "preset",
+					"destroydelay": 30,
+					"chance": {
+						"d": 4,
+						"f": 0.25,
+						"n": 1
+					},
+					"max": 1
+				},
+				{
+					"preset_values": {
+						"preset": {
+							"type": "entity",
+							"name": "MP7"
+						}
+					},
+					"spawnforce": {
+						"forward": [
+							"__RAND",
+							8,
+							32
+						],
+						"up": -8
+					},
+					"type": "preset",
+					"destroydelay": 30,
+					"chance": {
+						"d": 8,
+						"f": 0.125,
+						"n": 1
+					},
+					"max": 1
+				},
+				{
+					"preset_values": {
+						"preset": {
+							"type": "entity",
+							"name": "Battery"
+						}
+					},
+					"spawnforce": {
+						"forward": [
+							"__RAND",
+							8,
+							32
+						],
+						"up": -8
+					},
+					"type": "preset",
+					"destroydelay": 45,
+					"chance": {
+						"d": 8,
+						"f": 0.125,
+						"n": 1
+					},
+					"max": 1
+				}
+			]
+		},
+		"Medic": {
+			"rolls": 2,
+			"maxdrops": 2,
+			"VERSION": 53,
+			"drops": [
+				{
+					"preset_values": {
+						"preset": {
+							"type": "entity",
+							"name": "First Aid Kit"
+						}
+					},
+					"chance": {
+						"d": 4,
+						"f": 0.5,
+						"n": 2
+					},
+					"spawnforce": {
+						"forward": [
+							"__RAND",
+							8,
+							32
+						],
+						"up": -8
+					},
+					"type": "preset",
+					"destroydelay": 60,
+					"min": 1,
+					"max": 2
+				},
+				{
+					"preset_values": {
+						"preset": {
+							"type": "entity",
+							"name": "10mm Rounds"
+						}
+					},
+					"spawnforce": {
+						"forward": [
+							"__RAND",
+							8,
+							32
+						],
+						"up": -8
+					},
+					"type": "preset",
+					"destroydelay": 30,
+					"max": 1,
+					"chance": {
+						"d": 2,
+						"f": 0.5,
+						"n": 1
+					}
+				},
+				{
+					"preset_values": {
+						"preset": {
+							"type": "entity",
+							"name": "357 Rounds"
+						}
+					},
+					"spawnforce": {
+						"forward": [
+							"__RAND",
+							8,
+							32
+						],
+						"up": -8
+					},
+					"type": "preset",
+					"destroydelay": 30,
+					"chance": {
+						"d": 8,
+						"f": 0.125,
+						"n": 1
+					},
+					"max": 1
+				}
+			]
+		},
+		"Combine Sterilizer": {
+			"rolls": 2,
+			"VERSION": 53,
+			"maxdrops": 2,
+			"drops": [
+				{
+					"preset_values": {
+						"preset": {
+							"type": "entity",
+							"name": "Battery"
+						}
+					},
+					"spawnforce": {
+						"forward": [
+							"__RAND",
+							8,
+							32
+						],
+						"up": -8
+					},
+					"type": "preset",
+					"destroydelay": 30,
+					"chance": {
+						"d": 2,
+						"f": 0.5,
+						"n": 1
+					},
+					"max": 2
+				},
+				{
+					"preset_values": {
+						"preset": {
+							"type": "entity",
+							"name": "Box of Buckshot"
+						}
+					},
+					"spawnforce": {
+						"forward": [
+							"__RAND",
+							8,
+							32
+						],
+						"up": -8
+					},
+					"type": "preset",
+					"destroydelay": 30,
+					"max": 1,
+					"chance": {
+						"d": 4,
+						"f": 0.25,
+						"n": 1
+					}
+				},
+				{
+					"preset_values": {
+						"preset": {
+							"type": "entity",
+							"name": "SPAS-12"
+						}
+					},
+					"spawnforce": {
+						"forward": [
+							"__RAND",
+							8,
+							32
+						],
+						"up": -8
+					},
+					"type": "preset",
+					"destroydelay": 30,
+					"chance": {
+						"d": 8,
+						"f": 0.125,
+						"n": 1
+					},
+					"max": 1
+				}
+			]
+		}
+	},
+	"spawnpool": {
+		"Strays": {
+			"quota_entity_min": 6,
+			"spawns": [
+				{
+					"expected": {
+						"d": 1,
+						"f": 1,
+						"n": 1
+					},
+					"preset": {
+						"type": "npc",
+						"name": "Citizen"
+					}
+				},
+				{
+					"expected": {
+						"d": 1,
+						"f": 1,
+						"n": 1
+					},
+					"preset": {
+						"type": "npc",
+						"name": "Refugee"
+					}
+				},
+				{
+					"expected": {
+						"d": 1,
+						"f": 1,
+						"n": 1
+					},
+					"preset": {
+						"type": "npc",
+						"name": "Rebel"
+					}
+				},
+				{
+					"expected": {
+						"d": 1,
+						"f": 1,
+						"n": 1
+					},
+					"preset": {
+						"type": "npc",
+						"name": "Scavver"
+					}
+				},
+				{
+					"expected": {
+						"d": 1,
+						"f": 1,
+						"n": 1
+					},
+					"preset": {
+						"type": "npc",
+						"name": "Scavver Raider"
+					}
+				},
+				{
+					"expected": {
+						"d": 1,
+						"f": 1,
+						"n": 1
+					},
+					"preset": {
+						"type": "npc",
+						"name": "Metrocop Grunt"
+					}
+				},
+				{
+					"expected": {
+						"d": 1,
+						"f": 1,
+						"n": 1
+					},
+					"preset": {
+						"type": "npc",
+						"name": "Metrocop Enforcer"
+					}
+				}
+			],
+			"pool_spawnlimit": 12,
+			"radiuslimits": [
+				{
+					"radius_autoadjust_max": true,
+					"radius_autoadjust_min": true,
+					"maxradius": 8192,
+					"radius_entity_limit": 12,
+					"minradius": 1024,
+					"despawn_tooclose": 2048,
+					"despawn_addquota": false,
+					"spawn_tooclose": 512,
+					"despawn": true
+				},
+				{
+					"radius_autoadjust_max": true,
+					"radius_autoadjust_min": true,
+					"spawn_tooclose": 8192,
+					"radius_entity_limit": 0,
+					"minradius": 8192,
+					"nospawn": true,
+					"maxradius": 32768,
+					"despawn_tooclose": 3072,
+					"radius_squad_limit": 0,
+					"despawn": true
+				}
+			],
+			"VERSION": 53
+		},
+		"Squads": {
+			"VERSION": 53,
+			"pool_spawnlimit": 24,
+			"radiuslimits": [
+				{
+					"radius_autoadjust_max": true,
+					"radius_autoadjust_min": true,
+					"spawn_tooclose": 512,
+					"radius_entity_limit": 24,
+					"minradius": 1024,
+					"despawn_tooclose": 2048,
+					"radius_squad_limit": 6,
+					"despawn_addquota": false,
+					"maxradius": 8192,
+					"despawn": true
+				},
+				{
+					"radius_autoadjust_max": true,
+					"radius_autoadjust_min": true,
+					"spawn_tooclose": 8192,
+					"radius_entity_limit": 0,
+					"minradius": 8192,
+					"nospawn": true,
+					"maxradius": 32768,
+					"despawn_tooclose": 3072,
+					"radius_squad_limit": 0,
+					"despawn": true
+				}
+			],
+			"spawns": [
+				{
+					"expected": {
+						"d": 1,
+						"f": 1,
+						"n": 1
+					},
+					"preset": {
+						"type": "squad",
+						"name": "Citizens & Partisans"
+					}
+				},
+				{
+					"expected": {
+						"d": 1,
+						"f": 1,
+						"n": 1
+					},
+					"preset": {
+						"type": "squad",
+						"name": "Citizens"
+					}
+				},
+				{
+					"expected": {
+						"d": 1,
+						"f": 1,
+						"n": 1
+					},
+					"preset": {
+						"type": "squad",
+						"name": "Metropolice Patrol"
+					}
+				},
+				{
+					"expected": {
+						"d": 1,
+						"f": 1,
+						"n": 1
+					},
+					"preset": {
+						"type": "squad",
+						"name": "Metrocop Fire Team"
+					}
+				},
+				{
+					"expected": {
+						"d": 2,
+						"f": 0.5,
+						"n": 1
+					},
+					"preset": {
+						"type": "squad",
+						"name": "Metropolice Brigade"
+					}
+				},
+				{
+					"expected": {
+						"d": 2,
+						"f": 0.5,
+						"n": 1
+					},
+					"preset": {
+						"type": "squad",
+						"name": "Combine Fire Team"
+					}
+				},
+				{
+					"expected": {
+						"d": 2,
+						"f": 0.5,
+						"n": 1
+					},
+					"preset": {
+						"type": "squad",
+						"name": "Rebel Cell"
+					}
+				},
+				{
+					"expected": {
+						"d": 4,
+						"f": 0.25,
+						"n": 1
+					},
+					"preset": {
+						"type": "squad",
+						"name": "Combine Death Squad"
+					}
+				},
+				{
+					"expected": {
+						"d": 4,
+						"f": 0.25,
+						"n": 1
+					},
+					"preset": {
+						"type": "squad",
+						"name": "Rebel Heroes"
+					}
+				},
+				{
+					"expected": {
+						"d": 8,
+						"f": 0.125,
+						"n": 1
+					},
+					"preset": {
+						"type": "squad",
+						"name": "Rebel Outlanders"
+					}
+				},
+				{
+					"expected": {
+						"d": 8,
+						"f": 0.125,
+						"n": 1
+					},
+					"preset": {
+						"type": "squad",
+						"name": "Combine Elite"
+					}
+				},
+				{
+					"expected": {
+						"d": 12,
+						"f": 0.08333333333333333,
+						"n": 1
+					},
+					"preset": {
+						"type": "squad",
+						"name": "Combine Hunters"
+					}
+				},
+				{
+					"expected": {
+						"d": 8,
+						"f": 0.125,
+						"n": 1
+					},
+					"preset": {
+						"type": "squad",
+						"name": "Partisan Bombers"
+					}
+				},
+				{
+					"expected": {
+						"d": 12,
+						"f": 0.08333333333333333,
+						"n": 1
+					},
+					"preset": {
+						"type": "squad",
+						"name": "Rebel Demolition Team"
+					}
+				},
+				{
+					"expected": {
+						"d": 2,
+						"f": 0.5,
+						"n": 1
+					},
+					"preset": {
+						"type": "squad",
+						"name": "Partisan Cell"
+					}
+				},
+				{
+					"expected": {
+						"d": 5,
+						"f": 0.2,
+						"n": 1
+					},
+					"preset": {
+						"type": "squad",
+						"name": "Black Ops Team"
+					}
+				}
+			],
+			"quota_squad_max": 6,
+			"quota_squad_min": 3
+		},
+		"LOOT": {
+			"VERSION": 53,
+			"pool_spawnlimit": 16,
+			"radiuslimits": [
+				{
+					"minradius": 512,
+					"spawn_tooclose": 384,
+					"radius_autoadjust_min": false,
+					"despawn_tooclose": 512,
+					"maxradius": 3072,
+					"radius_entity_limit": 16,
+					"despawn": true
+				},
+				{
+					"radius_autoadjust_max": false,
+					"radius_autoadjust_min": false,
+					"spawn_tooclose": 3072,
+					"radius_entity_limit": 0,
+					"minradius": 3072,
+					"nospawn": true,
+					"radius_squad_limit": 0,
+					"maxradius": 32768,
+					"despawn_tooclose": 3072,
+					"radius_spawn_autoadjust": false,
+					"despawn": true
+				}
+			],
+			"spawn_autoadjust": true,
+			"quota_entity_max": 24,
+			"spawns": [
+				{
+					"expected": {
+						"d": 1,
+						"f": 1,
+						"n": 1
+					},
+					"preset": {
+						"type": "entity",
+						"name": "9mm Rounds"
+					}
+				},
+				{
+					"expected": {
+						"d": 2,
+						"f": 0.5,
+						"n": 1
+					},
+					"preset": {
+						"type": "entity",
+						"name": "Medicine Vial"
+					}
+				},
+				{
+					"expected": {
+						"d": 2,
+						"f": 0.5,
+						"n": 1
+					},
+					"preset": {
+						"type": "entity",
+						"name": "Box of Buckshot"
+					}
+				},
+				{
+					"expected": {
+						"d": 4,
+						"f": 0.25,
+						"n": 1
+					},
+					"preset": {
+						"type": "entity",
+						"name": "AR2 Cell"
+					}
+				},
+				{
+					"expected": {
+						"d": 4,
+						"f": 0.25,
+						"n": 1
+					},
+					"preset": {
+						"type": "entity",
+						"name": "Battery"
+					}
+				},
+				{
+					"expected": {
+						"d": 4,
+						"f": 0.25,
+						"n": 1
+					},
+					"preset": {
+						"type": "entity",
+						"name": "First Aid Kit"
+					}
+				},
+				{
+					"expected": {
+						"d": 5,
+						"f": 0.2,
+						"n": 1
+					},
+					"preset": {
+						"type": "entity",
+						"name": "Rocket"
+					}
+				},
+				{
+					"expected": {
+						"d": 4,
+						"f": 0.25,
+						"n": 1
+					},
+					"preset": {
+						"type": "entity",
+						"name": "USP Match"
+					}
+				},
+				{
+					"expected": {
+						"d": 5,
+						"f": 0.2,
+						"n": 1
+					},
+					"preset": {
+						"type": "entity",
+						"name": "MP7"
+					}
+				},
+				{
+					"expected": {
+						"d": 8,
+						"f": 0.125,
+						"n": 1
+					},
+					"preset": {
+						"type": "entity",
+						"name": "SPAS-12"
+					}
+				},
+				{
+					"expected": {
+						"d": 8,
+						"f": 0.125,
+						"n": 1
+					},
+					"preset": {
+						"type": "entity",
+						"name": "Overwatch Pulse Rifle"
+					}
+				},
+				{
+					"expected": {
+						"d": 10,
+						"f": 0.1,
+						"n": 1
+					},
+					"preset": {
+						"type": "entity",
+						"name": "Colt Python"
+					}
+				},
+				{
+					"expected": {
+						"d": 10,
+						"f": 0.1,
+						"n": 1
+					},
+					"preset": {
+						"type": "entity",
+						"name": "Resistance Crossbow"
+					}
+				},
+				{
+					"expected": {
+						"d": 10,
+						"f": 0.1,
+						"n": 1
+					},
+					"preset": {
+						"type": "entity",
+						"name": "Resistance RPG"
+					}
+				},
+				{
+					"expected": {
+						"d": 8,
+						"f": 0.125,
+						"n": 1
+					},
+					"preset": {
+						"type": "entity",
+						"name": "Frag Grenade"
+					}
+				}
+			],
+			"mindelay": [
+				"__RANDOM",
+				2,
+				6
+			]
+		},
+		"Predator": {
+			"quota_entity_min": 2,
+			"spawns": [
+				{
+					"expected": {
+						"d": 1,
+						"f": 1,
+						"n": 1
+					},
+					"preset": {
+						"type": "squad",
+						"name": "Predator - Goblin Girl"
+					}
+				},
+				{
+					"expected": {
+						"d": 1,
+						"f": 1,
+						"n": 1
+					},
+					"preset": {
+						"type": "squad",
+						"name": "Predator - Salamander"
+					}
+				},
+				{
+					"expected": {
+						"d": 1,
+						"f": 1,
+						"n": 1
+					},
+					"preset": {
+						"type": "squad",
+						"name": "Predator - Kroxi"
+					}
+				},
+				{
+					"expected": {
+						"d": 2,
+						"f": 0.5,
+						"n": 1
+					},
+					"preset": {
+						"type": "squad",
+						"name": "Predator - D.VA"
+					}
+				},
+				{
+					"expected": {
+						"d": 2,
+						"f": 0.5,
+						"n": 1
+					},
+					"preset": {
+						"type": "squad",
+						"name": "Predator - Monster Energy Chan"
+					}
+				},
+				{
+					"expected": {
+						"d": 2,
+						"f": 0.5,
+						"n": 1
+					},
+					"preset": {
+						"type": "squad",
+						"name": "Predator - Toriel"
+					}
+				},
+				{
+					"expected": {
+						"d": 2,
+						"f": 0.5,
+						"n": 1
+					},
+					"preset": {
+						"type": "squad",
+						"name": "Predator - Sadako"
+					}
+				},
+				{
+					"expected": {
+						"d": 4,
+						"f": 0.25,
+						"n": 1
+					},
+					"preset": {
+						"type": "squad",
+						"name": "Predator - Mal0"
+					}
+				},
+				{
+					"expected": {
+						"d": 4,
+						"f": 0.25,
+						"n": 1
+					},
+					"preset": {
+						"type": "squad",
+						"name": "Predator - Xenomorph"
+					}
+				},
+				{
+					"expected": {
+						"d": 4,
+						"f": 0.25,
+						"n": 1
+					},
+					"preset": {
+						"type": "squad",
+						"name": "Predator - Deathclaw"
+					}
+				},
+				{
+					"expected": {
+						"d": 4,
+						"f": 0.25,
+						"n": 1
+					},
+					"preset": {
+						"type": "squad",
+						"name": "Predator - Queen Chrysalis"
+					}
+				},
+				{
+					"expected": {
+						"d": 2,
+						"f": 0.5,
+						"n": 1
+					},
+					"preset": {
+						"type": "squad",
+						"name": "Predator - Anubis"
+					}
+				},
+				{
+					"expected": {
+						"d": 2,
+						"f": 0.5,
+						"n": 1
+					},
+					"preset": {
+						"type": "squad",
+						"name": "Predator - Tasque Manager"
+					}
+				},
+				{
+					"expected": {
+						"d": 3,
+						"f": 0.3333333333333333,
+						"n": 1
+					},
+					"preset": {
+						"type": "squad",
+						"name": "Predator - Karelia"
+					}
+				},
+				{
+					"expected": {
+						"d": 1,
+						"f": 1,
+						"n": 1
+					},
+					"preset": {
+						"type": "squad",
+						"name": "Predator - Marin"
+					}
+				},
+				{
+					"expected": {
+						"d": 2,
+						"f": 0.5,
+						"n": 1
+					},
+					"preset": {
+						"type": "squad",
+						"name": "Predator - Roxy"
+					}
+				},
+				{
+					"expected": {
+						"d": 2,
+						"f": 0.5,
+						"n": 1
+					},
+					"preset": {
+						"type": "squad",
+						"name": "Predator - Meru"
+					}
+				},
+				{
+					"expected": {
+						"d": 1,
+						"f": 1,
+						"n": 1
+					},
+					"preset": {
+						"type": "squad",
+						"name": "Predator - Angela"
+					}
+				},
+				{
+					"expected": {
+						"d": 1,
+						"f": 1,
+						"n": 1
+					},
+					"preset": {
+						"type": "squad",
+						"name": "Predator - Toofy"
+					}
+				},
+				{
+					"expected": {
+						"d": 2,
+						"f": 0.5,
+						"n": 1
+					},
+					"preset": {
+						"type": "squad",
+						"name": "Predator - Ankha"
+					}
+				}
+			],
+			"pool_spawnlimit": 5,
+			"radiuslimits": [
+				{
+					"radius_autoadjust_max": true,
+					"radius_autoadjust_min": true,
+					"spawn_tooclose": 1024,
+					"radius_entity_limit": 5,
+					"minradius": 2048,
+					"despawn_tooclose": 2048,
+					"maxradius": 8192,
+					"despawn_addquota": false,
+					"radius_spawn_autoadjust": true,
+					"despawn": true
+				},
+				{
+					"radius_autoadjust_max": true,
+					"radius_autoadjust_min": true,
+					"maxradius": 32768,
+					"radius_entity_limit": 0,
+					"minradius": 8192,
+					"nospawn": true,
+					"spawn_tooclose": 8192,
+					"despawn_tooclose": 3072,
+					"radius_squad_limit": 0,
+					"despawn": true
+				}
+			],
+			"quota_entity_max": 5,
+			"VERSION": 53
+		}
+	},
+	"npc": {
+		"Metrocop Enforcer": {
+			"long_range": false,
+			"damagefilter_out": [
+				{
+					"new_dmg_type": "DMG_SHOCK"
+				}
+			],
+			"childpreset": {
+				"type": "npc",
+				"name": "Manhack"
+			},
+			"weapondrawn": true,
+			"damagescale_in": 0.7,
+			"stress_mult": 0.5,
+			"weapon_proficiency": "Average",
+			"drop_set": [
+				{
+					"chance": {
+						"d": 1,
+						"f": 1,
+						"n": 1
+					},
+					"drop_set": {
+						"type": "drop_set",
+						"name": "Metrocop Grunt"
+					}
+				}
+			],
+			"VERSION": 53,
+			"manhacks": 1,
+			"classname": {
+				"type": "NPC",
+				"name": "npc_metropolice"
+			},
+			"entity_type": "npc",
+			"spawneffect": [],
+			"weapon": {
+				"type": "NPCUsableWeapons",
+				"name": "weapon_stunstick"
+			}
+		},
+		"Intruder": {
+			"moveact": "ACT_RUN_CROUCH",
+			"relationships_outward": {
+				"everyone": {
+					"priority": 99,
+					"disposition": "Hostile"
+				}
+			},
+			"classname": {
+				"type": "NPC",
+				"name": "npc_citizen"
+			},
+			"renderamt": 10,
+			"entity_type": "npc",
+			"aware_range": 768,
+			"description": "Invisible dudes with the blicky. Predators will still take care of them but they're sneaky little bastards.",
+			"animspeed": 1.1,
+			"icon": "entities/weapon_bmesa_glock.png",
+			"maxhealth": [
+				"__RANDOM",
+				21,
+				28
+			],
+			"model": "models/humans/intruder/intruder.mdl",
+			"spawnflags": [
+				"Random male head",
+				"Gag (No IDLE sounds until angry)"
+			],
+			"rendercolor": {
+				"r": 0,
+				"b": 0,
+				"a": 255,
+				"g": 0
+			},
+			"drop_set": [
+				{
+					"drop_set": {
+						"type": "drop_set",
+						"name": "Metrocop"
+					},
+					"chance": {
+						"d": 2,
+						"f": 0.5,
+						"n": 1
+					}
+				}
+			],
+			"relationships_inward": {
+				"everyone": {
+					"priority": 99,
+					"disposition": "Neutral"
+				}
+			},
+			"damagefilter_out": [
+				{
+					"continue": true,
+					"attacker": {
+						"apply_values": {
+							"npc": {
+								"rendercolor": {
+									"r": 253,
+									"b": 254,
+									"a": 255,
+									"g": 255
+								},
+								"rendermode": "RENDERMODE_TRANSCOLOR",
+								"drawshadow": true,
+								"renderfx": "kRenderFxNone",
+								"renderamt": 255,
+								"relationships_inward": {
+									"everyone": {
+										"priority": 99,
+										"disposition": "Hostile"
+									}
+								}
+							}
+						}
+					}
+				},
+				{
+					"maxpasses": 1,
+					"damagescale": 3
+				}
+			],
+			"spawneffect": [],
+			"renderfx": "kRenderFxPulseSlow",
+			"weapon_set": {
+				"type": "weapon_set",
+				"name": "Intruder"
+			},
+			"VERSION": 53
+		},
+		"Hunter": {
+			"VERSION": 53,
+			"classname": {
+				"type": "NPC",
+				"name": "npc_hunter"
+			},
+			"maxhealth": 140,
+			"entity_type": "npc",
+			"spawneffect": [],
+			"stress_mult": 4
+		},
+		"Scavver Raider": {
+			"relationships_outward": {
+				"everyone": {
+					"disposition": "Hostile"
+				}
+			},
+			"classname": {
+				"type": "NPC",
+				"name": "npc_citizen"
+			},
+			"regen": [
+				"__RANDOM",
+				1,
+				4
+			],
+			"bodygroups": [
+				{
+					"value": [
+						"__TBLRANDOM",
+						0,
+						1,
+						3
+					]
+				},
+				{
+					"group": 2,
+					"value": [
+						"__RANDOM",
+						0,
+						1
+					]
+				},
+				{
+					"value": [
+						"__RANDOM",
+						0,
+						1
+					],
+					"group": 3
+				},
+				{
+					"group": 4,
+					"value": [
+						"__RANDOM",
+						0,
+						1
+					]
+				},
+				{
+					"value": [
+						"__RANDOM",
+						0,
+						1
+					],
+					"group": 5
+				},
+				{
+					"group": 6,
+					"value": [
+						"__RANDOM",
+						0,
+						1
+					]
+				}
+			],
+			"weapon_set": {
+				"type": "weapon_set",
+				"name": "Scavver Raider"
+			},
+			"regendelay": [
+				"__RANDOM",
+				1,
+				6
+			],
+			"icon": "vgui/entities/npc_blsmggrunt_enemy.vmt",
+			"weapon_proficiency": [
+				"__TBLRANDOM",
+				"Average",
+				"Good"
+			],
+			"drop_set": [
+				{
+					"drop_set": {
+						"type": "drop_set",
+						"name": "Refugee"
+					},
+					"chance": {
+						"d": 1,
+						"f": 1,
+						"n": 1
+					}
+				},
+				{
+					"chance": {
+						"d": 1,
+						"f": 1,
+						"n": 1
+					},
+					"drop_set": {
+						"type": "drop_set",
+						"name": "Refugee"
+					}
+				}
+			],
+			"model": "models/bl_npc/bl_smggrunt_aly.mdl",
+			"damagescale_in": 0.8,
+			"spawnflags": [],
+			"maxhealth": [
+				"__RANDOM",
+				25,
+				35
+			],
+			"citizentype": "Default",
+			"relationships_inward": {
+				"everyone": {
+					"disposition": "Hostile"
+				}
+			},
+			"entity_type": "npc",
+			"spawneffect": [],
+			"description": "Various hostile scavengers of this fucked up world. Average to ghetto gunfighters with little strategy or kindness. He bought the gun with his EBT card.",
+			"start_patrol": true,
+			"VERSION": 53
+		},
+		"Refugee": {
+			"long_range": false,
+			"damagefilter_in": [
+				{
+					"victim": {
+						"drop_weapon": [
+							"__TBLRANDOM",
+							false,
+							false,
+							true
+						],
+						"inputs": [
+							{
+								"command": "StopPatrolling"
+							},
+							{
+								"command": "SetReadinessPanic"
+							},
+							{
+								"delay": 1,
+								"command": "LockReadiness",
+								"LOOKUP_REROLL": {
+									"value": true
+								},
+								"value": [
+									"__RANDOM",
+									24,
+									36
+								]
+							}
+						]
+					},
+					"condition": {
+						"chance": {
+							"d": 4,
+							"f": 0.25,
+							"n": 1
+						},
+						"attacker": {
+							"classnames": {
+								"exclude": [
+									{
+										"type": "NPC",
+										"name": "npc_vortigaunt"
+									},
+									{
+										"type": "NPC",
+										"name": "npc_citizen"
+									}
+								]
+							}
+						}
+					}
+				}
+			],
+			"drawshadow": true,
+			"relationships_outward": {
+				"by_class": [
+					{
+						"classname": {
+							"type": "NPC",
+							"name": "npc_combine_s"
+						}
+					},
+					{
+						"classname": {
+							"type": "NPC",
+							"name": "npc_metropolice"
+						}
+					},
+					{
+						"disposition": "Fear",
+						"priority": 99,
+						"classname": {
+							"type": "NPC",
+							"name": "npc_manhack"
+						}
+					}
+				]
+			},
+			"classname": {
+				"type": "NPC",
+				"name": "npc_citizen"
+			},
+			"healthmult": [
+				"__RANDOM",
+				1,
+				1
+			],
+			"weapon_set": {
+				"type": "weapon_set",
+				"name": "Refugee"
+			},
+			"description": "A step up from the cannon fodder citizens, these guys might withstand a fart or even a sneeze before dying.",
+			"icon": "entities/refugee.png",
+			"weapon_proficiency": [
+				"__TBLRANDOM",
+				"Average",
+				"Average",
+				"Good"
+			],
+			"drop_set": [
+				{
+					"drop_set": {
+						"type": "drop_set",
+						"name": "Refugee"
+					},
+					"chance": {
+						"d": 1,
+						"f": 1,
+						"n": 1
+					}
+				}
+			],
+			"VERSION": 53,
+			"stress_mult": 0.25,
+			"spawneffect": [],
+			"entity_type": "npc",
+			"citizentype": "Refugee",
+			"dropweapon": false,
+			"quota_weight": 0.25
+		},
+		"Black Ops Pointman": {
+			"inputs": [
+				{
+					"command": "GagEnable"
+				}
+			],
+			"relationships_outward": {
+				"everyone": {
+					"disposition": "Hostile"
+				}
+			},
+			"classname": {
+				"type": "NPC",
+				"name": "npc_combine_s"
+			},
+			"regen": [
+				"__RANDOM",
+				4,
+				8
+			],
+			"entity_type": "npc",
+			"spawneffect": [
+				{
+					"type": "sound",
+					"sound": {
+						"dist": 65,
+						"volume": 1
+					},
+					"name": [
+						"__TBLRANDOM",
+						"radio/go.wav",
+						"radio/locknload.wav",
+						"radio/moveout.wav"
+					],
+					"chance": {
+						"d": 1,
+						"f": 1,
+						"n": 1
+					}
+				},
+				{
+					"delay": [
+						"__RANDOM",
+						0,
+						4
+					],
+					"type": "sound",
+					"chance": {
+						"d": 5,
+						"f": 0.4,
+						"n": 2
+					},
+					"name": "items/ammo_pickup.wav",
+					"sound": {
+						"dist": 65,
+						"volume": 1
+					}
+				}
+			],
+			"description": "The infamous Pointman assignment in a Black Ops squad is reserved for soldiers that have proven they simply do not give a fuck about dying.",
+			"tacticalvariant": "Pressure the enemy (Keep advancing)",
+			"icon": "vgui/entities/npc_bloperativespec_enemy.vmt",
+			"weapon_proficiency": "Very Good",
+			"soldiertype": "Normal",
+			"maxhealth": [
+				"__RANDOM",
+				40,
+				50
+			],
+			"model": "models/bl_npc/bl_operatorspec_enm.mdl",
+			"spawnflags": [
+				"Gag (No IDLE sounds until angry)",
+				"Don't drop grenades"
+			],
+			"bodygroups": [
+				"__TBLRANDOM",
+				[
+					{
+						"group": "Head",
+						"value": [
+							"__TBLRANDOM",
+							2,
+							5
+						]
+					},
+					{
+						"value": 1,
+						"group": "Lens"
+					},
+					{
+						"value": [
+							"__RANDOM",
+							0,
+							2
+						],
+						"group": "Body"
+					},
+					{
+						"value": [
+							"__RANDOM",
+							0,
+							6
+						],
+						"group": "Backpack"
+					},
+					{
+						"value": [
+							"__RANDOM",
+							0,
+							2
+						],
+						"group": "Waistgear"
+					},
+					{
+						"group": "Holster",
+						"value": 1
+					},
+					{
+						"group": "Leftgear",
+						"value": [
+							"__RANDOM",
+							1,
+							2
+						]
+					}
+				]
+			],
+			"drop_set": [
+				{
+					"drop_set": {
+						"type": "drop_set",
+						"name": "Combine Sterilizer"
+					},
+					"chance": {
+						"d": 1,
+						"f": 1,
+						"n": 1
+					}
+				}
+			],
+			"relationships_inward": {
+				"everyone": {
+					"disposition": "Hostile"
+				}
+			},
+			"regendelay": [
+				"__RANDOM",
+				3,
+				6
+			],
+			"numgrenades": 2,
+			"weapon": {
+				"type": "NPCUsableWeapons",
+				"name": "swep_ai_xm1014"
+			},
+			"start_patrol": false,
+			"VERSION": 53
+		},
+		"Rebel": {
+			"long_range": false,
+			"damagefilter_in": [
+				{
+					"victim": {
+						"drop_weapon": [
+							"__TBLRANDOM",
+							false,
+							false,
+							true
+						],
+						"inputs": [
+							{
+								"command": "StopPatrolling"
+							},
+							{
+								"command": "SetReadinessPanic"
+							},
+							{
+								"delay": 1,
+								"command": "LockReadiness",
+								"LOOKUP_REROLL": {
+									"value": true
+								},
+								"value": [
+									"__RANDOM",
+									12,
+									24
+								]
+							}
+						]
+					},
+					"condition": {
+						"chance": {
+							"d": 16,
+							"f": 0.0625,
+							"n": 1
+						},
+						"attacker": {
+							"classnames": {
+								"exclude": [
+									{
+										"type": "NPC",
+										"name": "npc_vortigaunt"
+									},
+									{
+										"type": "NPC",
+										"name": "npc_citizen"
+									}
+								]
+							}
+						}
+					}
+				}
+			],
+			"drawshadow": true,
+			"relationships_outward": {
+				"by_preset": [
+					{
+						"preset": {
+							"type": "npc",
+							"name": "Combine Elite"
+						},
+						"priority": 99,
+						"disposition": "Fear"
+					},
+					{
+						"preset": {
+							"type": "npc",
+							"name": "Combine Incinerator"
+						},
+						"priority": 99,
+						"disposition": "Fear"
+					},
+					{
+						"preset": {
+							"type": "npc",
+							"name": "Metrocop Suppressor"
+						},
+						"priority": 99,
+						"disposition": "Fear"
+					},
+					{
+						"preset": {
+							"type": "npc",
+							"name": "Metrocop Marksman"
+						},
+						"priority": 99,
+						"disposition": "Fear"
+					}
+				]
+			},
+			"classname": {
+				"type": "NPC",
+				"name": "npc_citizen"
+			},
+			"healthmult": [
+				"__RAND",
+				0.6,
+				1.4
+			],
+			"spawneffect": [],
+			"description": "The good ol' source engine rebel. They've got guns and at least a fifth of a brain that houses zero survival instincts.",
+			"icon": "entities/rebel.png",
+			"weapon_proficiency": [
+				"__TBLRANDOM",
+				"Average",
+				"Average",
+				"Good",
+				"Good",
+				"Very Good",
+				"Average"
+			],
+			"stress_mult": 0.5,
+			"VERSION": 53,
+			"citizentype": "Rebel",
+			"weapon_set": {
+				"type": "weapon_set",
+				"name": "Rebel"
+			},
+			"entity_type": "npc",
+			"drop_set": [
+				{
+					"chance": {
+						"d": 4,
+						"f": 1,
+						"n": 4
+					},
+					"drop_set": {
+						"type": "drop_set",
+						"name": "Rebel"
+					}
+				}
+			],
+			"dropweapon": false,
+			"quota_weight": 0.5
+		},
+		"Combine Soldier": {
+			"long_range": true,
+			"tacticalvariant": "Normal Tactics",
+			"icon": "entities/npc_combine_s.png",
+			"weapon_proficiency": "Very Good",
+			"soldiertype": "Normal",
+			"weapon": {
+				"type": "NPCUsableWeapons",
+				"name": "weapon_ar2"
+			},
+			"spawneffect": [],
+			"drop_set": [
+				{
+					"chance": {
+						"d": 1,
+						"f": 1,
+						"n": 1
+					},
+					"drop_set": {
+						"type": "drop_set",
+						"name": "Combine Soldier"
+					}
+				}
+			],
+			"VERSION": 53,
+			"stress_mult": 1.5,
+			"classname": {
+				"type": "NPC",
+				"name": "npc_combine_s"
+			},
+			"numgrenades": [
+				"__RANDOM",
+				1,
+				2
+			],
+			"entity_type": "npc",
+			"dropweapon": false,
+			"description": "npc_combine_s my beloved, how I love killing you. He's rocking that ol' AR2!"
+		},
+		"Combine Skirmisher": {
+			"long_range": false,
+			"tacticalvariant": "Pressure until within 30ft, then normal",
+			"icon": "entities/npc_combine_s.png",
+			"weapon_proficiency": "Very Good",
+			"soldiertype": "Normal",
+			"weapon": {
+				"type": "NPCUsableWeapons",
+				"name": "weapon_smg1"
+			},
+			"dropweapon": false,
+			"drop_set": [
+				{
+					"chance": {
+						"d": 1,
+						"f": 1,
+						"n": 1
+					},
+					"drop_set": {
+						"type": "drop_set",
+						"name": "Combine Skirmisher"
+					}
+				}
+			],
+			"VERSION": 53,
+			"stress_mult": 1.5,
+			"classname": {
+				"type": "NPC",
+				"name": "npc_combine_s"
+			},
+			"numgrenades": 0,
+			"entity_type": "npc",
+			"spawneffect": [],
+			"description": "The little brothers of the combine soldier, he's a real trooper spraying those SMG bullets like a out of control fire hose and ultimately doing 4-12 damage before dying."
+		},
+		"Rebel Vortigaunt": {
+			"long_range": false,
+			"icon": "entities/npc_vortigaunt.png",
+			"weapon_proficiency": "Perfect",
+			"drawshadow": true,
+			"regendelay": 4,
+			"dropweapon": false,
+			"quota_weight": 0.25,
+			"stress_mult": 0.25,
+			"VERSION": 53,
+			"classname": {
+				"type": "NPC",
+				"name": "npc_vortigaunt"
+			},
+			"regen": 8,
+			"entity_type": "npc",
+			"spawneffect": [],
+			"description": "These alien zappers are indispensible to the liberation. Probably don't taste very good, though."
+		},
+		"Rebel Medic": {
+			"long_range": true,
+			"damagefilter_in": [
+				{
+					"victim": {
+						"drop_weapon": [
+							"__TBLRANDOM",
+							false,
+							false,
+							true
+						],
+						"inputs": [
+							{
+								"command": "StopPatrolling"
+							},
+							{
+								"command": "SetReadinessPanic"
+							},
+							{
+								"delay": 1,
+								"command": "LockReadiness",
+								"LOOKUP_REROLL": {
+									"value": true
+								},
+								"value": [
+									"__RANDOM",
+									6,
+									32
+								]
+							}
+						]
+					},
+					"condition": {
+						"chance": {
+							"d": 8,
+							"f": 0.125,
+							"n": 1
+						},
+						"attacker": {
+							"classnames": {
+								"exclude": [
+									{
+										"type": "NPC",
+										"name": "npc_vortigaunt"
+									},
+									{
+										"type": "NPC",
+										"name": "npc_citizen"
+									}
+								]
+							}
+						}
+					}
+				}
+			],
+			"drawshadow": true,
+			"relationships_outward": {
+				"by_preset": [
+					{
+						"preset": {
+							"type": "npc",
+							"name": "Combine Elite"
+						},
+						"priority": 99,
+						"disposition": "Fear"
+					},
+					{
+						"preset": {
+							"type": "npc",
+							"name": "Combine Incinerator"
+						},
+						"priority": 99,
+						"disposition": "Fear"
+					},
+					{
+						"preset": {
+							"type": "npc",
+							"name": "Metrocop Suppressor"
+						},
+						"priority": 99,
+						"disposition": "Fear"
+					},
+					{
+						"preset": {
+							"type": "npc",
+							"name": "Metrocop Marksman"
+						},
+						"priority": 99,
+						"disposition": "Fear"
+					}
+				]
+			},
+			"classname": {
+				"type": "NPC",
+				"name": "npc_citizen"
+			},
+			"entity_type": "npc",
+			"weapon_set": {
+				"type": "weapon_set",
+				"name": "Rebel Medic"
+			},
+			"description": "This rebel is a master surgeon and graduated top of his class. (He hands out the first aid kits)",
+			"icon": "entities/medic.png",
+			"weapon_proficiency": [
+				"__TBLRANDOM",
+				"Average",
+				"Average",
+				"Good",
+				"Good",
+				"Very Good",
+				"Average"
+			],
+			"spawnflags": [
+				"Medic"
+			],
+			"drop_set": [
+				{
+					"drop_set": {
+						"type": "drop_set",
+						"name": "Medic"
+					},
+					"chance": {
+						"d": 1,
+						"f": 1,
+						"n": 1
+					}
+				}
+			],
+			"VERSION": 53,
+			"citizentype": "Rebel",
+			"healthmult": [
+				"__RAND",
+				0.6,
+				1.4
+			],
+			"spawneffect": [],
+			"stress_mult": 0.25,
+			"dropweapon": false,
+			"quota_weight": 0.25
+		},
+		"Refugee Bomber": {
+			"long_range": true,
+			"drawshadow": true,
+			"classname": {
+				"type": "NPC",
+				"name": "npc_citizen"
+			},
+			"healthmult": [
+				"__RAND",
+				0.8,
+				1.2
+			],
+			"spawneffect": [],
+			"weapon": {
+				"type": "Weapon",
+				"name": "weapon_rpg"
+			},
+			"damagescale_out": 2,
+			"weapon_proficiency": [
+				"__TBLRANDOM",
+				"Average",
+				"Average",
+				"Good"
+			],
+			"VERSION": 53,
+			"description": "Dmitri got into the rocket cache again and he has NOTHING to lose.",
+			"citizentype": "Refugee",
+			"entity_type": "npc",
+			"icon": "entities/refugee.png",
+			"drop_set": [
+				{
+					"chance": {
+						"d": 1,
+						"f": 1,
+						"n": 1
+					},
+					"drop_set": {
+						"type": "drop_set",
+						"name": "Metrocop Demolitionist"
+					}
+				}
+			],
+			"stress_mult": 0.25,
+			"dropweapon": false,
+			"quota_weight": 0.25
+		},
+		"Citizen": {
+			"long_range": false,
+			"damagefilter_in": [
+				{
+					"victim": {
+						"drop_weapon": [
+							"__TBLRANDOM",
+							false,
+							false,
+							true
+						],
+						"inputs": [
+							{
+								"command": "StopPatrolling"
+							},
+							{
+								"command": "SetReadinessPanic"
+							},
+							{
+								"delay": 1,
+								"command": "LockReadiness",
+								"LOOKUP_REROLL": {
+									"value": true
+								},
+								"value": [
+									"__RANDOM",
+									36,
+									48
+								]
+							}
+						]
+					},
+					"condition": {
+						"attacker": {
+							"classnames": {
+								"exclude": [
+									{
+										"type": "NPC",
+										"name": "npc_vortigaunt"
+									},
+									{
+										"type": "NPC",
+										"name": "npc_citizen"
+									}
+								]
+							}
+						},
+						"chance": {
+							"d": 4,
+							"f": 0.5,
+							"n": 2
+						}
+					}
+				}
+			],
+			"drawshadow": true,
+			"relationships_outward": {
+				"by_class": [
+					{
+						"classname": {
+							"type": "NPC",
+							"name": "npc_combine_s"
+						}
+					},
+					{
+						"classname": {
+							"type": "NPC",
+							"name": "npc_metropolice"
+						}
+					},
+					{
+						"disposition": "Fear",
+						"priority": 99,
+						"classname": {
+							"type": "NPC",
+							"name": "npc_manhack"
+						}
+					}
+				]
+			},
+			"classname": {
+				"type": "NPC",
+				"name": "npc_citizen"
+			},
+			"entity_type": "npc",
+			"spawneffect": [],
+			"description": "Hapless idiots that have weapons, but they don't really use them. Easy fodder.",
+			"icon": "entities/npc_citizen.png",
+			"weapon_proficiency": [
+				"__TBLRANDOM",
+				"Poor",
+				"Poor",
+				"Poor",
+				"Average",
+				"Average",
+				"Good"
+			],
+			"VERSION": 53,
+			"citizentype": "Default",
+			"seekout_schedule": [
+				"SCHED_BACK_AWAY_FROM_ENEMY"
+			],
+			"weapon_set": {
+				"type": "weapon_set",
+				"name": "Citizen"
+			},
+			"stress_mult": 0.5,
+			"drop_set": [
+				{
+					"drop_set": {
+						"type": "drop_set",
+						"name": "Citizen"
+					},
+					"chance": {
+						"d": 1,
+						"f": 1,
+						"n": 1
+					}
+				}
+			],
+			"dropweapon": false,
+			"quota_weight": 0.5
+		},
+		"Metrocop Raider": {
+			"childpreset": {
+				"type": "npc",
+				"name": "Manhack"
+			},
+			"weapondrawn": true,
+			"drop_set": [
+				{
+					"drop_set": {
+						"type": "drop_set",
+						"name": "Metrocop Raider"
+					},
+					"chance": {
+						"d": 1,
+						"f": 1,
+						"n": 1
+					}
+				}
+			],
+			"spawneffect": [],
+			"VERSION": 53,
+			"stress_mult": 1.5,
+			"weapon_proficiency": "Good",
+			"classname": {
+				"type": "NPC",
+				"name": "npc_metropolice"
+			},
+			"childpreset_replace": true,
+			"entity_type": "npc",
+			"dropweapon": false,
+			"weapon": {
+				"type": "NPCUsableWeapons",
+				"name": "weapon_smg1"
+			}
+		},
+		"Scavver": {
+			"relationships_outward": {
+				"everyone": {
+					"disposition": "Hostile"
+				}
+			},
+			"classname": {
+				"type": "NPC",
+				"name": "npc_citizen"
+			},
+			"regen": [
+				"__RANDOM",
+				1,
+				4
+			],
+			"entity_type": "npc",
+			"weapon_set": {
+				"type": "weapon_set",
+				"name": "Scavver"
+			},
+			"regendelay": [
+				"__RANDOM",
+				1,
+				6
+			],
+			"icon": "vgui/entities/npc_blgrunt_ally.vmt",
+			"weapon_proficiency": [
+				"__TBLRANDOM",
+				"Poor",
+				"Average"
+			],
+			"maxhealth": [
+				"__RANDOM",
+				20,
+				30
+			],
+			"drop_set": [
+				{
+					"chance": {
+						"d": 1,
+						"f": 1,
+						"n": 1
+					},
+					"drop_set": {
+						"type": "drop_set",
+						"name": "Refugee"
+					}
+				}
+			],
+			"spawnflags": [
+				"Random male head"
+			],
+			"model": [
+				"__TBLRANDOM",
+				"models/bl_npc/bl_grunt_aly.mdl",
+				"models/bl_npc/bl_hwgrunt_aly.mdl"
+			],
+			"citizentype": "Default",
+			"relationships_inward": {
+				"everyone": {
+					"disposition": "Hostile"
+				}
+			},
+			"spawneffect": [],
+			"description": "Various hostile scavengers of this fucked up world. Average to ghetto gunfighters with little strategy or kindness.",
+			"bodygroups": [
+				{
+					"value": [
+						"__TBLRANDOM",
+						0,
+						1,
+						3
+					]
+				},
+				{
+					"value": [
+						"__RANDOM",
+						0,
+						1
+					],
+					"group": 2
+				},
+				{
+					"group": 3,
+					"value": [
+						"__RANDOM",
+						0,
+						1
+					]
+				},
+				{
+					"value": [
+						"__RANDOM",
+						0,
+						1
+					],
+					"group": 4
+				},
+				{
+					"group": 5,
+					"value": [
+						"__RANDOM",
+						0,
+						1
+					]
+				},
+				{
+					"value": [
+						"__RANDOM",
+						0,
+						1
+					],
+					"group": 6
+				}
+			],
+			"start_patrol": [
+				"__TBLRANDOM",
+				true,
+				true,
+				false
+			],
+			"VERSION": 53
+		},
+		"Black Ops": {
+			"inputs": [
+				{
+					"command": "GagEnable"
+				}
+			],
+			"relationships_outward": {
+				"everyone": {
+					"disposition": "Hostile"
+				}
+			},
+			"classname": {
+				"type": "NPC",
+				"name": "npc_combine_s"
+			},
+			"regen": [
+				"__RANDOM",
+				4,
+				8
+			],
+			"bodygroups": [
+				"__TBLRANDOM",
+				[
+					{
+						"value": [
+							"__TBLRANDOM",
+							1,
+							4
+						],
+						"group": "Head"
+					},
+					{
+						"group": "Lens",
+						"value": 1
+					},
+					{
+						"group": "Body",
+						"value": [
+							"__RANDOM",
+							0,
+							2
+						]
+					},
+					{
+						"group": "Backpack",
+						"value": [
+							"__RANDOM",
+							0,
+							6
+						]
+					},
+					{
+						"group": "Waistgear",
+						"value": [
+							"__RANDOM",
+							0,
+							2
+						]
+					},
+					{
+						"value": 1,
+						"group": "Holster"
+					},
+					{
+						"value": [
+							"__RANDOM",
+							1,
+							2
+						],
+						"group": "Leftgear"
+					},
+					{
+						"group": "Calfknife",
+						"value": 1
+					}
+				]
+			],
+			"weapon_set": {
+				"type": "weapon_set",
+				"name": "Black Ops"
+			},
+			"regendelay": [
+				"__RANDOM",
+				3,
+				6
+			],
+			"tacticalvariant": "Normal Tactics",
+			"icon": "vgui/entities/npc_bloperative_enemy.vmt",
+			"weapon_proficiency": "Very Good",
+			"soldiertype": "Normal",
+			"maxhealth": [
+				"__RANDOM",
+				40,
+				50
+			],
+			"drop_set": [
+				{
+					"drop_set": {
+						"type": "drop_set",
+						"name": "Combine Elite"
+					},
+					"chance": {
+						"d": 1,
+						"f": 1,
+						"n": 1
+					}
+				}
+			],
+			"spawnflags": [
+				"Gag (No IDLE sounds until angry)",
+				"Don't drop grenades"
+			],
+			"entity_type": "npc",
+			"VERSION": 53,
+			"relationships_inward": {
+				"everyone": {
+					"disposition": "Hostile"
+				}
+			},
+			"spawneffect": [
+				{
+					"chance": {
+						"d": 5,
+						"f": 0.4,
+						"n": 2
+					},
+					"type": "sound",
+					"sound": {
+						"dist": 65,
+						"volume": 1
+					},
+					"name": "items/ammo_pickup.wav",
+					"delay": [
+						"__RANDOM",
+						0,
+						4
+					]
+				}
+			],
+			"numgrenades": 4,
+			"description": "Generic operators willing and able to take on all battles. While they still suffer all the weaknesses of being reskinned combine soldiers, their aimbot cannot be denied.",
+			"start_patrol": false,
+			"model": "models/bl_npc/bl_operator_enm.mdl"
+		},
+		"Combine Elite": {
+			"long_range": true,
+			"tacticalvariant": "Pressure until within 30ft, then normal",
+			"icon": "entities/combineelite.png",
+			"weapon_proficiency": "Perfect",
+			"soldiertype": "Elite",
+			"description": "These mofos mean business. Maybe not in stock HL2, but here they certainly do. You WILL feel that arbitrary x2 damage.",
+			"spawneffect": [],
+			"VERSION": 53,
+			"stress_mult": 4,
+			"drop_set": [
+				{
+					"chance": {
+						"d": 1,
+						"f": 1,
+						"n": 1
+					},
+					"drop_set": {
+						"type": "drop_set",
+						"name": "Combine Elite"
+					}
+				}
+			],
+			"damagescale_out": 2,
+			"classname": {
+				"type": "NPC",
+				"name": "npc_combine_s"
+			},
+			"numgrenades": [
+				"__RANDOM",
+				3,
+				3
+			],
+			"entity_type": "npc",
+			"dropweapon": false,
+			"weapon": {
+				"type": "NPCUsableWeapons",
+				"name": "weapon_ar2"
+			}
+		},
+		"Metrocop Grunt": {
+			"long_range": true,
+			"weapon_proficiency": "Good",
+			"weapondrawn": true,
+			"drop_set": [
+				{
+					"drop_set": {
+						"type": "drop_set",
+						"name": "Metrocop"
+					},
+					"chance": {
+						"d": 1,
+						"f": 1,
+						"n": 1
+					}
+				}
+			],
+			"VERSION": 53,
+			"dropweapon": false,
+			"manhacks": 0,
+			"classname": {
+				"type": "NPC",
+				"name": "npc_metropolice"
+			},
+			"entity_type": "npc",
+			"spawneffect": [],
+			"weapon": {
+				"type": "Weapon",
+				"name": "weapon_pistol"
+			}
+		},
+		"Rebel Veteran": {
+			"long_range": true,
+			"drawshadow": true,
+			"classname": {
+				"type": "NPC",
+				"name": "npc_citizen"
+			},
+			"regen": 6,
+			"entity_type": "npc",
+			"weapon_set": {
+				"type": "weapon_set",
+				"name": "Rebel"
+			},
+			"regendelay": 4,
+			"icon": "entities/rebel.png",
+			"weapon_proficiency": [
+				"__TBLRANDOM",
+				"Good",
+				"Very Good",
+				"Very Good"
+			],
+			"drop_set": [
+				{
+					"drop_set": {
+						"type": "drop_set",
+						"name": "Rebel"
+					},
+					"chance": {
+						"d": 1,
+						"f": 1,
+						"n": 1
+					}
+				},
+				{
+					"chance": {
+						"d": 1,
+						"f": 1,
+						"n": 1
+					},
+					"drop_set": {
+						"type": "drop_set",
+						"name": "Combine Special Generic"
+					}
+				}
+			],
+			"VERSION": 53,
+			"citizentype": "Rebel",
+			"rendercolor": {
+				"r": 255,
+				"b": 178,
+				"a": 255,
+				"g": 232
+			},
+			"stress_mult": 0.25,
+			"spawneffect": [],
+			"description": "This rebel actually means business. The one who survived all the darwinism to become a (relative) badass among their peers.",
+			"healthmult": 1.6,
+			"damagescale_out": 2,
+			"dropweapon": false,
+			"quota_weight": 0.25
+		},
+		"Combine Sterilizer": {
+			"tacticalvariant": "Pressure the enemy (Keep advancing)",
+			"icon": "entities/shotgunsoldier.png",
+			"weapon_proficiency": "Very Good",
+			"soldiertype": "Normal",
+			"description": "They'll sterilize your ass alright. Running around secretly hoping to get eaten only to get a surprise express ticket to hell via. buckshot.",
+			"damagescale_in": 0.8,
+			"dropweapon": false,
+			"drop_set": [
+				{
+					"drop_set": {
+						"type": "drop_set",
+						"name": "Combine Sterilizer"
+					},
+					"chance": {
+						"d": 1,
+						"f": 1,
+						"n": 1
+					}
+				}
+			],
+			"VERSION": 53,
+			"stress_mult": 2,
+			"classname": {
+				"type": "NPC",
+				"name": "npc_combine_s"
+			},
+			"numgrenades": 0,
+			"entity_type": "npc",
+			"spawneffect": [],
+			"weapon": {
+				"type": "NPCUsableWeapons",
+				"name": "weapon_shotgun"
+			}
+		}
+	},
+	"weapon_set": {
+		"Intruder": {
+			"weapons": [
+				{
+					"expected": {
+						"d": 1,
+						"f": 1,
+						"n": 1
+					},
+					"classname": {
+						"type": "NPCUsableWeapons",
+						"name": "swep_ai_usp_s"
+					}
+				},
+				{
+					"rendercolor": {
+						"r": 255,
+						"b": 255,
+						"a": 255,
+						"g": 255
+					},
+					"startalpha": 0,
+					"classname": {
+						"type": "NPCUsableWeapons",
+						"name": "swep_ai_tmp"
+					},
+					"renderamt": 45,
+					"renderfx": "kRenderFxHologram",
+					"expected": {
+						"d": 5,
+						"f": 0.2,
+						"n": 1
+					}
+				}
+			],
+			"VERSION": 53
+		},
+		"Citizen": {
+			"weapons": [
+				{
+					"expected": {
+						"d": 1,
+						"f": 1,
+						"n": 1
+					},
+					"classname": {
+						"type": "NPCUsableWeapons",
+						"name": "weapon_crowbar"
+					}
+				},
+				{
+					"expected": {
+						"d": 2,
+						"f": 0.5,
+						"n": 1
+					},
+					"classname": {
+						"type": "NPCUsableWeapons",
+						"name": "weapon_pistol"
+					}
+				},
+				{
+					"expected": {
+						"d": 4,
+						"f": 0.25,
+						"n": 1
+					},
+					"classname": {
+						"type": "NPCUsableWeapons",
+						"name": "weapon_smg1"
+					}
+				},
+				{
+					"expected": {
+						"d": 8,
+						"f": 0.125,
+						"n": 1
+					},
+					"classname": {
+						"type": "NPCUsableWeapons",
+						"name": "weapon_shotgun"
+					}
+				},
+				{
+					"expected": {
+						"d": 16,
+						"f": 0.0625,
+						"n": 1
+					},
+					"classname": {
+						"type": "NPCUsableWeapons",
+						"name": "weapon_ar2"
+					}
+				},
+				{
+					"expected": {
+						"d": 16,
+						"f": 0.0625,
+						"n": 1
+					},
+					"classname": {
+						"type": "NPCUsableWeapons",
+						"name": "weapon_stunstick"
+					}
+				}
+			],
+			"VERSION": 53
+		},
+		"Scavver Raider": {
+			"weapons": [
+				{
+					"expected": {
+						"d": 1,
+						"f": 1,
+						"n": 1
+					},
+					"classname": {
+						"type": "NPCUsableWeapons",
+						"name": "swep_ai_mac10"
+					}
+				},
+				{
+					"expected": {
+						"d": 2,
+						"f": 0.5,
+						"n": 1
+					},
+					"classname": {
+						"type": "NPCUsableWeapons",
+						"name": "swep_ai_smg3"
+					}
+				},
+				{
+					"expected": {
+						"d": 4,
+						"f": 0.25,
+						"n": 1
+					},
+					"classname": {
+						"type": "NPCUsableWeapons",
+						"name": "swep_ai_galil"
+					}
+				}
+			],
+			"VERSION": 53
+		},
+		"Refugee": {
+			"VERSION": 53,
+			"weapons": [
+				{
+					"expected": {
+						"d": 1,
+						"f": 1,
+						"n": 1
+					},
+					"classname": {
+						"type": "NPCUsableWeapons",
+						"name": "weapon_pistol"
+					}
+				},
+				{
+					"expected": {
+						"d": 2,
+						"f": 0.5,
+						"n": 1
+					},
+					"classname": {
+						"type": "NPCUsableWeapons",
+						"name": "weapon_smg1"
+					}
+				},
+				{
+					"expected": {
+						"d": 4,
+						"f": 0.25,
+						"n": 1
+					},
+					"classname": {
+						"type": "NPCUsableWeapons",
+						"name": "weapon_shotgun"
+					}
+				},
+				{
+					"expected": {
+						"d": 8,
+						"f": 0.125,
+						"n": 1
+					},
+					"classname": {
+						"type": "NPCUsableWeapons",
+						"name": "weapon_ar2"
+					}
+				},
+				{
+					"expected": {
+						"d": 16,
+						"f": 0.0625,
+						"n": 1
+					},
+					"classname": {
+						"type": "NPCUsableWeapons",
+						"name": "weapon_357"
+					}
+				}
+			],
+			"icon": "entities/weapon_pistol.png"
+		},
+		"Scavver": {
+			"weapons": [
+				{
+					"expected": {
+						"d": 1,
+						"f": 1,
+						"n": 1
+					},
+					"classname": {
+						"type": "NPCUsableWeapons",
+						"name": "swep_ai_glock"
+					}
+				},
+				{
+					"expected": {
+						"d": 1,
+						"f": 1,
+						"n": 1
+					},
+					"classname": {
+						"type": "NPCUsableWeapons",
+						"name": "swep_ai_p228"
+					}
+				},
+				{
+					"expected": {
+						"d": 2,
+						"f": 0.5,
+						"n": 1
+					},
+					"classname": {
+						"type": "NPCUsableWeapons",
+						"name": "swep_ai_pistol"
+					}
+				},
+				{
+					"expected": {
+						"d": 2,
+						"f": 0.5,
+						"n": 1
+					},
+					"classname": {
+						"type": "NPCUsableWeapons",
+						"name": "swep_ai_elite"
+					}
+				},
+				{
+					"expected": {
+						"d": 4,
+						"f": 0.25,
+						"n": 1
+					},
+					"classname": {
+						"type": "NPCUsableWeapons",
+						"name": "swep_ai_magnum"
+					}
+				},
+				{
+					"expected": {
+						"d": 6,
+						"f": 0.16666666666666666,
+						"n": 1
+					},
+					"classname": {
+						"type": "NPCUsableWeapons",
+						"name": "swep_ai_ak47"
+					}
+				},
+				{
+					"expected": {
+						"d": 6,
+						"f": 0.16666666666666666,
+						"n": 1
+					},
+					"classname": {
+						"type": "NPCUsableWeapons",
+						"name": "swep_ai_doublebarrel"
+					}
+				},
+				{
+					"expected": {
+						"d": 6,
+						"f": 0.16666666666666666,
+						"n": 1
+					},
+					"classname": {
+						"type": "NPCUsableWeapons",
+						"name": "swep_ai_mac10"
+					}
+				}
+			],
+			"VERSION": 53
+		},
+		"Black Ops": {
+			"weapons": [
+				{
+					"expected": {
+						"d": 1,
+						"f": 1,
+						"n": 1
+					},
+					"classname": {
+						"type": "NPCUsableWeapons",
+						"name": "swep_ai_sg552"
+					}
+				},
+				{
+					"expected": {
+						"d": 1,
+						"f": 1,
+						"n": 1
+					},
+					"classname": {
+						"type": "NPCUsableWeapons",
+						"name": "swep_ai_p90"
+					}
+				}
+			],
+			"VERSION": 53
+		},
+		"Rebel": {
+			"VERSION": 53,
+			"weapons": [
+				{
+					"expected": {
+						"d": 1,
+						"f": 1,
+						"n": 1
+					},
+					"classname": {
+						"type": "NPCUsableWeapons",
+						"name": "weapon_smg1"
+					}
+				},
+				{
+					"expected": {
+						"d": 2,
+						"f": 0.5,
+						"n": 1
+					},
+					"classname": {
+						"type": "NPCUsableWeapons",
+						"name": "weapon_ar2"
+					}
+				},
+				{
+					"expected": {
+						"d": 2,
+						"f": 0.5,
+						"n": 1
+					},
+					"classname": {
+						"type": "NPCUsableWeapons",
+						"name": "weapon_shotgun"
+					}
+				},
+				{
+					"expected": {
+						"d": 16,
+						"f": 0.0625,
+						"n": 1
+					},
+					"classname": {
+						"type": "NPCUsableWeapons",
+						"name": "weapon_rpg"
+					}
+				},
+				{
+					"expected": {
+						"d": 8,
+						"f": 0.125,
+						"n": 1
+					},
+					"classname": {
+						"type": "NPCUsableWeapons",
+						"name": "weapon_357"
+					}
+				},
+				{
+					"expected": {
+						"d": 8,
+						"f": 0.125,
+						"n": 1
+					},
+					"classname": {
+						"type": "NPCUsableWeapons",
+						"name": "weapon_crossbow"
+					}
+				}
+			],
+			"icon": "entities/weapon_crossbow.png"
+		},
+		"Rebel Veteran": {
+			"VERSION": 53,
+			"weapons": [
+				{
+					"expected": {
+						"d": 1,
+						"f": 1,
+						"n": 1
+					},
+					"classname": {
+						"type": "NPCUsableWeapons",
+						"name": "weapon_ar2"
+					}
+				},
+				{
+					"expected": {
+						"d": 2,
+						"f": 0.5,
+						"n": 1
+					},
+					"classname": {
+						"type": "NPCUsableWeapons",
+						"name": "weapon_357"
+					}
+				},
+				{
+					"expected": {
+						"d": 4,
+						"f": 0.25,
+						"n": 1
+					},
+					"classname": {
+						"type": "NPCUsableWeapons",
+						"name": "weapon_crossbow"
+					}
+				},
+				{
+					"expected": {
+						"d": 8,
+						"f": 0.125,
+						"n": 1
+					},
+					"classname": {
+						"type": "NPCUsableWeapons",
+						"name": "weapon_rpg"
+					}
+				}
+			],
+			"icon": "entities/weapon_rpg.png"
+		},
+		"Rebel Medic": {
+			"VERSION": 53,
+			"weapons": [
+				{
+					"expected": {
+						"d": 1,
+						"f": 1,
+						"n": 1
+					},
+					"classname": {
+						"type": "NPCUsableWeapons",
+						"name": "weapon_pistol"
+					}
+				},
+				{
+					"expected": {
+						"d": 1,
+						"f": 1,
+						"n": 1
+					},
+					"classname": {
+						"type": "NPCUsableWeapons",
+						"name": "weapon_357"
+					}
+				},
+				{
+					"expected": {
+						"d": 2,
+						"f": 0.5,
+						"n": 1
+					},
+					"classname": {
+						"type": "NPCUsableWeapons",
+						"name": "weapon_smg1"
+					}
+				},
+				{
+					"expected": {
+						"d": 16,
+						"f": 0.0625,
+						"n": 1
+					},
+					"classname": {
+						"type": "NPCUsableWeapons",
+						"name": "weapon_crossbow"
+					}
+				}
+			],
+			"icon": "entities/weapon_357.png"
+		}
+	},
+	"squad": {
+		"Intruders": {
+			"spawnlist": [
+				{
+					"preset": {
+						"type": "npc",
+						"name": "Intruder"
+					},
+					"count": {
+						"max": 4,
+						"min": 1
+					},
+					"chance": {
+						"d": 1,
+						"f": 1,
+						"n": 1
+					}
+				}
+			],
+			"VERSION": 53,
+			"mapmax": 2,
+			"description": "There are armed men inside of your house RIGHT NOW."
+		},
+		"Predator - Goblin Girl": {
+			"spawnlist": [
+				{
+					"preset": {
+						"type": "nextbot",
+						"name": "Goblin Girl"
+					},
+					"chance": {
+						"d": 1,
+						"f": 1,
+						"n": 1
+					}
+				}
+			],
+			"VERSION": 53,
+			"icon": "entities/npc_vore_goblin.png",
+			"mindelay": [
+				"__RANDOM",
+				30,
+				180
+			],
+			"mapmax": 1,
+			"description": "Read the nextbot tab entry for more information!"
+		},
+		"Partisan Bombers": {
+			"spawnlist": [
+				{
+					"preset": {
+						"type": "npc",
+						"name": "Refugee"
+					},
+					"count": {
+						"max": 4,
+						"min": 1,
+						"median": 2
+					},
+					"chance": {
+						"d": 1,
+						"f": 1,
+						"n": 1
+					}
+				},
+				{
+					"count": {
+						"max": 1,
+						"min": 1,
+						"median": 1
+					},
+					"preset": {
+						"type": "npc",
+						"name": "Refugee Bomber"
+					},
+					"chance": {
+						"d": 1,
+						"f": 1,
+						"n": 1
+					}
+				},
+				{
+					"preset": {
+						"type": "npc",
+						"name": "Refugee Bomber"
+					},
+					"count": {
+						"max": 1,
+						"min": 1,
+						"median": 1
+					},
+					"chance": {
+						"d": 16,
+						"f": 0.0625,
+						"n": 1
+					}
+				}
+			],
+			"VERSION": 53,
+			"icon": "entities/refugee.png",
+			"mindelay": [
+				"__RANDOM",
+				48,
+				72
+			],
+			"description": "The lads got a fucking BAZOOKA?!?!?!",
+			"mapmin": 0,
+			"mapmax": 1,
+			"squadname": "partisans"
+		},
+		"Vortigaunts": {
+			"spawnlist": [
+				{
+					"count": {
+						"max": 3,
+						"min": 2,
+						"median": 3
+					},
+					"preset": {
+						"type": "npc",
+						"name": "Rebel Vortigaunt"
+					},
+					"chance": {
+						"d": 1,
+						"f": 1,
+						"n": 1
+					}
+				}
+			],
+			"VERSION": 53,
+			"icon": "entities/npc_vortigaunt.png",
+			"mindelay": [
+				"__RANDOM",
+				144,
+				256
+			],
+			"description": "Vortigaunt circlejerk! Vortigaunt circlejerk! Vortigaunt circlejerk!",
+			"squadname": "vort",
+			"mapmax": 1,
+			"mapmin": 0
+		},
+		"Rebel Outlanders": {
+			"spawnlist": [
+				{
+					"preset": {
+						"type": "npc",
+						"name": "Rebel"
+					},
+					"count": {
+						"max": 2,
+						"min": 1,
+						"median": 1
+					},
+					"chance": {
+						"d": 1,
+						"f": 1,
+						"n": 1
+					}
+				},
+				{
+					"count": {
+						"max": 2,
+						"median": 1
+					},
+					"preset": {
+						"type": "npc",
+						"name": "Rebel Vortigaunt"
+					},
+					"chance": {
+						"d": 1,
+						"f": 1,
+						"n": 1
+					}
+				}
+			],
+			"VERSION": 53,
+			"icon": "vgui/entities/npc_vj_r_rebel_displacer_m.vmt",
+			"mindelay": [
+				"__RANDOM",
+				96,
+				144
+			],
+			"description": "Just a vortigaunt and his rebel friend, like Lennie and George from mice and men, respectively.",
+			"mapmin": 0,
+			"mapmax": 1,
+			"squadname": "outlander"
+		},
+		"Rebel Heroes": {
+			"spawnlist": [
+				{
+					"preset": {
+						"type": "npc",
+						"name": "Rebel Veteran"
+					},
+					"count": {
+						"max": 4,
+						"min": 3,
+						"median": 4
+					},
+					"chance": {
+						"d": 1,
+						"f": 1,
+						"n": 1
+					}
+				},
+				{
+					"preset": {
+						"type": "npc",
+						"name": "Rebel Medic"
+					},
+					"chance": {
+						"d": 1,
+						"f": 1,
+						"n": 1
+					}
+				}
+			],
+			"VERSION": 53,
+			"icon": "entities/rebel.png",
+			"mindelay": [
+				"__RANDOM",
+				144,
+				384
+			],
+			"description": "The real top dawgs of the rebels, you know they are cooler than the rest because they're a different color (woke)",
+			"squadname": "veteran",
+			"mapmax": 1,
+			"mapmin": 0
+		},
+		"Predator - Marin": {
+			"spawnlist": [
+				{
+					"chance": {
+						"d": 1,
+						"f": 1,
+						"n": 1
+					},
+					"preset": {
+						"type": "nextbot",
+						"name": "Marin"
+					}
+				}
+			],
+			"VERSION": 53,
+			"icon": "entities/npc_vore_marin.png",
+			"mindelay": [
+				"__RANDOM",
+				30,
+				180
+			],
+			"mapmax": 1,
+			"description": "Read the nextbot tab entry for more information!"
+		},
+		"Rebel Demolition Team": {
+			"spawnlist": [
+				{
+					"count": {
+						"max": 4,
+						"min": 2,
+						"median": 3
+					},
+					"preset": {
+						"type": "npc",
+						"name": "Rebel"
+					},
+					"chance": {
+						"d": 1,
+						"f": 1,
+						"n": 1
+					}
+				},
+				{
+					"chance": {
+						"d": 1,
+						"f": 1,
+						"n": 1
+					},
+					"preset": {
+						"type": "npc",
+						"name": "Rebel Demolitionist"
+					}
+				}
+			],
+			"VERSION": 53,
+			"icon": "entities/rebel.png",
+			"mindelay": [
+				"__RANDOM",
+				64,
+				128
+			],
+			"description": "How do these guys reload the rocket launcher so fast? Source engine is the answer.",
+			"squadname": "rebel",
+			"mapmax": 1,
+			"mapmin": 0
+		},
+		"Predator - Tasque Manager": {
+			"spawnlist": [
+				{
+					"preset": {
+						"type": "nextbot",
+						"name": "Tasque Manager"
+					},
+					"chance": {
+						"d": 1,
+						"f": 1,
+						"n": 1
+					}
+				}
+			],
+			"VERSION": 53,
+			"icon": "entities/npc_vore_tasque.png",
+			"mindelay": [
+				"__RANDOM",
+				30,
+				180
+			],
+			"mapmax": 1,
+			"description": "Read the nextbot tab entry for more information!"
+		},
+		"Scavvers": {
+			"spawnlist": [
+				{
+					"count": {
+						"max": 4,
+						"min": 2,
+						"median": 2
+					},
+					"preset": {
+						"type": "npc",
+						"name": "Scavver"
+					},
+					"chance": {
+						"d": 1,
+						"f": 1,
+						"n": 1
+					}
+				},
+				{
+					"preset": {
+						"type": "npc",
+						"name": "Scavver Raider"
+					},
+					"count": {
+						"max": 2,
+						"min": 1,
+						"median": 1
+					},
+					"chance": {
+						"d": 5,
+						"f": 0.2,
+						"n": 1
+					}
+				}
+			],
+			"VERSION": 53,
+			"description": "Couple of scavs out on the town, killing random people. You know how it is...",
+			"mapmax": 6,
+			"squadname": "scavs"
+		},
+		"Predator - Toriel": {
+			"spawnlist": [
+				{
+					"chance": {
+						"d": 1,
+						"f": 1,
+						"n": 1
+					},
+					"preset": {
+						"type": "nextbot",
+						"name": "Toriel"
+					}
+				}
+			],
+			"VERSION": 53,
+			"icon": "entities/npc_vore_toriel.png",
+			"mindelay": [
+				"__RANDOM",
+				30,
+				180
+			],
+			"mapmax": 1,
+			"description": "Read the nextbot tab entry for more information!"
+		},
+		"Predator - Seraphim": {
+			"spawnlist": [
+				{
+					"chance": {
+						"d": 1,
+						"f": 1,
+						"n": 1
+					},
+					"preset": {
+						"type": "nextbot",
+						"name": "Seraphim"
+					}
+				}
+			],
+			"VERSION": 53,
+			"icon": "entities/npc_vore_seraphim.png",
+			"mindelay": [
+				"__RANDOM",
+				60,
+				240
+			],
+			"mapmax": 1,
+			"description": "Read the nextbot tab entry for more information!"
+		},
+		"Predator - Angela": {
+			"spawnlist": [
+				{
+					"chance": {
+						"d": 1,
+						"f": 1,
+						"n": 1
+					},
+					"preset": {
+						"type": "nextbot",
+						"name": "Angela"
+					}
+				}
+			],
+			"VERSION": 53,
+			"icon": "entities/npc_vore_angela.png",
+			"mindelay": [
+				"__RANDOM",
+				30,
+				180
+			],
+			"mapmax": 1,
+			"description": "Read the nextbot tab entry for more information!"
+		},
+		"Predator - D.VA": {
+			"spawnlist": [
+				{
+					"preset": [
+						"__TBLRANDOM",
+						{
+							"type": "nextbot",
+							"name": "D.VA"
+						},
+						{
+							"type": "nextbot",
+							"name": "Casual D.VA"
+						}
+					],
+					"chance": {
+						"d": 1,
+						"f": 1,
+						"n": 1
+					}
+				}
+			],
+			"VERSION": 53,
+			"icon": "entities/npc_vore_dva.png",
+			"mindelay": [
+				"__RANDOM",
+				30,
+				180
+			],
+			"mapmax": 1,
+			"description": "Read the nextbot tab entry for more information!"
+		},
+		"Predator - Mal0": {
+			"spawnlist": [
+				{
+					"preset": {
+						"type": "nextbot",
+						"name": "Mal0"
+					},
+					"chance": {
+						"d": 1,
+						"f": 1,
+						"n": 1
+					}
+				}
+			],
+			"VERSION": 53,
+			"icon": "entities/npc_vore_mal0.png",
+			"mindelay": [
+				"__RANDOM",
+				60,
+				240
+			],
+			"mapmax": 1,
+			"description": "Read the nextbot tab entry for more information!"
+		},
+		"Predator - Sadako": {
+			"spawnlist": [
+				{
+					"preset": {
+						"type": "nextbot",
+						"name": "Sadako"
+					},
+					"chance": {
+						"d": 1,
+						"f": 1,
+						"n": 1
+					}
+				}
+			],
+			"VERSION": 53,
+			"icon": "entities/npc_vore_sadako.png",
+			"mindelay": [
+				"__RANDOM",
+				30,
+				180
+			],
+			"mapmax": 1,
+			"description": "Read the nextbot tab entry for more information!"
+		},
+		"Predator - Meru": {
+			"spawnlist": [
+				{
+					"preset": [
+						"__TBLRANDOM",
+						{
+							"type": "nextbot",
+							"name": "Meru"
+						},
+						{
+							"type": "nextbot",
+							"name": "Meruneko"
+						}
+					],
+					"chance": {
+						"d": 1,
+						"f": 1,
+						"n": 1
+					}
+				}
+			],
+			"VERSION": 53,
+			"icon": "entities/npc_vore_meru.png",
+			"mindelay": [
+				"__RANDOM",
+				30,
+				180
+			],
+			"mapmax": 1,
+			"description": "Read the nextbot tab entry for more information!"
+		},
+		"Predator - Anubis": {
+			"spawnlist": [
+				{
+					"chance": {
+						"d": 1,
+						"f": 1,
+						"n": 1
+					},
+					"preset": {
+						"type": "nextbot",
+						"name": "Anubis"
+					}
+				}
+			],
+			"VERSION": 53,
+			"icon": "entities/npc_vore_anubis.png",
+			"mindelay": [
+				"__RANDOM",
+				30,
+				180
+			],
+			"mapmax": 1,
+			"description": "Read the nextbot tab entry for more information!"
+		},
+		"Metropolice Brigade": {
+			"spawnlist": [
+				{
+					"preset": {
+						"type": "npc",
+						"name": "Metrocop Raider"
+					},
+					"count": {
+						"max": 4,
+						"min": 2,
+						"median": 2
+					},
+					"chance": {
+						"d": 1,
+						"f": 1,
+						"n": 1
+					}
+				},
+				{
+					"count": {
+						"max": 3,
+						"min": 2,
+						"median": 2
+					},
+					"preset": {
+						"type": "npc",
+						"name": "Metrocop Grunt"
+					},
+					"chance": {
+						"d": 1,
+						"f": 1,
+						"n": 1
+					}
+				}
+			],
+			"VERSION": 53,
+			"icon": "vgui/entities/npc_vj_c_civil_protection_riot.vmt",
+			"mindelay": [
+				"__RANDOM",
+				64,
+				128
+			],
+			"description": "There's finally enough metrocops in this team to pose a threat... Not a very big one, but a threat nonetheless.",
+			"mapmin": 0,
+			"mapmax": 1,
+			"squadname": "bravo"
+		},
+		"Predator - Queen Chrysalis": {
+			"spawnlist": [
+				{
+					"chance": {
+						"d": 1,
+						"f": 1,
+						"n": 1
+					},
+					"preset": {
+						"type": "nextbot",
+						"name": "Queen Chrysalis"
+					}
+				}
+			],
+			"VERSION": 53,
+			"icon": "entities/npc_vore_chrysalis.png",
+			"mindelay": [
+				"__RANDOM",
+				60,
+				240
+			],
+			"mapmax": 1,
+			"description": "Read the nextbot tab entry for more information!"
+		},
+		"Predator - Monster Energy Chan": {
+			"spawnlist": [
+				{
+					"chance": {
+						"d": 1,
+						"f": 1,
+						"n": 1
+					},
+					"preset": {
+						"type": "nextbot",
+						"name": "Monster Energy Chan"
+					}
+				}
+			],
+			"VERSION": 53,
+			"icon": "entities/npc_vore_monsterenergy.png",
+			"mindelay": [
+				"__RANDOM",
+				30,
+				180
+			],
+			"mapmax": 1,
+			"description": "Read the nextbot tab entry for more information!"
+		},
+		"Combine Death Squad": {
+			"spawnlist": [
+				{
+					"count": {
+						"max": 3,
+						"min": 1,
+						"median": 2
+					},
+					"preset": [
+						"__TBLRANDOM",
+						{
+							"type": "npc",
+							"name": "Combine Soldier"
+						},
+						{
+							"type": "npc",
+							"name": "Combine Skirmisher"
+						},
+						{
+							"type": "npc",
+							"name": "Combine Soldier"
+						}
+					],
+					"chance": {
+						"d": 1,
+						"f": 1,
+						"n": 1
+					}
+				},
+				{
+					"preset": {
+						"type": "npc",
+						"name": "Combine Sterilizer"
+					},
+					"count": {
+						"max": 3,
+						"min": 2,
+						"median": 2
+					},
+					"chance": {
+						"d": 1,
+						"f": 1,
+						"n": 1
+					}
+				}
+			],
+			"VERSION": 53,
+			"icon": "entities/shotgunsoldier.png",
+			"mindelay": [
+				"__RANDOM",
+				36,
+				72
+			],
+			"description": "Oh lordy, here come the shotgunners!",
+			"squadname": "sundown",
+			"mapmax": 1,
+			"mapmin": 0
+		},
+		"Predator - Ankha": {
+			"spawnlist": [
+				{
+					"chance": {
+						"d": 1,
+						"f": 1,
+						"n": 1
+					},
+					"preset": {
+						"type": "nextbot",
+						"name": "Ankha"
+					}
+				}
+			],
+			"VERSION": 53,
+			"icon": "entities/npc_vore_ankha.png",
+			"mindelay": [
+				"__RANDOM",
+				30,
+				180
+			],
+			"mapmax": 1,
+			"description": "Read the nextbot tab entry for more information!"
+		},
+		"Partisan Cell": {
+			"spawnlist": [
+				{
+					"count": {
+						"max": 2,
+						"median": 1
+					},
+					"preset": {
+						"type": "npc",
+						"name": "Citizen"
+					},
+					"chance": {
+						"d": 4,
+						"f": 0.75,
+						"n": 3
+					}
+				},
+				{
+					"count": {
+						"max": 5,
+						"min": 2,
+						"median": 3
+					},
+					"preset": {
+						"type": "npc",
+						"name": "Refugee"
+					},
+					"chance": {
+						"d": 1,
+						"f": 1,
+						"n": 1
+					}
+				},
+				{
+					"preset": {
+						"type": "npc",
+						"name": "Rebel"
+					},
+					"count": {
+						"max": 1,
+						"min": 1,
+						"median": 1
+					},
+					"chance": {
+						"d": 8,
+						"f": 0.125,
+						"n": 1
+					}
+				}
+			],
+			"VERSION": 53,
+			"icon": "entities/refugee.png",
+			"mindelay": [
+				"__RANDOM",
+				36,
+				64
+			],
+			"description": "Just a couple of refugees chillin, maybe a civvie too if they're feeling extra spicy.",
+			"squadname": "partisans",
+			"mapmax": 2,
+			"mapmin": 0
+		},
+		"Rebel Cell": {
+			"spawnlist": [
+				{
+					"count": {
+						"max": 4,
+						"min": 2,
+						"median": 3
+					},
+					"preset": {
+						"type": "npc",
+						"name": "Rebel"
+					},
+					"chance": {
+						"d": 1,
+						"f": 1,
+						"n": 1
+					}
+				},
+				{
+					"preset": {
+						"type": "npc",
+						"name": "Refugee"
+					},
+					"count": {
+						"max": 3,
+						"min": 1,
+						"median": 1
+					},
+					"chance": {
+						"d": 2,
+						"f": 0.5,
+						"n": 1
+					}
+				}
+			],
+			"VERSION": 53,
+			"icon": "entities/rebel.png",
+			"mindelay": [
+				"__RANDOM",
+				24,
+				96
+			],
+			"description": "The boys are at it again: failing to run from live grenades, standing out in the open, aimbotting combine and winning by sheer accuracy alone.",
+			"squadname": "rebel",
+			"mapmax": 2,
+			"mapmin": 0
+		},
+		"Combine Fire Team": {
+			"spawnlist": [
+				{
+					"preset": [
+						"__TBLRANDOM",
+						{
+							"type": "npc",
+							"name": "Combine Skirmisher"
+						},
+						{
+							"type": "npc",
+							"name": "Combine Soldier"
+						}
+					],
+					"count": {
+						"max": 5,
+						"min": 4,
+						"median": 4
+					},
+					"chance": {
+						"d": 1,
+						"f": 1,
+						"n": 1
+					}
+				}
+			],
+			"VERSION": 53,
+			"icon": "entities/npc_combine_s.png",
+			"mindelay": [
+				"__RANDOM",
+				24,
+				48
+			],
+			"description": "Average combine firing squad. They're more at home fighting people at their brainpower and speed (npc_citizen) so shouldn't be TOO bad.",
+			"mapmin": 0,
+			"mapmax": 2,
+			"squadname": "hammer"
+		},
+		"Citizens": {
+			"spawnlist": [
+				{
+					"count": {
+						"max": 6,
+						"median": 2
+					},
+					"preset": {
+						"type": "npc",
+						"name": "Citizen"
+					},
+					"chance": {
+						"d": 1,
+						"f": 1,
+						"n": 1
+					}
+				}
+			],
+			"VERSION": 53,
+			"icon": "entities/npc_citizen.png",
+			"mindelay": [
+				"__RANDOM",
+				8,
+				36
+			],
+			"description": "Gaggle of citizens, not much else to say. Easy target for someone particularly hungry, I suppose.",
+			"squadname": "citizens",
+			"mapmax": 2,
+			"mapmin": 0
+		},
+		"Combine Elite": {
+			"spawnlist": [
+				{
+					"count": {
+						"max": 3,
+						"median": 2
+					},
+					"preset": {
+						"type": "npc",
+						"name": "Combine Elite"
+					},
+					"chance": {
+						"d": 1,
+						"f": 1,
+						"n": 1
+					}
+				},
+				{
+					"preset": {
+						"type": "npc",
+						"name": "Combine Soldier"
+					},
+					"count": {
+						"max": 2,
+						"median": 2
+					},
+					"chance": {
+						"d": 1,
+						"f": 1,
+						"n": 1
+					}
+				},
+				{
+					"count": {
+						"max": 1,
+						"median": 1
+					},
+					"preset": {
+						"type": "npc",
+						"name": "Combine Sterilizer"
+					},
+					"chance": {
+						"d": 2,
+						"f": 0.5,
+						"n": 1
+					}
+				}
+			],
+			"VERSION": 53,
+			"icon": "entities/combineelite.png",
+			"mindelay": [
+				"__RANDOM",
+				128,
+				256
+			],
+			"description": "Okay, this shit is serious. You see this gang on the streets you better gtfo or lock in.",
+			"mapmin": 0,
+			"mapmax": 1,
+			"squadname": "sundown"
+		},
+		"Citizens & Partisans": {
+			"spawnlist": [
+				{
+					"preset": {
+						"type": "npc",
+						"name": "Citizen"
+					},
+					"count": {
+						"max": 4,
+						"median": 2
+					},
+					"chance": {
+						"d": 1,
+						"f": 1,
+						"n": 1
+					}
+				},
+				{
+					"count": {
+						"max": 4,
+						"median": 2
+					},
+					"preset": {
+						"type": "npc",
+						"name": "Refugee"
+					},
+					"chance": {
+						"d": 1,
+						"f": 1,
+						"n": 1
+					}
+				}
+			],
+			"VERSION": 53,
+			"icon": "entities/refugee.png",
+			"mindelay": [
+				"__RANDOM",
+				12,
+				48
+			],
+			"description": "These citizens have a couple of guys that might shoot their guns a couple times. Average lifespan is about thirty seconds to a minute.",
+			"squadname": "citizens",
+			"mapmax": 2,
+			"mapmin": 0
+		},
+		"Combine Hunters": {
+			"spawnlist": [
+				{
+					"preset": {
+						"type": "npc",
+						"name": "Hunter"
+					},
+					"count": {
+						"max": 2,
+						"median": 1
+					},
+					"chance": {
+						"d": 1,
+						"f": 1,
+						"n": 1
+					}
+				}
+			],
+			"VERSION": 53,
+			"icon": "entities/npc_hunter.png",
+			"mindelay": [
+				"__RANDOM",
+				144,
+				384
+			],
+			"description": "Hunter(s), an obnoxiously loud enemy you'll hear literally no matter where you're standing on the map if they spawn. Must be hunting deaf people.",
+			"squadname": "shieldwall",
+			"mapmax": 1,
+			"mapmin": 0
+		},
+		"Predator - Kroxi": {
+			"spawnlist": [
+				{
+					"chance": {
+						"d": 1,
+						"f": 1,
+						"n": 1
+					},
+					"preset": {
+						"type": "nextbot",
+						"name": "Kroxi"
+					}
+				}
+			],
+			"VERSION": 53,
+			"icon": "entities/npc_vore_kroxi.png",
+			"mindelay": [
+				"__RANDOM",
+				30,
+				180
+			],
+			"mapmax": 1,
+			"description": "Read the nextbot tab entry for more information!"
+		},
+		"Metropolice Patrol": {
+			"spawnlist": [
+				{
+					"preset": {
+						"type": "npc",
+						"name": "Metrocop Grunt"
+					},
+					"chance": {
+						"d": 4,
+						"f": 0.75,
+						"n": 3
+					}
+				},
+				{
+					"chance": {
+						"d": 1,
+						"f": 1,
+						"n": 1
+					},
+					"preset": {
+						"type": "npc",
+						"name": "Metrocop Enforcer"
+					}
+				},
+				{
+					"chance": {
+						"d": 4,
+						"f": 0.25,
+						"n": 1
+					},
+					"preset": {
+						"type": "npc",
+						"name": "Metrocop Grunt"
+					}
+				},
+				{
+					"count": [],
+					"preset": {
+						"type": "npc",
+						"name": "Metrocop Enforcer"
+					},
+					"chance": {
+						"d": 8,
+						"f": 0.125,
+						"n": 1
+					}
+				}
+			],
+			"VERSION": 53,
+			"icon": "entities/npc_metropolice.png",
+			"mindelay": [
+				"__RANDOM",
+				18,
+				36
+			],
+			"description": "Lone metrocops. They probably won't even see you coming, smoke they asses like a low quality joint.",
+			"squadname": "bravo",
+			"mapmax": 3,
+			"mapmin": 0
+		},
+		"Predator - Karelia": {
+			"spawnlist": [
+				{
+					"chance": {
+						"d": 1,
+						"f": 1,
+						"n": 1
+					},
+					"preset": {
+						"type": "nextbot",
+						"name": "Karelia"
+					}
+				}
+			],
+			"VERSION": 53,
+			"icon": "entities/npc_vore_karelia.png",
+			"mindelay": [
+				"__RANDOM",
+				30,
+				180
+			],
+			"mapmax": 1,
+			"description": "Read the nextbot tab entry for more information!"
+		},
+		"Metrocop Fire Team": {
+			"spawnlist": [
+				{
+					"preset": {
+						"type": "npc",
+						"name": "Metrocop Raider"
+					},
+					"chance": {
+						"d": 1,
+						"f": 1,
+						"n": 1
+					}
+				},
+				{
+					"chance": {
+						"d": 4,
+						"f": 0.25,
+						"n": 1
+					},
+					"preset": {
+						"type": "npc",
+						"name": "Metrocop Raider"
+					}
+				},
+				{
+					"count": {
+						"max": 4,
+						"min": 2,
+						"median": 3
+					},
+					"preset": {
+						"type": "npc",
+						"name": "Metrocop Grunt"
+					},
+					"chance": {
+						"d": 1,
+						"f": 1,
+						"n": 1
+					}
+				}
+			],
+			"VERSION": 53,
+			"icon": "entities/npc_metropolice.png",
+			"mindelay": [
+				"__RANDOM",
+				36,
+				64
+			],
+			"description": "Cute metrocop team pretending like they're the big homies. Will get annihilated by practically anything aside from literal unarmed civilians.",
+			"mapmin": 0,
+			"mapmax": 2,
+			"squadname": "alpha"
+		},
+		"Black Ops Team": {
+			"spawnlist": [
+				{
+					"chance": {
+						"d": 1,
+						"f": 1,
+						"n": 1
+					},
+					"preset": {
+						"type": "npc",
+						"name": "Black Ops Pointman"
+					}
+				},
+				{
+					"preset": {
+						"type": "npc",
+						"name": "Black Ops"
+					},
+					"count": {
+						"max": 4,
+						"min": 2,
+						"median": 3
+					},
+					"chance": {
+						"d": 1,
+						"f": 1,
+						"n": 1
+					}
+				}
+			],
+			"VERSION": 53,
+			"description": "Generic Operator team, they fight everyone, even their non-reskinned brothers!",
+			"mapmax": 3,
+			"squadname": "blackops"
+		},
+		"Predator - Toofy": {
+			"spawnlist": [
+				{
+					"preset": {
+						"type": "nextbot",
+						"name": "Toofy"
+					},
+					"chance": {
+						"d": 1,
+						"f": 1,
+						"n": 1
+					}
+				}
+			],
+			"VERSION": 53,
+			"icon": "entities/npc_vore_toofy.png",
+			"mindelay": [
+				"__RANDOM",
+				30,
+				180
+			],
+			"mapmax": 1,
+			"description": "Read the nextbot tab entry for more information!"
+		},
+		"Predator - Deathclaw": {
+			"spawnlist": [
+				{
+					"chance": {
+						"d": 1,
+						"f": 1,
+						"n": 1
+					},
+					"preset": [
+						"__TBLRANDOM",
+						{
+							"type": "nextbot",
+							"name": "Deathclaw"
+						},
+						{
+							"type": "nextbot",
+							"name": "Deathclaw"
+						},
+						{
+							"type": "nextbot",
+							"name": "Deathclaw"
+						},
+						{
+							"type": "nextbot",
+							"name": "Deathclaw"
+						},
+						{
+							"type": "nextbot",
+							"name": "Deathclaw"
+						},
+						{
+							"type": "nextbot",
+							"name": "Deathclaw"
+						},
+						{
+							"type": "nextbot",
+							"name": "Deathclaw"
+						},
+						{
+							"type": "nextbot",
+							"name": "Albino Deathclaw"
+						},
+						{
+							"type": "nextbot",
+							"name": "Xenomorph"
+						}
+					]
+				}
+			],
+			"VERSION": 53,
+			"icon": "entities/npc_vore_deathclaw.png",
+			"mindelay": [
+				"__RANDOM",
+				60,
+				240
+			],
+			"mapmax": 1,
+			"description": "Read the nextbot tab entry for more information!"
+		},
+		"Predator - Salamander": {
+			"spawnlist": [
+				{
+					"chance": {
+						"d": 1,
+						"f": 1,
+						"n": 1
+					},
+					"preset": {
+						"type": "nextbot",
+						"name": "Salamander"
+					}
+				}
+			],
+			"VERSION": 53,
+			"icon": "entities/npc_vore_salamander.png",
+			"mindelay": [
+				"__RANDOM",
+				30,
+				180
+			],
+			"mapmax": 1,
+			"description": "Read the nextbot tab entry for more information!"
+		},
+		"Predator - Roxy": {
+			"spawnlist": [
+				{
+					"preset": {
+						"type": "nextbot",
+						"name": "Roxy"
+					},
+					"chance": {
+						"d": 1,
+						"f": 1,
+						"n": 1
+					}
+				}
+			],
+			"VERSION": 53,
+			"icon": "entities/npc_vore_roxy.png",
+			"mindelay": [
+				"__RANDOM",
+				30,
+				180
+			],
+			"mapmax": 1,
+			"description": "Read the nextbot tab entry for more information!"
+		}
+	}
+}
