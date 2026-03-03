@@ -7,7 +7,14 @@ This mod-pack requires Wormonlooker's V-NPC V0.4 downloaded to function! Please 
 
 https://mega.nz/file/d3UlXA6Q#82dot96zbay5eNBwMO7FZQ8lE7yW8SrulhsRJOcbZrM <-- Stock V-NPC V0.4
 
+------------------------------------------------------------------------------
+DISCLAIMER
+------------------------------------------------------------------------------
+ATTENTION, ATTENTION! Clankers were used in the creation of this mod. I'm a college dev early dropout turned electrician, I might be able to parse through code okay but I sure as hell am not a programmer. I just want to nip any AI discourse in the bud here and on the forum, yes, AI was used for some of these features. Notably the PVS fix because it was cursed and the jitter bug fix, which wasn't that bad but required changes to all my bot .lua files. This project has gotten much bigger than it originally was and it's fun for me to make these V-NPCs and apply my source engine knowledge, but it started as my own personal project I had no plans of releasing and therefore did not care about disclosure or anything. I just want to make it clear to people that AI was a component and that I am less knowledgeable than you might think. The primary goal is to make free sexy NPCs for myself and other people, not to flex some "vore dev" skills or whatnot. Either use the pack or don't, if the idea of indirectly supporting AI through downloading my open source pack irks you, other creators like Unkn0wn have great packs that will more than definitely satisfy your needs.
 
+Other Credits
+Wormonlooker, obviously, for creating the main component of this mod.
+The only other major coding component in this mod is Aliva's bonelerp animations, thanks Aliva for being cool with my use of this code, it makes every V-NPC much more unique imo!
 ------------------------------------------------------------------------------
 FEATURES
 ------------------------------------------------------------------------------
