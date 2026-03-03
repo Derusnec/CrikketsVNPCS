@@ -1206,6 +1206,8 @@ function ENT:AnimatedBoneOffsets()
 		self.BoneBlendState = {}
 	end
 
+	if SERVER then return end
+
 	local phase = self:GetNWInt("FacialPhase", -1)
 	local data = AnimatedBoneList[phase] or AnimatedBoneList[0]
 
@@ -1244,8 +1246,9 @@ function ENT:AnimatedBoneOffsets()
 			self.BoneBlendState[boneName] = cur
 		end
 
-		cur.pos = LerpVector(FrameTime() * speed, cur.pos, tgtPos)
-		cur.ang = LerpAngle(FrameTime() * speed, cur.ang, tgtAng)
+		local lerpTime = 1 - math.exp(-speed * FrameTime())
+		cur.pos = LerpVector(lerpTime, cur.pos, tgtPos)
+		cur.ang = LerpAngle(lerpTime, cur.ang, tgtAng)
 
 		self:ManipulateBonePosition(i, cur.pos)
 		self:ManipulateBoneAngles(i, cur.ang)
@@ -1259,6 +1262,10 @@ function ENT:Think()
 
   if self._VoreAnimateBonesThink then
     self:_VoreAnimateBonesThink()
+  end
+
+  if CLIENT and GetConVar("drg_animate"):GetBool() then
+    self:AnimatedBoneOffsets()
   end
 end
 
