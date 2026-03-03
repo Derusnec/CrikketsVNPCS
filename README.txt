@@ -15,7 +15,7 @@ FEATURES
 - Complementary belly textures for all V-NPCs
 - Basic sound support for V-NPCs, including many custom sounds
 - NPC Daemon (autospawner) profile to dynamically spawn V-NPCs
-- Bonelerp animation support by Alicia, all V-NPCs have custom bonelerp animation
+- Bonelerp animation support by Aliva, all V-NPCs have custom bonelerp animation
 - Locally available assets, no more random workshop takedowns bricking V-NPCs
 - Robust PVS fix to really crack down on any invisible NPC/world glitches when being eaten
 -Template files included, my own and the original V-NPC 0.4 file. Found in it's own folder
