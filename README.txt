@@ -93,12 +93,11 @@ CHANGELOG
 ------------------------------------------------------------------------------
 ROADMAP
 ------------------------------------------------------------------------------
--Weight gain definers for old V-NPCs (In progress)
+-Repatch weight gain bone offsets
 -Autoduck support for large V-NPCs (In development hell)
 
 V-NPCs in the works:
   -GLaDOS
-  -Purrslime
 V-NPCs in list:
   -https://steamcommunity.com/sharedfiles/filedetails/?id=3217986388 [Kemono] Akky
   -https://steamcommunity.com/sharedfiles/filedetails/?id=3628868280 Toy Chica by BlackHat/Clawnie
