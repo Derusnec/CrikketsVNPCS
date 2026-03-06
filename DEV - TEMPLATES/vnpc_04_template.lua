@@ -1,5 +1,3 @@
---This is the classic v04 template file from Wormonlooker
-
 if not DrGBase then return end -- return if DrGBase isn't installed
 
 ENT.Base = "npc_vore_base" -- DO NOT TOUCH

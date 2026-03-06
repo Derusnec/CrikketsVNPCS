@@ -195,8 +195,8 @@ ENT.VoreSettings.WeightGainDefiners = {
 	["Thigh"] = function(value, max)
 		return Vector(
 			math.min(value, max * 0.5),
-			math.min(value, max * 1.25),
-			math.min(value, max * 1.25)
+			math.min(value, max * 1.5),
+			math.min(value, max * 1.2)
 		)
 	end,
 	["Calf"] = function(value, max)
@@ -208,9 +208,9 @@ ENT.VoreSettings.WeightGainDefiners = {
 	end,
 	["Waist"] = function(value, max)
 		return Vector(
-			math.min(value, max * 1.25),
+			math.min(value, max * 1),
 			math.min(value, max * 0.5),
-			math.min(value, max * 1)
+			math.min(value, max * 1.25)
 		)
 	end,
 	["Spine"] = function(value, max)

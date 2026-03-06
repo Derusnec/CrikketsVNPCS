@@ -200,10 +200,38 @@ ENT.VoreSettings.WeightGainSettings = {
 
 --This is temporary and will be changed in the future, defines max expansion and x,y,z growth rate for associated bones.
 ENT.VoreSettings.WeightGainDefiners = {
-	["breast"] = function(value, max)
+	["Boob"] = function(value, max)
 		return Vector(
-			math.min(value, max * 1.5),
-			math.min(value, max * 1.5),
+			math.min(value, max * 1),
+			math.min(value, max * 1.3),
+			math.min(value, max * 1)
+		)
+	end,
+	["Thigh"] = function(value, max)
+		return Vector(
+			math.min(value, max * 0.75),
+			math.min(value, max * 1),
+			math.min(value, max * 1)
+		)
+	end,
+	["Calf"] = function(value, max)
+		return Vector(
+			math.min(value, max * 0.75),
+			math.min(value, max * 1),
+			math.min(value, max * 1)
+		)
+	end,
+	["Waist"] = function(value, max)
+		return Vector(
+			math.min(value, max * 1.2),
+			math.min(value, max * 0.8),
+			math.min(value, max * 1)
+		)
+	end,
+	["Spine"] = function(value, max)
+		return Vector(
+			math.min(value, max * 0.8),
+			math.min(value, max * 1.1),
 			math.min(value, max * 1.5)
 		)
 	end,

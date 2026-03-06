@@ -197,11 +197,39 @@ ENT.VoreSettings.WeightGainSettings = {
 
 --Defines generic breast bones for weight gain.
 ENT.VoreSettings.WeightGainDefiners = {
-	["breast"] = function(value, max)
+	["Boob"] = function(value, max)
 		return Vector(
-			math.min(value, max * 1.5),
-			math.min(value, max * 1.5),
-			math.min(value, max * 1.5)
+			math.min(value, max * 0.8),
+			math.min(value, max * 1.2),
+			math.min(value, max * 0.9)
+		)
+	end,
+	["Thigh"] = function(value, max)
+		return Vector(
+			math.min(value, max * 0.65),
+			math.min(value, max * 1.1),
+			math.min(value, max * 1)
+		)
+	end,
+	["Calf"] = function(value, max)
+		return Vector(
+			math.min(value, max * 0.75),
+			math.min(value, max * 1),
+			math.min(value, max * 1.15)
+		)
+	end,
+	["Waist"] = function(value, max)
+		return Vector(
+			math.min(value, max * 1),
+			math.min(value, max * 1),
+			math.min(value, max * 1)
+		)
+	end,
+	["Spine"] = function(value, max)
+		return Vector(
+			math.min(value, max * 1),
+			math.min(value, max * 1),
+			math.min(value, max * 1)
 		)
 	end,
 }
@@ -911,8 +939,8 @@ ENT.VoreSettings.BoneOffsets = {
 	["ValveBiped.Bip01_L_Clavicle"] = {
 		Max = 24,
 		Multi = 10,
-		Start = 12,
-		["Angle"] = Angle(0,1,-0.5),
+		Start = 24,
+		["Angle"] = Angle(-20.000, 20.000, 0.000),
 	} 
 }
 

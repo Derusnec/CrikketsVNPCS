@@ -22,7 +22,7 @@ ENT.ModelScale = 1.4 --scale of initial model, be careful with this!
 ENT.Skins = {0} --The bot's skin. This cannot be randomized without extra coding.
 ENT.BodyGroups = {
 	["Shouder Pads"] = 2,
-	["Top"] = 4,
+	["Top"] = 3,
 	["Arms"] = 1,
 	["Panties"] = 1,
 	["Boots"] = 1 --Make sure the last entry is without a closing comma.
@@ -192,11 +192,39 @@ ENT.VoreSettings.WeightGainSettings = {
 
 --Defines generic breast bones for weight gain.
 ENT.VoreSettings.WeightGainDefiners = {
-	["breast"] = function(value, max)
+	["Boob"] = function(value, max)
 		return Vector(
-			math.min(value, max * 1.5),
-			math.min(value, max * 1.5),
-			math.min(value, max * 1.5)
+			math.min(value, max * 1),
+			math.min(value, max * 1),
+			math.min(value, max * 1)
+		)
+	end,
+	["Thigh"] = function(value, max)
+		return Vector(
+			math.min(value, max * 0.75),
+			math.min(value, max * 1),
+			math.min(value, max * 1)
+		)
+	end,
+	["Calf"] = function(value, max)
+		return Vector(
+			math.min(value, max * 0.75),
+			math.min(value, max * 1),
+			math.min(value, max * 1)
+		)
+	end,
+	["Waist"] = function(value, max)
+		return Vector(
+			math.min(value, max * 1),
+			math.min(value, max * 1),
+			math.min(value, max * 0.8)
+		)
+	end,
+	["Spine"] = function(value, max)
+		return Vector(
+			math.min(value, max * 1),
+			math.min(value, max * 1.25),
+			math.min(value, max * 1.2)
 		)
 	end,
 }

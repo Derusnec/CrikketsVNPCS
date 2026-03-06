@@ -5,8 +5,6 @@
 -- drg_animate 0/1, 0 disables bonelerping for overhauled bone tool adjustments
 -- dump_bot_bones will print a formatted list of bone edits into console for easy copy/paste
 -- dump_bot_flexes will print a formatted list of facial edits into console for easy copy/paste
-
---edit: Added jitter bones bug fix, more up to date with current
 ---------------------------------------------------------------------------
 if not DrGBase then return end -- Make sure you have DrGBase installed or nothing will work!
 ENT.Base = "npc_vore_base" -- The base template for all bots, keep the same!
@@ -381,8 +379,6 @@ function ENT:AnimatedBoneOffsets()
 		self.BoneBlendState = {}
 	end
 
-	if SERVER then return end
-
 	local phase = self:GetNWInt("FacialPhase", -1)
 	local data = AnimatedBoneList[phase] or AnimatedBoneList[0]
 
@@ -393,7 +389,7 @@ function ENT:AnimatedBoneOffsets()
 	end
 
 	local boneCount = self:GetBoneCount()
-	local speed = 2 --<<<<<<<<<<<<<<<<<<<<<<<<<<<<SETS SPEED OF BONE-LERP, HIGHER = FASTER MOVEMENTS
+	local speed = 5 --<<<<<<<<<<<<<<<<<<<<<<<<<<<<SETS SPEED OF BONE-LERP, HIGHER = FASTER MOVEMENTS
 
 	for i = 0, boneCount - 1 do
 		local boneName = self:GetBoneName(i)
@@ -421,9 +417,8 @@ function ENT:AnimatedBoneOffsets()
 			self.BoneBlendState[boneName] = cur
 		end
 
-		local lerpTime = 1 - math.exp(-speed * FrameTime())
-		cur.pos = LerpVector(lerpTime, cur.pos, tgtPos)
-		cur.ang = LerpAngle(lerpTime, cur.ang, tgtAng)
+		cur.pos = LerpVector(FrameTime() * speed, cur.pos, tgtPos)
+		cur.ang = LerpAngle(FrameTime() * speed, cur.ang, tgtAng)
 
 		self:ManipulateBonePosition(i, cur.pos)
 		self:ManipulateBoneAngles(i, cur.ang)
@@ -437,10 +432,6 @@ function ENT:Think()
 
   if self._VoreAnimateBonesThink then
     self:_VoreAnimateBonesThink()
-  end
-
-  if CLIENT and GetConVar("drg_animate"):GetBool() then
-    self:AnimatedBoneOffsets()
   end
 end
 
@@ -463,6 +454,8 @@ function ENT:DumpFlexData()
 
     print("}")
 end
+
+local cvar_AnimatedBones = GetConVar("drg_animate") or CreateConVar(...)
 
 -- DO NOT TOUCH --
 AddCSLuaFile()

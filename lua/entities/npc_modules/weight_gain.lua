@@ -29,6 +29,8 @@ local function whatIsBone(boneName, definers)
 		return "Waist"
 	elseif has("spine") then
 		return "Spine"
+	elseif has("tail") then
+		return "Tail"
 	end
 
 	return "Unknown"

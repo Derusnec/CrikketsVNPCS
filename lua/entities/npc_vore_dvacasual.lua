@@ -156,25 +156,6 @@ ENT.VoreSettings.WeightGainBones = {
     "ValveBiped.Bip01_Spine",
     "ValveBiped.Bip01_Spine1",
 
-        "Breast.L",
-        "Breast.L.001",
-		"BreastMid.L",
-		"BreastCenter.L",
-		"BreastTop.L",
-		"BreastUnder.L",
-		"BreastOuter.L",
-		"BreastInner.L",
-		"Nipple.L",
-		
-        "Breast.R",
-        "Breast.R.001",
-		"BreastMid.R",
-		"BreastCenter.R",
-		"BreastTop.R",
-		"BreastUnder.R",
-		"BreastOuter.R",
-		"BreastInner.R",
-		"Nipple.R",
 		
 		"Butt.L",
 		"Butt.TO.L",
@@ -192,7 +173,7 @@ ENT.VoreSettings.WeightGainBones = {
 --WEIGHT GAIN MULTIPLIERS
 ENT.VoreSettings.WeightGainSettings = {
 --This is our weight gain maximum.
-	MaxBreast = 1.3;
+	MaxBreast = 1;
 	MaxThigh = 1.6;
 	MaxCalf = 1.4;
     MaxWaist = 1.2;
@@ -208,11 +189,39 @@ ENT.VoreSettings.WeightGainSettings = {
 
 --Defines generic breast bones for weight gain.
 ENT.VoreSettings.WeightGainDefiners = {
-	["breast"] = function(value, max)
+	["Boob"] = function(value, max)
 		return Vector(
-			math.min(value, max * 1.5),
-			math.min(value, max * 1.5),
-			math.min(value, max * 1.5)
+			math.min(value, max * 1),
+			math.min(value, max * 1),
+			math.min(value, max * 1)
+		)
+	end,
+	["Thigh"] = function(value, max)
+		return Vector(
+			math.min(value, max * 0.75),
+			math.min(value, max * 0.75),
+			math.min(value, max * 0.9)
+		)
+	end,
+	["Calf"] = function(value, max)
+		return Vector(
+			math.min(value, max * 0.75),
+			math.min(value, max * 0.9),
+			math.min(value, max * 0.9)
+		)
+	end,
+	["Waist"] = function(value, max)
+		return Vector(
+			math.min(value, max * 1),
+			math.min(value, max * 1),
+			math.min(value, max * 1)
+		)
+	end,
+	["Spine"] = function(value, max)
+		return Vector(
+			math.min(value, max * 1),
+			math.min(value, max * 0.75),
+			math.min(value, max * 0.7)
 		)
 	end,
 }

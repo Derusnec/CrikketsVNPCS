@@ -152,32 +152,44 @@ ENT.VoreSettings.WeightGainBones = {
 }
 
 --WEIGHT GAIN MULTIPLIERS
-ENT.VoreSettings.WeightGainSettings = {
---This is our weight gain maximum.
-	MaxBreast = 1.2;
-	MaxThigh = 1.6;
-	MaxCalf = 1.1;
-    MaxWaist = 1.6;
-    MaxSpine = 1.4;
-
---weight gain mults
-	BoobMultiplier = 0.2;
-	ThighMultiplier = 0.6;
-	CalfMultiplier = 0.3;
-    WaistMultiplier = 0.6;
-    SpineMultiplier = 0.3;
-}
-
---Defines generic breast bones for weight gain.
 ENT.VoreSettings.WeightGainDefiners = {
-	["breast"] = function(value, max)
+	["Boob"] = function(value, max)
 		return Vector(
-			math.min(value, max * 1.5),
+			math.min(value, max * 1),
+			math.min(value, max * 1),
+			math.min(value, max * 1)
+		)
+	end,
+	["Thigh"] = function(value, max)
+		return Vector(
+			math.min(value, max * 0.75),
+			math.min(value, max * 1.1),
+			math.min(value, max * 1.1)
+		)
+	end,
+	["Calf"] = function(value, max)
+		return Vector(
+			math.min(value, max * 1),
 			math.min(value, max * 1.5),
 			math.min(value, max * 1.5)
 		)
 	end,
+	["Waist"] = function(value, max)
+		return Vector(
+			math.min(value, max * 0.9),
+			math.min(value, max * 0.8),
+			math.min(value, max * 1.1)
+		)
+	end,
+	["Spine"] = function(value, max)
+		return Vector(
+			math.min(value, max * 0.75),
+			math.min(value, max * 0.7),
+			math.min(value, max * 0.9)
+		)
+	end,
 }
+
 
 --FACIAL ANIMATION SETTINGS
 ENT.VoreSettings.FlexFaces = {

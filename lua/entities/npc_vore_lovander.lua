@@ -164,24 +164,33 @@ ENT.VoreSettings.WeightGainBones = {
     "ValveBiped.Bip01_Spine",
     "ValveBiped.Bip01_Spine1",
 
-        "Upper_Boob_Root",
-        "BreastTop.L",
-        "Boob_Root_L",
-        "Breast_1.L",
-		"Breast_2.L",
-		"BreastBottom.L",
-        "BreastTop.R",
-        "Boob_Root_R",
-        "Breast_1.R",
-		"Breast_2.R",
-		"BreastBottom.R",
-		
-		"AssRootL",
-		"AssRootR",
-		"Twist_Butt.1_L",
-		"Ass_Wiggle.1_L",
-		"Twist_Butt.1_R",
-		"Ass_Wiggle.1_R", --No need to remove end commas on this table.
+	"Phys_Thigh.R",
+	"thigh.R.001",
+	"thigh.R.002",
+	"thigh.R.003",
+	"thigh.R.004",
+	"Phys_Thigh.L",
+	"thigh.L.001",
+	"thigh.L.002",
+	"thigh.L.003",
+	"thigh.L.004",
+	
+	"Breast.L",
+	"Breast.L.001",
+	"Breast.L.002",
+	"Breast.R",
+	"Breast.R.001",
+	"Breast.R.002",
+	
+	"Phy_Butt",
+	"Butt.L",
+	"Butt.L.001",
+	"Butt.R",
+	"Butt.R.001",
+	
+	"Phys_Belly",
+	"Phys_Belly.001",
+	"Phys_Belly.002",
 }
 
 --WEIGHT GAIN MULTIPLIERS
@@ -203,10 +212,38 @@ ENT.VoreSettings.WeightGainSettings = {
 
 --This is temporary and will be changed in the future, defines max expansion and x,y,z growth rate for associated bones.
 ENT.VoreSettings.WeightGainDefiners = {
-	["breast"] = function(value, max)
+	["Boob"] = function(value, max)
 		return Vector(
-			math.min(value, max * 1.5),
-			math.min(value, max * 1.5),
+			math.min(value, max * 0.8),
+			math.min(value, max * 0.7),
+			math.min(value, max * 1)
+		)
+	end,
+	["Thigh"] = function(value, max)
+		return Vector(
+			math.min(value, max * 0.8),
+			math.min(value, max * 1.2),
+			math.min(value, max * 1)
+		)
+	end,
+	["Calf"] = function(value, max)
+		return Vector(
+			math.min(value, max * 1),
+			math.min(value, max * 1),
+			math.min(value, max * 1)
+		)
+	end,
+	["Waist"] = function(value, max)
+		return Vector(
+			math.min(value, max * 0.8),
+			math.min(value, max * 0.8),
+			math.min(value, max * 1)
+		)
+	end,
+	["Spine"] = function(value, max)
+		return Vector(
+			math.min(value, max * 1),
+			math.min(value, max * 1.2),
 			math.min(value, max * 1.5)
 		)
 	end,
