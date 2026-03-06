@@ -81,7 +81,7 @@ INSTALLATION GUIDE -> PAY ATTENTION!
 ------------------------------------------------------------------------------
 KNOWN BUGS/ISSUES
 ------------------------------------------------------------------------------
--NPC clavicles are a little wonky on old models, need to go back and change vectors/poses for better appearance
+-Weight gain bone offsets are currently not working, going to implement a fix soon™
 
 
 ------------------------------------------------------------------------------
