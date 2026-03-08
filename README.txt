@@ -81,24 +81,25 @@ INSTALLATION GUIDE -> PAY ATTENTION!
 ------------------------------------------------------------------------------
 KNOWN BUGS/ISSUES
 ------------------------------------------------------------------------------
--NPC clavicles are a little wonky on old models, need to go back and change vectors/poses for better appearance
+-Weight gain bone offsets are currently not working, going to implement a fix soon™
 
 
 ------------------------------------------------------------------------------
 CHANGELOG
 ------------------------------------------------------------------------------
-3/2/25: Initial update, I'm going to consider this to be the official first real update of the mod. The changelog is pretty much this entire readme plus the downloads, so I won't go into detail, in the future I will explain update additions/what asset files are added/etc.
+3/2/26: Initial update, I'm going to consider this to be the official first real update of the mod. The changelog is pretty much this entire readme plus the downloads, so I won't go into detail, in the future I will explain update additions/what asset files are added/etc.
+
+3/6/26: Purrslime added, weight gain definers added for all V-NPCs current and new. Weight gain definers added to template file. GLaDOS is next, I accidentally deleted her finished file a week ago so I've been struggling to do her again (lots of voicelines) but it's time to lock in. I'm going to blow through my V-NPC roadmap until any more major additions.
 
 
 ------------------------------------------------------------------------------
 ROADMAP
 ------------------------------------------------------------------------------
--Weight gain definers for old V-NPCs (In progress)
+-Repatch weight gain bone offsets
 -Autoduck support for large V-NPCs (In development hell)
 
 V-NPCs in the works:
   -GLaDOS
-  -Purrslime
 V-NPCs in list:
   -https://steamcommunity.com/sharedfiles/filedetails/?id=3217986388 [Kemono] Akky
   -https://steamcommunity.com/sharedfiles/filedetails/?id=3628868280 Toy Chica by BlackHat/Clawnie
