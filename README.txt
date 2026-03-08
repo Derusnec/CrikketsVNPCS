@@ -73,7 +73,7 @@ INSTALLATION GUIDE -> PAY ATTENTION!
 
 3b. IMPORTANT: Folders labeled VNPC_REQUIRED_[insert_name_here] are REQUIRED and DO NOT SUPPORT WORKSHOP LINKS. Make sure you at least download these
 
-4. Extract the folders inside of CrikketVNPC into your Garrysmod/garrysmod/addons, your addons folder should be filled with files like VNPC_Anubis and so on
+4. Extract the folders inside of CrikketVNPC's google drive folder into your Garrysmod/garrysmod/addons, your addons folder should be filled with files like VNPC_Anubis and so on AS WELL as the folder from here + VNPCs 0.4
 
 5. In the end, in your addons folder there should be a folder for base VNPCs 0.4, CrikketsVNPCS, and then a bunch of VNPC_[insert_name] folders (or just the required ones)
 
