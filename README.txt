@@ -91,7 +91,7 @@ CHANGELOG
 
 3/6/26: Purrslime added, weight gain definers added for all V-NPCs current and new. Weight gain definers added to template file. GLaDOS is next, I accidentally deleted her finished file a week ago so I've been struggling to do her again (lots of voicelines) but it's time to lock in. I'm going to blow through my V-NPC roadmap until any more major additions.
 
-3/8/26: GLaDOS added, belly angles + pos added or adjusted for all V-NPCs, footstep sounds adjusted for all V-NPCs. Added some better spawnicons for a few V-NPCs as well as filled missing ones.
+3/8/26: GLaDOS added, belly angles + pos added or adjusted for all V-NPCs, footstep sounds adjusted for all V-NPCs. Added some better spawnicons for a few V-NPCs as well as filled missing ones. This also is the first official release on github, no more zipping source files (though they are functionally identical, zipping source files is more up to date but you run the risks of half-finished stuff and unmentioned bugs)
 
 
 ------------------------------------------------------------------------------
