@@ -67,7 +67,7 @@ INSTALLATION GUIDE -> PAY ATTENTION!
 ------------------------------------------------------------------------------
 1. Install V-NPCs V0.4 (link above) and extract the folder to your Garrysmod/garrysmod/addons folder. The files need to be in a folder, so vnpcs04/[file_contents]
 
-2. Install my github .lua files by clicking Code -> Download .zip, extract this folder into your addons folder the same exact way as step one
+2. Install my github latest release, extract this zip file into your addons folder the same exact way as step one
 
 3. Install the assets for the mod. You can either download the entire folder for initial install or pick and choose which to install. Workshop support is still present if you don't want to do this! I just can't promise they will keep working
 
