@@ -15,10 +15,10 @@ ENT.ModNeeded = "NO" -- This is where you'll put the steam workshop ID for your 
 
 --BASIC MODEL INFO
 ENT.Models = {"models/chainsaw man/makima/makima nsfw.mdl"} -- Insert the V-NPC model's path here. You can copy it in Gmod.
-ENT.SpawnHealth = 128 --Spawn health (128=light, 256=normal, 384=beefy, 512=strong, 768=danger, 1024=boss, 2048=apex)
-ENT.HealthRegen = 2 --two is basic, just enough for survivability. Bots regen pretty quick, be careful with this!
+ENT.SpawnHealth = 768 --Spawn health (128=light, 256=normal, 384=beefy, 512=strong, 768=danger, 1024=boss, 2048=apex)
+ENT.HealthRegen = 4 --two is basic, just enough for survivability. Bots regen pretty quick, be careful with this!
 ENT.BloodColor = BLOOD_COLOR_RED --blood color, can be BLOOD_COLOR_YELLOW, _ANTLION, _MECH, or even DONT_BLEED
-ENT.ModelScale = 1 --scale of initial model, be careful with this!
+ENT.ModelScale = 1.1 --scale of initial model, be careful with this!
 ENT.Skins = {0} --The bot's skin. This cannot be randomized without extra coding.
 
 --AI BEHAVIOR
@@ -116,7 +116,7 @@ ENT.Footsteps = { --Footstep sounds! Defaults to barefoot steps I added.
 }
 function ENT:EmitFootstep()
     if not self.Footsteps or not self.Footsteps["Default"] then return end
-    self:EmitSound(table.Random(self.Footsteps["Default"]), 75, 100)
+    self:EmitSound(table.Random(self.Footsteps["Default"]), 65, 100)
 end
 
 --AI VORE MECHANICS
@@ -128,7 +128,7 @@ ENT.VoreSettings.HasWeightGain = true --is weight gain enabled? HELL YEAH!
 
 --BELLY VISUALS/SETUP
 ENT.Belly_Offset = Vector(3, 4.5, 0) --gut offset from pelvis, change this!
-ENT.Belly_Angles = Angle(0, 90, 90) --The rotation of the gut!
+ENT.Belly_Angles = Angle(0, 95, 90) --The rotation of the gut!
 ENT.VoreSettings.BellyFloorModifier = 0.3 --how low/high belly will be angled to avoid floor clipping. The higher the value, the more elevated.
 --ENT.SpineBone = "" --Replace and uncomment with a bone name if the NPC couldn't find a proper anchor for the belly.
 ENT.VoreSettings.StruggleMultiplier = 1.5 --Sets struggle deformation strength on belly: 1.5 = weak, 1 = normal, 0.5 = big pred/chubby pred

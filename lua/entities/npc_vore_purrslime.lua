@@ -119,7 +119,7 @@ ENT.ClientIdleSounds = false
 --	}
 --}
 
-ENT.VoreSoundPitch = 1 --The pitch of the vore sounds above, also default sounds.
+ENT.VoreSoundPitch = 1.3 --The pitch of the vore sounds above, also default sounds.
 
 ENT.Footsteps = { --Footstep sounds! Defaults to barefoot steps I added.
     ["Default"] = {

@@ -114,7 +114,7 @@ ENT.Footsteps = {
 }
 function ENT:EmitFootstep()
     if not self.Footsteps or not self.Footsteps["Default"] then return end
-    self:EmitSound(table.Random(self.Footsteps["Default"]), 75, 100)
+    self:EmitSound(table.Random(self.Footsteps["Default"]), 80, 85)
 end
 ENT.VoreSoundPitch = 1.1
 --AI VORE MECHANICS
@@ -126,6 +126,7 @@ ENT.VoreSettings.HasWeightGain = true --is weight gain enabled? HELL YEAH!
 
 --VORE BELLY VISUALS
 ENT.BellyColor = Color(59, 56, 56) --gut color, debug starts white.
+ENT.Belly_Angles = Angle(0, 85, 100) --The rotation of the gut!
 ENT.Belly_Offset = Vector(-1, 5, 0) --gut offset from pelvis, change this!
 ENT.BellyMaterial = "models/wormonlooker/belly/belly_chrysalis" --Use this to set custom belly materials. Check out the materials folder!
 ENT.VoreSettings.MaxBaseSize = 0 --any leftover chub? 1 = full belly 0 = flat belly

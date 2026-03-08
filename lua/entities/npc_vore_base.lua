@@ -338,11 +338,15 @@ function ENT:Burp(big)
 	end
 
 	local burp = ""
+	local burpSounds = self.VoreBurpSounds or self.VoreSounds or {}
+	local smallBurps = burpSounds["small_burp"] or self.VoreSounds["small_burp"]
+	local bigBurps = burpSounds["big_burp"] or self.VoreSounds["big_burp"]
+
 	if not big then				
-		burp = GetRandomFromTable(self.VoreSounds["small_burp"])
+		burp = GetRandomFromTable(smallBurps)
 		self:EmitSound(burp, 80, self.VoreSoundPitch * 100, 1.4)
 	else
-		burp = GetRandomFromTable(self.VoreSounds["big_burp"])
+		burp = GetRandomFromTable(bigBurps)
 		self:EmitSound(burp, 80, self.VoreSoundPitch * 100, 1.4)
 	end
 

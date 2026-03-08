@@ -100,7 +100,7 @@ ENT.Footsteps = { --Footstep sounds! Defaults to barefoot steps I added.
 ENT.VoreSoundPitch = 1.1
 function ENT:EmitFootstep()
     if not self.Footsteps or not self.Footsteps["Default"] then return end
-    self:EmitSound(table.Random(self.Footsteps["Default"]), 75, 100)
+    self:EmitSound(table.Random(self.Footsteps["Default"]), 50, 100)
 end
 
 --AI VORE MECHANICS

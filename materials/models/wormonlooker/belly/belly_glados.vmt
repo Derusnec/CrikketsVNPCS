@@ -1,0 +1,20 @@
+Vertexlitgeneric
+{
+	$basetexture "models\WormOnlooker\belly\glados\glados_albedo"
+	$bumpmap "models\wormonlooker\belly\glados\glados_normal"
+	"normalmapalphaenvmapmask" "1"
+	"$halflambert"		"1" 						// Включает полутеневой эффект для более мягкого освещения
+
+	"$phong"			"1" 						// Включает использование шейдера Phong для блеска
+	"$phongboost"		"1"						// Увеличивает интенсивность блеска
+	"$phongalbedotint"		"1"						// Применяет окраску альбедо к блеску
+	"$phongexponenttexture"	"general_texture/pbr/pbr_g" 				// Текстура для управления блеском (экспонента)
+	"$phongfresnelranges"	"[2 .2 .2]" 					// Определяет преломления света в зависимости от угла падения для отражения при различных углах
+
+	"$rimlight"		"1" 						// Включает эффект ободкового света (rim lighting)
+	"$rimlightexponent"		"3" 						// Указывает, насколько резким будет ободковый свет
+	"$rimlightboost"		"5" 						// Увеличивает интенсивность ободкового света
+
+	
+
+}

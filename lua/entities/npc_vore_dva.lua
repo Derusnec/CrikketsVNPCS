@@ -110,7 +110,7 @@ ENT.Footsteps = {
 }
 function ENT:EmitFootstep()
     if not self.Footsteps or not self.Footsteps["Default"] then return end
-    self:EmitSound(table.Random(self.Footsteps["Default"]), 75, 100)
+    self:EmitSound(table.Random(self.Footsteps["Default"]), 65, 105)
 end
 ENT.IdleSoundDelay = math.random(6,32)
 ENT.ClientIdleSounds = false
