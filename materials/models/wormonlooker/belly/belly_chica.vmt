@@ -1,0 +1,11 @@
+Vertexlitgeneric
+{
+	$basetexture "models\WormOnlooker\belly\white"
+	$bumpmap "dev/flat_normal"
+	"$phongexponenttexture"	"general_texture/pbr/pbr_g"
+	"$phong"			"1" 						
+	"$phongboost"		"1.5"						
+	"$phongtint" "[1 1 0.3]"	
+	"$phongfresnelranges"	"[0.4 .8 2]"					
+	$lightwarptexture "models\wormonlooker\lightwarps\painting_lightwarp"
+}
