@@ -18,7 +18,7 @@ The only other major coding component in this mod is Aliva's bonelerp animations
 ------------------------------------------------------------------------------
 FEATURES
 ------------------------------------------------------------------------------
-- 27 Unique V-NPCs, 3 variations with unique animations/flexes/stats
+- 30 Unique V-NPCs, 3 variations with unique animations/flexes/stats
 - Complementary belly textures for all V-NPCs
 - Basic sound support for V-NPCs, including many custom sounds
 - NPC Daemon (autospawner) profile to dynamically spawn V-NPCs
@@ -65,18 +65,8 @@ https://imgur.com/a/crikkets-v-npc-daemon-guide-also-bot-pics-E5O6crv <-- Here's
 ------------------------------------------------------------------------------
 INSTALLATION GUIDE -> PAY ATTENTION!
 ------------------------------------------------------------------------------
-1. Install V-NPCs V0.4 (link above) and extract the folder to your Garrysmod/garrysmod/addons folder. The files need to be in a folder, so vnpcs04/[file_contents]
-
-2. Install my github .lua files by clicking Code -> Download .zip, extract this folder into your addons folder the same exact way as step one
-
-3. Install the assets for the mod. You can either download the entire folder for initial install or pick and choose which to install. Workshop support is still present if you don't want to do this! I just can't promise they will keep working
-
-3b. IMPORTANT: Folders labeled VNPC_REQUIRED_[insert_name_here] are REQUIRED and DO NOT SUPPORT WORKSHOP LINKS. Make sure you at least download these
-
-4. Extract the folders inside of CrikketVNPC into your Garrysmod/garrysmod/addons, your addons folder should be filled with files like VNPC_Anubis and so on
-
-5. In the end, in your addons folder there should be a folder for base VNPCs 0.4, CrikketsVNPCS, and then a bunch of VNPC_[insert_name] folders (or just the required ones)
-
+1. Watch the epic tutorial
+https://drive.google.com/file/d/12QkX5tqMFHRFavc1ETXr4Vv9iS2_flYD/view?usp=drive_link
 
 ------------------------------------------------------------------------------
 KNOWN BUGS/ISSUES
@@ -91,6 +81,8 @@ CHANGELOG
 
 3/6/26: Purrslime added, weight gain definers added for all V-NPCs current and new. Weight gain definers added to template file. GLaDOS is next, I accidentally deleted her finished file a week ago so I've been struggling to do her again (lots of voicelines) but it's time to lock in. I'm going to blow through my V-NPC roadmap until any more major additions.
 
+3/8/26: GLaDOS added, belly angles + pos added or adjusted for all V-NPCs, footstep sounds adjusted for all V-NPCs. Added some better spawnicons for a few V-NPCs as well as filled missing ones. This also is the first official release on github, no more zipping source files (though they are functionally identical, zipping source files is more up to date but you run the risks of half-finished stuff and unmentioned bugs)
+
 
 ------------------------------------------------------------------------------
 ROADMAP
@@ -99,15 +91,17 @@ ROADMAP
 -Autoduck support for large V-NPCs (In development hell)
 
 V-NPCs in the works:
-  -GLaDOS
+ -Toy Chica by BlackHat/Clawnie
+ -[Kemono] Akky
+ -PUR-03
 V-NPCs in list:
-  -https://steamcommunity.com/sharedfiles/filedetails/?id=3217986388 [Kemono] Akky
-  -https://steamcommunity.com/sharedfiles/filedetails/?id=3628868280 Toy Chica by BlackHat/Clawnie
   -https://steamcommunity.com/sharedfiles/filedetails/?id=3337580323 [Kemono] Lady Moon
-  -https://steamcommunity.com/sharedfiles/filedetails/?id=3638168031 PUR-03
   -https://steamcommunity.com/sharedfiles/filedetails/?id=2873749273 Humanoid Turret Girl V2
   -https://steamcommunity.com/sharedfiles/filedetails/?id=3663233017 Ghostly Wendrith
   -https://steamcommunity.com/sharedfiles/filedetails/?id=3644692257 Phalia
+NEXT BATCH (so far)
+ -https://steamcommunity.com/sharedfiles/filedetails/?id=3677664005 [JallerArts] Assaultron
+ -https://steamcommunity.com/sharedfiles/filedetails/?id=3658483735 Tactical FemCombine
 
 SEND ME REQUESTS ON THE VORE FORUMS!
 Must be a playermodel or NPC, more likely to do it if it has facial flexes or even bone facial flexes!
