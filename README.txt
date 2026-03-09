@@ -18,7 +18,7 @@ The only other major coding component in this mod is Aliva's bonelerp animations
 ------------------------------------------------------------------------------
 FEATURES
 ------------------------------------------------------------------------------
-- 27 Unique V-NPCs, 3 variations with unique animations/flexes/stats
+- 30 Unique V-NPCs, 3 variations with unique animations/flexes/stats
 - Complementary belly textures for all V-NPCs
 - Basic sound support for V-NPCs, including many custom sounds
 - NPC Daemon (autospawner) profile to dynamically spawn V-NPCs
