@@ -18,7 +18,7 @@ The only other major coding component in this mod is Aliva's bonelerp animations
 ------------------------------------------------------------------------------
 FEATURES
 ------------------------------------------------------------------------------
-- 30 Unique V-NPCs, 3 variations with unique animations/flexes/stats
+- 31 Unique V-NPCs, 3 of which variations with unique animations/flexes/stats
 - Complementary belly textures for all V-NPCs
 - Basic sound support for V-NPCs, including many custom sounds
 - NPC Daemon (autospawner) profile to dynamically spawn V-NPCs
@@ -91,12 +91,11 @@ ROADMAP
 -Autoduck support for large V-NPCs (In development hell)
 
 V-NPCs in the works:
- -Toy Chica by BlackHat/Clawnie
  -[Kemono] Akky
  -PUR-03
+ -Humanoid Turret Girl V2
 V-NPCs in list:
   -https://steamcommunity.com/sharedfiles/filedetails/?id=3337580323 [Kemono] Lady Moon
-  -https://steamcommunity.com/sharedfiles/filedetails/?id=2873749273 Humanoid Turret Girl V2
   -https://steamcommunity.com/sharedfiles/filedetails/?id=3663233017 Ghostly Wendrith
   -https://steamcommunity.com/sharedfiles/filedetails/?id=3644692257 Phalia
 NEXT BATCH (so far)
