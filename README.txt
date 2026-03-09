@@ -65,18 +65,8 @@ https://imgur.com/a/crikkets-v-npc-daemon-guide-also-bot-pics-E5O6crv <-- Here's
 ------------------------------------------------------------------------------
 INSTALLATION GUIDE -> PAY ATTENTION!
 ------------------------------------------------------------------------------
-1. Install V-NPCs V0.4 (link above) and extract the folder to your Garrysmod/garrysmod/addons folder. The files need to be in a folder, so vnpcs04/[file_contents]
-
-2. Install my github latest release, extract this zip file into your addons folder the same exact way as step one
-
-3. Install the assets for the mod. You can either download the entire folder for initial install or pick and choose which to install. Workshop support is still present if you don't want to do this! I just can't promise they will keep working
-
-3b. IMPORTANT: Folders labeled VNPC_REQUIRED_[insert_name_here] are REQUIRED and DO NOT SUPPORT WORKSHOP LINKS. Make sure you at least download these
-
-4. Extract the folders inside of CrikketVNPC's google drive folder into your Garrysmod/garrysmod/addons, your addons folder should be filled with files like VNPC_Anubis and so on AS WELL as the folder from here + VNPCs 0.4
-
-5. In the end, in your addons folder there should be a folder for base VNPCs 0.4, CrikketsVNPCS, and then a bunch of VNPC_[insert_name] folders (or just the required ones)
-
+1. Watch the epic tutorial
+https://drive.google.com/file/d/12QkX5tqMFHRFavc1ETXr4Vv9iS2_flYD/view?usp=drive_link
 
 ------------------------------------------------------------------------------
 KNOWN BUGS/ISSUES
