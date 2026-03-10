@@ -371,20 +371,7 @@ local AnimatedBoneList = {
 
 --WEIGHT GAIN BONE OFFSETS
 --These take priority over above poses, will adjust specific bones for weight gain
-ENT.VoreSettings.BoneOffsets = {
-	["ValveBiped.Bip01_R_Clavicle"] = {
-		Max = 8, --< Max Angle
-		Multi = 5, --< The slope of the angle changing
-		Start = 0, --< Inital Angle
-		["Angle"] = Angle(0,1,0),
-	},
-	["ValveBiped.Bip01_L_Clavicle"] = {
-		Max = 8,
-		Multi = 5,
-		Start = 0,
-		["Angle"] = Angle(0,1,0),
-	} 
-}
+
 
 --ACTUAL CODE, LOOK AWAY LEST YOUR EYES START TO BLEED!
 function ENT:CustomOnInitialize()

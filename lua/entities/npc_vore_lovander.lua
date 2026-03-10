@@ -15,7 +15,7 @@ ENT.ModNeeded = "NO" -- This is where you'll put the steam workshop ID for your 
 
 --BASIC MODEL INFO
 ENT.Models = {"models/ltusamodels_inc/lovander_bom39/lovander_npc.mdl"} -- Insert the V-NPC model's path here. You can copy it in Gmod.
-ENT.SpawnHealth = 384 --Spawn health (128=light, 256=normal, 384=beefy, 512=strong, 768=danger, 1024=boss, 2048=apex)
+ENT.SpawnHealth = 256 --Spawn health (128=light, 256=normal, 384=beefy, 512=strong, 768=danger, 1024=boss, 2048=apex)
 ENT.HealthRegen = 4 --two is basic, just enough for survivability. Bots regen pretty quick, be careful with this!
 ENT.BloodColor = BLOOD_COLOR_RED --blood color, can be BLOOD_COLOR_YELLOW, _ANTLION, _MECH, or even DONT_BLEED
 ENT.ModelScale = 1.25 --scale of initial model, be careful with this!
@@ -880,20 +880,7 @@ local AnimatedBoneList = {
 
 --WEIGHT GAIN BONE OFFSETS
 --These take priority over above poses, will adjust specific bones for weight gain
-ENT.VoreSettings.BoneOffsets = {
-	["ValveBiped.Bip01_R_Clavicle"] = {
-		Max = 16, --< Max Angle
-		Multi = 5, --< The slope of the angle changing
-		Start = 6, --< Inital Angle
-		["Angle"] = Angle(0,1,0),
-	},
-	["ValveBiped.Bip01_L_Clavicle"] = {
-		Max = 16,
-		Multi = 5,
-		Start = 6,
-		["Angle"] = Angle(0,1,0),
-	}
-}
+
 
 --ACTUAL CODE, LOOK AWAY LEST YOUR EYES START TO BLEED!
 function ENT:CustomOnInitialize()

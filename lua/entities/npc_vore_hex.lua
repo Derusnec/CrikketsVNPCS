@@ -15,8 +15,8 @@ ENT.ModNeeded = "https://steamcommunity.com/sharedfiles/filedetails/?id=33579245
 
 --BASIC MODEL INFO
 ENT.Models = {"models/player/bom39/hex_maniac/hex_maniac_dress_sfw.mdl"} -- Insert the V-NPC model's path here. You can copy it in Gmod.
-ENT.SpawnHealth = 256 --Spawn health (128=light, 256=normal, 384=beefy, 512=strong, 768=danger, 1024=boss, 2048=apex)
-ENT.HealthRegen = 2 --two is basic, just enough for survivability. Bots regen pretty quick, be careful with this!
+ENT.SpawnHealth = 384 --Spawn health (128=light, 256=normal, 384=beefy, 512=strong, 768=danger, 1024=boss, 2048=apex)
+ENT.HealthRegen = 4 --two is basic, just enough for survivability. Bots regen pretty quick, be careful with this!
 ENT.BloodColor = BLOOD_COLOR_RED --blood color, can be BLOOD_COLOR_YELLOW, _ANTLION, _MECH, or even DONT_BLEED
 ENT.ModelScale = 1 --scale of initial model, be careful with this!
 ENT.Skins = {0} --The bot's skin. This cannot be randomized without extra coding.
@@ -1170,20 +1170,7 @@ local AnimatedBoneList = {
 
 --WEIGHT GAIN BONE OFFSETS
 --These take priority over above poses, will adjust specific bones for weight gain
-ENT.VoreSettings.BoneOffsets = {
-	["ValveBiped.Bip01_R_Clavicle"] = {
-		Max = 8, --< Max Angle
-		Multi = 5, --< The slope of the angle changing
-		Start = 0, --< Inital Angle
-		["Angle"] = Angle(0,1,0),
-	},
-	["ValveBiped.Bip01_L_Clavicle"] = {
-		Max = 8,
-		Multi = 5,
-		Start = 0,
-		["Angle"] = Angle(0,1,0),
-	} 
-}
+
 
 --ACTUAL CODE, LOOK AWAY LEST YOUR EYES START TO BLEED!
 function ENT:CustomOnInitialize()

@@ -1,0 +1,6128 @@
+{
+	"nextbot": {
+		"D.VA": {
+			"VERSION": 53,
+			"classname": {
+				"type": "DrGBaseNextbots",
+				"name": "npc_vore_dva"
+			},
+			"entity_type": "nextbot",
+			"spawneffect": [],
+			"description": "D.VA with zero of the barely legal vibes and redesigned as the most ridiculously over-proportioned woman imaginable. She's on duty out of her mech, fast but a glass cannon for sure. Not the scariest by far."
+		},
+		"Marin": {
+			"VERSION": 53,
+			"classname": {
+				"type": "DrGBaseNextbots",
+				"name": "npc_vore_marin"
+			},
+			"entity_type": "nextbot",
+			"spawneffect": [],
+			"description": "Marin from Dress Up Darling because I can. She's rather basic as there are no face flexes, but she's more of a fill-in low tier predator, perhaps the easiest predator to kill and juke aside from Salamander."
+		},
+		"Meruneko": {
+			"VERSION": 53,
+			"classname": {
+				"type": "DrGBaseNextbots",
+				"name": "npc_vore_meru_neko"
+			},
+			"entity_type": "nextbot",
+			"spawneffect": [],
+			"description": "Meru's cat girl form is totally different, on foot and much less mobile in exchange for a bit more health and predator prowess. "
+		},
+		"Toriel": {
+			"VERSION": 53,
+			"classname": {
+				"type": "DrGBaseNextbots",
+				"name": "npc_vore_toriel"
+			},
+			"entity_type": "nextbot",
+			"spawneffect": [],
+			"description": "Toriel Mama is here to eat all of her darling children. Another fat slow walker, but this time she's naturally cradling her giant tits so it's kinda cool. Also she gets embarrassed when she burps. Prepare to hear undertale talking sounds, lmao."
+		},
+		"Karelia": {
+			"VERSION": 53,
+			"classname": {
+				"type": "DrGBaseNextbots",
+				"name": "npc_vore_karelia"
+			},
+			"entity_type": "nextbot",
+			"spawneffect": [],
+			"description": "Karelia is unique in that she doesn't actually need to be in melee range. Through backrooms magic (I set the attack range really high) she will be able to eat people at a surprising distance! Even from upper story windows if you're peeking out! Keep your distance. Luckily, her fat ass keeps her from being too mobile."
+		},
+		"Toofy": {
+			"VERSION": 53,
+			"classname": {
+				"type": "DrGBaseNextbots",
+				"name": "npc_vore_toofy"
+			},
+			"entity_type": "nextbot",
+			"spawneffect": [],
+			"description": "AAAAAHHHHH! SHE'S GOT A COCK! Another low-tier predator with decent stats across the board. She's a real jack-of-all-trades type. Listen for little squeaks."
+		},
+		"Albino Deathclaw": {
+			"VERSION": 53,
+			"classname": {
+				"type": "DrGBaseNextbots",
+				"name": "npc_vore_deathclaw_r"
+			},
+			"entity_type": "nextbot",
+			"spawneffect": [],
+			"description": "The apex predator. Incredible health, incredible speed, great tracking. Don't let her see you, or praise the lord and pass the ammunition because you'll need a LOT of bullets to take her down."
+		},
+		"Toy Chica": {
+			"VERSION": 53,
+			"classname": {
+				"type": "DrGBaseNextbots",
+				"name": "npc_vore_chica"
+			},
+			"entity_type": "nextbot",
+			"spawneffect": [],
+			"description": "Toy Chica from FNAF, showing you that the bite of 87 wasn't a bite at all. She's a slow clanker, beefy but easy to hear coming."
+		},
+		"Mal0": {
+			"VERSION": 53,
+			"classname": {
+				"type": "DrGBaseNextbots",
+				"name": "npc_vore_mal0"
+			},
+			"entity_type": "nextbot",
+			"spawneffect": [],
+			"description": "My second addition to the pack, Mal0 is practically the same as Kroxi aside from her size and massively increased health pool. Her audio cues are also rather quiet, easily lost in gunfire. She's surprised me many a time despite being a giant, also beware her range!"
+		},
+		"Deathclaw": {
+			"VERSION": 53,
+			"classname": {
+				"type": "DrGBaseNextbots",
+				"name": "npc_vore_deathclaw"
+			},
+			"entity_type": "nextbot",
+			"spawneffect": [],
+			"description": "This is not a Fallout 4 Deathclaw. Better run... Agile, extremely powerful and can wipe out entire throngs of people easily. You'll hear her footsteps before seeing her if you're lucky."
+		},
+		"Salamander": {
+			"VERSION": 53,
+			"classname": {
+				"type": "DrGBaseNextbots",
+				"name": "npc_vore_salamander"
+			},
+			"entity_type": "nextbot",
+			"spawneffect": [],
+			"description": "Salamander is a tiny bit stronger than Marin, but not by much. She's a slow jogger, languid walker and her digestive system is slow-going. Other than taking you by surprise she's a very easy kill."
+		},
+		"Goblin Girl": {
+			"VERSION": 53,
+			"classname": {
+				"type": "DrGBaseNextbots",
+				"name": "npc_vore_goblin"
+			},
+			"entity_type": "nextbot",
+			"spawneffect": [],
+			"description": "Generic LVL. 1 goblin girl, aside from her stock goblin sound effects she's extremely weak. But she can easily catch unaware opponents around corners with her tiny frame and quick movements."
+		},
+		"Casual D.VA": {
+			"VERSION": 53,
+			"classname": {
+				"type": "DrGBaseNextbots",
+				"name": "npc_vore_dvacasual"
+			},
+			"entity_type": "nextbot",
+			"spawneffect": [],
+			"description": "D.VA off duty! She's perpetually running and while she's not the best at raw speed she's utterly relentless. She's a little less beefy in just her running fit though."
+		},
+		"Sadako": {
+			"VERSION": 53,
+			"classname": {
+				"type": "DrGBaseNextbots",
+				"name": "npc_vore_sadako"
+			},
+			"entity_type": "nextbot",
+			"spawneffect": [],
+			"description": "Sadako is a unique case. Limited vision, range but excellent hearing. She creeps around very slowly, but will burst into the fastest movement speed in this pack when spotting a target! She's the closest thing to a jumpscare predator in this pack (though they all have that potential in tight maps tbh)"
+		},
+		"Xenomorph": {
+			"VERSION": 53,
+			"classname": {
+				"type": "DrGBaseNextbots",
+				"name": "npc_vore_xenomorph"
+			},
+			"entity_type": "nextbot",
+			"spawneffect": [],
+			"description": "The Xenomorph Queen is the natural counterpart to the Albino Deathclaw, being an Apex predator. She's a bit weaker, but still can wipe out entire masses of people in just a few gulps."
+		},
+		"GLaDOS": {
+			"VERSION": 53,
+			"classname": {
+				"type": "DrGBaseNextbots",
+				"name": "npc_vore_glados"
+			},
+			"entity_type": "nextbot",
+			"spawneffect": [],
+			"description": "Unlike her peers, GLaDOS never shuts the fuck up! Listen to her berate you, her prey and her prey's mom as she boils them alive in synthetic acid. She also releases steam instead of burping."
+		},
+		"Kroxi": {
+			"VERSION": 53,
+			"classname": {
+				"type": "DrGBaseNextbots",
+				"name": "npc_vore_kroxi"
+			},
+			"entity_type": "nextbot",
+			"spawneffect": [],
+			"description": "Basic walking predator, standard size with a slightly enhanced melee range. She was my first addition to the pack, making her uniquely \"default\" amongst the rest."
+		},
+		"Angela": {
+			"VERSION": 53,
+			"classname": {
+				"type": "DrGBaseNextbots",
+				"name": "npc_vore_angela"
+			},
+			"entity_type": "nextbot",
+			"spawneffect": [],
+			"description": "Angela from Atlyss, I have NO idea who this character is. So she's a weak, shy predator dressed in a nun outfit for some reason. She's more receptive to running away than active pursuit and is an easy dub."
+		},
+		"Purrslime": {
+			"VERSION": 53,
+			"classname": {
+				"type": "DrGBaseNextbots",
+				"name": "npc_vore_purrslime"
+			},
+			"entity_type": "nextbot",
+			"spawneffect": [],
+			"description": "Purrslime's distinct footsteps give her away, and she's a rather slow and cumbersome mover. Despite her noteworthy sounds, they're surprisingly quiet when interspersed with gunfire and chaos."
+		},
+		"Ankha": {
+			"VERSION": 53,
+			"classname": {
+				"type": "DrGBaseNextbots",
+				"name": "npc_vore_ankha"
+			},
+			"entity_type": "nextbot",
+			"spawneffect": [],
+			"description": "Lord bitch Ankha graces you with her presence, her slow, lazy movement speed just tells you you aren't even worth eating. Get caught in a corner however and you're cat food."
+		},
+		"Valkyr": {
+			"VERSION": 53,
+			"classname": {
+				"type": "DrGBaseNextbots",
+				"name": "npc_vore_valkyr"
+			},
+			"entity_type": "nextbot",
+			"spawneffect": [],
+			"description": "Valkyr is a beserker type, charging at her prey with surprisingly soft footsteps considering her dangerous speed. She's also quite the tank! Stay away."
+		},
+		"Seraphim": {
+			"VERSION": 53,
+			"classname": {
+				"type": "DrGBaseNextbots",
+				"name": "npc_vore_seraphim"
+			},
+			"entity_type": "nextbot",
+			"spawneffect": [],
+			"description": "Seraphim is one of the two robots in the pack, with slow base movement speed but able to sprint extremely fast. However, her acceleration is very weak and her clanker footsteps and beeping give her away. Bitch sounds like a fax machine."
+		},
+		"Monster Energy Chan": {
+			"VERSION": 53,
+			"classname": {
+				"type": "DrGBaseNextbots",
+				"name": "npc_vore_monsterenergy"
+			},
+			"entity_type": "nextbot",
+			"spawneffect": [],
+			"description": "Do not fuck with her, really. In testing this is probably the NPC that got me the most, I've nerfed her true capabilities, but she's utterly relentless and does NOT STOP RUNNING. If you're using a stamina mod, you better have a plan for when that bar runs out or you're utterly boned. She's also pretty damn resistant to bullets too, just stay away if you are able."
+		},
+		"Anubis": {
+			"VERSION": 53,
+			"classname": {
+				"type": "DrGBaseNextbots",
+				"name": "npc_vore_anubis"
+			},
+			"entity_type": "nextbot",
+			"spawneffect": [],
+			"description": "AAAAAHHHHH! SHE'S GOT A COCK! She's a walker type that's really quiet, not too strong."
+		},
+		"Meru": {
+			"VERSION": 53,
+			"classname": {
+				"type": "DrGBaseNextbots",
+				"name": "npc_vore_meru"
+			},
+			"entity_type": "nextbot",
+			"spawneffect": [],
+			"description": "Meru's small size should not be underestimated. She's extremely mobile, \"flying\" to her opponents soundlessly making her an insanely effective ambush predator. Even trying to run might be in vain, good thing she's weak to bullets."
+		},
+		"Tasque Manager": {
+			"VERSION": 53,
+			"classname": {
+				"type": "DrGBaseNextbots",
+				"name": "npc_vore_tasque"
+			},
+			"entity_type": "nextbot",
+			"spawneffect": [],
+			"description": "Tasque Manager! Aside from playing the one deltarune sound associated with her, she's another walker with a giant stature and beefy health pool. She's also got great hearing on account of them ears."
+		},
+		"Lovander": {
+			"VERSION": 53,
+			"classname": {
+				"type": "DrGBaseNextbots",
+				"name": "npc_vore_lovander"
+			},
+			"entity_type": "nextbot",
+			"spawneffect": [],
+			"description": " Lovander is a moderately beefy predator that moves at a cumbersome pace like many of the others, she's just a totally not sexy wild animal in it's natural habitat."
+		},
+		"Makima": {
+			"VERSION": 53,
+			"classname": {
+				"type": "DrGBaseNextbots",
+				"name": "npc_vore_makima"
+			},
+			"entity_type": "nextbot",
+			"spawneffect": [],
+			"description": "Makima's another slow walker, yet as the Control Devil she's nigh unkillable, you should probably just head on out."
+		},
+		"Roxy": {
+			"VERSION": 53,
+			"classname": {
+				"type": "DrGBaseNextbots",
+				"name": "npc_vore_roxy"
+			},
+			"entity_type": "nextbot",
+			"spawneffect": [],
+			"description": "Roxy is much akin to M.E.C, but she's the weaker variant. A runner that's a bit slower and a bit weaker. She's doesn't have Okane Owari from Danganronpa screaming and hollering for idle sounds so she's naturally more sneaky."
+		},
+		"Queen Chrysalis": {
+			"VERSION": 53,
+			"classname": {
+				"type": "DrGBaseNextbots",
+				"name": "npc_vore_chrysalis"
+			},
+			"entity_type": "nextbot",
+			"spawneffect": [],
+			"description": "Queen Chryssy is here to pollute the already obnoxious gunfire with her obnoxious villain laughs. Another walker type, but she's the strongest of all the walkers and has very impressive range."
+		}
+	},
+	"entity": {
+		"10mm Rounds": {
+			"entity_type": "entity",
+			"VERSION": 53,
+			"classname": {
+				"type": "SpawnableEntities",
+				"name": "item_ammo_smg1"
+			}
+		},
+		"Overwatch Pulse Rifle": {
+			"entity_type": "entity",
+			"VERSION": 53,
+			"classname": {
+				"type": "Weapon",
+				"name": "weapon_ar2"
+			}
+		},
+		"Supply Crate": {
+			"entity_type": "entity",
+			"VERSION": 53,
+			"classname": "hl2ep_supply_crate"
+		},
+		"Box of Buckshot": {
+			"VERSION": 53,
+			"entity_type": "entity",
+			"classname": {
+				"type": "SpawnableEntities",
+				"name": "item_box_buckshot"
+			}
+		},
+		"357 Rounds": {
+			"entity_type": "entity",
+			"VERSION": 53,
+			"classname": {
+				"type": "SpawnableEntities",
+				"name": "item_ammo_357"
+			}
+		},
+		"USP Match": {
+			"entity_type": "entity",
+			"VERSION": 53,
+			"classname": {
+				"type": "Weapon",
+				"name": "weapon_pistol"
+			}
+		},
+		"Crowbar": {
+			"entity_type": "entity",
+			"VERSION": 53,
+			"classname": {
+				"type": "Weapon",
+				"name": "weapon_crowbar"
+			}
+		},
+		"Stunstick": {
+			"entity_type": "entity",
+			"VERSION": 53,
+			"classname": {
+				"type": "Weapon",
+				"name": "weapon_stunstick"
+			}
+		},
+		"SPAS-12": {
+			"entity_type": "entity",
+			"VERSION": 53,
+			"classname": {
+				"type": "Weapon",
+				"name": "weapon_shotgun"
+			}
+		},
+		"MP7": {
+			"entity_type": "entity",
+			"VERSION": 53,
+			"classname": {
+				"type": "Weapon",
+				"name": "weapon_smg1"
+			}
+		},
+		"Medicine Vial": {
+			"VERSION": 53,
+			"entity_type": "entity",
+			"classname": {
+				"type": "SpawnableEntities",
+				"name": "item_healthvial"
+			}
+		},
+		"AR2 Cell": {
+			"VERSION": 53,
+			"entity_type": "entity",
+			"classname": {
+				"type": "SpawnableEntities",
+				"name": "item_ammo_ar2"
+			}
+		},
+		"Frag Grenade": {
+			"entity_type": "entity",
+			"VERSION": 53,
+			"classname": {
+				"type": "Weapon",
+				"name": "weapon_frag"
+			}
+		},
+		"9mm Rounds": {
+			"VERSION": 53,
+			"entity_type": "entity",
+			"classname": {
+				"type": "SpawnableEntities",
+				"name": "item_ammo_pistol"
+			}
+		},
+		"Rifle Grenade": {
+			"entity_type": "entity",
+			"VERSION": 53,
+			"classname": {
+				"type": "SpawnableEntities",
+				"name": "item_ammo_smg1_grenade"
+			}
+		},
+		"Resistance RPG": {
+			"entity_type": "entity",
+			"VERSION": 53,
+			"classname": {
+				"type": "Weapon",
+				"name": "weapon_rpg"
+			}
+		},
+		"First Aid Kit": {
+			"entity_type": "entity",
+			"VERSION": 53,
+			"classname": {
+				"type": "SpawnableEntities",
+				"name": "item_healthkit"
+			}
+		},
+		"Colt Python": {
+			"entity_type": "entity",
+			"VERSION": 53,
+			"classname": {
+				"type": "Weapon",
+				"name": "weapon_357"
+			}
+		},
+		"Resistance Crossbow": {
+			"entity_type": "entity",
+			"VERSION": 53,
+			"classname": {
+				"type": "Weapon",
+				"name": "weapon_crossbow"
+			}
+		},
+		"Battery": {
+			"VERSION": 53,
+			"entity_type": "entity",
+			"classname": {
+				"type": "SpawnableEntities",
+				"name": "eqp_armorplate_pickup"
+			}
+		},
+		"Resistance Bolts": {
+			"entity_type": "entity",
+			"VERSION": 53,
+			"classname": {
+				"type": "SpawnableEntities",
+				"name": "item_ammo_crossbow"
+			}
+		},
+		"Rocket": {
+			"VERSION": 53,
+			"entity_type": "entity",
+			"classname": {
+				"type": "SpawnableEntities",
+				"name": "item_rpg_round"
+			}
+		}
+	},
+	"player": [],
+	"drop_set": {
+		"Citizen": {
+			"drops": [
+				{
+					"preset_values": {
+						"preset": {
+							"type": "entity",
+							"name": "Medicine Vial"
+						}
+					},
+					"spawnforce": {
+						"forward": [
+							"__RAND",
+							8,
+							32
+						],
+						"up": -8
+					},
+					"type": "preset",
+					"destroydelay": 30,
+					"max": 1,
+					"chance": {
+						"d": 4,
+						"f": 0.25,
+						"n": 1
+					}
+				},
+				{
+					"preset_values": {
+						"preset": {
+							"type": "entity",
+							"name": "Crowbar"
+						}
+					},
+					"spawnforce": {
+						"forward": [
+							"__RAND",
+							8,
+							32
+						],
+						"up": -8
+					},
+					"type": "preset",
+					"destroydelay": 30,
+					"chance": {
+						"d": 8,
+						"f": 0.125,
+						"n": 1
+					},
+					"max": 1
+				},
+				{
+					"preset_values": {
+						"preset": {
+							"type": "entity",
+							"name": "USP Match"
+						}
+					},
+					"spawnforce": {
+						"forward": [
+							"__RAND",
+							8,
+							32
+						],
+						"up": -8
+					},
+					"type": "preset",
+					"destroydelay": 30,
+					"max": 1,
+					"chance": {
+						"d": 16,
+						"f": 0.0625,
+						"n": 1
+					}
+				}
+			],
+			"VERSION": 53,
+			"maxdrops": 1
+		},
+		"Refugee": {
+			"maxdrops": 1,
+			"VERSION": 53,
+			"drops": [
+				{
+					"preset_values": {
+						"preset": {
+							"type": "entity",
+							"name": "Medicine Vial"
+						}
+					},
+					"spawnforce": {
+						"forward": [
+							"__RAND",
+							8,
+							32
+						],
+						"up": -8
+					},
+					"type": "preset",
+					"destroydelay": 30,
+					"chance": {
+						"d": 4,
+						"f": 0.25,
+						"n": 1
+					},
+					"max": 1
+				},
+				{
+					"preset_values": {
+						"preset": {
+							"type": "entity",
+							"name": "USP Match"
+						}
+					},
+					"spawnforce": {
+						"forward": [
+							"__RAND",
+							8,
+							32
+						],
+						"up": -8
+					},
+					"type": "preset",
+					"destroydelay": 30,
+					"max": 1,
+					"chance": {
+						"d": 8,
+						"f": 0.125,
+						"n": 1
+					}
+				},
+				{
+					"preset_values": {
+						"preset": {
+							"type": "entity",
+							"name": "MP7"
+						}
+					},
+					"spawnforce": {
+						"forward": [
+							"__RAND",
+							8,
+							32
+						],
+						"up": -8
+					},
+					"type": "preset",
+					"destroydelay": 30,
+					"chance": {
+						"d": 16,
+						"f": 0.0625,
+						"n": 1
+					},
+					"max": 1
+				},
+				{
+					"preset_values": {
+						"preset": {
+							"type": "entity",
+							"name": "9mm Rounds"
+						}
+					},
+					"spawnforce": {
+						"forward": [
+							"__RAND",
+							8,
+							32
+						],
+						"up": -8
+					},
+					"type": "preset",
+					"destroydelay": 30,
+					"max": 1,
+					"chance": {
+						"d": 4,
+						"f": 0.25,
+						"n": 1
+					}
+				},
+				{
+					"preset_values": {
+						"preset": {
+							"type": "entity",
+							"name": "10mm Rounds"
+						}
+					},
+					"spawnforce": {
+						"forward": [
+							"__RAND",
+							8,
+							32
+						],
+						"up": -8
+					},
+					"type": "preset",
+					"destroydelay": 30,
+					"chance": {
+						"d": 5,
+						"f": 0.2,
+						"n": 1
+					},
+					"max": 1
+				}
+			]
+		},
+		"Combine Special Generic": {
+			"rolls": 2,
+			"VERSION": 53,
+			"maxdrops": 3,
+			"drops": [
+				{
+					"preset_values": {
+						"preset": {
+							"type": "entity",
+							"name": "Battery"
+						}
+					},
+					"spawnforce": {
+						"forward": [
+							"__RAND",
+							8,
+							32
+						],
+						"up": -8
+					},
+					"type": "preset",
+					"destroydelay": 30,
+					"chance": {
+						"d": 2,
+						"f": 0.5,
+						"n": 1
+					},
+					"max": 2
+				},
+				{
+					"preset_values": {
+						"preset": {
+							"type": "entity",
+							"name": "AR2 Cell"
+						}
+					},
+					"spawnforce": {
+						"forward": [
+							"__RAND",
+							8,
+							32
+						],
+						"up": -8
+					},
+					"type": "preset",
+					"destroydelay": 30,
+					"max": 1,
+					"chance": {
+						"d": 4,
+						"f": 0.25,
+						"n": 1
+					}
+				},
+				{
+					"preset_values": {
+						"preset": {
+							"type": "entity",
+							"name": "Medicine Vial"
+						}
+					},
+					"spawnforce": {
+						"forward": [
+							"__RAND",
+							8,
+							32
+						],
+						"up": -8
+					},
+					"type": "preset",
+					"destroydelay": 30,
+					"chance": {
+						"d": 8,
+						"f": 0.125,
+						"n": 1
+					},
+					"max": 1
+				},
+				{
+					"preset_values": {
+						"preset": {
+							"type": "entity",
+							"name": "Frag Grenade"
+						}
+					},
+					"spawnforce": {
+						"forward": [
+							"__RAND",
+							8,
+							32
+						],
+						"up": -8
+					},
+					"type": "preset",
+					"destroydelay": 30,
+					"max": 1,
+					"chance": {
+						"d": 8,
+						"f": 0.125,
+						"n": 1
+					}
+				}
+			]
+		},
+		"Rebel": {
+			"maxdrops": 2,
+			"VERSION": 53,
+			"drops": [
+				{
+					"preset_values": {
+						"preset": {
+							"type": "entity",
+							"name": "Medicine Vial"
+						}
+					},
+					"spawnforce": {
+						"forward": [
+							"__RAND",
+							8,
+							32
+						],
+						"up": -8
+					},
+					"type": "preset",
+					"destroydelay": 30,
+					"chance": {
+						"d": 5,
+						"f": 0.4,
+						"n": 2
+					},
+					"max": 1
+				},
+				{
+					"preset_values": {
+						"preset": {
+							"type": "entity",
+							"name": "10mm Rounds"
+						}
+					},
+					"spawnforce": {
+						"forward": [
+							"__RAND",
+							8,
+							32
+						],
+						"up": -8
+					},
+					"type": "preset",
+					"destroydelay": 30,
+					"max": 1,
+					"chance": {
+						"d": 2,
+						"f": 0.5,
+						"n": 1
+					}
+				},
+				{
+					"preset_values": {
+						"preset": {
+							"type": "entity",
+							"name": "Box of Buckshot"
+						}
+					},
+					"spawnforce": {
+						"forward": [
+							"__RAND",
+							8,
+							32
+						],
+						"up": -8
+					},
+					"type": "preset",
+					"destroydelay": 30,
+					"chance": {
+						"d": 4,
+						"f": 0.25,
+						"n": 1
+					},
+					"max": 1
+				},
+				{
+					"preset_values": {
+						"preset": {
+							"type": "entity",
+							"name": "MP7"
+						}
+					},
+					"spawnforce": {
+						"forward": [
+							"__RAND",
+							8,
+							32
+						],
+						"up": -8
+					},
+					"type": "preset",
+					"destroydelay": 30,
+					"max": 1,
+					"chance": {
+						"d": 8,
+						"f": 0.125,
+						"n": 1
+					}
+				},
+				{
+					"preset_values": {
+						"preset": {
+							"type": "entity",
+							"name": "SPAS-12"
+						}
+					},
+					"spawnforce": {
+						"forward": [
+							"__RAND",
+							8,
+							32
+						],
+						"up": -8
+					},
+					"type": "preset",
+					"destroydelay": 30,
+					"chance": {
+						"d": 16,
+						"f": 0.0625,
+						"n": 1
+					},
+					"max": 1
+				}
+			]
+		},
+		"Combine Soldier": {
+			"VERSION": 53,
+			"drops": [
+				{
+					"preset_values": {
+						"preset": {
+							"type": "entity",
+							"name": "Battery"
+						}
+					},
+					"spawnforce": {
+						"forward": [
+							"__RAND",
+							8,
+							32
+						],
+						"up": -8
+					},
+					"type": "preset",
+					"destroydelay": 30,
+					"chance": {
+						"d": 2,
+						"f": 0.5,
+						"n": 1
+					},
+					"max": 1
+				},
+				{
+					"preset_values": {
+						"preset": {
+							"type": "entity",
+							"name": "AR2 Cell"
+						}
+					},
+					"spawnforce": {
+						"forward": [
+							"__RAND",
+							8,
+							32
+						],
+						"up": -8
+					},
+					"type": "preset",
+					"destroydelay": 30,
+					"max": 1,
+					"chance": {
+						"d": 4,
+						"f": 0.25,
+						"n": 1
+					}
+				},
+				{
+					"preset_values": {
+						"preset": {
+							"type": "entity",
+							"name": "Overwatch Pulse Rifle"
+						}
+					},
+					"spawnforce": {
+						"forward": [
+							"__RAND",
+							8,
+							32
+						],
+						"up": -8
+					},
+					"type": "preset",
+					"destroydelay": 30,
+					"chance": {
+						"d": 8,
+						"f": 0.125,
+						"n": 1
+					},
+					"max": 1
+				},
+				{
+					"preset_values": {
+						"preset": {
+							"type": "entity",
+							"name": "Frag Grenade"
+						}
+					},
+					"spawnforce": {
+						"forward": [
+							"__RAND",
+							8,
+							32
+						],
+						"up": -8
+					},
+					"type": "preset",
+					"destroydelay": 45,
+					"max": 1,
+					"chance": {
+						"d": 8,
+						"f": 0.125,
+						"n": 1
+					}
+				}
+			],
+			"maxdrops": 2
+		},
+		"Combine Skirmisher": {
+			"drops": [
+				{
+					"preset_values": {
+						"preset": {
+							"type": "entity",
+							"name": "Battery"
+						}
+					},
+					"spawnforce": {
+						"forward": [
+							"__RAND",
+							8,
+							32
+						],
+						"up": -8
+					},
+					"type": "preset",
+					"destroydelay": 30,
+					"max": 1,
+					"chance": {
+						"d": 2,
+						"f": 0.5,
+						"n": 1
+					}
+				},
+				{
+					"preset_values": {
+						"preset": {
+							"type": "entity",
+							"name": "10mm Rounds"
+						}
+					},
+					"spawnforce": {
+						"forward": [
+							"__RAND",
+							8,
+							32
+						],
+						"up": -8
+					},
+					"type": "preset",
+					"destroydelay": 30,
+					"chance": {
+						"d": 4,
+						"f": 0.25,
+						"n": 1
+					},
+					"max": 1
+				},
+				{
+					"preset_values": {
+						"preset": {
+							"type": "entity",
+							"name": "MP7"
+						}
+					},
+					"spawnforce": {
+						"forward": [
+							"__RAND",
+							8,
+							32
+						],
+						"up": -8
+					},
+					"type": "preset",
+					"destroydelay": 30,
+					"max": 1,
+					"chance": {
+						"d": 8,
+						"f": 0.125,
+						"n": 1
+					}
+				},
+				{
+					"preset_values": {
+						"preset": {
+							"type": "entity",
+							"name": "Rifle Grenade"
+						}
+					},
+					"spawnforce": {
+						"forward": [
+							"__RAND",
+							8,
+							32
+						],
+						"up": -8
+					},
+					"type": "preset",
+					"destroydelay": 45,
+					"chance": {
+						"d": 16,
+						"f": 0.0625,
+						"n": 1
+					},
+					"max": 1
+				}
+			],
+			"maxdrops": 2,
+			"VERSION": 53
+		},
+		"Medic": {
+			"rolls": 2,
+			"maxdrops": 2,
+			"VERSION": 53,
+			"drops": [
+				{
+					"preset_values": {
+						"preset": {
+							"type": "entity",
+							"name": "First Aid Kit"
+						}
+					},
+					"chance": {
+						"d": 4,
+						"f": 0.5,
+						"n": 2
+					},
+					"spawnforce": {
+						"forward": [
+							"__RAND",
+							8,
+							32
+						],
+						"up": -8
+					},
+					"type": "preset",
+					"destroydelay": 60,
+					"min": 1,
+					"max": 2
+				},
+				{
+					"preset_values": {
+						"preset": {
+							"type": "entity",
+							"name": "10mm Rounds"
+						}
+					},
+					"spawnforce": {
+						"forward": [
+							"__RAND",
+							8,
+							32
+						],
+						"up": -8
+					},
+					"type": "preset",
+					"destroydelay": 30,
+					"max": 1,
+					"chance": {
+						"d": 2,
+						"f": 0.5,
+						"n": 1
+					}
+				},
+				{
+					"preset_values": {
+						"preset": {
+							"type": "entity",
+							"name": "357 Rounds"
+						}
+					},
+					"spawnforce": {
+						"forward": [
+							"__RAND",
+							8,
+							32
+						],
+						"up": -8
+					},
+					"type": "preset",
+					"destroydelay": 30,
+					"chance": {
+						"d": 8,
+						"f": 0.125,
+						"n": 1
+					},
+					"max": 1
+				}
+			]
+		},
+		"Combine Elite": {
+			"rolls": 2,
+			"VERSION": 53,
+			"maxdrops": 3,
+			"drops": [
+				{
+					"preset_values": {
+						"preset": {
+							"type": "entity",
+							"name": "Battery"
+						}
+					},
+					"max": 3,
+					"spawnforce": {
+						"forward": [
+							"__RAND",
+							8,
+							32
+						],
+						"up": -8
+					},
+					"type": "preset",
+					"destroydelay": 45,
+					"min": 1,
+					"chance": {
+						"d": 2,
+						"f": 0.5,
+						"n": 1
+					}
+				},
+				{
+					"preset_values": {
+						"preset": {
+							"type": "entity",
+							"name": "AR2 Cell"
+						}
+					},
+					"spawnforce": {
+						"forward": [
+							"__RAND",
+							8,
+							32
+						],
+						"up": -8
+					},
+					"type": "preset",
+					"destroydelay": 45,
+					"max": 1,
+					"chance": {
+						"d": 2,
+						"f": 0.5,
+						"n": 1
+					}
+				},
+				{
+					"preset_values": {
+						"preset": {
+							"type": "entity",
+							"name": "Overwatch Pulse Rifle"
+						}
+					},
+					"spawnforce": {
+						"forward": [
+							"__RAND",
+							8,
+							32
+						],
+						"up": -8
+					},
+					"type": "preset",
+					"destroydelay": 30,
+					"max": 1,
+					"chance": {
+						"d": 4,
+						"f": 0.25,
+						"n": 1
+					}
+				}
+			]
+		},
+		"Combine Sterilizer": {
+			"rolls": 2,
+			"VERSION": 53,
+			"maxdrops": 2,
+			"drops": [
+				{
+					"preset_values": {
+						"preset": {
+							"type": "entity",
+							"name": "Battery"
+						}
+					},
+					"spawnforce": {
+						"forward": [
+							"__RAND",
+							8,
+							32
+						],
+						"up": -8
+					},
+					"type": "preset",
+					"destroydelay": 30,
+					"chance": {
+						"d": 2,
+						"f": 0.5,
+						"n": 1
+					},
+					"max": 2
+				},
+				{
+					"preset_values": {
+						"preset": {
+							"type": "entity",
+							"name": "Box of Buckshot"
+						}
+					},
+					"spawnforce": {
+						"forward": [
+							"__RAND",
+							8,
+							32
+						],
+						"up": -8
+					},
+					"type": "preset",
+					"destroydelay": 30,
+					"max": 1,
+					"chance": {
+						"d": 4,
+						"f": 0.25,
+						"n": 1
+					}
+				},
+				{
+					"preset_values": {
+						"preset": {
+							"type": "entity",
+							"name": "SPAS-12"
+						}
+					},
+					"spawnforce": {
+						"forward": [
+							"__RAND",
+							8,
+							32
+						],
+						"up": -8
+					},
+					"type": "preset",
+					"destroydelay": 30,
+					"chance": {
+						"d": 8,
+						"f": 0.125,
+						"n": 1
+					},
+					"max": 1
+				}
+			]
+		}
+	},
+	"spawnpool": {
+		"Strays": {
+			"quota_entity_min": 8,
+			"spawns": [
+				{
+					"expected": {
+						"d": 1,
+						"f": 1,
+						"n": 1
+					},
+					"preset": {
+						"type": "npc",
+						"name": "Citizen"
+					}
+				},
+				{
+					"expected": {
+						"d": 2,
+						"f": 0.5,
+						"n": 1
+					},
+					"preset": {
+						"type": "npc",
+						"name": "Fembine Metrocop"
+					}
+				},
+				{
+					"expected": {
+						"d": 2,
+						"f": 0.5,
+						"n": 1
+					},
+					"preset": {
+						"type": "npc",
+						"name": "Anime Gal Goon"
+					}
+				},
+				{
+					"expected": {
+						"d": 16,
+						"f": 0.0625,
+						"n": 1
+					},
+					"preset": {
+						"type": "npc",
+						"name": "Intruder"
+					}
+				}
+			],
+			"pool_spawnlimit": 16,
+			"radiuslimits": [
+				{
+					"radius_autoadjust_max": true,
+					"radius_autoadjust_min": true,
+					"spawn_tooclose": 512,
+					"radius_entity_limit": 16,
+					"minradius": 1024,
+					"despawn_tooclose": 2048,
+					"despawn_addquota": false,
+					"maxradius": 8192,
+					"despawn": true
+				},
+				{
+					"radius_autoadjust_max": true,
+					"radius_autoadjust_min": true,
+					"maxradius": 32768,
+					"radius_entity_limit": 0,
+					"minradius": 8192,
+					"nospawn": true,
+					"spawn_tooclose": 8192,
+					"despawn_tooclose": 3072,
+					"radius_squad_limit": 0,
+					"despawn": true
+				}
+			],
+			"VERSION": 53
+		},
+		"LOOT": {
+			"VERSION": 53,
+			"pool_spawnlimit": 16,
+			"radiuslimits": [
+				{
+					"minradius": 512,
+					"maxradius": 3072,
+					"radius_autoadjust_min": false,
+					"spawn_tooclose": 384,
+					"despawn_tooclose": 512,
+					"radius_entity_limit": 16,
+					"despawn": true
+				},
+				{
+					"radius_autoadjust_max": false,
+					"radius_autoadjust_min": false,
+					"maxradius": 32768,
+					"radius_entity_limit": 0,
+					"minradius": 3072,
+					"nospawn": true,
+					"radius_squad_limit": 0,
+					"spawn_tooclose": 3072,
+					"despawn_tooclose": 3072,
+					"radius_spawn_autoadjust": false,
+					"despawn": true
+				}
+			],
+			"spawn_autoadjust": true,
+			"mindelay": [
+				"__RANDOM",
+				2,
+				6
+			],
+			"spawns": [
+				{
+					"expected": {
+						"d": 1,
+						"f": 1,
+						"n": 1
+					},
+					"preset": {
+						"type": "entity",
+						"name": "9mm Rounds"
+					}
+				},
+				{
+					"expected": {
+						"d": 2,
+						"f": 0.5,
+						"n": 1
+					},
+					"preset": {
+						"type": "entity",
+						"name": "Medicine Vial"
+					}
+				},
+				{
+					"expected": {
+						"d": 2,
+						"f": 0.5,
+						"n": 1
+					},
+					"preset": {
+						"type": "entity",
+						"name": "Box of Buckshot"
+					}
+				},
+				{
+					"expected": {
+						"d": 4,
+						"f": 0.25,
+						"n": 1
+					},
+					"preset": {
+						"type": "entity",
+						"name": "AR2 Cell"
+					}
+				},
+				{
+					"expected": {
+						"d": 4,
+						"f": 0.25,
+						"n": 1
+					},
+					"preset": {
+						"type": "entity",
+						"name": "Battery"
+					}
+				},
+				{
+					"expected": {
+						"d": 4,
+						"f": 0.25,
+						"n": 1
+					},
+					"preset": {
+						"type": "entity",
+						"name": "First Aid Kit"
+					}
+				},
+				{
+					"expected": {
+						"d": 5,
+						"f": 0.2,
+						"n": 1
+					},
+					"preset": {
+						"type": "entity",
+						"name": "Rocket"
+					}
+				},
+				{
+					"expected": {
+						"d": 4,
+						"f": 0.25,
+						"n": 1
+					},
+					"preset": {
+						"type": "entity",
+						"name": "USP Match"
+					}
+				},
+				{
+					"expected": {
+						"d": 5,
+						"f": 0.2,
+						"n": 1
+					},
+					"preset": {
+						"type": "entity",
+						"name": "MP7"
+					}
+				},
+				{
+					"expected": {
+						"d": 8,
+						"f": 0.125,
+						"n": 1
+					},
+					"preset": {
+						"type": "entity",
+						"name": "SPAS-12"
+					}
+				},
+				{
+					"expected": {
+						"d": 8,
+						"f": 0.125,
+						"n": 1
+					},
+					"preset": {
+						"type": "entity",
+						"name": "Overwatch Pulse Rifle"
+					}
+				},
+				{
+					"expected": {
+						"d": 10,
+						"f": 0.1,
+						"n": 1
+					},
+					"preset": {
+						"type": "entity",
+						"name": "Colt Python"
+					}
+				},
+				{
+					"expected": {
+						"d": 10,
+						"f": 0.1,
+						"n": 1
+					},
+					"preset": {
+						"type": "entity",
+						"name": "Resistance Crossbow"
+					}
+				},
+				{
+					"expected": {
+						"d": 10,
+						"f": 0.1,
+						"n": 1
+					},
+					"preset": {
+						"type": "entity",
+						"name": "Resistance RPG"
+					}
+				},
+				{
+					"expected": {
+						"d": 8,
+						"f": 0.125,
+						"n": 1
+					},
+					"preset": {
+						"type": "entity",
+						"name": "Frag Grenade"
+					}
+				}
+			],
+			"quota_entity_max": 24
+		},
+		"Squads": {
+			"quota_squad_min": 3,
+			"pool_spawnlimit": 32,
+			"radiuslimits": [
+				{
+					"radius_autoadjust_max": true,
+					"radius_autoadjust_min": true,
+					"spawn_tooclose": 512,
+					"radius_entity_limit": 32,
+					"minradius": 1024,
+					"radius_squad_limit": 6,
+					"maxradius": 8192,
+					"despawn_addquota": false,
+					"despawn_tooclose": 2048,
+					"despawn": true
+				},
+				{
+					"radius_autoadjust_max": true,
+					"radius_autoadjust_min": true,
+					"maxradius": 32768,
+					"radius_entity_limit": 0,
+					"minradius": 8192,
+					"nospawn": true,
+					"spawn_tooclose": 8192,
+					"despawn_tooclose": 3072,
+					"radius_squad_limit": 0,
+					"despawn": true
+				}
+			],
+			"VERSION": 53,
+			"quota_squad_max": 6,
+			"spawns": [
+				{
+					"expected": {
+						"d": 1,
+						"f": 1,
+						"n": 1
+					},
+					"preset": {
+						"type": "squad",
+						"name": "Prey - Citizen Gaggle"
+					}
+				},
+				{
+					"expected": {
+						"d": 1,
+						"f": 1,
+						"n": 1
+					},
+					"preset": {
+						"type": "squad",
+						"name": "Prey - Femcop Patrol"
+					}
+				},
+				{
+					"expected": {
+						"d": 1,
+						"f": 1,
+						"n": 1
+					},
+					"preset": {
+						"type": "squad",
+						"name": "Prey - BBD Goons"
+					}
+				},
+				{
+					"expected": {
+						"d": 2,
+						"f": 0.5,
+						"n": 1
+					},
+					"preset": {
+						"type": "squad",
+						"name": "Prey - BBD Operators"
+					}
+				},
+				{
+					"expected": {
+						"d": 2,
+						"f": 0.5,
+						"n": 1
+					},
+					"preset": {
+						"type": "squad",
+						"name": "Prey - Fembine Fireteam"
+					}
+				},
+				{
+					"expected": {
+						"d": 4,
+						"f": 0.25,
+						"n": 1
+					},
+					"preset": {
+						"type": "squad",
+						"name": "Prey - BBD Sniper Team"
+					}
+				},
+				{
+					"expected": {
+						"d": 4,
+						"f": 0.25,
+						"n": 1
+					},
+					"preset": {
+						"type": "squad",
+						"name": "Prey - Fembine Deathsquad"
+					}
+				},
+				{
+					"expected": {
+						"d": 8,
+						"f": 0.125,
+						"n": 1
+					},
+					"preset": {
+						"type": "squad",
+						"name": "Prey - BBD Slaughterhouse"
+					}
+				},
+				{
+					"expected": {
+						"d": 8,
+						"f": 0.125,
+						"n": 1
+					},
+					"preset": {
+						"type": "squad",
+						"name": "Prey - Fembine Assassins"
+					}
+				},
+				{
+					"expected": {
+						"d": 10,
+						"f": 0.1,
+						"n": 1
+					},
+					"preset": {
+						"type": "squad",
+						"name": "Prey - BBD Suppression Team"
+					}
+				},
+				{
+					"expected": {
+						"d": 10,
+						"f": 0.1,
+						"n": 1
+					},
+					"preset": {
+						"type": "squad",
+						"name": "Prey - Vorny Police"
+					}
+				}
+			]
+		},
+		"Predator": {
+			"quota_entity_min": 2,
+			"spawns": [
+				{
+					"expected": {
+						"d": 1,
+						"f": 1,
+						"n": 1
+					},
+					"preset": {
+						"type": "squad",
+						"name": "Predator - Goblin Girl"
+					}
+				},
+				{
+					"expected": {
+						"d": 1,
+						"f": 1,
+						"n": 1
+					},
+					"preset": {
+						"type": "squad",
+						"name": "Predator - Salamander"
+					}
+				},
+				{
+					"expected": {
+						"d": 1,
+						"f": 1,
+						"n": 1
+					},
+					"preset": {
+						"type": "squad",
+						"name": "Predator - Kroxi"
+					}
+				},
+				{
+					"expected": {
+						"d": 2,
+						"f": 0.5,
+						"n": 1
+					},
+					"preset": {
+						"type": "squad",
+						"name": "Predator - D.VA"
+					}
+				},
+				{
+					"expected": {
+						"d": 4,
+						"f": 0.25,
+						"n": 1
+					},
+					"preset": {
+						"type": "squad",
+						"name": "Predator - Monster Energy Chan"
+					}
+				},
+				{
+					"expected": {
+						"d": 2,
+						"f": 0.5,
+						"n": 1
+					},
+					"preset": {
+						"type": "squad",
+						"name": "Predator - Toriel"
+					}
+				},
+				{
+					"expected": {
+						"d": 2,
+						"f": 0.5,
+						"n": 1
+					},
+					"preset": {
+						"type": "squad",
+						"name": "Predator - Sadako"
+					}
+				},
+				{
+					"expected": {
+						"d": 4,
+						"f": 0.25,
+						"n": 1
+					},
+					"preset": {
+						"type": "squad",
+						"name": "Predator - Mal0"
+					}
+				},
+				{
+					"expected": {
+						"d": 4,
+						"f": 0.25,
+						"n": 1
+					},
+					"preset": {
+						"type": "squad",
+						"name": "Predator - Xenomorph"
+					}
+				},
+				{
+					"expected": {
+						"d": 4,
+						"f": 0.25,
+						"n": 1
+					},
+					"preset": {
+						"type": "squad",
+						"name": "Predator - Deathclaw"
+					}
+				},
+				{
+					"expected": {
+						"d": 4,
+						"f": 0.25,
+						"n": 1
+					},
+					"preset": {
+						"type": "squad",
+						"name": "Predator - Queen Chrysalis"
+					}
+				},
+				{
+					"expected": {
+						"d": 2,
+						"f": 0.5,
+						"n": 1
+					},
+					"preset": {
+						"type": "squad",
+						"name": "Predator - Anubis"
+					}
+				},
+				{
+					"expected": {
+						"d": 2,
+						"f": 0.5,
+						"n": 1
+					},
+					"preset": {
+						"type": "squad",
+						"name": "Predator - Tasque Manager"
+					}
+				},
+				{
+					"expected": {
+						"d": 3,
+						"f": 0.3333333333333333,
+						"n": 1
+					},
+					"preset": {
+						"type": "squad",
+						"name": "Predator - Karelia"
+					}
+				},
+				{
+					"expected": {
+						"d": 1,
+						"f": 1,
+						"n": 1
+					},
+					"preset": {
+						"type": "squad",
+						"name": "Predator - Marin"
+					}
+				},
+				{
+					"expected": {
+						"d": 2,
+						"f": 0.5,
+						"n": 1
+					},
+					"preset": {
+						"type": "squad",
+						"name": "Predator - Roxy"
+					}
+				},
+				{
+					"expected": {
+						"d": 2,
+						"f": 0.5,
+						"n": 1
+					},
+					"preset": {
+						"type": "squad",
+						"name": "Predator - Meru"
+					}
+				},
+				{
+					"expected": {
+						"d": 1,
+						"f": 1,
+						"n": 1
+					},
+					"preset": {
+						"type": "squad",
+						"name": "Predator - Angela"
+					}
+				},
+				{
+					"expected": {
+						"d": 1,
+						"f": 1,
+						"n": 1
+					},
+					"preset": {
+						"type": "squad",
+						"name": "Predator - Toofy"
+					}
+				},
+				{
+					"expected": {
+						"d": 2,
+						"f": 0.5,
+						"n": 1
+					},
+					"preset": {
+						"type": "squad",
+						"name": "Predator - Ankha"
+					}
+				},
+				{
+					"expected": {
+						"d": 2,
+						"f": 0.5,
+						"n": 1
+					},
+					"preset": {
+						"type": "squad",
+						"name": "Predator - Purrslime"
+					}
+				},
+				{
+					"expected": {
+						"d": 3,
+						"f": 0.3333333333333333,
+						"n": 1
+					},
+					"preset": {
+						"type": "squad",
+						"name": "Predator - Valkyr"
+					}
+				},
+				{
+					"expected": {
+						"d": 3,
+						"f": 0.3333333333333333,
+						"n": 1
+					},
+					"preset": {
+						"type": "squad",
+						"name": "Predator - Lovander"
+					}
+				},
+				{
+					"expected": {
+						"d": 2,
+						"f": 0.5,
+						"n": 1
+					},
+					"preset": {
+						"type": "squad",
+						"name": "Predator - Makima"
+					}
+				},
+				{
+					"expected": {
+						"d": 2,
+						"f": 0.5,
+						"n": 1
+					},
+					"preset": {
+						"type": "squad",
+						"name": "Predator - Toy Chica"
+					}
+				}
+			],
+			"pool_spawnlimit": 5,
+			"radiuslimits": [
+				{
+					"radius_autoadjust_max": true,
+					"radius_autoadjust_min": true,
+					"maxradius": 8192,
+					"radius_entity_limit": 5,
+					"minradius": 2048,
+					"despawn_tooclose": 2048,
+					"spawn_tooclose": 1024,
+					"despawn_addquota": false,
+					"radius_spawn_autoadjust": true,
+					"despawn": true
+				},
+				{
+					"radius_autoadjust_max": true,
+					"radius_autoadjust_min": true,
+					"spawn_tooclose": 8192,
+					"radius_entity_limit": 0,
+					"minradius": 8192,
+					"nospawn": true,
+					"maxradius": 32768,
+					"despawn_tooclose": 3072,
+					"radius_squad_limit": 0,
+					"despawn": true
+				}
+			],
+			"VERSION": 53,
+			"quota_entity_max": 5
+		}
+	},
+	"npc": {
+		"Anime Gal Sniper": {
+			"long_range": true,
+			"damagefilter_in": [
+				{
+					"maxpasses": 4,
+					"condition": {
+						"damage": {
+							"bullet": true,
+							"lesser": 16,
+							"explosion": false
+						},
+						"chance": {
+							"d": 1,
+							"f": 1,
+							"n": 1
+						}
+					},
+					"victim": {
+						"effects": [
+							{
+								"type": "sound",
+								"name": [
+									"__TBLRANDOM",
+									"player/kevlar1.wav",
+									"player/kevlar2.wav",
+									"player/kevlar3.wav",
+									"player/kevlar4.wav",
+									"player/kevlar5.wav"
+								]
+							}
+						]
+					},
+					"damagescale": 0
+				},
+				{
+					"condition": {
+						"damage": {
+							"explosion": false,
+							"bullet": true
+						}
+					},
+					"maxpasses": 1,
+					"victim": {
+						"apply_values": {
+							"npc": {
+								"bodygroups": [
+									{
+										"value": 1,
+										"group": "Rig"
+									},
+									{
+										"group": "Phone",
+										"value": 1
+									}
+								],
+								"bloodcolor": "BLOOD_COLOR_RED"
+							}
+						},
+						"effects": [
+							{
+								"type": "sound",
+								"name": [
+									"__TBLRANDOM",
+									"player/headshot1.wav",
+									"player/headshot2.wav"
+								]
+							}
+						]
+					}
+				}
+			],
+			"classname": {
+				"type": "NPC",
+				"name": "npc_combine_s"
+			},
+			"entity_type": "npc",
+			"spawneffect": [],
+			"description": "A real smooth operator, this classy woman will delete you from the map in a single bullet in a replica of the worst aspects of EFT. (SPECIAL: Body armor negates all bullet damage until broken.)",
+			"tacticalvariant": "Normal Tactics",
+			"icon": "vgui/entities/hiki_enemy.vmt",
+			"weapon_proficiency": "Very Good",
+			"soldiertype": "Normal",
+			"maxhealth": 50,
+			"spawnflags": [
+				"Don't drop weapons",
+				"Don't drop grenades"
+			],
+			"VERSION": 53,
+			"skin": 2,
+			"bloodcolor": "BLOOD_COLOR_MECH",
+			"numgrenades": 0,
+			"bodygroups": [
+				{
+					"group": "Belt",
+					"value": 1
+				},
+				{
+					"group": "Watch",
+					"value": [
+						"__RANDOM"
+					]
+				},
+				{
+					"group": "Earrings",
+					"value": [
+						"__RANDOM"
+					]
+				},
+				{
+					"value": 1,
+					"group": "Gear"
+				},
+				{
+					"value": [
+						"__RANDOM"
+					],
+					"group": "Phone"
+				},
+				{
+					"value": 2,
+					"group": "Stocking"
+				},
+				{
+					"group": "Patch",
+					"value": 1
+				},
+				{
+					"value": [
+						"__RANDOM",
+						1,
+						2
+					],
+					"group": "PVS-31"
+				},
+				{
+					"value": 1,
+					"group": "Hair"
+				},
+				{
+					"group": "Helmet_back",
+					"value": 1
+				}
+			],
+			"weapon": {
+				"type": "NPCUsableWeapons",
+				"name": "swep_ai_awp"
+			},
+			"model": "models/kyo_ori/enemy/krhn_hiki_enemy.mdl"
+		},
+		"Anime Gal Heavy": {
+			"long_range": true,
+			"scale": 1,
+			"damagefilter_in": [],
+			"classname": {
+				"type": "NPC",
+				"name": "npc_combine_s"
+			},
+			"bodygroups": [
+				{
+					"group": "Head Router Gear",
+					"value": 1
+				},
+				{
+					"value": 1,
+					"group": "Hood Piece"
+				},
+				{
+					"group": "Nano Socks",
+					"value": 1
+				},
+				{
+					"value": 1,
+					"group": "Arm Band"
+				},
+				{
+					"group": "Bodytight (Bottom)",
+					"value": 1
+				},
+				{
+					"value": 1,
+					"group": "Bodytight (Top)"
+				},
+				{
+					"group": "Bra",
+					"value": 1
+				},
+				{
+					"value": 1,
+					"group": "Harness 4"
+				},
+				{
+					"group": "Harness 5",
+					"value": 1
+				},
+				{
+					"value": 1,
+					"group": "Harness 6"
+				},
+				{
+					"group": "Harness 7",
+					"value": 1
+				},
+				{
+					"value": 1,
+					"group": "Pouch"
+				},
+				{
+					"group": "Top",
+					"value": 1
+				}
+			],
+			"spawneffect": [],
+			"weapon": {
+				"type": "NPCUsableWeapons",
+				"name": "swep_ai_m249"
+			},
+			"tacticalvariant": "Normal Tactics",
+			"icon": "vgui/entities/npc_marcia_ra_h.vmt",
+			"weapon_proficiency": "Average",
+			"soldiertype": "Normal",
+			"model": "models/drhunter/marcia/raider_npc.mdl",
+			"damagescale_in": 0.5,
+			"spawnflags": [
+				"Don't drop weapons",
+				"Don't drop grenades"
+			],
+			"VERSION": 53,
+			"skin": 1,
+			"numgrenades": [
+				"__RANDOM",
+				3,
+				6
+			],
+			"description": "This beastly hoe will rock your world with a hail of bullets. Body armor on her is wasted, her  bodacious bod simply deflects projectiles. (SPECIAL: Takes 50% less damage from all sources.)",
+			"maxhealth": 150,
+			"entity_type": "npc"
+		},
+		"Citizen": {
+			"long_range": false,
+			"damagefilter_in": [
+				{
+					"victim": {
+						"drop_weapon": [
+							"__TBLRANDOM",
+							false,
+							false,
+							true
+						],
+						"inputs": [
+							{
+								"command": "StopPatrolling"
+							},
+							{
+								"command": "SetReadinessPanic"
+							},
+							{
+								"value": [
+									"__RANDOM",
+									36,
+									48
+								],
+								"command": "LockReadiness",
+								"LOOKUP_REROLL": {
+									"value": true
+								},
+								"delay": 1
+							}
+						]
+					},
+					"condition": {
+						"chance": {
+							"d": 4,
+							"f": 0.5,
+							"n": 2
+						},
+						"attacker": {
+							"classnames": {
+								"exclude": [
+									{
+										"type": "NPC",
+										"name": "npc_vortigaunt"
+									},
+									{
+										"type": "NPC",
+										"name": "npc_citizen"
+									}
+								]
+							}
+						}
+					}
+				}
+			],
+			"drawshadow": true,
+			"relationships_outward": {
+				"by_class": [
+					{
+						"classname": {
+							"type": "NPC",
+							"name": "npc_combine_s"
+						}
+					},
+					{
+						"classname": {
+							"type": "NPC",
+							"name": "npc_metropolice"
+						}
+					},
+					{
+						"disposition": "Fear",
+						"priority": 99,
+						"classname": {
+							"type": "NPC",
+							"name": "npc_manhack"
+						}
+					}
+				],
+				"by_preset": [
+					{
+						"preset": {
+							"type": "nextbot",
+							"name": "Albino Deathclaw"
+						},
+						"priority": 99,
+						"disposition": "Fear"
+					},
+					{
+						"preset": {
+							"type": "nextbot",
+							"name": "Angela"
+						},
+						"priority": 99,
+						"disposition": "Fear"
+					},
+					{
+						"preset": {
+							"type": "nextbot",
+							"name": "Ankha"
+						},
+						"priority": 99,
+						"disposition": "Fear"
+					},
+					{
+						"preset": {
+							"type": "nextbot",
+							"name": "Anubis"
+						},
+						"priority": 99,
+						"disposition": "Fear"
+					},
+					{
+						"preset": {
+							"type": "nextbot",
+							"name": "Casual D.VA"
+						},
+						"priority": 99,
+						"disposition": "Fear"
+					},
+					{
+						"preset": {
+							"type": "nextbot",
+							"name": "D.VA"
+						},
+						"priority": 99,
+						"disposition": "Fear"
+					},
+					{
+						"preset": {
+							"type": "nextbot",
+							"name": "Deathclaw"
+						},
+						"priority": 99,
+						"disposition": "Fear"
+					},
+					{
+						"preset": {
+							"type": "nextbot",
+							"name": "GLaDOS"
+						},
+						"priority": 99,
+						"disposition": "Fear"
+					},
+					{
+						"preset": {
+							"type": "nextbot",
+							"name": "Goblin Girl"
+						},
+						"priority": 99,
+						"disposition": "Fear"
+					},
+					{
+						"preset": {
+							"type": "nextbot",
+							"name": "Karelia"
+						},
+						"priority": 99,
+						"disposition": "Fear"
+					},
+					{
+						"preset": {
+							"type": "nextbot",
+							"name": "Kroxi"
+						},
+						"priority": 99,
+						"disposition": "Fear"
+					},
+					{
+						"preset": {
+							"type": "nextbot",
+							"name": "Lovander"
+						},
+						"priority": 99,
+						"disposition": "Fear"
+					},
+					{
+						"preset": {
+							"type": "nextbot",
+							"name": "Makima"
+						},
+						"priority": 99,
+						"disposition": "Fear"
+					},
+					{
+						"preset": {
+							"type": "nextbot",
+							"name": "Mal0"
+						},
+						"priority": 99,
+						"disposition": "Fear"
+					},
+					{
+						"preset": {
+							"type": "nextbot",
+							"name": "Marin"
+						},
+						"priority": 99,
+						"disposition": "Fear"
+					},
+					{
+						"preset": {
+							"type": "nextbot",
+							"name": "Meru"
+						},
+						"priority": 99,
+						"disposition": "Fear"
+					},
+					{
+						"preset": {
+							"type": "nextbot",
+							"name": "Meruneko"
+						},
+						"priority": 99,
+						"disposition": "Fear"
+					},
+					{
+						"preset": {
+							"type": "nextbot",
+							"name": "Monster Energy Chan"
+						},
+						"priority": 99,
+						"disposition": "Fear"
+					},
+					{
+						"preset": {
+							"type": "nextbot",
+							"name": "Purrslime"
+						},
+						"priority": 99,
+						"disposition": "Fear"
+					},
+					{
+						"preset": {
+							"type": "nextbot",
+							"name": "Queen Chrysalis"
+						},
+						"priority": 99,
+						"disposition": "Fear"
+					},
+					{
+						"preset": {
+							"type": "nextbot",
+							"name": "Roxy"
+						},
+						"priority": 99,
+						"disposition": "Fear"
+					},
+					{
+						"preset": {
+							"type": "nextbot",
+							"name": "Sadako"
+						},
+						"priority": 99,
+						"disposition": "Fear"
+					},
+					{
+						"preset": {
+							"type": "nextbot",
+							"name": "Salamander"
+						},
+						"priority": 99,
+						"disposition": "Fear"
+					},
+					{
+						"preset": {
+							"type": "nextbot",
+							"name": "Seraphim"
+						},
+						"priority": 99,
+						"disposition": "Fear"
+					},
+					{
+						"preset": {
+							"type": "nextbot",
+							"name": "Tasque Manager"
+						},
+						"priority": 99,
+						"disposition": "Fear"
+					},
+					{
+						"preset": {
+							"type": "nextbot",
+							"name": "Toofy"
+						},
+						"priority": 99,
+						"disposition": "Fear"
+					},
+					{
+						"preset": {
+							"type": "nextbot",
+							"name": "Toriel"
+						},
+						"priority": 99,
+						"disposition": "Fear"
+					},
+					{
+						"preset": {
+							"type": "nextbot",
+							"name": "Toy Chica"
+						},
+						"priority": 99,
+						"disposition": "Fear"
+					},
+					{
+						"preset": {
+							"type": "nextbot",
+							"name": "Valkyr"
+						},
+						"priority": 99,
+						"disposition": "Fear"
+					},
+					{
+						"preset": {
+							"type": "nextbot",
+							"name": "Xenomorph"
+						},
+						"priority": 99,
+						"disposition": "Fear"
+					}
+				]
+			},
+			"classname": {
+				"type": "NPC",
+				"name": "npc_citizen"
+			},
+			"entity_type": "npc",
+			"weapon_set": [
+				"__TBLRANDOM",
+				{
+					"type": "weapon_set",
+					"name": "Citizen"
+				},
+				{
+					"type": "weapon_set",
+					"name": "Citizen"
+				},
+				{
+					"type": "weapon_set",
+					"name": "Refugee"
+				},
+				{
+					"type": "weapon_set",
+					"name": "Refugee"
+				},
+				{
+					"type": "weapon_set",
+					"name": "Rebel"
+				}
+			],
+			"description": "Hapless idiots that have weapons, but they don't really use them. Easy fodder. (SPECIAL: Experts at dying.)",
+			"icon": "entities/npc_citizen.png",
+			"weapon_proficiency": [
+				"__TBLRANDOM",
+				"Poor",
+				"Poor",
+				"Poor",
+				"Average",
+				"Average",
+				"Good"
+			],
+			"stress_mult": 0.5,
+			"drop_set": [
+				{
+					"chance": {
+						"d": 1,
+						"f": 1,
+						"n": 1
+					},
+					"drop_set": {
+						"type": "drop_set",
+						"name": "Citizen"
+					}
+				}
+			],
+			"seekout_schedule": [
+				"SCHED_BACK_AWAY_FROM_ENEMY"
+			],
+			"spawneffect": [],
+			"VERSION": 53,
+			"citizentype": "Default",
+			"dropweapon": false,
+			"quota_weight": 0.5
+		},
+		"Anime Gal Goon": {
+			"damagefilter_in": [
+				{
+					"victim": {
+						"effects": [
+							{
+								"type": "sound",
+								"name": [
+									"__TBLRANDOM",
+									"player/kevlar1.wav",
+									"player/kevlar2.wav",
+									"player/kevlar3.wav",
+									"player/kevlar4.wav",
+									"player/kevlar5.wav"
+								]
+							}
+						]
+					},
+					"condition": {
+						"chance": {
+							"d": 1,
+							"f": 1,
+							"n": 1
+						},
+						"damage": {
+							"bullet": true,
+							"lesser": 16,
+							"explosion": false
+						}
+					},
+					"maxpasses": 4,
+					"damagescale": 0
+				},
+				{
+					"condition": {
+						"damage": {
+							"bullet": true,
+							"explosion": false
+						}
+					},
+					"maxpasses": 1,
+					"victim": {
+						"effects": [
+							{
+								"type": "sound",
+								"name": [
+									"__TBLRANDOM",
+									"player/headshot1.wav",
+									"player/headshot2.wav"
+								]
+							}
+						],
+						"apply_values": {
+							"npc": {
+								"bloodcolor": "BLOOD_COLOR_RED",
+								"bodygroups": [
+									{
+										"group": "Rig",
+										"value": 1
+									},
+									{
+										"value": 1,
+										"group": "Phone"
+									}
+								]
+							}
+						}
+					}
+				}
+			],
+			"classname": {
+				"type": "NPC",
+				"name": "npc_combine_s"
+			},
+			"bodygroups": [
+				{
+					"group": "Hair",
+					"value": [
+						"__RANDOM"
+					]
+				},
+				{
+					"value": 1,
+					"group": "Belt"
+				},
+				{
+					"value": [
+						"__RANDOM"
+					],
+					"group": "Watch"
+				},
+				{
+					"group": "Earrings",
+					"value": [
+						"__RANDOM"
+					]
+				},
+				{
+					"value": [
+						"__RANDOM"
+					],
+					"group": "Earrings"
+				},
+				{
+					"group": "Gear",
+					"value": 1
+				},
+				{
+					"group": "Phone",
+					"value": [
+						"__RANDOM"
+					]
+				},
+				{
+					"value": 2,
+					"group": "Glove"
+				},
+				{
+					"group": "Stocking",
+					"value": 2
+				},
+				{
+					"value": 1,
+					"group": "Patch"
+				}
+			],
+			"spawneffect": [],
+			"description": "The weakest of the Bad Bitch squad, these masked thots pack only the lightest guns and armor. (SPECIAL: Body armor negates all bullet damage until broken.)",
+			"tacticalvariant": "Pressure until within 30ft, then normal",
+			"icon": "vgui/entities/momo_enemy.vmt",
+			"weapon_proficiency": "Average",
+			"soldiertype": "Normal",
+			"model": [
+				"__TBLRANDOM",
+				"models/kyo_ori/enemy/krhn_momo_enemy.mdl",
+				"models/kyo_ori/enemy/krhn_nana_enemy.mdl"
+			],
+			"spawnflags": [
+				"Don't drop weapons",
+				"Don't drop grenades"
+			],
+			"bloodcolor": "BLOOD_COLOR_MECH",
+			"VERSION": 53,
+			"skin": 2,
+			"entity_type": "npc",
+			"numgrenades": 0,
+			"weapon_set": {
+				"type": "weapon_set",
+				"name": "Anime Gal Goon"
+			},
+			"drop_set": [
+				{
+					"chance": {
+						"d": 2,
+						"f": 0.5,
+						"n": 1
+					},
+					"drop_set": {
+						"type": "drop_set",
+						"name": "Combine Skirmisher"
+					}
+				}
+			],
+			"maxhealth": 50
+		},
+		"Fembine Assassin": {
+			"damagefilter_in": [
+				{
+					"victim": {
+						"effects": [
+							{
+								"type": "sound",
+								"name": [
+									"__TBLRANDOM",
+									"player/kevlar1.wav",
+									"player/kevlar2.wav",
+									"player/kevlar3.wav",
+									"player/kevlar4.wav",
+									"player/kevlar5.wav"
+								]
+							}
+						]
+					},
+					"condition": {
+						"chance": {
+							"d": 1,
+							"f": 1,
+							"n": 1
+						},
+						"damage": {
+							"bullet": true,
+							"lesser": 24,
+							"explosion": false
+						}
+					},
+					"maxpasses": 8,
+					"damagescale": 0
+				},
+				{
+					"condition": {
+						"damage": {
+							"bullet": true,
+							"explosion": false
+						}
+					},
+					"maxpasses": 1,
+					"victim": {
+						"effects": [
+							{
+								"type": "sound",
+								"name": [
+									"__TBLRANDOM",
+									"player/headshot1.wav",
+									"player/headshot2.wav"
+								]
+							}
+						],
+						"apply_values": {
+							"npc": {
+								"bloodcolor": "BLOOD_COLOR_RED",
+								"bodygroups": [
+									{
+										"group": "GEAR1",
+										"value": 1
+									}
+								]
+							}
+						}
+					}
+				}
+			],
+			"relationships_outward": {
+				"by_preset": [
+					{
+						"preset": {
+							"type": "npc",
+							"name": "Anime Gal Goon"
+						},
+						"disposition": "Hostile"
+					},
+					{
+						"disposition": "Hostile",
+						"preset": {
+							"type": "npc",
+							"name": "Anime Gal Heavy"
+						}
+					},
+					{
+						"preset": {
+							"type": "npc",
+							"name": "Anime Gal Operator"
+						},
+						"disposition": "Hostile"
+					},
+					{
+						"disposition": "Hostile",
+						"preset": {
+							"type": "npc",
+							"name": "Anime Gal Raider"
+						}
+					},
+					{
+						"preset": {
+							"type": "npc",
+							"name": "Anime Gal Sniper"
+						},
+						"disposition": "Hostile"
+					}
+				]
+			},
+			"classname": {
+				"type": "NPC",
+				"name": "npc_combine_s"
+			},
+			"entity_type": "npc",
+			"spawneffect": [],
+			"description": "Sneaky combine assassins that make the Intruder look like simple pests. Armed with that GMOD classic stealth M4A1 swep, they'll fuck your shit up. (SPECIAL: Body armor negates all bullet damage until broken.)",
+			"tacticalvariant": "Pressure the enemy (Keep advancing)",
+			"icon": "vgui/entities/hl2tacfemaleconbineenm3.vmt",
+			"weapon_proficiency": "Perfect",
+			"soldiertype": "Prison",
+			"model": "models/daznvrenzhe/jianyushouweinv.mdl",
+			"spawnflags": [
+				"Don't drop weapons",
+				"Don't drop grenades"
+			],
+			"bloodcolor": "BLOOD_COLOR_MECH",
+			"drop_set": [
+				{
+					"chance": {
+						"d": 2,
+						"f": 0.5,
+						"n": 1
+					},
+					"drop_set": {
+						"type": "drop_set",
+						"name": "Combine Skirmisher"
+					}
+				}
+			],
+			"skin": [
+				"__TBLRANDOM",
+				0,
+				0,
+				1
+			],
+			"relationships_inward": {
+				"by_preset": [
+					{
+						"preset": {
+							"type": "npc",
+							"name": "Anime Gal Goon"
+						},
+						"disposition": "Hostile"
+					},
+					{
+						"disposition": "Hostile",
+						"preset": {
+							"type": "npc",
+							"name": "Anime Gal Heavy"
+						}
+					},
+					{
+						"preset": {
+							"type": "npc",
+							"name": "Anime Gal Operator"
+						},
+						"disposition": "Hostile"
+					},
+					{
+						"disposition": "Hostile",
+						"preset": {
+							"type": "npc",
+							"name": "Anime Gal Raider"
+						}
+					},
+					{
+						"preset": {
+							"type": "npc",
+							"name": "Anime Gal Sniper"
+						},
+						"disposition": "Hostile"
+					}
+				]
+			},
+			"VERSION": 53,
+			"weapon": {
+				"type": "NPCUsableWeapons",
+				"name": "npc_stealth_m4a1"
+			},
+			"bodygroups": [
+				{
+					"value": 1,
+					"group": "Leg"
+				},
+				{
+					"group": "Siwa2",
+					"value": 1
+				},
+				{
+					"value": 1,
+					"group": "Huzhou"
+				},
+				{
+					"group": "Fanghugear1",
+					"value": 1
+				},
+				{
+					"value": 1,
+					"group": "Huxi"
+				}
+			],
+			"maxhealth": 100
+		},
+		"Fembine Soldier": {
+			"damagefilter_in": [
+				{
+					"maxpasses": 8,
+					"condition": {
+						"damage": {
+							"bullet": true,
+							"lesser": 24,
+							"explosion": false
+						},
+						"chance": {
+							"d": 1,
+							"f": 1,
+							"n": 1
+						}
+					},
+					"victim": {
+						"effects": [
+							{
+								"type": "sound",
+								"name": [
+									"__TBLRANDOM",
+									"player/kevlar1.wav",
+									"player/kevlar2.wav",
+									"player/kevlar3.wav",
+									"player/kevlar4.wav",
+									"player/kevlar5.wav"
+								]
+							}
+						]
+					},
+					"damagescale": 0
+				},
+				{
+					"condition": {
+						"damage": {
+							"explosion": false,
+							"bullet": true
+						}
+					},
+					"maxpasses": 1,
+					"victim": {
+						"apply_values": {
+							"npc": {
+								"bodygroups": [
+									{
+										"value": 1,
+										"group": "GEAR1"
+									}
+								],
+								"bloodcolor": "BLOOD_COLOR_RED"
+							}
+						},
+						"effects": [
+							{
+								"type": "sound",
+								"name": [
+									"__TBLRANDOM",
+									"player/headshot1.wav",
+									"player/headshot2.wav"
+								]
+							}
+						]
+					}
+				}
+			],
+			"relationships_outward": {
+				"by_preset": [
+					{
+						"disposition": "Hostile",
+						"preset": {
+							"type": "npc",
+							"name": "Anime Gal Goon"
+						}
+					},
+					{
+						"preset": {
+							"type": "npc",
+							"name": "Anime Gal Heavy"
+						},
+						"disposition": "Hostile"
+					},
+					{
+						"disposition": "Hostile",
+						"preset": {
+							"type": "npc",
+							"name": "Anime Gal Operator"
+						}
+					},
+					{
+						"preset": {
+							"type": "npc",
+							"name": "Anime Gal Raider"
+						},
+						"disposition": "Hostile"
+					},
+					{
+						"disposition": "Hostile",
+						"preset": {
+							"type": "npc",
+							"name": "Anime Gal Sniper"
+						}
+					}
+				]
+			},
+			"classname": {
+				"type": "NPC",
+				"name": "npc_combine_s"
+			},
+			"bodygroups": [
+				{
+					"group": "Leg",
+					"value": 1
+				},
+				{
+					"value": 1,
+					"group": "Siwa2"
+				}
+			],
+			"spawneffect": [],
+			"description": "The Universal Union has decided that all of their troopers must be busty bitches. These troopers are more accurate and tankier than their reskinned anime counterparts. They also hate each other! (SPECIAL: Body armor negates all bullet damage until broken.)",
+			"tacticalvariant": "Pressure until within 30ft, then normal",
+			"icon": "vgui/entities/hl2tacfemaleconbineenm2.vmt",
+			"weapon_proficiency": "Very Good",
+			"soldiertype": "Normal",
+			"maxhealth": 100,
+			"model": "models/daznvrenzhe/conbineshibing.mdl",
+			"spawnflags": [
+				"Don't drop weapons",
+				"Don't drop grenades"
+			],
+			"entity_type": "npc",
+			"drop_set": [
+				{
+					"drop_set": {
+						"type": "drop_set",
+						"name": "Combine Skirmisher"
+					},
+					"chance": {
+						"d": 2,
+						"f": 0.5,
+						"n": 1
+					}
+				}
+			],
+			"relationships_inward": {
+				"by_preset": [
+					{
+						"disposition": "Hostile",
+						"preset": {
+							"type": "npc",
+							"name": "Anime Gal Goon"
+						}
+					},
+					{
+						"preset": {
+							"type": "npc",
+							"name": "Anime Gal Heavy"
+						},
+						"disposition": "Hostile"
+					},
+					{
+						"disposition": "Hostile",
+						"preset": {
+							"type": "npc",
+							"name": "Anime Gal Operator"
+						}
+					},
+					{
+						"preset": {
+							"type": "npc",
+							"name": "Anime Gal Raider"
+						},
+						"disposition": "Hostile"
+					},
+					{
+						"disposition": "Hostile",
+						"preset": {
+							"type": "npc",
+							"name": "Anime Gal Sniper"
+						}
+					}
+				]
+			},
+			"weapon": {
+				"type": "NPCUsableWeapons",
+				"name": "swep_ai_ar2"
+			},
+			"numgrenades": [
+				"__RANDOM",
+				1,
+				2
+			],
+			"VERSION": 53,
+			"skin": [
+				"__TBLRANDOM",
+				0,
+				0,
+				1
+			],
+			"bloodcolor": "BLOOD_COLOR_MECH"
+		},
+		"Anime Gal Raider": {
+			"bloodcolor": "BLOOD_COLOR_MECH",
+			"classname": {
+				"type": "NPC",
+				"name": "npc_combine_s"
+			},
+			"bodygroups": [
+				{
+					"value": 1,
+					"group": "Belt"
+				},
+				{
+					"value": [
+						"__RANDOM"
+					],
+					"group": "Watch"
+				},
+				{
+					"group": "Earrings",
+					"value": [
+						"__RANDOM"
+					]
+				},
+				{
+					"value": [
+						"__RANDOM"
+					],
+					"group": "Earrings"
+				},
+				{
+					"group": "Phone",
+					"value": [
+						"__RANDOM"
+					]
+				},
+				{
+					"group": "Stocking",
+					"value": 2
+				},
+				{
+					"value": 1,
+					"group": "Patch"
+				},
+				{
+					"group": "PVS-31",
+					"value": 2
+				},
+				{
+					"group": "Gear",
+					"value": 1
+				},
+				{
+					"value": 1,
+					"group": "Glove"
+				},
+				{
+					"group": "Gear Back",
+					"value": 1
+				},
+				{
+					"group": "Gasmask",
+					"value": [
+						"__TBLRANDOM",
+						0,
+						1,
+						1,
+						1
+					]
+				}
+			],
+			"spawneffect": [],
+			"weapon": {
+				"type": "NPCUsableWeapons",
+				"name": "swep_ai_xm1014"
+			},
+			"tacticalvariant": "Pressure the enemy (Keep advancing)",
+			"icon": "vgui/entities/zero_enemy.vmt",
+			"weapon_proficiency": "Good",
+			"soldiertype": "Normal",
+			"maxhealth": 70,
+			"spawnflags": [
+				"Don't drop weapons",
+				"Don't drop grenades"
+			],
+			"damagefilter_in": [
+				{
+					"victim": {
+						"effects": [
+							{
+								"type": "sound",
+								"name": [
+									"__TBLRANDOM",
+									"player/kevlar1.wav",
+									"player/kevlar2.wav",
+									"player/kevlar3.wav",
+									"player/kevlar4.wav",
+									"player/kevlar5.wav"
+								]
+							}
+						]
+					},
+					"condition": {
+						"chance": {
+							"d": 1,
+							"f": 1,
+							"n": 1
+						},
+						"damage": {
+							"bullet": true,
+							"lesser": 16,
+							"explosion": false
+						}
+					},
+					"maxpasses": 8,
+					"damagescale": 0
+				},
+				{
+					"condition": {
+						"damage": {
+							"bullet": true,
+							"explosion": false
+						}
+					},
+					"maxpasses": 1,
+					"victim": {
+						"effects": [
+							{
+								"type": "sound",
+								"name": [
+									"__TBLRANDOM",
+									"player/headshot1.wav",
+									"player/headshot2.wav"
+								]
+							}
+						],
+						"apply_values": {
+							"npc": {
+								"bloodcolor": "BLOOD_COLOR_RED",
+								"bodygroups": [
+									{
+										"group": "Rig",
+										"value": 1
+									},
+									{
+										"value": 1,
+										"group": "Phone"
+									}
+								]
+							}
+						}
+					}
+				}
+			],
+			"VERSION": 53,
+			"skin": 2,
+			"entity_type": "npc",
+			"numgrenades": 0,
+			"description": "These sluts like to get up close and personal, to the extreme detriment of their survival around predators, maybe they're in the closet about something? (SPECIAL: Body armor negates all bullet damage until broken.)",
+			"drop_set": [
+				{
+					"chance": {
+						"d": 2,
+						"f": 0.5,
+						"n": 1
+					},
+					"drop_set": {
+						"type": "drop_set",
+						"name": "Combine Skirmisher"
+					}
+				}
+			],
+			"model": "models/kyo_ori/enemy/krhn_zero_enemy.mdl"
+		},
+		"Fembine Sterilizer": {
+			"damagefilter_in": [
+				{
+					"maxpasses": 8,
+					"condition": {
+						"damage": {
+							"bullet": true,
+							"lesser": 24,
+							"explosion": false
+						},
+						"chance": {
+							"d": 1,
+							"f": 1,
+							"n": 1
+						}
+					},
+					"victim": {
+						"effects": [
+							{
+								"type": "sound",
+								"name": [
+									"__TBLRANDOM",
+									"player/kevlar1.wav",
+									"player/kevlar2.wav",
+									"player/kevlar3.wav",
+									"player/kevlar4.wav",
+									"player/kevlar5.wav"
+								]
+							}
+						]
+					},
+					"damagescale": 0
+				},
+				{
+					"condition": {
+						"damage": {
+							"explosion": false,
+							"bullet": true
+						}
+					},
+					"maxpasses": 1,
+					"victim": {
+						"apply_values": {
+							"npc": {
+								"bodygroups": [
+									{
+										"value": 1,
+										"group": "GEAR1"
+									}
+								],
+								"bloodcolor": "BLOOD_COLOR_RED"
+							}
+						},
+						"effects": [
+							{
+								"type": "sound",
+								"name": [
+									"__TBLRANDOM",
+									"player/headshot1.wav",
+									"player/headshot2.wav"
+								]
+							}
+						]
+					}
+				}
+			],
+			"relationships_outward": {
+				"by_preset": [
+					{
+						"disposition": "Hostile",
+						"preset": {
+							"type": "npc",
+							"name": "Anime Gal Goon"
+						}
+					},
+					{
+						"preset": {
+							"type": "npc",
+							"name": "Anime Gal Heavy"
+						},
+						"disposition": "Hostile"
+					},
+					{
+						"disposition": "Hostile",
+						"preset": {
+							"type": "npc",
+							"name": "Anime Gal Operator"
+						}
+					},
+					{
+						"preset": {
+							"type": "npc",
+							"name": "Anime Gal Raider"
+						},
+						"disposition": "Hostile"
+					},
+					{
+						"disposition": "Hostile",
+						"preset": {
+							"type": "npc",
+							"name": "Anime Gal Sniper"
+						}
+					}
+				]
+			},
+			"classname": {
+				"type": "NPC",
+				"name": "npc_combine_s"
+			},
+			"entity_type": "npc",
+			"spawneffect": [],
+			"weapon": {
+				"type": "NPCUsableWeapons",
+				"name": "swep_ai_shotgun"
+			},
+			"tacticalvariant": "Pressure the enemy (Keep advancing)",
+			"icon": "vgui/entities/hl2tacfemaleconbineenm2.vmt",
+			"weapon_proficiency": "Very Good",
+			"soldiertype": "Normal",
+			"maxhealth": 120,
+			"spawnflags": [
+				"Don't drop weapons",
+				"Don't drop grenades"
+			],
+			"model": "models/daznvrenzhe/conbineshibing.mdl",
+			"drop_set": [
+				{
+					"drop_set": {
+						"type": "drop_set",
+						"name": "Combine Skirmisher"
+					},
+					"chance": {
+						"d": 2,
+						"f": 0.5,
+						"n": 1
+					}
+				}
+			],
+			"skin": [
+				"__TBLRANDOM",
+				0,
+				0,
+				1
+			],
+			"bodygroups": [
+				{
+					"group": "leg",
+					"value": 1
+				},
+				{
+					"value": 2,
+					"group": "siwa2"
+				}
+			],
+			"description": "The Universal Union has decided that all of their troopers must be busty bitches. These troopers are more accurate and tankier than their reskinned anime counterparts. They also hate each other! (SPECIAL: Body armor negates all bullet damage until broken.)",
+			"VERSION": 53,
+			"relationships_inward": {
+				"by_preset": [
+					{
+						"disposition": "Hostile",
+						"preset": {
+							"type": "npc",
+							"name": "Anime Gal Goon"
+						}
+					},
+					{
+						"preset": {
+							"type": "npc",
+							"name": "Anime Gal Heavy"
+						},
+						"disposition": "Hostile"
+					},
+					{
+						"disposition": "Hostile",
+						"preset": {
+							"type": "npc",
+							"name": "Anime Gal Operator"
+						}
+					},
+					{
+						"preset": {
+							"type": "npc",
+							"name": "Anime Gal Raider"
+						},
+						"disposition": "Hostile"
+					},
+					{
+						"disposition": "Hostile",
+						"preset": {
+							"type": "npc",
+							"name": "Anime Gal Sniper"
+						}
+					}
+				]
+			},
+			"bloodcolor": "BLOOD_COLOR_MECH"
+		},
+		"Fembine Skirmisher": {
+			"damagefilter_in": [
+				{
+					"victim": {
+						"effects": [
+							{
+								"type": "sound",
+								"name": [
+									"__TBLRANDOM",
+									"player/kevlar1.wav",
+									"player/kevlar2.wav",
+									"player/kevlar3.wav",
+									"player/kevlar4.wav",
+									"player/kevlar5.wav"
+								]
+							}
+						]
+					},
+					"condition": {
+						"chance": {
+							"d": 1,
+							"f": 1,
+							"n": 1
+						},
+						"damage": {
+							"bullet": true,
+							"lesser": 24,
+							"explosion": false
+						}
+					},
+					"maxpasses": 8,
+					"damagescale": 0
+				},
+				{
+					"condition": {
+						"damage": {
+							"bullet": true,
+							"explosion": false
+						}
+					},
+					"maxpasses": 1,
+					"victim": {
+						"effects": [
+							{
+								"type": "sound",
+								"name": [
+									"__TBLRANDOM",
+									"player/headshot1.wav",
+									"player/headshot2.wav"
+								]
+							}
+						],
+						"apply_values": {
+							"npc": {
+								"bloodcolor": "BLOOD_COLOR_RED",
+								"bodygroups": [
+									{
+										"group": "GEAR1",
+										"value": 1
+									}
+								]
+							}
+						}
+					}
+				}
+			],
+			"relationships_outward": {
+				"by_preset": [
+					{
+						"preset": {
+							"type": "npc",
+							"name": "Anime Gal Goon"
+						},
+						"disposition": "Hostile"
+					},
+					{
+						"disposition": "Hostile",
+						"preset": {
+							"type": "npc",
+							"name": "Anime Gal Heavy"
+						}
+					},
+					{
+						"preset": {
+							"type": "npc",
+							"name": "Anime Gal Operator"
+						},
+						"disposition": "Hostile"
+					},
+					{
+						"disposition": "Hostile",
+						"preset": {
+							"type": "npc",
+							"name": "Anime Gal Raider"
+						}
+					},
+					{
+						"preset": {
+							"type": "npc",
+							"name": "Anime Gal Sniper"
+						},
+						"disposition": "Hostile"
+					}
+				]
+			},
+			"classname": {
+				"type": "NPC",
+				"name": "npc_combine_s"
+			},
+			"entity_type": "npc",
+			"spawneffect": [],
+			"description": "The Universal Union has decided that all of their troopers must be busty bitches. These troopers are more accurate and tankier than their reskinned anime counterparts. They also hate each other! (SPECIAL: Body armor negates all bullet damage until broken.)",
+			"tacticalvariant": "Pressure until within 30ft, then normal",
+			"icon": "vgui/entities/hl2tacfemaleconbineenm2.vmt",
+			"weapon_proficiency": "Very Good",
+			"soldiertype": "Normal",
+			"model": "models/daznvrenzhe/conbineshibing.mdl",
+			"bloodcolor": "BLOOD_COLOR_MECH",
+			"spawnflags": [
+				"Don't drop weapons",
+				"Don't drop grenades"
+			],
+			"drop_set": [
+				{
+					"chance": {
+						"d": 2,
+						"f": 0.5,
+						"n": 1
+					},
+					"drop_set": {
+						"type": "drop_set",
+						"name": "Combine Skirmisher"
+					}
+				}
+			],
+			"VERSION": 53,
+			"relationships_inward": {
+				"by_preset": [
+					{
+						"preset": {
+							"type": "npc",
+							"name": "Anime Gal Goon"
+						},
+						"disposition": "Hostile"
+					},
+					{
+						"disposition": "Hostile",
+						"preset": {
+							"type": "npc",
+							"name": "Anime Gal Heavy"
+						}
+					},
+					{
+						"preset": {
+							"type": "npc",
+							"name": "Anime Gal Operator"
+						},
+						"disposition": "Hostile"
+					},
+					{
+						"disposition": "Hostile",
+						"preset": {
+							"type": "npc",
+							"name": "Anime Gal Raider"
+						}
+					},
+					{
+						"preset": {
+							"type": "npc",
+							"name": "Anime Gal Sniper"
+						},
+						"disposition": "Hostile"
+					}
+				]
+			},
+			"bodygroups": [
+				{
+					"group": "Huxi",
+					"value": 1
+				},
+				{
+					"value": 1,
+					"group": "Huzhou"
+				},
+				{
+					"group": "Leg",
+					"value": 1
+				},
+				{
+					"value": 1,
+					"group": "Siwa2"
+				}
+			],
+			"numgrenades": [
+				"__RANDOM",
+				2,
+				4
+			],
+			"weapon": {
+				"type": "NPCUsableWeapons",
+				"name": "swep_ai_smg1"
+			},
+			"skin": [
+				"__TBLRANDOM",
+				0,
+				0,
+				1
+			],
+			"maxhealth": 100
+		},
+		"Fembine Metrocop": {
+			"relationships_outward": {
+				"by_preset": [
+					{
+						"disposition": "Hostile",
+						"preset": {
+							"type": "npc",
+							"name": "Anime Gal Goon"
+						}
+					},
+					{
+						"preset": {
+							"type": "npc",
+							"name": "Anime Gal Heavy"
+						},
+						"disposition": "Hostile"
+					},
+					{
+						"disposition": "Hostile",
+						"preset": {
+							"type": "npc",
+							"name": "Anime Gal Operator"
+						}
+					},
+					{
+						"preset": {
+							"type": "npc",
+							"name": "Anime Gal Raider"
+						},
+						"disposition": "Hostile"
+					},
+					{
+						"disposition": "Hostile",
+						"preset": {
+							"type": "npc",
+							"name": "Anime Gal Sniper"
+						}
+					}
+				]
+			},
+			"manhacks": 0,
+			"bodygroups": [],
+			"weapon_set": {
+				"type": "weapon_set",
+				"name": "Metrocop"
+			},
+			"description": "The Universal Union has decided that all of their troopers must be busty bitches. These troopers are more accurate and tankier than their reskinned anime counterparts. They also hate each other! (SPECIAL: Body armor negates all bullet damage until broken.)",
+			"icon": "vgui/entities/hl2tacfemaleconbine1.vmt",
+			"weapon_proficiency": "Good",
+			"weapondrawn": true,
+			"model": "models/daznvrenzhe/policecombine.mdl",
+			"spawnflags": [
+				"Don't drop weapons"
+			],
+			"maxhealth": 50,
+			"drop_set": [
+				{
+					"drop_set": {
+						"type": "drop_set",
+						"name": "Combine Skirmisher"
+					},
+					"chance": {
+						"d": 2,
+						"f": 0.5,
+						"n": 1
+					}
+				}
+			],
+			"relationships_inward": {
+				"by_preset": [
+					{
+						"disposition": "Hostile",
+						"preset": {
+							"type": "npc",
+							"name": "Anime Gal Goon"
+						}
+					},
+					{
+						"preset": {
+							"type": "npc",
+							"name": "Anime Gal Heavy"
+						},
+						"disposition": "Hostile"
+					},
+					{
+						"disposition": "Hostile",
+						"preset": {
+							"type": "npc",
+							"name": "Anime Gal Operator"
+						}
+					},
+					{
+						"preset": {
+							"type": "npc",
+							"name": "Anime Gal Raider"
+						},
+						"disposition": "Hostile"
+					},
+					{
+						"disposition": "Hostile",
+						"preset": {
+							"type": "npc",
+							"name": "Anime Gal Sniper"
+						}
+					}
+				]
+			},
+			"VERSION": 53,
+			"spawneffect": [],
+			"entity_type": "npc",
+			"classname": {
+				"type": "NPC",
+				"name": "npc_metropolice"
+			},
+			"skin": [
+				"__TBLRANDOM",
+				0,
+				0,
+				1
+			]
+		},
+		"Intruder": {
+			"moveact": "ACT_RUN_CROUCH",
+			"relationships_outward": {
+				"everyone": {
+					"priority": 99,
+					"disposition": "Hostile"
+				}
+			},
+			"classname": {
+				"type": "NPC",
+				"name": "npc_citizen"
+			},
+			"renderamt": 10,
+			"entity_type": "npc",
+			"aware_range": 768,
+			"description": "Invisible dudes with the blicky. Predators will still take care of them but they're sneaky little bastards. (SPECIAL: Stealth abilities until first shot. First bullet that lands does triple damage.)",
+			"damagefilter_out": [
+				{
+					"continue": true,
+					"attacker": {
+						"apply_values": {
+							"npc": {
+								"rendercolor": {
+									"r": 253,
+									"b": 254,
+									"a": 255,
+									"g": 255
+								},
+								"rendermode": "RENDERMODE_TRANSCOLOR",
+								"drawshadow": true,
+								"renderfx": "kRenderFxNone",
+								"renderamt": 255,
+								"relationships_inward": {
+									"everyone": {
+										"priority": 99,
+										"disposition": "Hostile"
+									}
+								}
+							}
+						}
+					}
+				},
+				{
+					"maxpasses": 1,
+					"damagescale": 3
+				}
+			],
+			"icon": "vgui/entities/npc_intruder.vmt",
+			"weapon_proficiency": "Very Good",
+			"model": "models/humans/intruder/intruder.mdl",
+			"maxhealth": [
+				"__RANDOM",
+				21,
+				28
+			],
+			"spawnflags": [
+				"Random male head",
+				"Gag (No IDLE sounds until angry)"
+			],
+			"rendercolor": {
+				"r": 0,
+				"b": 0,
+				"a": 255,
+				"g": 0
+			},
+			"drop_set": [
+				{
+					"drop_set": {
+						"type": "drop_set",
+						"name": "Metrocop"
+					},
+					"chance": {
+						"d": 2,
+						"f": 0.5,
+						"n": 1
+					}
+				}
+			],
+			"relationships_inward": {
+				"everyone": {
+					"priority": 99,
+					"disposition": "Neutral"
+				}
+			},
+			"animspeed": 1.1,
+			"spawneffect": [],
+			"renderfx": "kRenderFxPulseSlow",
+			"weapon_set": {
+				"type": "weapon_set",
+				"name": "Intruder"
+			},
+			"VERSION": 53
+		},
+		"Anime Gal Operator": {
+			"damagefilter_in": [
+				{
+					"maxpasses": 6,
+					"condition": {
+						"damage": {
+							"bullet": true,
+							"lesser": 16,
+							"explosion": false
+						},
+						"chance": {
+							"d": 1,
+							"f": 1,
+							"n": 1
+						}
+					},
+					"victim": {
+						"effects": [
+							{
+								"type": "sound",
+								"name": [
+									"__TBLRANDOM",
+									"player/kevlar1.wav",
+									"player/kevlar2.wav",
+									"player/kevlar3.wav",
+									"player/kevlar4.wav",
+									"player/kevlar5.wav"
+								]
+							}
+						]
+					},
+					"damagescale": 0
+				},
+				{
+					"condition": {
+						"damage": {
+							"explosion": false,
+							"bullet": true
+						}
+					},
+					"maxpasses": 1,
+					"victim": {
+						"apply_values": {
+							"npc": {
+								"bodygroups": [
+									{
+										"value": 1,
+										"group": "Rig"
+									},
+									{
+										"group": "Phone",
+										"value": 1
+									},
+									{
+										"group": "Gear",
+										"value": 1
+									}
+								],
+								"bloodcolor": "BLOOD_COLOR_RED"
+							}
+						},
+						"effects": [
+							{
+								"type": "sound",
+								"name": [
+									"__TBLRANDOM",
+									"player/headshot1.wav",
+									"player/headshot2.wav"
+								]
+							}
+						]
+					}
+				}
+			],
+			"classname": {
+				"type": "NPC",
+				"name": "npc_combine_s"
+			},
+			"entity_type": "npc",
+			"weapon_set": {
+				"type": "weapon_set",
+				"name": "Anime Gal Operator"
+			},
+			"description": "Bad Bitch's squad primary unit is a girl with a gun and a miniskirt. Functionally deadly and slutty all at once. (SPECIAL: Body armor negates all bullet damage until broken.)",
+			"tacticalvariant": "Normal Tactics",
+			"icon": "vgui/entities/kyoto_enemy.vmt",
+			"weapon_proficiency": "Good",
+			"soldiertype": "Normal",
+			"model": "models/kyo_ori/enemy/krhn_kyoto_enemy.mdl",
+			"spawnflags": [
+				"Don't drop weapons",
+				"Don't drop grenades"
+			],
+			"maxhealth": 60,
+			"VERSION": 53,
+			"skin": 2,
+			"bodygroups": [
+				{
+					"group": "Belt",
+					"value": 1
+				},
+				{
+					"group": "Watch",
+					"value": [
+						"__RANDOM"
+					]
+				},
+				{
+					"value": [
+						"__RANDOM"
+					],
+					"group": "Earrings"
+				},
+				{
+					"group": "Earrings",
+					"value": [
+						"__RANDOM"
+					]
+				},
+				{
+					"value": [
+						"__RANDOM"
+					],
+					"group": "Phone"
+				},
+				{
+					"value": 2,
+					"group": "Stocking"
+				},
+				{
+					"group": "Patch",
+					"value": 1
+				},
+				{
+					"value": 2,
+					"group": "PVS-31"
+				}
+			],
+			"numgrenades": [
+				"__RANDOM"
+			],
+			"spawneffect": [],
+			"drop_set": [
+				{
+					"chance": {
+						"d": 2,
+						"f": 0.5,
+						"n": 1
+					},
+					"drop_set": {
+						"type": "drop_set",
+						"name": "Combine Soldier"
+					}
+				}
+			],
+			"bloodcolor": "BLOOD_COLOR_MECH"
+		},
+		"NO-VORE Operator": {
+			"bloodcolor": "BLOOD_COLOR_MECH",
+			"spawneffect": [],
+			"icon": "vgui/entities/npc_blriotgruntheavy_ally.vmt",
+			"weapon_proficiency": "Perfect",
+			"damagefilter_in": [
+				{
+					"condition": {
+						"damage": {
+							"dmg_types": {
+								"include": [
+									"DMG_REMOVENORAGDOLL"
+								]
+							}
+						}
+					},
+					"damagescale": 3,
+					"continue": true
+				},
+				{
+					"continue": true,
+					"condition": {
+						"chance": {
+							"d": 2,
+							"f": 0.5,
+							"n": 1
+						},
+						"damage": {
+							"explosion": false,
+							"bullet": true
+						}
+					},
+					"victim": {
+						"effects": [
+							{
+								"type": "particle",
+								"pattach": "PATTACH_POINT_FOLLOW",
+								"name": "blood_impact_red_01",
+								"pcf": "blood_impact.pcf"
+							},
+							{
+								"type": "sound",
+								"name": [
+									"__TBLRANDOM",
+									"physics/flesh/phys_bullet_impact_flesh_01.wav",
+									"physics/flesh/phys_bullet_impact_flesh_02.wav",
+									"physics/flesh/phys_bullet_impact_flesh_03.wav",
+									"physics/flesh/phys_bullet_impact_flesh_04.wav",
+									"physics/flesh/phys_bullet_impact_flesh_05.wav",
+									"physics/flesh/phys_bullet_impact_flesh_06.wav",
+									"physics/flesh/phys_bullet_impact_flesh_07.wav",
+									"physics/flesh/phys_bullet_impact_flesh_08.wav"
+								],
+								"sound": {
+									"dist": 65,
+									"volume": 0.5
+								}
+							}
+						]
+					},
+					"damagescale": 2.5
+				}
+			],
+			"maxhealth": 75,
+			"damagescale_in": 0.1,
+			"spawnflags": [
+				"Gag (No IDLE sounds until angry)"
+			],
+			"relationships_outward": {
+				"by_preset": [
+					{
+						"disposition": "Hostile",
+						"priority": 99,
+						"preset": {
+							"type": "nextbot",
+							"name": "Albino Deathclaw"
+						}
+					},
+					{
+						"disposition": "Hostile",
+						"priority": 99,
+						"preset": {
+							"type": "nextbot",
+							"name": "Angela"
+						}
+					},
+					{
+						"disposition": "Hostile",
+						"priority": 99,
+						"preset": {
+							"type": "nextbot",
+							"name": "Ankha"
+						}
+					},
+					{
+						"disposition": "Hostile",
+						"priority": 99,
+						"preset": {
+							"type": "nextbot",
+							"name": "Anubis"
+						}
+					},
+					{
+						"disposition": "Hostile",
+						"priority": 99,
+						"preset": {
+							"type": "nextbot",
+							"name": "Casual D.VA"
+						}
+					},
+					{
+						"disposition": "Hostile",
+						"priority": 99,
+						"preset": {
+							"type": "nextbot",
+							"name": "D.VA"
+						}
+					},
+					{
+						"disposition": "Hostile",
+						"priority": 99,
+						"preset": {
+							"type": "nextbot",
+							"name": "Deathclaw"
+						}
+					},
+					{
+						"disposition": "Hostile",
+						"priority": 99,
+						"preset": {
+							"type": "nextbot",
+							"name": "GLaDOS"
+						}
+					},
+					{
+						"disposition": "Hostile",
+						"priority": 99,
+						"preset": {
+							"type": "nextbot",
+							"name": "Goblin Girl"
+						}
+					},
+					{
+						"disposition": "Hostile",
+						"priority": 99,
+						"preset": {
+							"type": "nextbot",
+							"name": "Karelia"
+						}
+					},
+					{
+						"disposition": "Hostile",
+						"priority": 99,
+						"preset": {
+							"type": "nextbot",
+							"name": "Kroxi"
+						}
+					},
+					{
+						"disposition": "Hostile",
+						"priority": 99,
+						"preset": {
+							"type": "nextbot",
+							"name": "Lovander"
+						}
+					},
+					{
+						"disposition": "Hostile",
+						"priority": 99,
+						"preset": {
+							"type": "nextbot",
+							"name": "Makima"
+						}
+					},
+					{
+						"disposition": "Hostile",
+						"priority": 99,
+						"preset": {
+							"type": "nextbot",
+							"name": "Mal0"
+						}
+					},
+					{
+						"disposition": "Hostile",
+						"priority": 99,
+						"preset": {
+							"type": "nextbot",
+							"name": "Marin"
+						}
+					},
+					{
+						"disposition": "Hostile",
+						"priority": 99,
+						"preset": {
+							"type": "nextbot",
+							"name": "Meru"
+						}
+					},
+					{
+						"disposition": "Hostile",
+						"priority": 99,
+						"preset": {
+							"type": "nextbot",
+							"name": "Meruneko"
+						}
+					},
+					{
+						"disposition": "Hostile",
+						"priority": 99,
+						"preset": {
+							"type": "nextbot",
+							"name": "Monster Energy Chan"
+						}
+					},
+					{
+						"disposition": "Hostile",
+						"priority": 99,
+						"preset": {
+							"type": "nextbot",
+							"name": "Purrslime"
+						}
+					},
+					{
+						"disposition": "Hostile",
+						"priority": 99,
+						"preset": {
+							"type": "nextbot",
+							"name": "Queen Chrysalis"
+						}
+					},
+					{
+						"disposition": "Hostile",
+						"priority": 99,
+						"preset": {
+							"type": "nextbot",
+							"name": "Roxy"
+						}
+					},
+					{
+						"disposition": "Hostile",
+						"priority": 99,
+						"preset": {
+							"type": "nextbot",
+							"name": "Sadako"
+						}
+					},
+					{
+						"disposition": "Hostile",
+						"priority": 99,
+						"preset": {
+							"type": "nextbot",
+							"name": "Salamander"
+						}
+					},
+					{
+						"disposition": "Hostile",
+						"priority": 99,
+						"preset": {
+							"type": "nextbot",
+							"name": "Seraphim"
+						}
+					},
+					{
+						"disposition": "Hostile",
+						"priority": 99,
+						"preset": {
+							"type": "nextbot",
+							"name": "Tasque Manager"
+						}
+					},
+					{
+						"disposition": "Hostile",
+						"priority": 99,
+						"preset": {
+							"type": "nextbot",
+							"name": "Toofy"
+						}
+					},
+					{
+						"disposition": "Hostile",
+						"priority": 99,
+						"preset": {
+							"type": "nextbot",
+							"name": "Toriel"
+						}
+					},
+					{
+						"disposition": "Hostile",
+						"priority": 99,
+						"preset": {
+							"type": "nextbot",
+							"name": "Toy Chica"
+						}
+					},
+					{
+						"disposition": "Hostile",
+						"priority": 99,
+						"preset": {
+							"type": "nextbot",
+							"name": "Valkyr"
+						}
+					},
+					{
+						"disposition": "Hostile",
+						"priority": 99,
+						"preset": {
+							"type": "nextbot",
+							"name": "Xenomorph"
+						}
+					}
+				]
+			},
+			"VERSION": 53,
+			"model": "models/bl_npc/bl_riotgruntheavy_aly.mdl",
+			"classname": {
+				"type": "NPC",
+				"name": "npc_citizen"
+			},
+			"citizentype": "Rebel",
+			"entity_type": "npc",
+			"weapon_set": {
+				"type": "weapon_set",
+				"name": "Vorny Police"
+			},
+			"description": "A distinguished member of the vorny police, they're your boys and perfect cannon fodder for sprinting past to distract or kill predators. (SPECIAL: Their heavy armor will block a majority of bullets, they prioritize shooting predators and are not afraid of them, they are also resistant to digestion... Though it doesn't matter in the end.)"
+		}
+	},
+	"weapon_set": {
+		"Metrocop": {
+			"VERSION": 53,
+			"weapons": [
+				{
+					"expected": {
+						"d": 4,
+						"f": 0.25,
+						"n": 1
+					},
+					"classname": {
+						"type": "NPCUsableWeapons",
+						"name": "swep_ai_smg1"
+					}
+				},
+				{
+					"expected": {
+						"d": 1,
+						"f": 1,
+						"n": 1
+					},
+					"classname": {
+						"type": "NPCUsableWeapons",
+						"name": "swep_ai_usp"
+					}
+				},
+				{
+					"expected": {
+						"d": 2,
+						"f": 0.5,
+						"n": 1
+					},
+					"classname": {
+						"type": "NPCUsableWeapons",
+						"name": "weapon_stunstick"
+					}
+				}
+			],
+			"icon": "entities/weapon_crossbow.png"
+		},
+		"Rebel Medic": {
+			"VERSION": 53,
+			"weapons": [
+				{
+					"expected": {
+						"d": 1,
+						"f": 1,
+						"n": 1
+					},
+					"classname": {
+						"type": "NPCUsableWeapons",
+						"name": "weapon_pistol"
+					}
+				},
+				{
+					"expected": {
+						"d": 1,
+						"f": 1,
+						"n": 1
+					},
+					"classname": {
+						"type": "NPCUsableWeapons",
+						"name": "weapon_357"
+					}
+				},
+				{
+					"expected": {
+						"d": 2,
+						"f": 0.5,
+						"n": 1
+					},
+					"classname": {
+						"type": "NPCUsableWeapons",
+						"name": "weapon_smg1"
+					}
+				},
+				{
+					"expected": {
+						"d": 16,
+						"f": 0.0625,
+						"n": 1
+					},
+					"classname": {
+						"type": "NPCUsableWeapons",
+						"name": "weapon_crossbow"
+					}
+				}
+			],
+			"icon": "entities/weapon_357.png"
+		},
+		"Citizen": {
+			"weapons": [
+				{
+					"expected": {
+						"d": 2,
+						"f": 0.5,
+						"n": 1
+					},
+					"classname": {
+						"type": "NPCUsableWeapons",
+						"name": "weapon_pistol"
+					}
+				},
+				{
+					"expected": {
+						"d": 4,
+						"f": 0.25,
+						"n": 1
+					},
+					"classname": {
+						"type": "NPCUsableWeapons",
+						"name": "weapon_smg1"
+					}
+				},
+				{
+					"expected": {
+						"d": 8,
+						"f": 0.125,
+						"n": 1
+					},
+					"classname": {
+						"type": "NPCUsableWeapons",
+						"name": "weapon_shotgun"
+					}
+				},
+				{
+					"expected": {
+						"d": 16,
+						"f": 0.0625,
+						"n": 1
+					},
+					"classname": {
+						"type": "NPCUsableWeapons",
+						"name": "weapon_ar2"
+					}
+				}
+			],
+			"VERSION": 53
+		},
+		"Refugee": {
+			"VERSION": 53,
+			"weapons": [
+				{
+					"expected": {
+						"d": 1,
+						"f": 1,
+						"n": 1
+					},
+					"classname": {
+						"type": "NPCUsableWeapons",
+						"name": "weapon_pistol"
+					}
+				},
+				{
+					"expected": {
+						"d": 2,
+						"f": 0.5,
+						"n": 1
+					},
+					"classname": {
+						"type": "NPCUsableWeapons",
+						"name": "weapon_smg1"
+					}
+				},
+				{
+					"expected": {
+						"d": 4,
+						"f": 0.25,
+						"n": 1
+					},
+					"classname": {
+						"type": "NPCUsableWeapons",
+						"name": "weapon_shotgun"
+					}
+				},
+				{
+					"expected": {
+						"d": 8,
+						"f": 0.125,
+						"n": 1
+					},
+					"classname": {
+						"type": "NPCUsableWeapons",
+						"name": "weapon_ar2"
+					}
+				},
+				{
+					"expected": {
+						"d": 16,
+						"f": 0.0625,
+						"n": 1
+					},
+					"classname": {
+						"type": "NPCUsableWeapons",
+						"name": "weapon_357"
+					}
+				}
+			],
+			"icon": "entities/weapon_pistol.png"
+		},
+		"Vorny Police": {
+			"weapons": [
+				{
+					"expected": {
+						"d": 2,
+						"f": 0.5,
+						"n": 1
+					},
+					"classname": {
+						"type": "NPCUsableWeapons",
+						"name": "swep_ai_sg550"
+					}
+				},
+				{
+					"expected": {
+						"d": 1,
+						"f": 1,
+						"n": 1
+					},
+					"classname": {
+						"type": "NPCUsableWeapons",
+						"name": "swep_ai_sg552"
+					}
+				}
+			],
+			"VERSION": 53
+		},
+		"Rebel Veteran": {
+			"VERSION": 53,
+			"weapons": [
+				{
+					"expected": {
+						"d": 1,
+						"f": 1,
+						"n": 1
+					},
+					"classname": {
+						"type": "NPCUsableWeapons",
+						"name": "weapon_ar2"
+					}
+				},
+				{
+					"expected": {
+						"d": 2,
+						"f": 0.5,
+						"n": 1
+					},
+					"classname": {
+						"type": "NPCUsableWeapons",
+						"name": "weapon_357"
+					}
+				},
+				{
+					"expected": {
+						"d": 4,
+						"f": 0.25,
+						"n": 1
+					},
+					"classname": {
+						"type": "NPCUsableWeapons",
+						"name": "weapon_crossbow"
+					}
+				},
+				{
+					"expected": {
+						"d": 8,
+						"f": 0.125,
+						"n": 1
+					},
+					"classname": {
+						"type": "NPCUsableWeapons",
+						"name": "weapon_rpg"
+					}
+				}
+			],
+			"icon": "entities/weapon_rpg.png"
+		},
+		"Rebel": {
+			"VERSION": 53,
+			"weapons": [
+				{
+					"expected": {
+						"d": 1,
+						"f": 1,
+						"n": 1
+					},
+					"classname": {
+						"type": "NPCUsableWeapons",
+						"name": "weapon_smg1"
+					}
+				},
+				{
+					"expected": {
+						"d": 2,
+						"f": 0.5,
+						"n": 1
+					},
+					"classname": {
+						"type": "NPCUsableWeapons",
+						"name": "weapon_ar2"
+					}
+				},
+				{
+					"expected": {
+						"d": 2,
+						"f": 0.5,
+						"n": 1
+					},
+					"classname": {
+						"type": "NPCUsableWeapons",
+						"name": "weapon_shotgun"
+					}
+				},
+				{
+					"expected": {
+						"d": 16,
+						"f": 0.0625,
+						"n": 1
+					},
+					"classname": {
+						"type": "NPCUsableWeapons",
+						"name": "weapon_rpg"
+					}
+				},
+				{
+					"expected": {
+						"d": 8,
+						"f": 0.125,
+						"n": 1
+					},
+					"classname": {
+						"type": "NPCUsableWeapons",
+						"name": "weapon_357"
+					}
+				},
+				{
+					"expected": {
+						"d": 8,
+						"f": 0.125,
+						"n": 1
+					},
+					"classname": {
+						"type": "NPCUsableWeapons",
+						"name": "weapon_crossbow"
+					}
+				}
+			],
+			"icon": "entities/weapon_crossbow.png"
+		},
+		"Anime Gal Goon": {
+			"weapons": [
+				{
+					"expected": {
+						"d": 1,
+						"f": 1,
+						"n": 1
+					},
+					"classname": {
+						"type": "NPCUsableWeapons",
+						"name": "swep_ai_glock"
+					}
+				},
+				{
+					"expected": {
+						"d": 4,
+						"f": 0.25,
+						"n": 1
+					},
+					"classname": {
+						"type": "NPCUsableWeapons",
+						"name": "swep_ai_mp5"
+					}
+				},
+				{
+					"expected": {
+						"d": 1,
+						"f": 1,
+						"n": 1
+					},
+					"classname": {
+						"type": "NPCUsableWeapons",
+						"name": "swep_ai_fiveseven"
+					}
+				}
+			],
+			"VERSION": 53
+		},
+		"Anime Gal Operator": {
+			"weapons": [
+				{
+					"expected": {
+						"d": 2,
+						"f": 0.5,
+						"n": 1
+					},
+					"classname": {
+						"type": "NPCUsableWeapons",
+						"name": "swep_ai_mp5"
+					}
+				},
+				{
+					"expected": {
+						"d": 2,
+						"f": 0.5,
+						"n": 1
+					},
+					"classname": {
+						"type": "NPCUsableWeapons",
+						"name": "swep_ai_m4a1"
+					}
+				},
+				{
+					"expected": {
+						"d": 8,
+						"f": 0.125,
+						"n": 1
+					},
+					"classname": {
+						"type": "NPCUsableWeapons",
+						"name": "swep_ai_m4a1_s"
+					}
+				}
+			],
+			"VERSION": 53
+		},
+		"Intruder": {
+			"weapons": [
+				{
+					"expected": {
+						"d": 1,
+						"f": 1,
+						"n": 1
+					},
+					"classname": {
+						"type": "NPCUsableWeapons",
+						"name": "swep_ai_usp_s"
+					}
+				},
+				{
+					"rendercolor": {
+						"r": 255,
+						"b": 255,
+						"a": 255,
+						"g": 255
+					},
+					"startalpha": 0,
+					"classname": {
+						"type": "NPCUsableWeapons",
+						"name": "swep_ai_tmp"
+					},
+					"renderamt": 45,
+					"renderfx": "kRenderFxHologram",
+					"expected": {
+						"d": 5,
+						"f": 0.2,
+						"n": 1
+					}
+				}
+			],
+			"VERSION": 53
+		}
+	},
+	"squad": {
+		"Predator - Goblin Girl": {
+			"spawnlist": [
+				{
+					"chance": {
+						"d": 1,
+						"f": 1,
+						"n": 1
+					},
+					"preset": {
+						"type": "nextbot",
+						"name": "Goblin Girl"
+					}
+				}
+			],
+			"VERSION": 53,
+			"icon": "entities/npc_vore_goblin.png",
+			"mindelay": [
+				"__RANDOM",
+				30,
+				180
+			],
+			"mapmax": 1,
+			"description": "Read the nextbot tab entry for more information!"
+		},
+		"Prey - Fembine Deathsquad": {
+			"spawnlist": [
+				{
+					"preset": {
+						"type": "npc",
+						"name": "Fembine Soldier"
+					},
+					"count": {
+						"max": 3,
+						"min": 2,
+						"median": 3
+					},
+					"chance": {
+						"d": 1,
+						"f": 1,
+						"n": 1
+					}
+				},
+				{
+					"count": {
+						"max": 3,
+						"min": 2,
+						"median": 2
+					},
+					"preset": {
+						"type": "npc",
+						"name": "Fembine Sterilizer"
+					},
+					"chance": {
+						"d": 1,
+						"f": 1,
+						"n": 1
+					}
+				}
+			],
+			"VERSION": 53,
+			"icon": "vgui/entities/hl2tacfemaleconbine2.vmt",
+			"mindelay": [
+				"__RANDOM",
+				30,
+				60
+			],
+			"squadname": "fembine",
+			"mapmax": 1,
+			"mapmin": 0
+		},
+		"Predator - Makima": {
+			"spawnlist": [
+				{
+					"chance": {
+						"d": 1,
+						"f": 1,
+						"n": 1
+					},
+					"preset": {
+						"type": "nextbot",
+						"name": "Makima"
+					}
+				}
+			],
+			"VERSION": 53,
+			"icon": "entities/npc_vore_makima.png",
+			"mindelay": [
+				"__RANDOM",
+				30,
+				180
+			],
+			"mapmax": 1,
+			"description": "Read the nextbot tab entry for more information!"
+		},
+		"Predator - Marin": {
+			"spawnlist": [
+				{
+					"preset": {
+						"type": "nextbot",
+						"name": "Marin"
+					},
+					"chance": {
+						"d": 1,
+						"f": 1,
+						"n": 1
+					}
+				}
+			],
+			"VERSION": 53,
+			"icon": "entities/npc_vore_marin.png",
+			"mindelay": [
+				"__RANDOM",
+				30,
+				180
+			],
+			"mapmax": 1,
+			"description": "Read the nextbot tab entry for more information!"
+		},
+		"Predator - Tasque Manager": {
+			"spawnlist": [
+				{
+					"chance": {
+						"d": 1,
+						"f": 1,
+						"n": 1
+					},
+					"preset": {
+						"type": "nextbot",
+						"name": "Tasque Manager"
+					}
+				}
+			],
+			"VERSION": 53,
+			"icon": "entities/npc_vore_tasque.png",
+			"mindelay": [
+				"__RANDOM",
+				30,
+				180
+			],
+			"mapmax": 1,
+			"description": "Read the nextbot tab entry for more information!"
+		},
+		"Prey - BBD Sniper Team": {
+			"spawnlist": [
+				{
+					"chance": {
+						"d": 1,
+						"f": 1,
+						"n": 1
+					},
+					"preset": {
+						"type": "npc",
+						"name": "Anime Gal Sniper"
+					}
+				},
+				{
+					"preset": {
+						"type": "npc",
+						"name": "Anime Gal Operator"
+					},
+					"chance": {
+						"d": 2,
+						"f": 0.5,
+						"n": 1
+					}
+				},
+				{
+					"preset": {
+						"type": "npc",
+						"name": "Anime Gal Goon"
+					},
+					"count": {
+						"max": 2,
+						"median": 2
+					},
+					"chance": {
+						"d": 1,
+						"f": 1,
+						"n": 1
+					}
+				}
+			],
+			"VERSION": 53,
+			"icon": "vgui/entities/hiki_enemy.vmt",
+			"mindelay": [
+				"__RANDOM",
+				60,
+				90
+			],
+			"mapmax": 1,
+			"squadname": "bbd"
+		},
+		"Prey - BBD Operators": {
+			"spawnlist": [
+				{
+					"count": {
+						"max": 3,
+						"min": 1,
+						"median": 2
+					},
+					"preset": {
+						"type": "npc",
+						"name": "Anime Gal Goon"
+					},
+					"chance": {
+						"d": 1,
+						"f": 1,
+						"n": 1
+					}
+				},
+				{
+					"preset": {
+						"type": "npc",
+						"name": "Anime Gal Operator"
+					},
+					"count": {
+						"max": 2,
+						"min": 2,
+						"median": 2
+					},
+					"chance": {
+						"d": 1,
+						"f": 1,
+						"n": 1
+					}
+				}
+			],
+			"VERSION": 53,
+			"icon": "vgui/entities/kyoto_enemy.vmt",
+			"mindelay": [
+				"__RANDOM",
+				30,
+				60
+			],
+			"mapmax": 1,
+			"squadname": "bbd"
+		},
+		"Predator - Seraphim": {
+			"spawnlist": [
+				{
+					"preset": {
+						"type": "nextbot",
+						"name": "Seraphim"
+					},
+					"chance": {
+						"d": 1,
+						"f": 1,
+						"n": 1
+					}
+				}
+			],
+			"VERSION": 53,
+			"icon": "entities/npc_vore_seraphim.png",
+			"mindelay": [
+				"__RANDOM",
+				60,
+				240
+			],
+			"mapmax": 1,
+			"description": "Read the nextbot tab entry for more information!"
+		},
+		"Prey - BBD Slaughterhouse": {
+			"spawnlist": [
+				{
+					"preset": {
+						"type": "npc",
+						"name": "Anime Gal Operator"
+					},
+					"count": {
+						"max": 2,
+						"median": 2
+					},
+					"chance": {
+						"d": 1,
+						"f": 1,
+						"n": 1
+					}
+				},
+				{
+					"preset": {
+						"type": "npc",
+						"name": "Anime Gal Raider"
+					},
+					"count": {
+						"max": 4,
+						"min": 2,
+						"median": 3
+					},
+					"chance": {
+						"d": 1,
+						"f": 1,
+						"n": 1
+					}
+				}
+			],
+			"VERSION": 53,
+			"icon": "vgui/entities/zero_enemy.vmt",
+			"mindelay": [
+				"__RANDOM",
+				60,
+				90
+			],
+			"mapmax": 1,
+			"squadname": "bbd"
+		},
+		"Predator - Angela": {
+			"spawnlist": [
+				{
+					"preset": {
+						"type": "nextbot",
+						"name": "Angela"
+					},
+					"chance": {
+						"d": 1,
+						"f": 1,
+						"n": 1
+					}
+				}
+			],
+			"VERSION": 53,
+			"icon": "entities/npc_vore_angela.png",
+			"mindelay": [
+				"__RANDOM",
+				30,
+				180
+			],
+			"mapmax": 1,
+			"description": "Read the nextbot tab entry for more information!"
+		},
+		"Predator - Purrslime": {
+			"spawnlist": [
+				{
+					"chance": {
+						"d": 1,
+						"f": 1,
+						"n": 1
+					},
+					"preset": {
+						"type": "nextbot",
+						"name": "Purrslime"
+					}
+				}
+			],
+			"VERSION": 53,
+			"icon": "entities/npc_vore_purrslime.png",
+			"mindelay": [
+				"__RANDOM",
+				30,
+				180
+			],
+			"mapmax": 1,
+			"description": "Read the nextbot tab entry for more information!"
+		},
+		"Predator - D.VA": {
+			"spawnlist": [
+				{
+					"chance": {
+						"d": 1,
+						"f": 1,
+						"n": 1
+					},
+					"preset": [
+						"__TBLRANDOM",
+						{
+							"type": "nextbot",
+							"name": "D.VA"
+						},
+						{
+							"type": "nextbot",
+							"name": "Casual D.VA"
+						}
+					]
+				}
+			],
+			"VERSION": 53,
+			"icon": "entities/npc_vore_dva.png",
+			"mindelay": [
+				"__RANDOM",
+				30,
+				180
+			],
+			"mapmax": 1,
+			"description": "Read the nextbot tab entry for more information!"
+		},
+		"Predator - Mal0": {
+			"spawnlist": [
+				{
+					"chance": {
+						"d": 1,
+						"f": 1,
+						"n": 1
+					},
+					"preset": {
+						"type": "nextbot",
+						"name": "Mal0"
+					}
+				}
+			],
+			"VERSION": 53,
+			"icon": "entities/npc_vore_mal0.png",
+			"mindelay": [
+				"__RANDOM",
+				60,
+				240
+			],
+			"mapmax": 1,
+			"description": "Read the nextbot tab entry for more information!"
+		},
+		"Predator - Sadako": {
+			"spawnlist": [
+				{
+					"chance": {
+						"d": 1,
+						"f": 1,
+						"n": 1
+					},
+					"preset": {
+						"type": "nextbot",
+						"name": "Sadako"
+					}
+				}
+			],
+			"VERSION": 53,
+			"icon": "entities/npc_vore_sadako.png",
+			"mindelay": [
+				"__RANDOM",
+				30,
+				180
+			],
+			"mapmax": 1,
+			"description": "Read the nextbot tab entry for more information!"
+		},
+		"Predator - Meru": {
+			"spawnlist": [
+				{
+					"chance": {
+						"d": 1,
+						"f": 1,
+						"n": 1
+					},
+					"preset": [
+						"__TBLRANDOM",
+						{
+							"type": "nextbot",
+							"name": "Meru"
+						},
+						{
+							"type": "nextbot",
+							"name": "Meruneko"
+						}
+					]
+				}
+			],
+			"VERSION": 53,
+			"icon": "entities/npc_vore_meru.png",
+			"mindelay": [
+				"__RANDOM",
+				30,
+				180
+			],
+			"mapmax": 1,
+			"description": "Read the nextbot tab entry for more information!"
+		},
+		"Predator - Anubis": {
+			"spawnlist": [
+				{
+					"preset": {
+						"type": "nextbot",
+						"name": "Anubis"
+					},
+					"chance": {
+						"d": 1,
+						"f": 1,
+						"n": 1
+					}
+				}
+			],
+			"VERSION": 53,
+			"icon": "entities/npc_vore_anubis.png",
+			"mindelay": [
+				"__RANDOM",
+				30,
+				180
+			],
+			"mapmax": 1,
+			"description": "Read the nextbot tab entry for more information!"
+		},
+		"Predator - Queen Chrysalis": {
+			"spawnlist": [
+				{
+					"preset": {
+						"type": "nextbot",
+						"name": "Queen Chrysalis"
+					},
+					"chance": {
+						"d": 1,
+						"f": 1,
+						"n": 1
+					}
+				}
+			],
+			"VERSION": 53,
+			"icon": "entities/npc_vore_chrysalis.png",
+			"mindelay": [
+				"__RANDOM",
+				60,
+				240
+			],
+			"mapmax": 1,
+			"description": "Read the nextbot tab entry for more information!"
+		},
+		"Predator - Toy Chica": {
+			"spawnlist": [
+				{
+					"preset": {
+						"type": "nextbot",
+						"name": "Toy Chica"
+					},
+					"chance": {
+						"d": 1,
+						"f": 1,
+						"n": 1
+					}
+				}
+			],
+			"VERSION": 53,
+			"icon": "entities/npc_vore_chica.png",
+			"mindelay": [
+				"__RANDOM",
+				30,
+				180
+			],
+			"mapmax": 1,
+			"description": "Read the nextbot tab entry for more information!"
+		},
+		"Predator - Monster Energy Chan": {
+			"spawnlist": [
+				{
+					"preset": {
+						"type": "nextbot",
+						"name": "Monster Energy Chan"
+					},
+					"chance": {
+						"d": 1,
+						"f": 1,
+						"n": 1
+					}
+				}
+			],
+			"VERSION": 53,
+			"icon": "entities/npc_vore_monsterenergy.png",
+			"mindelay": [
+				"__RANDOM",
+				30,
+				180
+			],
+			"mapmax": 1,
+			"description": "Read the nextbot tab entry for more information!"
+		},
+		"Prey - BBD Goons": {
+			"spawnlist": [
+				{
+					"count": {
+						"max": 4,
+						"min": 2,
+						"median": 3
+					},
+					"preset": {
+						"type": "npc",
+						"name": "Anime Gal Goon"
+					},
+					"chance": {
+						"d": 1,
+						"f": 1,
+						"n": 1
+					}
+				}
+			],
+			"VERSION": 53,
+			"icon": "vgui/entities/momo_enemy.vmt",
+			"mindelay": [
+				"__RANDOM",
+				15,
+				30
+			],
+			"mapmin": 1,
+			"mapmax": 2,
+			"squadname": "bbd"
+		},
+		"Prey - Femcop Patrol": {
+			"spawnlist": [
+				{
+					"count": {
+						"max": 6,
+						"min": 2,
+						"median": 2
+					},
+					"preset": {
+						"type": "npc",
+						"name": "Fembine Metrocop"
+					}
+				}
+			],
+			"VERSION": 53,
+			"icon": "vgui/entities/hl2tacfemaleconbine1.vmt",
+			"mindelay": [
+				"__RANDOM",
+				15,
+				30
+			],
+			"squadname": "fembine",
+			"mapmax": 2,
+			"mapmin": 1
+		},
+		"Predator - Valkyr": {
+			"spawnlist": [
+				{
+					"chance": {
+						"d": 1,
+						"f": 1,
+						"n": 1
+					},
+					"preset": {
+						"type": "nextbot",
+						"name": "Valkyr"
+					}
+				}
+			],
+			"VERSION": 53,
+			"icon": "entities/npc_vore_valkyr.png",
+			"mindelay": [
+				"__RANDOM",
+				30,
+				180
+			],
+			"mapmax": 1,
+			"description": "Read the nextbot tab entry for more information!"
+		},
+		"Predator - Ankha": {
+			"spawnlist": [
+				{
+					"preset": {
+						"type": "nextbot",
+						"name": "Ankha"
+					},
+					"chance": {
+						"d": 1,
+						"f": 1,
+						"n": 1
+					}
+				}
+			],
+			"VERSION": 53,
+			"icon": "entities/npc_vore_ankha.png",
+			"mindelay": [
+				"__RANDOM",
+				30,
+				180
+			],
+			"mapmax": 1,
+			"description": "Read the nextbot tab entry for more information!"
+		},
+		"Predator - Toriel": {
+			"spawnlist": [
+				{
+					"preset": {
+						"type": "nextbot",
+						"name": "Toriel"
+					},
+					"chance": {
+						"d": 1,
+						"f": 1,
+						"n": 1
+					}
+				}
+			],
+			"VERSION": 53,
+			"icon": "entities/npc_vore_toriel.png",
+			"mindelay": [
+				"__RANDOM",
+				30,
+				180
+			],
+			"mapmax": 1,
+			"description": "Read the nextbot tab entry for more information!"
+		},
+		"Predator - Lovander": {
+			"spawnlist": [
+				{
+					"preset": {
+						"type": "nextbot",
+						"name": "Lovander"
+					},
+					"chance": {
+						"d": 1,
+						"f": 1,
+						"n": 1
+					}
+				}
+			],
+			"VERSION": 53,
+			"icon": "entities/npc_vore_lovander.png",
+			"mindelay": [
+				"__RANDOM",
+				30,
+				180
+			],
+			"mapmax": 1,
+			"description": "Read the nextbot tab entry for more information!"
+		},
+		"Prey - Fembine Fireteam": {
+			"spawnlist": [
+				{
+					"preset": {
+						"type": "npc",
+						"name": "Fembine Skirmisher"
+					},
+					"count": {
+						"max": 3,
+						"min": 2,
+						"median": 2
+					},
+					"chance": {
+						"d": 1,
+						"f": 1,
+						"n": 1
+					}
+				},
+				{
+					"count": {
+						"max": 2,
+						"min": 1,
+						"median": 2
+					},
+					"preset": {
+						"type": "npc",
+						"name": "Fembine Soldier"
+					},
+					"chance": {
+						"d": 1,
+						"f": 1,
+						"n": 1
+					}
+				},
+				{
+					"preset": {
+						"type": "npc",
+						"name": "Fembine Sterilizer"
+					},
+					"count": {
+						"max": 1,
+						"min": 1
+					},
+					"chance": {
+						"d": 8,
+						"f": 0.125,
+						"n": 1
+					}
+				}
+			],
+			"VERSION": 53,
+			"icon": "vgui/entities/hl2tacfemaleconbineenm2.vmt",
+			"mindelay": [
+				"__RANDOM",
+				15,
+				30
+			],
+			"mapmin": 1,
+			"mapmax": 2,
+			"squadname": "fembine"
+		},
+		"Prey - BBD Suppression Team": {
+			"spawnlist": [
+				{
+					"preset": {
+						"type": "npc",
+						"name": "Anime Gal Heavy"
+					},
+					"count": [],
+					"chance": {
+						"d": 1,
+						"f": 1,
+						"n": 1
+					}
+				},
+				{
+					"count": {
+						"max": 3,
+						"min": 2,
+						"median": 2
+					},
+					"preset": {
+						"type": "npc",
+						"name": "Anime Gal Operator"
+					},
+					"chance": {
+						"d": 1,
+						"f": 1,
+						"n": 1
+					}
+				},
+				{
+					"preset": {
+						"type": "npc",
+						"name": "Anime Gal Raider"
+					},
+					"count": {
+						"median": 1,
+						"max": 2
+					},
+					"chance": {
+						"d": 5,
+						"f": 0.6,
+						"n": 3
+					}
+				}
+			],
+			"VERSION": 53,
+			"icon": "vgui/entities/npc_marcia_ra_f.vmt",
+			"mindelay": [
+				"__RANDOM",
+				90,
+				120
+			],
+			"mapmax": 1,
+			"squadname": "bbd"
+		},
+		"Predator - Kroxi": {
+			"spawnlist": [
+				{
+					"preset": {
+						"type": "nextbot",
+						"name": "Kroxi"
+					},
+					"chance": {
+						"d": 1,
+						"f": 1,
+						"n": 1
+					}
+				}
+			],
+			"VERSION": 53,
+			"icon": "entities/npc_vore_kroxi.png",
+			"mindelay": [
+				"__RANDOM",
+				30,
+				180
+			],
+			"mapmax": 1,
+			"description": "Read the nextbot tab entry for more information!"
+		},
+		"Prey - Vorny Police": {
+			"spawnlist": [
+				{
+					"count": {
+						"max": 5,
+						"min": 4,
+						"median": 4
+					},
+					"preset": {
+						"type": "npc",
+						"name": "NO-VORE Operator"
+					}
+				}
+			],
+			"VERSION": 53,
+			"icon": "vgui/entities/npc_blriotgruntheavy_ally.vmt",
+			"mindelay": [
+				"__RANDOM",
+				90,
+				120
+			],
+			"mapmin": 0,
+			"mapmax": 1,
+			"squadname": "vornypolice"
+		},
+		"Predator - Karelia": {
+			"spawnlist": [
+				{
+					"preset": {
+						"type": "nextbot",
+						"name": "Karelia"
+					},
+					"chance": {
+						"d": 1,
+						"f": 1,
+						"n": 1
+					}
+				}
+			],
+			"VERSION": 53,
+			"icon": "entities/npc_vore_karelia.png",
+			"mindelay": [
+				"__RANDOM",
+				30,
+				180
+			],
+			"mapmax": 1,
+			"description": "Read the nextbot tab entry for more information!"
+		},
+		"Predator - Roxy": {
+			"spawnlist": [
+				{
+					"chance": {
+						"d": 1,
+						"f": 1,
+						"n": 1
+					},
+					"preset": {
+						"type": "nextbot",
+						"name": "Roxy"
+					}
+				}
+			],
+			"VERSION": 53,
+			"icon": "entities/npc_vore_roxy.png",
+			"mindelay": [
+				"__RANDOM",
+				30,
+				180
+			],
+			"mapmax": 1,
+			"description": "Read the nextbot tab entry for more information!"
+		},
+		"Prey - Fembine Assassins": {
+			"spawnlist": [
+				{
+					"count": {
+						"max": 3,
+						"min": 2,
+						"median": 2
+					},
+					"preset": {
+						"type": "npc",
+						"name": "Fembine Assassin"
+					},
+					"chance": {
+						"d": 1,
+						"f": 1,
+						"n": 1
+					}
+				}
+			],
+			"VERSION": 53,
+			"icon": "vgui/entities/hl2tacfemaleconbine3.vmt",
+			"mindelay": [
+				"__RANDOM",
+				90,
+				180
+			],
+			"squadname": "fembine",
+			"mapmax": 1,
+			"mapmin": 1
+		},
+		"Predator - Toofy": {
+			"spawnlist": [
+				{
+					"chance": {
+						"d": 1,
+						"f": 1,
+						"n": 1
+					},
+					"preset": {
+						"type": "nextbot",
+						"name": "Toofy"
+					}
+				}
+			],
+			"VERSION": 53,
+			"icon": "entities/npc_vore_toofy.png",
+			"mindelay": [
+				"__RANDOM",
+				30,
+				180
+			],
+			"mapmax": 1,
+			"description": "Read the nextbot tab entry for more information!"
+		},
+		"Predator - Deathclaw": {
+			"spawnlist": [
+				{
+					"preset": [
+						"__TBLRANDOM",
+						{
+							"type": "nextbot",
+							"name": "Deathclaw"
+						},
+						{
+							"type": "nextbot",
+							"name": "Deathclaw"
+						},
+						{
+							"type": "nextbot",
+							"name": "Deathclaw"
+						},
+						{
+							"type": "nextbot",
+							"name": "Deathclaw"
+						},
+						{
+							"type": "nextbot",
+							"name": "Deathclaw"
+						},
+						{
+							"type": "nextbot",
+							"name": "Deathclaw"
+						},
+						{
+							"type": "nextbot",
+							"name": "Deathclaw"
+						},
+						{
+							"type": "nextbot",
+							"name": "Albino Deathclaw"
+						},
+						{
+							"type": "nextbot",
+							"name": "Xenomorph"
+						}
+					],
+					"chance": {
+						"d": 1,
+						"f": 1,
+						"n": 1
+					}
+				}
+			],
+			"VERSION": 53,
+			"icon": "entities/npc_vore_deathclaw.png",
+			"mindelay": [
+				"__RANDOM",
+				60,
+				240
+			],
+			"mapmax": 1,
+			"description": "Read the nextbot tab entry for more information!"
+		},
+		"Predator - Salamander": {
+			"spawnlist": [
+				{
+					"preset": {
+						"type": "nextbot",
+						"name": "Salamander"
+					},
+					"chance": {
+						"d": 1,
+						"f": 1,
+						"n": 1
+					}
+				}
+			],
+			"VERSION": 53,
+			"icon": "entities/npc_vore_salamander.png",
+			"mindelay": [
+				"__RANDOM",
+				30,
+				180
+			],
+			"mapmax": 1,
+			"description": "Read the nextbot tab entry for more information!"
+		},
+		"Prey - Citizen Gaggle": {
+			"spawnlist": [
+				{
+					"preset": {
+						"type": "npc",
+						"name": "Citizen"
+					},
+					"count": {
+						"max": 6,
+						"min": 2,
+						"median": 4
+					}
+				}
+			],
+			"VERSION": 53,
+			"icon": "entities/npc_citizen.png",
+			"mindelay": [
+				"__RANDOM",
+				15,
+				30
+			],
+			"squadname": "vornypolice",
+			"mapmax": 1,
+			"mapmin": 0
+		}
+	}
+}

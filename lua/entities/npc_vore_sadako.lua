@@ -386,20 +386,7 @@ local AnimatedBoneList = {
 }
 
 
-ENT.VoreSettings.BoneOffsets = {
-	["ValveBiped.Bip01_R_Clavicle"] = {
-		Max = 24, --< Max Angle
-		Multi = 10, --< The slope of the angle changing
-		Start = 8, --< Inital Angle
-		["Angle"] = Angle(-1,1,-0.5),
-	},
-	["ValveBiped.Bip01_L_Clavicle"] = {
-		Max = 24,
-		Multi = 10,
-		Start = 8,
-		["Angle"] = Angle(1,1.5,-0.5),
-	} 
-}
+
 
 --ACTUAL CODE, LOOK AWAY LEST YOUR EYES START TO BLEED!
 function ENT:CustomOnInitialize()
