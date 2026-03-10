@@ -76,7 +76,9 @@ https://drive.google.com/file/d/12QkX5tqMFHRFavc1ETXr4Vv9iS2_flYD/view?usp=drive
 KNOWN BUGS/ISSUES
 ------------------------------------------------------------------------------
 -Weight gain bone offsets are currently not working, going to implement a fix soon™
-
+-PVS when eaten is fucked again, 0.02v will patch it.
+-Belly Clipping Fix can cause some odd belly angles on certain V-NPCs
+-(DAEMON) blood bullet decals can sometimes be seen flickering, this is cuz of the femcombine and will be patched once I add their assets locally as the Femcombine Elite is going to be a V-NPC
 
 ------------------------------------------------------------------------------
 CHANGELOG
