@@ -42,24 +42,28 @@ https://github.com/Derusnec/CrikketsVNPCS <-- THE ACTUAL MOD CODE!
 
 FOR SOUNDS: Most sounds are custom, but footsteps/GLaDOS voicelines are currently sourced from Portal 2 + L4D2 + TF2. I will add them soon to overcome this problem, but for now those games must be mounted. This won't break the mod otherwise, there will just be some missing sounds.
 
-  -RECOMMENDATIONS
-https://steamcommunity.com/sharedfiles/filedetails/?id=2574407396 <-- NPC DAEMON, MORE INFORMATION LOWER
+  -DAEMON SUPPORT (Not required!)
+https://steamcommunity.com/sharedfiles/filedetails/?id=2574407396 <-- NPC DAEMON, EXPLANATION LOWER
 https://steamcommunity.com/sharedfiles/filedetails/?id=3215765831 <-- FOR INCLUDED NPC DAEMON PROFILE
 https://steamcommunity.com/sharedfiles/filedetails/?id=632126535 <-- FOR INCLUDED NPC DAEMON PROFILE
+https://steamcommunity.com/sharedfiles/filedetails/?id=3383071568 <-- FOR INCLUDED NPC DAEMON PROFILE
+https://steamcommunity.com/sharedfiles/filedetails/?id=3383071568 <-- FOR INCLUDED NPC DAEMON PROFILE
+https://steamcommunity.com/sharedfiles/filedetails/?id=3568776204 <-- FOR INCLUDED NPC DAEMON PROFILE
+https://steamcommunity.com/sharedfiles/filedetails/?id=248353440 <-- FOR INCLUDED NPC DAEMON PROFILE
 
-  -SOFT RECOMMENDATIONS
+  -RECOMMENDATIONS
 https://steamcommunity.com/sharedfiles/filedetails/?id=3529402381 <-- Will muffle sounds when eaten
 https://steamcommunity.com/sharedfiles/filedetails/?id=3439688457 <-- V-NPCs will break through HL2 doors
 https://steamcommunity.com/sharedfiles/filedetails/?id=933160196 <-- Replace any HL2 weapon pickup with SWEPS
 https://steamcommunity.com/sharedfiles/filedetails/?id=2890177857 <-- Cleans up ragdolls/weapon drops/etc
-
+https://steamcommunity.com/sharedfiles/filedetails/?id=2741170971 <-- Female combine voices for daemon, if you want
 
 ------------------------------------------------------------------------------
 NPC DAEMON EXPLANATION
 ------------------------------------------------------------------------------
 NPC Daemon is a daemon in of itself and requires an intense level of autism and source knowledge to figure out. But it's very powerful and can turn sandbox maps into an "ecosystem". It's not really a gamemode or has any goal in particular, but it puts the V-NPCs in a dynamic environment where you "encounter" them rather than spawning them. The basic profile I provide will spawn HL2 NPCs, random extras for spice and use predators as the great equalizer in small numbers, think insta-kill bosses you run from or fight amongst the normal NPCs you can scavenge weapons from. If you're willing to teach yourself/read up on the official addon page you can add more V-NPCs to the mix, change whatever you want.
 
-https://imgur.com/a/crikkets-v-npc-daemon-guide-also-bot-pics-E5O6crv <-- Here's an in-game picture guide on enabling it once downloaded, it's included in the github.
+https://imgur.com/a/crikkets-v-npc-daemon-guide-also-bot-pics-E5O6crv <-- Here's an in-game picture guide on enabling it once downloaded, it's included in the github. This is from a much older build, but the same exact steps still apply.
 
 
 ------------------------------------------------------------------------------
@@ -72,17 +76,14 @@ https://drive.google.com/file/d/12QkX5tqMFHRFavc1ETXr4Vv9iS2_flYD/view?usp=drive
 KNOWN BUGS/ISSUES
 ------------------------------------------------------------------------------
 -Weight gain bone offsets are currently not working, going to implement a fix soon™
-
+-PVS when eaten is fucked again, 0.02v will patch it.
+-Belly Clipping Fix can cause some odd belly angles on certain V-NPCs
+-(DAEMON) blood bullet decals can sometimes be seen flickering, this is cuz of the femcombine and will be patched once I add their assets locally as the Femcombine Elite is going to be a V-NPC
 
 ------------------------------------------------------------------------------
 CHANGELOG
 ------------------------------------------------------------------------------
-3/2/26: Initial update, I'm going to consider this to be the official first real update of the mod. The changelog is pretty much this entire readme plus the downloads, so I won't go into detail, in the future I will explain update additions/what asset files are added/etc.
-
-3/6/26: Purrslime added, weight gain definers added for all V-NPCs current and new. Weight gain definers added to template file. GLaDOS is next, I accidentally deleted her finished file a week ago so I've been struggling to do her again (lots of voicelines) but it's time to lock in. I'm going to blow through my V-NPC roadmap until any more major additions.
-
-3/8/26: GLaDOS added, belly angles + pos added or adjusted for all V-NPCs, footstep sounds adjusted for all V-NPCs. Added some better spawnicons for a few V-NPCs as well as filled missing ones. This also is the first official release on github, no more zipping source files (though they are functionally identical, zipping source files is more up to date but you run the risks of half-finished stuff and unmentioned bugs)
-
+CHANGELOGS are now going to be put in releases!
 
 ------------------------------------------------------------------------------
 ROADMAP
