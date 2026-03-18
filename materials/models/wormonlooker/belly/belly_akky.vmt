@@ -1,0 +1,12 @@
+Vertexlitgeneric
+{
+	$basetexture "models\WormOnlooker\belly\white"
+	$bumpmap "dev/flat_normal"
+//	$lightwarptexture "models\kapuyas\kemono\akky\kap_ani_lightwarp3"
+	$phong 1
+	$nocull 1
+	$phongboost	".075"
+
+	$lightwarptexture "models\wormonlooker\lightwarps\painting_lightwarp"
+
+}

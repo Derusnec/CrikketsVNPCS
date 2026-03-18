@@ -29,9 +29,28 @@ if SERVER then
 			AddOriginToPVS(ent:LocalToWorld(localPoint))
 		end
 	end
+
+	local function addGlobalRenderEntsToPVS()
+		for _, ent in ipairs(ents.GetAll()) do
+			if not IsValid(ent) then continue end
+
+			if ent:IsWorld() then
+				continue
+			end
+
+			if ent:GetNoDraw() and not (ent:IsNPC() or ent:IsNextBot() or ent:IsPlayer()) then
+				continue
+			end
+
+			AddOriginToPVS(ent:WorldSpaceCenter())
+		end
+	end
+
+	-- yo stop bricking this shit!!!!!!!!
+	local ddGlobalRenderEntsToPVS = addGlobalRenderEntsToPVS
 	
 	hook.Add("SetupPlayerVisibility", "Vore_PostDeath_PVS", function(ply)
-		if not ply.Vored then return end
+		if not ply.Vored and not ply.VoreDigested then return end --adding new check to make sure PVS fix works after death
 
 		local belly = ply.VoreBelly
 		if not IsValid(belly) then return end
@@ -39,14 +58,16 @@ if SERVER then
 		addEntityToPVS(belly)
 		addEntityToPVS(belly:GetNWEntity("NPCParent"))
 		addEntityToPVS(ply)
+		
+		ddGlobalRenderEntsToPVS()
 	end)
 
+	
     hook.Add("PlayerSpawn", "vore_player_spawned", function(ply, trans)
         ply:SetParent(nil)
         ply.Vored = false
-        
-        -- IMPORTANT: We only stop the PVS and the Client View 
-        -- once the player has actually respawned.
+        ply.VoreDigested = false -- This bool is gonna help us make sure the PVS system works 100% until respawn rather than just death
+		
         ply.VoreBelly = nil
         
         net.Start("StopVoreClient")

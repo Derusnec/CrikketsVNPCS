@@ -6,6 +6,7 @@ util.AddNetworkString("refresh_cpanel_makenpc")
 hook.Add("PlayerSpawn", "vore_player_spawned", function(ply, trans)
     ply:SetParent(nil)
     ply.Vored = false
+	ply.VoreDigested = false
         
     net.Start("StopVoreClient")
     net.Send(ply)

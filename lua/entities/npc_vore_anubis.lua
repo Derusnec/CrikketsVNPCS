@@ -64,7 +64,7 @@ ENT.ClimbDownAnimation = ACT_ZOMBIE_CLIMB_DOWN --Most NPCs have this activity.
 ENT.ClimbOffset = Vector(0, 0, 0) --Climb offsets for better visuals when climbing. I don't bother.
 ENT.MaxYawRate = 256 --The bot's turning speed, 128 = tank, 256 = normal, 384 = snap, 512 = guided missile
 ENT.StepHeight = 20 --How high can your bot step up ledges without climbing? 20 = normal, 40 = big gal, 60 = giant
-ENT.ClimbLedgesMinHeight = 21 --Recommended to set right above step height.
+ENT.ClimbLedgesMinHeight = 128 --Recommended to set right above step height.
 
 --ANIMATION BEHAVIOR
 ENT.IdleAnimation = ACT_HL2MP_IDLE

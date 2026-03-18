@@ -56,7 +56,7 @@ ENT.ClimbDownAnimation = ACT_ZOMBIE_CLIMB_DOWN --Most NPCs have this activity.
 ENT.ClimbOffset = Vector(0, 0, 0) --Climb offsets for better visuals when climbing. I don't bother.
 ENT.MaxYawRate = 512 --The bot's turning speed, 128 = tank, 256 = normal, 384 = snap, 512 = guided missile
 ENT.StepHeight = 20 --How high can your bot step up ledges without climbing? 20 = normal, 40 = big gal, 60 = giant
-ENT.ClimbLedgesMinHeight = 21 --Recommended to set right above step height.
+ENT.ClimbLedgesMinHeight = 128 --Recommended to set right above step height.
 
 --ANIMATION BEHAVIOR
 ENT.IdleAnimation = ACT_HL2MP_IDLE --Check out https://wiki.facepunch.com/gmod/Enums/ACT for HL2MP activities (the rest generally dont work but experiment with your specific models.)
@@ -128,7 +128,7 @@ ENT.VoreSettings.HasWeightGain = true --is weight gain enabled? HELL YEAH!
 
 --BELLY VISUALS/SETUP
 ENT.Belly_Offset = Vector(3, 4.5, 0) --gut offset from pelvis, change this!
-ENT.Belly_Angles = Angle(0, 95, 90) --The rotation of the gut!
+ENT.Belly_Angles = Angle(0, 100, 90) --The rotation of the gut!
 ENT.VoreSettings.BellyFloorModifier = 0.3 --how low/high belly will be angled to avoid floor clipping. The higher the value, the more elevated.
 --ENT.SpineBone = "" --Replace and uncomment with a bone name if the NPC couldn't find a proper anchor for the belly.
 ENT.VoreSettings.StruggleMultiplier = 1.5 --Sets struggle deformation strength on belly: 1.5 = weak, 1 = normal, 0.5 = big pred/chubby pred
@@ -311,6 +311,26 @@ end
 --ANIMATION/BONE-LERP SETTINGS, USE DUMP_BOT_BONES FOR POSE EXPORTS
 local AnimatedBoneList = {
 	[0] = { --IDLE POSE
+	["ValveBiped.Bip01_Pelvis"] = {
+		pos = Vector(0, 0, 0),
+		ang = Angle(0, 5, 0)
+	},
+	["ValveBiped.Bip01_L_Thigh"] = {
+		pos = Vector(0, 0, 0),
+		ang = Angle(5, 0, 5)
+	},
+	["ValveBiped.Bip01_R_Thigh"] = {
+		pos = Vector(0, 0, 0),
+		ang = Angle(10, 0, -5)
+	},
+	["ValveBiped.Bip01_Spine"] = {
+		pos = Vector(0, 0, 0),
+		ang = Angle(-2, 0, 0)
+	},
+	["ValveBiped.Bip01_Spine1"] = {
+		pos = Vector(0, 0, 0),
+		ang = Angle(-2, 0, 0)
+	},
 	["ValveBiped.Bip01_Spine2"] = {
 		pos = Vector(0, 0, 0),
 		ang = Angle(0, -5, 0)
@@ -323,21 +343,58 @@ local AnimatedBoneList = {
 		pos = Vector(0, 0, 0),
 		ang = Angle(0, 5, 0)
 	},
+	["ValveBiped.Bip01_L_Clavicle"] = {
+		pos = Vector(0, 0, 0),
+		ang = Angle(0, -15, 0)
+	},
 	["ValveBiped.Bip01_L_UpperArm"] = {
 		pos = Vector(0, 0, 0),
-		ang = Angle(8, 5, -30)
+		ang = Angle(-10, 15, -45)
+	},
+	["ValveBiped.Bip01_L_Hand"] = {
+		pos = Vector(0, 0, 0),
+		ang = Angle(0, 10, 20)
+	},
+	["ValveBiped.Bip01_R_Clavicle"] = {
+		pos = Vector(0, 0, 0),
+		ang = Angle(0, -15, 0)
 	},
 	["ValveBiped.Bip01_R_UpperArm"] = {
 		pos = Vector(0, 0, 0),
-		ang = Angle(-4, 5, 30)
+		ang = Angle(10, 15, 45)
 	},
+	["ValveBiped.Bip01_R_Forearm"] = {
+		pos = Vector(0, 0, 0),
+		ang = Angle(0, 10, -15)
+	},
+	["ValveBiped.Bip01_R_Hand"] = {
+		pos = Vector(0, 0, 0),
+		ang = Angle(0, 10, -20)
+	},
+
 },
 
 	[1] = { --SWALLOW POSE INITIAL
-
-},
-
-	[2] = { --PREY IN BELLY POSE
+	["ValveBiped.Bip01_Pelvis"] = {
+		pos = Vector(0, 0, 0),
+		ang = Angle(0, 5, 0)
+	},
+	["ValveBiped.Bip01_L_Thigh"] = {
+		pos = Vector(0, 0, 0),
+		ang = Angle(5, 0, 5)
+	},
+	["ValveBiped.Bip01_R_Thigh"] = {
+		pos = Vector(0, 0, 0),
+		ang = Angle(10, 0, -5)
+	},
+	["ValveBiped.Bip01_Spine"] = {
+		pos = Vector(0, 0, 0),
+		ang = Angle(-2, 0, 0)
+	},
+	["ValveBiped.Bip01_Spine1"] = {
+		pos = Vector(0, 0, 0),
+		ang = Angle(-2, 0, 0)
+	},
 	["ValveBiped.Bip01_Spine2"] = {
 		pos = Vector(0, 0, 0),
 		ang = Angle(0, -5, 0)
@@ -350,22 +407,336 @@ local AnimatedBoneList = {
 		pos = Vector(0, 0, 0),
 		ang = Angle(0, 5, 0)
 	},
+	["ValveBiped.Bip01_L_Clavicle"] = {
+		pos = Vector(0, 0, 0),
+		ang = Angle(0, -15, 0)
+	},
 	["ValveBiped.Bip01_L_UpperArm"] = {
 		pos = Vector(0, 0, 0),
-		ang = Angle(8, 5, -30)
+		ang = Angle(-10, 15, -45)
+	},
+	["ValveBiped.Bip01_L_Hand"] = {
+		pos = Vector(0, 0, 0),
+		ang = Angle(0, 10, 20)
+	},
+	["ValveBiped.Bip01_R_Clavicle"] = {
+		pos = Vector(0, 0, 0),
+		ang = Angle(0, -15, 0)
 	},
 	["ValveBiped.Bip01_R_UpperArm"] = {
 		pos = Vector(0, 0, 0),
-		ang = Angle(-4, 5, 30)
+		ang = Angle(10, 15, 45)
+	},
+	["ValveBiped.Bip01_R_Forearm"] = {
+		pos = Vector(0, 0, 0),
+		ang = Angle(0, 10, -15)
+	},
+	["ValveBiped.Bip01_R_Hand"] = {
+		pos = Vector(0, 0, 0),
+		ang = Angle(0, 10, -20)
+	},
+},
+
+	[2] = { --PREY IN BELLY POSE
+	["ValveBiped.Bip01_Pelvis"] = {
+		pos = Vector(0, 0, 0),
+		ang = Angle(0, 0, -5)
+	},
+	["ValveBiped.Bip01_L_Thigh"] = {
+		pos = Vector(0, 0, 0),
+		ang = Angle(-5, 10, -5)
+	},
+	["ValveBiped.Bip01_R_Thigh"] = {
+		pos = Vector(0, 0, 0),
+		ang = Angle(5, 5, 5)
+	},
+	["ValveBiped.Bip01_Spine"] = {
+		pos = Vector(0, 0, 0),
+		ang = Angle(0, -5, 0)
+	},
+	["ValveBiped.Bip01_Spine1"] = {
+		pos = Vector(0, 0, 0),
+		ang = Angle(0, -5, 0)
+	},
+	["ValveBiped.Bip01_Spine2"] = {
+		pos = Vector(0, 0, 0),
+		ang = Angle(0, -5, 0)
+	},
+	["ValveBiped.Bip01_Spine4"] = {
+		pos = Vector(0, 0, 0),
+		ang = Angle(0, 3, 0)
+	},
+	["ValveBiped.Bip01_Neck1"] = {
+		pos = Vector(0, 0, 0),
+		ang = Angle(0, 5, 0)
+	},
+	["ValveBiped.Bip01_L_Clavicle"] = {
+		pos = Vector(0, 0, 0),
+		ang = Angle(10, 5, 0)
+	},
+	["ValveBiped.Bip01_L_UpperArm"] = {
+		pos = Vector(0, 0, 0),
+		ang = Angle(-15, 0, -15)
+	},
+	["ValveBiped.Bip01_L_Forearm"] = {
+		pos = Vector(0, 0, 0),
+		ang = Angle(-5, -90, 0)
+	},
+	["ValveBiped.Bip01_L_Hand"] = {
+		pos = Vector(0, 0, 0),
+		ang = Angle(0, 15, 25)
+	},
+	["ValveBiped.Bip01_R_Clavicle"] = {
+		pos = Vector(0, 0, 0),
+		ang = Angle(-10, 5, 0)
+	},
+	["ValveBiped.Bip01_R_UpperArm"] = {
+		pos = Vector(0, 0, 0),
+		ang = Angle(15, 0, 15)
+	},
+	["ValveBiped.Bip01_R_Forearm"] = {
+		pos = Vector(0, 0, 0),
+		ang = Angle(-5, -90, 0)
+	},
+	["ValveBiped.Bip01_R_Hand"] = {
+		pos = Vector(0, 0, 0),
+		ang = Angle(0, 15, -25)
+	},
+	["ValveBiped.Bip01_L_Finger2"] = {
+		pos = Vector(0, 0, 0),
+		ang = Angle(0, 16, 0)
+	},
+	["ValveBiped.Bip01_L_Finger1"] = {
+		pos = Vector(0, 0, 0),
+		ang = Angle(-3, 13, 3)
+	},
+	["ValveBiped.Bip01_L_Finger0"] = {
+		pos = Vector(0, 0, 0),
+		ang = Angle(0, -25, 0)
+	},
+	["ValveBiped.Bip01_L_Finger4"] = {
+		pos = Vector(0, 0, 0),
+		ang = Angle(16, 3, 13)
+	},
+	["ValveBiped.Bip01_L_Finger3"] = {
+		pos = Vector(0, 0, 0),
+		ang = Angle(10, 10, 0)
+	},
+	["ValveBiped.Bip01_R_Finger1"] = {
+		pos = Vector(0, 0, 0),
+		ang = Angle(10, 0, 0)
+	},
+	["ValveBiped.Bip01_R_Finger0"] = {
+		pos = Vector(0, 0, 0),
+		ang = Angle(0, -41, 0)
+	},
+	["ValveBiped.Bip01_R_Finger4"] = {
+		pos = Vector(0, 0, 0),
+		ang = Angle(-29, 0, 29)
+	},
+	["ValveBiped.Bip01_R_Finger3"] = {
+		pos = Vector(0, 0, 0),
+		ang = Angle(-16, 0, 10)
+	},
+	["Joint1_15036"] = {
+		pos = Vector(0, 0, 0),
+		ang = Angle(-20, 0, 0)
+	},
+	["Bust01_L"] = {
+		pos = Vector(0, 0, 0),
+		ang = Angle(10, 0, -5)
+	},
+	["Bust01_R"] = {
+		pos = Vector(0, 0, 0),
+		ang = Angle(10, 0, 5)
 	},
 },
 
 	[3] = { --BELCHING POSE
+	["ValveBiped.Bip01_Pelvis"] = {
+		pos = Vector(0, 0, 0),
+		ang = Angle(0, 0, -5)
+	},
+	["ValveBiped.Bip01_L_Calf"] = {
+		pos = Vector(0, 0, 0),
+		ang = Angle(0, 19, 0)
+	},
+	["ValveBiped.Bip01_L_Foot"] = {
+		pos = Vector(0, 0, 0),
+		ang = Angle(0, 19, 0)
+	},
+	["ValveBiped.Bip01_R_Thigh"] = {
+		pos = Vector(0, 0, 0),
+		ang = Angle(5, -10, 0)
+	},
+	["ValveBiped.Bip01_Spine"] = {
+		pos = Vector(0, 0, 0),
+		ang = Angle(0, 5, 0)
+	},
+	["ValveBiped.Bip01_Spine1"] = {
+		pos = Vector(0, 0, 0),
+		ang = Angle(0, 5, 0)
+	},
+	["ValveBiped.Bip01_Spine2"] = {
+		pos = Vector(0, 0, 0),
+		ang = Angle(0, -5, 0)
+	},
+	["ValveBiped.Bip01_Spine4"] = {
+		pos = Vector(0, 0, 0),
+		ang = Angle(0, 3, 0)
+	},
+	["ValveBiped.Bip01_Neck1"] = {
+		pos = Vector(0, 0, 0),
+		ang = Angle(0, 5, 0)
+	},
+	["ValveBiped.Bip01_L_Clavicle"] = {
+		pos = Vector(0, 0, 0),
+		ang = Angle(0, -5, 0)
+	},
+	["ValveBiped.Bip01_L_UpperArm"] = {
+		pos = Vector(0, 0, 0),
+		ang = Angle(-15, 0, -32)
+	},
+	["ValveBiped.Bip01_L_Forearm"] = {
+		pos = Vector(0, 0, 0),
+		ang = Angle(-5, -90, 0)
+	},
+	["ValveBiped.Bip01_L_Hand"] = {
+		pos = Vector(0, 0, 0),
+		ang = Angle(0, 15, 25)
+	},
+	["ValveBiped.Bip01_R_Clavicle"] = {
+		pos = Vector(0, 0, 0),
+		ang = Angle(0, -5, 0)
+	},
+	["ValveBiped.Bip01_R_UpperArm"] = {
+		pos = Vector(0, 0, 0),
+		ang = Angle(15, 0, 29)
+	},
+	["ValveBiped.Bip01_R_Forearm"] = {
+		pos = Vector(0, 0, 0),
+		ang = Angle(-5, -90, 0)
+	},
+	["ValveBiped.Bip01_R_Hand"] = {
+		pos = Vector(0, 0, 0),
+		ang = Angle(0, 15, -25)
+	},
+	["ValveBiped.Bip01_L_Finger2"] = {
+		pos = Vector(0, 0, 0),
+		ang = Angle(0, 16, 0)
+	},
+	["ValveBiped.Bip01_L_Finger1"] = {
+		pos = Vector(0, 0, 0),
+		ang = Angle(-3, 13, 3)
+	},
+	["ValveBiped.Bip01_L_Finger0"] = {
+		pos = Vector(0, 0, 0),
+		ang = Angle(0, -25, 0)
+	},
+	["ValveBiped.Bip01_L_Finger4"] = {
+		pos = Vector(0, 0, 0),
+		ang = Angle(16, 3, 13)
+	},
+	["ValveBiped.Bip01_L_Finger3"] = {
+		pos = Vector(0, 0, 0),
+		ang = Angle(10, 10, 0)
+	},
+	["ValveBiped.Bip01_R_Finger1"] = {
+		pos = Vector(0, 0, 0),
+		ang = Angle(10, 0, 0)
+	},
+	["ValveBiped.Bip01_R_Finger0"] = {
+		pos = Vector(0, 0, 0),
+		ang = Angle(0, -41, 0)
+	},
+	["ValveBiped.Bip01_R_Finger4"] = {
+		pos = Vector(0, 0, 0),
+		ang = Angle(-29, 0, 29)
+	},
+	["ValveBiped.Bip01_R_Finger3"] = {
+		pos = Vector(0, 0, 0),
+		ang = Angle(-16, 0, 10)
+	},
+	["Joint1_15036"] = {
+		pos = Vector(0, 0, 0),
+		ang = Angle(-20, 0, 0)
+	},
+	["Bust01_L"] = {
+		pos = Vector(0, 0, 0),
+		ang = Angle(10, 0, -5)
+	},
+	["Bust01_R"] = {
+		pos = Vector(0, 0, 0),
+		ang = Angle(10, 0, 5)
+	},
+	["ValveBiped.Bip01_L_Toe0"] = {
+		pos = Vector(0, 0, 0),
+		ang = Angle(0, -41, 0)
+	},
 
 },
 
 	[4] = { --FINAL SWALLOW/TO FULL POSE
-
+	["ValveBiped.Bip01_Pelvis"] = {
+		pos = Vector(0, 0, 0),
+		ang = Angle(0, 5, 0)
+	},
+	["ValveBiped.Bip01_L_Thigh"] = {
+		pos = Vector(0, 0, 0),
+		ang = Angle(5, 0, 5)
+	},
+	["ValveBiped.Bip01_R_Thigh"] = {
+		pos = Vector(0, 0, 0),
+		ang = Angle(10, 0, -5)
+	},
+	["ValveBiped.Bip01_Spine"] = {
+		pos = Vector(0, 0, 0),
+		ang = Angle(-2, 0, 0)
+	},
+	["ValveBiped.Bip01_Spine1"] = {
+		pos = Vector(0, 0, 0),
+		ang = Angle(-2, 0, 0)
+	},
+	["ValveBiped.Bip01_Spine2"] = {
+		pos = Vector(0, 0, 0),
+		ang = Angle(0, -5, 0)
+	},
+	["ValveBiped.Bip01_Spine4"] = {
+		pos = Vector(0, 0, 0),
+		ang = Angle(0, -5, 0)
+	},
+	["ValveBiped.Bip01_Neck1"] = {
+		pos = Vector(0, 0, 0),
+		ang = Angle(0, 5, 0)
+	},
+	["ValveBiped.Bip01_L_Clavicle"] = {
+		pos = Vector(0, 0, 0),
+		ang = Angle(0, -15, 0)
+	},
+	["ValveBiped.Bip01_L_UpperArm"] = {
+		pos = Vector(0, 0, 0),
+		ang = Angle(-10, 15, -45)
+	},
+	["ValveBiped.Bip01_L_Hand"] = {
+		pos = Vector(0, 0, 0),
+		ang = Angle(0, 10, 20)
+	},
+	["ValveBiped.Bip01_R_Clavicle"] = {
+		pos = Vector(0, 0, 0),
+		ang = Angle(0, -15, 0)
+	},
+	["ValveBiped.Bip01_R_UpperArm"] = {
+		pos = Vector(0, 0, 0),
+		ang = Angle(10, 15, 45)
+	},
+	["ValveBiped.Bip01_R_Forearm"] = {
+		pos = Vector(0, 0, 0),
+		ang = Angle(0, 10, -15)
+	},
+	["ValveBiped.Bip01_R_Hand"] = {
+		pos = Vector(0, 0, 0),
+		ang = Angle(0, 10, -20)
+	},
 },
 }
 

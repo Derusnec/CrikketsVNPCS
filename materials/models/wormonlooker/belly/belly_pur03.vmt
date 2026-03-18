@@ -1,0 +1,10 @@
+Vertexlitgeneric
+{
+	$basetexture "models\WormOnlooker\belly\white"
+	$rimlight               1
+	$rimlightexponent       2
+	$rimlightboost          .2	
+	
+	"$envmap" "environment maps/rg"
+	"$envmaptint" "[ 0.2 0.2 0.3 ]"
+}

@@ -60,7 +60,7 @@ ENT.ClimbDownAnimation = ACT_ZOMBIE_CLIMB_DOWN --Most NPCs have this activity.
 ENT.ClimbOffset = Vector(0, 0, 0) --Climb offsets for better visuals when climbing. I don't bother.
 ENT.MaxYawRate = 128 --The bot's turning speed, 128 = tank, 256 = normal, 384 = snap, 512 = guided missile
 ENT.StepHeight = 20 --How high can your bot step up ledges without climbing? 20 = normal, 40 = big gal, 60 = giant
-ENT.ClimbLedgesMinHeight = 21 --Recommended to set right above step height.
+ENT.ClimbLedgesMinHeight = 128 --Recommended to set right above step height.
 
 --ANIMATION BEHAVIOR
 ENT.IdleAnimation = ACT_HL2MP_IDLE --Check out https://wiki.facepunch.com/gmod/Enums/ACT for HL2MP activities (the rest generally dont work but experiment with your specific models.)
@@ -77,7 +77,10 @@ ENT.OnSpawnSounds = {
 ENT.OnIdleSounds = {
     "belly/chica_idle_1.wav",
 	"belly/chica_idle_2.wav",
-	"belly/chica_idle_3.wav"
+	"belly/chica_idle_3.wav",
+    "belly/chica_idle_4.wav",
+	"belly/chica_idle_5.wav",
+	"belly/chica_idle_6.wav"
 }
 ENT.IdleSoundDelay = math.random(12,24) --Needs a better system as it only sets the random number on spawn.
 ENT.ClientIdleSounds = false
