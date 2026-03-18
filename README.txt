@@ -18,7 +18,7 @@ The only other major coding component in this mod is Aliva's bonelerp animations
 ------------------------------------------------------------------------------
 FEATURES
 ------------------------------------------------------------------------------
-- 31 Unique V-NPCs, 3 of which variations with unique animations/flexes/stats
+- 37 Unique V-NPCs, 4 of which variations with unique animations/flexes/stats
 - Complementary belly textures for all V-NPCs
 - Basic sound support for V-NPCs, including many custom sounds
 - NPC Daemon (autospawner) profile to dynamically spawn V-NPCs
@@ -76,7 +76,6 @@ https://drive.google.com/file/d/12QkX5tqMFHRFavc1ETXr4Vv9iS2_flYD/view?usp=drive
 KNOWN BUGS/ISSUES
 ------------------------------------------------------------------------------
 -Weight gain bone offsets are currently not working, going to implement a fix soon™
--PVS when eaten is fucked again, 0.02v will patch it.
 -Belly Clipping Fix can cause some odd belly angles on certain V-NPCs
 -(DAEMON) blood bullet decals can sometimes be seen flickering, this is cuz of the femcombine and will be patched once I add their assets locally as the Femcombine Elite is going to be a V-NPC
 
@@ -92,16 +91,12 @@ ROADMAP
 -Autoduck support for large V-NPCs (In development hell)
 
 V-NPCs in the works:
- -[Kemono] Akky
- -PUR-03
  -Humanoid Turret Girl V2
-V-NPCs in list:
-  -https://steamcommunity.com/sharedfiles/filedetails/?id=3337580323 [Kemono] Lady Moon
-  -https://steamcommunity.com/sharedfiles/filedetails/?id=3663233017 Ghostly Wendrith
-  -https://steamcommunity.com/sharedfiles/filedetails/?id=3644692257 Phalia
-NEXT BATCH (so far)
+ -Tactical FemCombine
+ -Lady Moon
+ -Phalia
+NEXT BATCH (To be updated)
  -https://steamcommunity.com/sharedfiles/filedetails/?id=3677664005 [JallerArts] Assaultron
- -https://steamcommunity.com/sharedfiles/filedetails/?id=3658483735 Tactical FemCombine
 
 SEND ME REQUESTS ON THE VORE FORUMS!
 Must be a playermodel or NPC, more likely to do it if it has facial flexes or even bone facial flexes!
