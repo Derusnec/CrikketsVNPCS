@@ -149,7 +149,7 @@ ENT.BellyProperties = {
 	DigestionStrength = 8, --Digestion: 2 = weak, 4 = normal, 6 = athletic, 8 = predator, 10 = apex, 12 = instant
 	AbsorptionPower = 2.5, --Absorption: 1 = weak, 1.5 = normal, 2 = athletic, 2.5 = predator, 3 = apex, 4 = instant
 	MaxBaseSize = 0.7, --< Max size for Belly fat
-	BaseSize = 0.7, --< Inital belly size when spawned in
+	BaseSize = 0, --< Inital belly size when spawned in
 	FatFoldsMaxSize = 0.7, --< Fat folds max size (Fat folds are at the origin of the belly model)
 	StopClipFix = false, --< Stops the clipping prevention.
 	--BellyMaterial = "models/wormonlooker/belly/belly_akky", --Use this to set custom belly materials. Check out the materials folder!
