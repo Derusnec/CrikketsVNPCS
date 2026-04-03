@@ -127,12 +127,11 @@ function ENT:CustomThink()
 		self:DoVisualBonescale(self.VisualBonescale)
 	end
 
-	local potential_headbone_add = self:DoBoneOffsets()
-
 	if self._headbone == nil then
 		self._headbone = self:LookupBone(self.EyeBone)
 	end
-	self:VNPCLook(_dt)
+	local potential_headbone_add = self:DoBoneOffsets()
+	self:VNPCLook(_dt, potential_headbone_add)
 end
 
 function ENT:OnPossessed(plr)
